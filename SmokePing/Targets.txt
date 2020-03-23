@@ -203,6 +203,106 @@ title = Cloud Providers
 menu = Amazon Web Services
 title = Amazon Web Services
 
++++useast1
+menu = us-east-1 (North Virginia)
+title = us-east-1 (North Virginia) - 3.80.0.0
+host = 3.80.0.0
+
++++useast2
+menu = us-east-2 (Ohio)
+title = us-east-2 (Ohio) - 3.12.0.0
+host = 3.12.0.0
+
++++uswest1
+menu = us-west-1 (North California)
+title = us-west-1 (North California) - 13.52.0.0
+host = 13.52.0.0
+
++++uswest2
+menu = us-west-2 (Oregon)
+title = us-west-2 (Oregon) - 18.236.0.0
+host = 18.236.0.0
+
++++uswest2lax1
+menu = us-west-2-lax-1 (Los Angeles)
+title = us-west-2-lax-1 (Los Angeles) - 70.224.224.253
+host = 70.224.224.253
+
++++cacentral1
+menu = ca-central-1 (Central)
+title = ca-central-1 (Central) - 15.222.0.0
+host = 15.222.0.0
+
++++saeast1
+menu = sa-east-1 (Sao Paulo)
+title = sa-east-1 (Sao Paulo) - 18.228.0.0
+host = 18.228.0.0
+
++++euwest1
+menu = eu-west-1 (Ireland)
+title = eu-west-1 (Ireland) - 3.248.0.0
+host = 3.248.0.0
+
++++euwest2
+menu = eu-west-2 (London)
+title = eu-west-2 (Lonodn) - 3.8.0.0
+host = 3.8.0.0
+
++++euwest3
+menu = eu-west-3 (Paris)
+title = eu-west-3 (Paris) - 15.188.0.0
+host = 15.188.0.0
+
++++eucentral1
+menu = eu-central-1 (Frankfurt)
+title = eu-central-1 (Frankfurt) - 3.120.0.0
+host = 3.120.0.0
+
++++eunorth1
+menu = eu-north-1 (Stockholm)
+title = eu-north-1 (Stockholm) - 13.48.0.0
+host = 13.48.0.0
+
++++mesouth1
+menu = me-south-1 (Bahrain)
+title = me-south-1 (Bahrain) - 15.185.32.254
+host = 15.185.32.254
+
++++apnortheast1
+menu = ap-northeast-1 (Tokyo)
+title = ap-northeast-1 (Tokyo) - 3.112.0.0
+host = 3.112.0.0
+
++++apnortheast2
+menu = ap-northeast-2 (Seoul)
+title = ap-northeast-2 (Seoul) - 3.34.0.0
+host = 3.34.0.0
+
++++apnortheast3
+menu = ap-northeast-3 (Osaka)
+title = ap-northeast-2 (Osaka) - 13.208.32.253
+host = 13.208.32.253
+
++++apsoutheast1
+menu = ap-southeast-1 (Singapore)
+title = ap-southeast-1 (Singapore) - 3.0.0.9
+host = 3.0.0.9
+
++++apsoutheast2
+menu = ap-southeast-2 (Sydney)
+title = ap-southeast-2 (Sydney) - 3.24.0.0
+host = 3.24.0.0
+
++++apsouth1
+menu = ap-south-1 (Mumbai)
+title = ap-south-1 (Mumbai) - 3.6.0.0
+host = 3.6.0.0
+
++++apeast1
+menu = ap-east-1 (Hong Kong)
+title = ap-south-1 (Hong Kong) - 18.162.80.8
+host = 18.162.80.8
+
 
 ++DigitalOcean
 menu = DigitalOcean
