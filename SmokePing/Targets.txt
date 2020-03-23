@@ -308,121 +308,62 @@ host = 18.162.80.8
 menu = DigitalOcean
 title = DigitalOcean
 
-+++NorthAmerica
-menu = North America
-title = North America
-
-++++UnitedStates
-menu = United States
-title = United States
-
-+++++NewYorkCity
-menu = New York City
-title = New York City
-++++++NewYorkCity1
++++NewYorkCity1
 menu = NYC1
 title = New York City 1 - speedtest-nyc1.digitalocean.com
 host = speedtest-nyc1.digitalocean.com
-++++++NewYorkCity2
++++NewYorkCity2
 menu = NYC2
 title = New York City 2 - speedtest-nyc2.digitalocean.com
 host = speedtest-nyc2.digitalocean.com
-++++++NewYorkCity3
++++NewYorkCity3
 menu = NYC3
 title = New York City 3 - speedtest-nyc3.digitalocean.com
 host = speedtest-nyc3.digitalocean.com
 
-+++++SanFrancisco
-menu = San Francisco
-title = San Francisco
-++++++SanFrancisco1
++++SanFrancisco1
 menu = SFO1
 title = San Francisco 1 - speedtest-sfo1.digitalocean.com
 host = speedtest-sfo1.digitalocean.com
-++++++SanFrancisco2
++++SanFrancisco2
 menu = SFO2
 title = San Francisco 2 - speedtest-sfo2.digitalocean.com
 host = speedtest-sfo2.digitalocean.com
 
-++++Canada
-menu = Canada
-title = Canada
-+++++Toronto
-menu = Toronto
-title = Toronto
-++++++Toronto1
++++Toronto1
 menu = TOR1
 title = Toronto 1 - speedtest-tor1.digitalocean.com
 host = speedtest-tor1.digitalocean.com
 
-+++Europe
-menu = Europe
-title = Europe
-
-++++UnitedKingdom
-menu = United Kingdom
-title = United Kingdom
-+++++London
-menu = London
-title = London
-++++++London1
++++London1
 menu = LON1
 title = London 1 - speedtest-lon1.digitalocean.com
 host = speedtest-lon1.digitalocean.com
 
-++++Netherlands
-menu = Netherlands
-title = Metherlands
-
-+++++Amsterdam
-menu = Amsterdam
-title = Amsterdam
-++++++Amsterdam1
++++Amsterdam1
 menu = AMS1
 title = Amsterdam 1 - speedtest-ams1.digitalocean.com
 host = speedtest-ams1.digitalocean.com
-++++++Amsterdam2
++++Amsterdam2
 menu = AMS2
 title = Amsterdam 2 - speedtest-ams2.digitalocean.com
 host = speedtest-ams2.digitalocean.com
-++++++Amsterdam3
++++Amsterdam3
 menu = AMS3
 title = Amsterdam 3 - speedtest-ams3.digitalocean.com
 host = speedtest-ams3.digitalocean.com
 
-++++Germany
-menu = Germany
-title = Germany
-+++++Frankfurt
-menu = Frankfurt
-title = Frankfurt
-++++++Frankfurt1
++++Frankfurt1
 menu = FRA1
 title = Frankfurt 1 - speedtest-fra1.digitalocean.com
 host = speedtest-fra1.digitalocean.com
 
-+++Asia
-menu = Asia
-title = Asia
-
-++++Singapore
-menu = Singapore
-title = Singapore
-+++++Singapore
-menu = Singapore
-title = Singapore
-++++++Singapore1
++++Singapore1
 menu = SGP1
 title = Singapore 1 - speedtest-sgp1.digitalocean.com
 host = speedtest-sgp1.digitalocean.com
 
-++++India
-menu = India
-title = India
-+++++Bangalore
-menu = Bangalore
-title = Bangalore
-++++++Bangalore1
++++Bangalore1
 menu = BLR1
 title = Bangalore 1 - speedtest-blr1.digitalocean.com
 host = speedtest-blr1.digitalocean.com
