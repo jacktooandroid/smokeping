@@ -596,6 +596,64 @@ host = speedtest.myrepublic.com.sg
 
 
 
++ChinaWebsites
+menu = China Websites
+title = Top Chinese Websites
+++Baidu
+menu = Baidu
+title = Baidu - www.baidu.com
+host = www.baidu.com
+++QQ
+menu = QQ
+title = QQ - www.qq.com
+host = www.qq.com
+++bilibili
+menu = bilibili
+title = bilibili - www.bilibili.com
+host = www.bilibili.com
+++TMALL
+menu = TMALL
+title = TMALL - www.tmall.com
+host = www.tmall.com
+++Taobao
+menu = Taobao
+title = Taobao - world.taobao.com
+host = world.taobao.com
+++ZhiHu
+menu = ZhiHu
+title = ZhiHu - www.zhihu.com
+host = www.zhihu.com
+++Sohu
+menu = Sohu
+title = Sohu - www.sohu.com
+host = www.sohu.com
+++JD
+menu = JD
+title = Sohu - global.jd.com
+host = global.jd.com
+++Sogou
+menu = Sogou
+title = Sogou - www.sogou.com
+host = www.sogou.com
+++Weibo
+menu = Weibo
+title = Weibo - www.weibo.com
+host = www.weibo.com
+++163
+menu = 163
+title = 163 - www.163.com
+host = www.163.com
+++douban
+menu = douban
+title = douban - www.douban.com
+host = www.douban.com
+++Youku
+menu = Youku
+title = Youku - www.youku.com
+host = www.youku.com
+
+
+
 +Server
 menu = Server
 title = My Servers
