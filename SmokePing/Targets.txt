@@ -161,33 +161,30 @@ menu = Finance
 title = Finance
 
 
-++Bloomberg
-menu = Bloomberg
-title = Bloomberg
-+++BloombergTerminal
+++BloombergTerminal
 menu = Bloomberg Terminal
 title = Bloomberg Terminal
-++++BloombergTerminalAPI1
++++BloombergTerminalAPI1
 menu = api1.bloomberg.net
 title = api1.bloomberg.net
 host = api1.bloomberg.net
-++++BloombergTerminalAPI2
++++BloombergTerminalAPI2
 menu = api2.bloomberg.net
 title = api2.bloomberg.net
 host = api2.bloomberg.net
-++++BloombergTerminalAPI3
++++BloombergTerminalAPI3
 menu = api3.bloomberg.net
 title = api3.bloomberg.net
 host = api3.bloomberg.net
-++++BloombergTerminalAPI4
++++BloombergTerminalAPI4
 menu = api4.bloomberg.net
 title = api4.bloomberg.net
 host = api4.bloomberg.net
-++++BloombergTerminalAPI5
++++BloombergTerminalAPI5
 menu = api5.bloomberg.net
 title = api5.bloomberg.net
 host = api5.bloomberg.net
-++++BloombergTerminalAPI6
++++BloombergTerminalAPI6
 menu = api6.bloomberg.net
 title = api6.bloomberg.net
 host = api6.bloomberg.net
@@ -207,27 +204,22 @@ title = Amazon Web Services
 menu = us-east-1 (North Virginia)
 title = us-east-1 (North Virginia) - 3.80.0.0
 host = 3.80.0.0
-
 +++useast2
 menu = us-east-2 (Ohio)
 title = us-east-2 (Ohio) - 3.12.0.0
 host = 3.12.0.0
-
 +++uswest1
 menu = us-west-1 (North California)
 title = us-west-1 (North California) - 13.52.0.0
 host = 13.52.0.0
-
 +++uswest2
 menu = us-west-2 (Oregon)
 title = us-west-2 (Oregon) - 18.236.0.0
 host = 18.236.0.0
-
 +++uswest2lax1
 menu = us-west-2-lax-1 (Los Angeles)
 title = us-west-2-lax-1 (Los Angeles) - 70.224.224.253
 host = 70.224.224.253
-
 +++cacentral1
 menu = ca-central-1 (Central)
 title = ca-central-1 (Central) - 15.222.0.0
@@ -242,22 +234,18 @@ host = 18.228.0.0
 menu = eu-west-1 (Ireland)
 title = eu-west-1 (Ireland) - 3.248.0.0
 host = 3.248.0.0
-
 +++euwest2
 menu = eu-west-2 (London)
 title = eu-west-2 (Lonodn) - 3.8.0.0
 host = 3.8.0.0
-
 +++euwest3
 menu = eu-west-3 (Paris)
 title = eu-west-3 (Paris) - 15.188.0.0
 host = 15.188.0.0
-
 +++eucentral1
 menu = eu-central-1 (Frankfurt)
 title = eu-central-1 (Frankfurt) - 3.120.0.0
 host = 3.120.0.0
-
 +++eunorth1
 menu = eu-north-1 (Stockholm)
 title = eu-north-1 (Stockholm) - 13.48.0.0
@@ -272,32 +260,26 @@ host = 15.185.32.254
 menu = ap-northeast-1 (Tokyo)
 title = ap-northeast-1 (Tokyo) - 3.112.0.0
 host = 3.112.0.0
-
 +++apnortheast2
 menu = ap-northeast-2 (Seoul)
 title = ap-northeast-2 (Seoul) - 3.34.0.0
 host = 3.34.0.0
-
 +++apnortheast3
 menu = ap-northeast-3 (Osaka)
 title = ap-northeast-2 (Osaka) - 13.208.32.253
 host = 13.208.32.253
-
 +++apsoutheast1
 menu = ap-southeast-1 (Singapore)
 title = ap-southeast-1 (Singapore) - 3.0.0.9
 host = 3.0.0.9
-
 +++apsoutheast2
 menu = ap-southeast-2 (Sydney)
 title = ap-southeast-2 (Sydney) - 3.24.0.0
 host = 3.24.0.0
-
 +++apsouth1
 menu = ap-south-1 (Mumbai)
 title = ap-south-1 (Mumbai) - 3.6.0.0
 host = 3.6.0.0
-
 +++apeast1
 menu = ap-east-1 (Hong Kong)
 title = ap-south-1 (Hong Kong) - 18.162.80.8
@@ -374,6 +356,7 @@ host = speedtest-blr1.digitalocean.com
 menu = Universities
 title = Universities
 
+
 ++Australia
 menu = Australia
 title = Australia
@@ -401,6 +384,7 @@ host = remote.unimelb.edu.au
 menu = University of Melbourne Eduroam
 title = University of Melbourne Eduroam - wireless.unimelb.edu.au
 host = wireless.unimelb.edu.au
+
 
 ++UnitedKingdom
 menu = United Kingdom
@@ -611,6 +595,43 @@ title = China Mobile Guangzhou - speedtest1.gd.chinamobile.com
 host = speedtest1.gd.chinamobile.com
 
 
+++Malaysia
+menu = Malaysia
+title = Malaysia
++++TelekomMalaysia
+menu = Telekom Malaysia
+title = Telekom Malaysia - speedtest-ookla1.tm.net.my
+host = speedtest-ookla1.tm.net.my
++++TIMEdotcomMalaysia
+menu = TIME dotcom Malaysia
+title = TIME dotcom Malaysia - speed.time.com.my
+host = speed.time.com.my
++++MaxisMalaysia
+menu = Maxis Malaysia
+title = Maxis Malaysia - speedtest.maxis.com.my
+host = speedtest.maxis.com.my
++++CelcomAxiataMalaysia
+menu = Celcom Axiata Malaysia
+title = Celcom Axiata Malaysia - speedosht1.celcom.net.my
+host = speedosht1.celcom.net.my
++++DigiMalaysia
+menu = Digi Malaysia
+title = Digi Malaysia - speedtest.digi.com.my
+host = speedtest.digi.com.my
++++UMobileMalaysia
+menu = U Mobile Malaysia
+title = U Mobile Malaysia - speedtest.u.com.my
+host = speedtest.u.com.my
++++Yes4GMalaysia
+menu = Yes 4G Malaysia
+title = Yes 4G Malaysia - speedtest.ytlcomms.my
+host = speedtest.ytlcomms.my
++++MYRENMalaysia
+menu = MYREN Malaysia
+title = MYREN Malaysia - speedtest1.myren.net.my
+host = speedtest1.myren.net.my
+
+
 ++Singapore
 menu = Singapore
 title = Singapore
@@ -634,6 +655,120 @@ host = speedtest10.vqbn.com
 menu = MyRepublic Singapore
 title = MyRepublic Singapore - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
+
+
+++UnitedKingdom
+menu = United Kingdom
+title = United Kindgom
++++GTTLondon
+menu = GTT London
+title = GTT London - lon.speedtest.gtt.net
+host = lon.speedtest.gtt.net
++++TelxiusLondon
+menu = Telxius London
+title = Telxius London - speedtestlon.telefonica.com
+host = speedtestlon.telefonica.com
++++VodafoneLondon
+menu = Vodafone London
+title = Vodafone London - speedtest-london-east.vodafone.co.uk
+host = speedtest-london-east.vodafone.co.uk
++++VirginMediaLondon
+menu = Virgin Media London
+title = Virgin Media London - hari-speedtest-1.server.virginmedia.net
+host = hari-speedtest-1.server.virginmedia.net
+
+
+++UnitedStates
+menu = United States
+title = United States
+
++++NewYork
+menu = New York
+title = New York
+++++GTTNewYork
+menu = GTT New York
+title = GTT New York - nyc.speedtest.gtt.net
+host = nyc.speedtest.gtt.net
+++++ATTNewYork
+menu = AT&T New York
+title = AT&T New York - nyc.speedtest.sbcglobal.net
+host = nyc.speedtest.sbcglobal.net
+++++VerizonNewYork
+menu = Verizon New York
+title = Verizon New York - nyykp1.speed.vzwnet.com
+host = nyykp1.speed.vzwnet.com
+++++SprintNewYork
+menu = Sprint New York
+title = Sprint New York - ookla1.nycmny.sprintadp.net
+host = ookla1.nycmny.sprintadp.net
+
++++Chicago
+menu = Chicago
+title = Chicago
+++++ATTChicago
+menu = AT&T Chicago
+title = AT&T Chicago - mobspeedtest005.npm.mobile.att.net
+host = mobspeedtest005.npm.mobile.att.net
+++++VerizonChicago
+menu = Verizon Chicago
+title = Verizon Chicago - ilhhp1.speed.vzwnet.com
+host = ilhhp1.speed.vzwnet.com
+++++SprintChicago
+menu = Sprint Chicago
+title = Sprint Chicago - ookla1.chcgil.sprintadp.net
+host = ookla1.chcgil.sprintadp.net
+++++CenturyLinkChicago
+menu = CenturyLink Chicago
+title = CenturyLink Chicago - chicago.speedtest.centurylink.net
+host = chicago.speedtest.centurylink.net
+++++FrontierChicago
+menu = Frontier Chicago
+title = Frontier Chicago - chicago.il.speedtest.frontier.com
+host = chicago.il.speedtest.frontier.com
+++++ComcastChicago
+menu = Comcast Chicago
+title = Comcast Chicago - stosat-chic-01.sys.comcast.net
+host = stosat-chic-01.sys.comcast.net
+
++++LosAngeles
+menu = Los Angeles
+title = Los Angeles
+++++ATTLosAngeles
+menu = AT&T Los Angeles
+title = AT&T Los Angeles - lax.speedtest.sbcglobal.net
+host = lax.speedtest.sbcglobal.net
+++++VerizonLosAngeles
+menu = Verizon Los Angeles
+title = Verizon Los Angeles - caazp1.speed.vzwnet.com
+host = caazp1.speed.vzwnet.com
+++++SpectrumLosAngeles
+menu = Spectrum Los Angeles
+title = Spectrum Los Angeles - speedtest.west.rr.com
+host = speedtest.west.rr.com
+++++FrontierLosAngeles
+menu = Frontier Los Angeles
+title = Frontier Los Angeles - losangeles.ca.speedtest.frontier.com
+host = losangeles.ca.speedtest.frontier.com
+
++++SanFrancisco
+menu = San Francisco
+title = San Francisco
+++++ATTSanFrancisco
+menu = AT&T San Francisco
+title = AT&T San Francisco - sfo.speedtest.sbcglobal.net
+host = sfo.speedtest.sbcglobal.net
+++++VerizonSanFrancisco
+menu = Verizon San Francisco
+title = Verizon San Francisco - casvp1.speed.vzwnet.com
+host = casvp1.speed.vzwnet.com
+++++ComcastSanFrancisco
+menu = Comcast San Francisco
+title = Comcast San Francisco - stosat-scla-01.sys.comcast.net
+host = stosat-scla-01.sys.comcast.net
+++++TMobileSanFrancisco
+menu = T-Mobile San Francisco
+title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
+host = ssf.speedtest.t-mobile.com
 
 
 
