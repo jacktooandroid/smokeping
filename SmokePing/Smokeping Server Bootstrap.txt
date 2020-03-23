@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update && sudo apt-get install smokeping
+sudo apt-get update && sudo apt-get install smokeping -y
 cd /etc/smokeping/config.d
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Probes.txt -o Probes
 sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Probes.txt -O Probes
