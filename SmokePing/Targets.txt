@@ -805,7 +805,7 @@ title = Sohu - www.sohu.com
 host = www.sohu.com
 ++JD
 menu = JD
-title = Sohu - global.jd.com
+title = JD - global.jd.com
 host = global.jd.com
 ++Sogou
 menu = Sogou
