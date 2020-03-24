@@ -143,6 +143,24 @@ title = Amazon CloudFront - d3mduebighmd0u.cloudfront.net
 host = d3mduebighmd0u.cloudfront.net
 
 
+++LimelightNetworks
+menu = Limelight Networks
+title = Limelight Networks - www.limelight.com
+host = www.limelight.com
+
+
+++StackPath
+menu = StackPath
+title = StackPath - www.stackpath.com
+host = www.stackpath.com
+
+
+++Imperva
+menu = Imperva
+title = Imperva - www.imperva.com
+host = www.imperva.com
+
+
 ++Cloudflare
 menu = Cloudflare
 title = Cloudflare - www.cloudflare.com
