@@ -183,29 +183,100 @@ title = Finance
 menu = Bloomberg Terminal
 title = Bloomberg Terminal
 +++BloombergTerminalAPI1
-menu = api1.bloomberg.net
-title = api1.bloomberg.net
+menu = Bloomberg Terminal API1
+title = Bloomberg Terminal API1 - api1.bloomberg.net
 host = api1.bloomberg.net
 +++BloombergTerminalAPI2
-menu = api2.bloomberg.net
-title = api2.bloomberg.net
+menu = Bloomberg Terminal API2
+title = Bloomberg Terminal API2 - api2.bloomberg.net
 host = api2.bloomberg.net
 +++BloombergTerminalAPI3
-menu = api3.bloomberg.net
-title = api3.bloomberg.net
+menu = Bloomberg Terminal API3
+title = Bloomberg Terminal API3 - api3.bloomberg.net
 host = api3.bloomberg.net
 +++BloombergTerminalAPI4
-menu = api4.bloomberg.net
-title = api4.bloomberg.net
+menu = Bloomberg Terminal API4
+title = Bloomberg Terminal API4 - api4.bloomberg.net
 host = api4.bloomberg.net
 +++BloombergTerminalAPI5
-menu = api5.bloomberg.net
-title = api5.bloomberg.net
+menu = Bloomberg Terminal API5
+title = Bloomberg Terminal API5 - api5.bloomberg.net
 host = api5.bloomberg.net
 +++BloombergTerminalAPI6
-menu = api6.bloomberg.net
-title = api6.bloomberg.net
+menu = Bloomberg Terminal API6
+title = Bloomberg Terminal API6 - api6.bloomberg.net
 host = api6.bloomberg.net
+
+
+++FactSet
+menu = FactSet
+title = FactSet
++++FactSetRT1
+menu = FactSet RT1
+title = FaceSet RT1 - 164.55.240.0
+host = 164.55.240.0
++++FactSetRT2
+menu = FactSet RT2
+title = FaceSet RT2 - 208.184.40.0 
+host = 208.184.40.0 
++++FactSetRT3
+menu = FactSet RT3
+title = FaceSet RT3 - 64.95.112.160
+host = 64.95.112.160
++++FactSetRT4
+menu = FactSet RT4
+title = FaceSet RT4 - 208.44.129.192
+host = 208.44.129.192
++++FactSetRT5
+menu = FactSet RT5
+title = FaceSet RT5 - 64.124.108.192 
+host = 64.124.108.192 
++++FactSetRT6
+menu = FactSet RT6
+title = FaceSet RT6 - 70.42.57.192 
+host = 70.42.57.192 
++++FactSetRT7
+menu = FactSet RT7
+title = FaceSet RT7 - 38.86.173.96 
+host = 38.86.173.96 
++++FactSetRT8
+menu = FactSet RT8
+title = FaceSet RT8 - 173.205.61.56
+host = 173.205.61.56
+
++++FactSetAC1
+menu = FactSet AC1
+title = FaceSet AC1 - 192.234.235.1
+host = 192.234.235.1
++++FactSetAC2
+menu = FactSet AC2
+title = FaceSet AC2 - 192.234.235.2
+host = 192.234.235.2
++++FactSetAC3
+menu = FactSet AC3
+title = FaceSet AC3 - 64.209.89.1
+host = 64.209.89.1
++++FactSetAC4
+menu = FactSet AC4
+title = FaceSet AC4 - 64.209.89.2
+host = 64.209.89.2
++++FactSetAC5
+menu = FactSet AC5
+title = FaceSet AC5 - 164.55.240.0 
+host = 164.55.240.0
+
++++FactSetPU1
+menu = FactSet PU1
+title = FaceSet PU1 - 164.55.240.0
+host = 164.55.240.0
++++FactSetPU2
+menu = FactSet PU2
+title = FaceSet PU2 - 192.234.235.0
+host = 192.234.235.0
++++FactSetPU3
+menu = FactSet PU3
+title = FaceSet PU3 - 64.209.89.0
+host = 64.209.89.0
 
 
 
