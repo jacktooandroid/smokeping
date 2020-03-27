@@ -444,11 +444,11 @@ host = eduroam.monash.edu
 +++UniversityofMelbourne
 menu = University of Melbourne
 title = University of Melbourne
-++++MonashUniversityVPN
+++++UniversityofMelbourneVPN
 menu = University of Melbourne VPN
 title = University of Melbourne VPN - remote.unimelb.edu.au
 host = remote.unimelb.edu.au
-++++MonashUniversityEduroam
+++++UniversityofMelbourneEduroam
 menu = University of Melbourne Eduroam
 title = University of Melbourne Eduroam - wireless.unimelb.edu.au
 host = wireless.unimelb.edu.au
