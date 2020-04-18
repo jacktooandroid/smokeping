@@ -1,3 +1,4 @@
+#Updated 20200418
 *** Targets ***
 
 probe = FPing
@@ -161,6 +162,7 @@ title = Finance
 ++BloombergTerminal
 menu = Bloomberg Terminal
 title = Bloomberg Terminal
+
 +++BloombergTerminalAPI1
 menu = Bloomberg Terminal API1
 title = Bloomberg Terminal API1 - api1.bloomberg.net
@@ -190,6 +192,7 @@ host = api6.bloomberg.net
 ++FactSet
 menu = FactSet
 title = FactSet
+
 +++FactSetRT1
 menu = FactSet RT1
 title = FaceSet RT1 - 164.55.240.0
@@ -256,6 +259,188 @@ host = 192.234.235.0
 menu = FactSet PU3
 title = FaceSet PU3 - 64.209.89.0
 host = 64.209.89.0
+
+
+++TradingPlatforms
+menu = Trading Platforms
+title = Trading Platforms
+
++++FusionMarketsLive
+menu = Fusion Markets Live
+title = Fusion Markets Live - 170.75.197.152
+host = 170.75.197.152
+
++++FXCMLive
+menu = FXCM Live
+title = FXCM Live - mt4r01.fxcorporate.com
+host = mt4r01.fxcorporate.com
+
++++ICMarketsLive
+menu = IC Markets Live
+title = IC Markets Live - 170.75.200.10
+host = 170.75.200.10
+
++++IGLive
+menu = IG Live
+title = IG Live - mt4a.ig.com
+host = mt4a.ig.com
+
++++Pepperstone
+menu = Pepperstone
+title = Pepperstone
+++++PepperstoneLive
+menu = Pepperstone Live
+title = Pepperstone Live - 170.75.202.219
+host = 170.75.202.219
+++++PepperstoneUKLive
+menu = Pepperstone UK Live
+title = Pepperstone UK Live - 185.63.223.58
+host = 185.63.223.58
+
++++TradestoLive
+menu = Tradesto Live
+title = Tradesto Live - 139.99.115.117
+host = 139.99.115.117
+
++++XM
+menu = XM
+title = XM
+++++XMLive1
+menu = XM Live 1
+title = XM Live 1 - dc-r01-18.mt4servers.com
+host = dc-r01-18.mt4servers.com
+++++XMLive2
+menu = XM Live 2
+title = XM Live 2 - dc-r02-03.mt4servers.com
+host = dc-r02-03.mt4servers.com
+++++XMLive3
+menu = XM Live 3
+title = XM Live 3 - dc-r03-01.mt4servers.com
+host = dc-r03-01.mt4servers.com
+++++XMLive5
+menu = XM Live 5
+title = XM Live 5 - dc-r05-01.mt4servers.com
+host = dc-r05-01.mt4servers.com
+++++XMLive6
+menu = XM Live 6
+title = XM Live 6 - dc-r06-15.mt4servers.com
+host = dc-r06-15.mt4servers.com
+++++XMLive8
+menu = XM Live 8
+title = XM Live 8 - dc-r08-01.mt4servers.com
+host = dc-r08-01.mt4servers.com
+++++XMLive9
+menu = XM Live 9
+title = XM Live 9 - dc-r09-01.mt4servers.com
+host = dc-r09-01.mt4servers.com
+++++XMLive10
+menu = XM Live 10
+title = XM Live 10 - dc-r10-03.mt4servers.com
+host = dc-r10-03.mt4servers.com
+++++XMLive13
+menu = XM Live 13
+title = XM Live 13 - dc-r13-01.mt4servers.com
+host = dc-r13-01.mt4servers.com
+++++XMLive14
+menu = XM Live 14
+title = XM Live 14 - dc-r14-01.mt4servers.com
+host = dc-r14-01.mt4servers.com
+++++XMLive15
+menu = XM Live 15
+title = XM Live 15 - dc-r15-01.mt4servers.com
+host = dc-r15-01.mt4servers.com
+++++XMLive16
+menu = XM Live 16
+title = XM Live 16 - dc-r16-01.mt4servers.com
+host = dc-r16-01.mt4servers.com
+++++XMLive17
+menu = XM Live 17
+title = XM Live 17 - dc-r17-03.mt4servers.com
+host = dc-r17-03.mt4servers.com
+++++XMLive18
+menu = XM Live 18
+title = XM Live 18 - dc-r18-01.mt4servers.com
+host = dc-r18-01.mt4servers.com
+++++XMLive19
+menu = XM Live 19
+title = XM Live 19 - dc-r19-01.mt4servers.com
+host = dc-r19-01.mt4servers.com
+++++XMLive20
+menu = XM Live 20
+title = XM Live 20 - dc-r20-01.mt4servers.com
+host = dc-r20-01.mt4servers.com
+++++XMLive21
+menu = XM Live 21
+title = XM Live 21 - dc-r21-01.mt4servers.com
+host = dc-r21-01.mt4servers.com
+++++XMLive22
+menu = XM Live 22
+title = XM Live 22 - dc-r22-01.mt4servers.com
+host = dc-r22-01.mt4servers.com
+++++XMLive23
+menu = XM Live 23
+title = XM Live 23 - dc-r23-01.mt4servers.com
+host = dc-r23-01.mt4servers.com
+++++XMLive24
+menu = XM Live 24
+title = XM Live 24 - dc-r24-01.mt4servers.com
+host = dc-r24-01.mt4servers.com
+++++XMLive26
+menu = XM Live 26
+title = XM Live 26 - dc-r26-01.mt4servers.com
+host = dc-r26-01.mt4servers.com
+++++XMLive27
+menu = XM Live 27
+title = XM Live 27 - dc-r27-01.mt4servers.com
+host = dc-r27-01.mt4servers.com
+++++XMLive28
+menu = XM Live 28
+title = XM Live 28 - dc-r28-01.mt4servers.com
+host = dc-r28-01.mt4servers.com
+++++XMLive29
+menu = XM Live 
+title = XM Live 29 - dc-r29-05.mt4servers.com
+host = dc-r29-05.mt4servers.com
+++++XMLive32
+menu = XM Live 32
+title = XM Live 32 - dc-r32-02.mt4servers.com
+host = dc-r32-02.mt4servers.com
+++++XMLive33
+menu = XM Live 33
+title = XM Live 33 - dc-r33-02.mt4servers.com
+host = dc-r33-02.mt4servers.com
+++++XMLive35
+menu = XM Live 35
+title = XM Live 35 - dc-r35-01.mt4servers.com
+host = dc-r35-01.mt4servers.com
+++++XMLive36
+menu = XM Live 36
+title = XM Live 36 - dc-r36-02.mt4servers.com
+host = dc-r36-02.mt4servers.com
+++++XMLive38
+menu = XM Live 38
+title = XM Live 38 - dc-r38-06.mt4servers.com
+host = dc-r38-06.mt4servers.com
+++++XMLive39
+menu = XM Live 39
+title = XM Live 39 - dc-r39-06.mt4servers.com
+host = dc-r39-06.mt4servers.com
+++++XMLive41
+menu = XM Live 41
+title = XM Live 41 - dc-r41-01.mt4servers.com
+host = dc-r41-01.mt4servers.com
+++++XMLive42
+menu = XM Live 42
+title = XM Live 42 - dc-r42-01.mt4servers.com
+host = dc-r42-01.mt4servers.com
+++++XMLive43
+menu = XM Live 43
+title = XM Live 43 - dc-r43-01.mt4servers.com
+host = dc-r43-01.mt4servers.com
+++++XMLive44
+menu = XM Live 44
+title = XM Live 44 - dc-r44-01.mt4servers.com
+host = dc-r06-15.mt4servers.com
 
 
 
