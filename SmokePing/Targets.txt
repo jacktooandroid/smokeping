@@ -398,7 +398,7 @@ menu = XM Live 28
 title = XM Live 28 - dc-r28-01.mt4servers.com
 host = dc-r28-01.mt4servers.com
 ++++XMLive29
-menu = XM Live 
+menu = XM Live 29
 title = XM Live 29 - dc-r29-05.mt4servers.com
 host = dc-r29-05.mt4servers.com
 ++++XMLive32
