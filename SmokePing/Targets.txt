@@ -1150,6 +1150,44 @@ title = MYREN Malaysia - speedtest1.myren.net.my
 host = speedtest1.myren.net.my
 
 
+++Qatar
+menu = Qatar
+title = Qatar
++++OoredooDoha
+menu = Ooredoo Doha
+title = Ooredoo Doha - speedtest2a.ooredoo.qa
+host = speedtest2a.ooredoo.qa
++++VodafoneQatarDoha
+menu = Vodafone Qatar Doha
+title = Vodafone Qatar Doha - speedtest01.vodafone.com.qa
+host = speedtest01.vodafone.com.qa
++++OoredooAlRayyan
+menu = Ooredoo Al Rayyan
+title = Ooredoo Al Rayyan - speedtest2.ooredoo.qa
+host = speedtest2.ooredoo.qa
+
+
+++Oman
+menu = Oman
+title = Oman
++++OmanTelecomMuscat
+menu = Oman Telecom Muscat
+title = Oman Telecom Muscat - speedtest.omantel.om
+host = speedtest.omantel.om
++++OoredooMuscat
+menu = Ooredoo Muscat
+title = Ooredoo Muscat - speedtest.ooredoo.om
+host = speedtest.ooredoo.om
++++OmanTelecomSeeb
+menu = Oman Telecom Seeb
+title = Oman Telecom Seeb - speedtest2.omantel.om
+host = speedtest2.omantel.om
++++OoredooSeeb
+menu = Ooredoo Seeb
+title = Ooredoo Seeb - speedtest2.ooredoo.om
+host = speedtest2.ooredoo.om
+
+
 ++Russia
 menu = Russia
 title = Russia
@@ -1372,6 +1410,23 @@ title = MyRepublic Singapore - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 
 
+++UnitedArabEmirates
+menu = United Arab Emirates
+title = United Arab Emirates
++++EtisalatDubai
+menu = Etisalat Dubai
+title = Etisalat Dubai - speedtest1.etisalat.ae
+host = speedtest1.etisalat.ae
++++duDubai
+menu = du Dubai
+title = du Dubai - speedtest.du.ae
+host = speedtest.du.ae
++++EtisalatAbuDhabi
+menu = Etisalat Abu Dhabi
+title = Etisalat Abu Dhabi - speedtest2.etisalat.ae
+host = speedtest2.etisalat.ae
+
+
 ++UnitedKingdom
 menu = United Kingdom
 title = United Kindgom
@@ -1484,6 +1539,15 @@ host = stosat-scla-01.sys.comcast.net
 menu = T-Mobile San Francisco
 title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
 host = ssf.speedtest.t-mobile.com
+
+
+++Yemen
+menu = Yemen
+title = Yemen
++++YemenNetSanaa
+menu = Yemen Net Sana'a
+title = Yemen Net Sana'a - speedtest.yemen.net.ye
+host = speedtest.yemen.net.ye
 
 
 
