@@ -1385,6 +1385,119 @@ title = Transtelecom Kaliningrad - speedtest7.ttksever.ru
 host = speedtest7.ttksever.ru
 
 
+++SaudiArabia
+menu = Saudi Arabia
+title = Saudi Arabia
+
++++Riyadh
+menu = Riyadh
+title = Riyadh
+++++SaudiTelecomCompanyRiyadh
+menu = Saudi Telecom Company Riyadh
+title = Saudi Telecom Company Riyadh - speedtest.saudi.net.sa
+host = speedtest.saudi.net.sa
+++++MobilyRiyadh
+menu = Mobily Riyadh
+title = Mobily Riyadh - ryd.myspeed.net.sa
+host = ryd.myspeed.net.sa
+++++ZainKSARiyadh
+menu = Zain KSA Riyadh
+title = Zain KSA Riyadh - speedtest-riyadhnew.sa.zain.com
+host = speedtest-riyadhnew.sa.zain.com
+++++IntegratedTelecomCompanyRiyadh
+menu = Integrated Telecom Company Riyadh
+title = Integrated Telecom Company Riyadh - ftthspeed-ruh.itc.sa
+host = ftthspeed-ruh.itc.sa
+
++++Jeddah
+menu = Jeddah
+title = Jeddah
+++++SaudiTelecomCompanyJeddah
+menu = Saudi Telecom Company Jeddah
+title = Saudi Telecom Company Jeddah - jed-speedtest.saudi.net.sa
+host = jed-speedtest.saudi.net.sa
+++++MobilyJeddah
+menu = Mobily Jeddah
+title = Mobily Jeddah - jed.myspeed.net.sa
+host = jed.myspeed.net.sa
+++++ZainKSAJeddah
+menu = Zain KSA Jeddah
+title = Zain KSA Jeddah - speedtest-jeddahnew.sa.zain.com
+host = speedtest-jeddahnew.sa.zain.com
+++++IntegratedTelecomCompanyJeddah
+menu = Integrated Telecom Company Jeddah
+title = Integrated Telecom Company Jeddah - 87.101.144.21
+host = 87.101.144.21
+
++++Mecca
+menu = Mecca
+title = Mecca
+++++SaudiTelecomCompanyMecca
+menu = Saudi Telecom Company Mecca
+title = Saudi Telecom Company Mecca - makkah-speedtest.saudi.net.sa
+host = makkah-speedtest.saudi.net.sa
+++++MobilyMecca
+menu = Mobily Mecca
+title = Mobily Mecca - mkh.myspeed.net.sa
+host = mkh.myspeed.net.sa
+
++++Medina
+menu = Medina
+title = Medina
+++++SaudiTelecomCompanyMedina
+menu = Saudi Telecom Company Medina
+title = Saudi Telecom Company Medina - ab-speedtest.saudi.net.sa
+host = ab-speedtest.saudi.net.sa
+++++MobilyMedina
+menu = Mobily Medina
+title = Mobily Medina - mdn.myspeed.net.sa
+host = mdn.myspeed.net.sa
+
++++Dammam
+menu = Dammam
+title = Dammam
+++++SaudiTelecomCompanyDammam
+menu = Saudi Telecom Company Dammam
+title = Saudi Telecom Company Dammam - dam-speedtest.saudi.net.sa
+host = dam-speedtest.saudi.net.sa
+++++MobilyDammam
+menu = Mobily Dammam
+title = Mobily Dammam - dam.myspeed.net.sa
+host = dam.myspeed.net.sa
+++++ZainKSADammam
+menu = Zain KSA Dammam
+title = Zain KSA Dammam - speedtest-dammamnew.sa.zain.com
+host = speedtest-dammamnew.sa.zain.com
+
++++Tabuk
+menu = Tabuk
+title = Tabuk
+++++SaudiTelecomCompanyTabuk
+menu = Saudi Telecom Company Tabuk
+title = Saudi Telecom Company Tabuk - tabuk-speedtest.saudi.net.sa
+host = tabuk-speedtest.saudi.net.sa
+++++MobilyTabuk
+menu = Mobily Tabuk
+title = Mobily Tabuk - tbk.myspeed.net.sa
+host = tbk.myspeed.net.sa
+
++++HafarAlBatin
+menu = Hafar Al Batin
+title = Hafar Al Batin
+++++MobilyHafarAlBatin
+menu = Mobily Hafar Al Batin
+title = Mobily Hafar Al Batin - hfr.myspeed.net.sa
+host = hfr.myspeed.net.sa
+
++++Abha
+menu = Abha
+title = Abha
+++++SaudiTelecomCompanyAbha
+menu = Saudi Telecom Company Abha
+title = Saudi Telecom Company Abha - abha-speedtest.saudi.net.sa
+host = abha-speedtest.saudi.net.sa
+
+
 ++Singapore
 menu = Singapore
 title = Singapore
