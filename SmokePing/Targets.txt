@@ -885,6 +885,204 @@ title = MYREN Malaysia - speedtest1.myren.net.my
 host = speedtest1.myren.net.my
 
 
+++Russia
+menu = Russia
+title = Russia
+
++++Moscow
+menu = Moscow
+title = Moscow
+++++RostelecomMoscow
+menu = Rostelecom Moscow
+title = Rostelecom Moscow - moscow.speedtest.rt.ru
+host = moscow.speedtest.rt.ru
+++++ERTelecomMoscow
+menu = ER-Telecom Moscow
+title = ER-Telecom Moscow - speedtest.msk.ertelecom.ru
+host = speedtest.msk.ertelecom.ru
+++++RASCOMMowcow
+menu = RASCOM Moscow
+title = RASCOM Moscow - msk.speedtest.rascom.ru
+host = msk.speedtest.rascom.ru
+++++OrangeBusinessServicesMoscow
+menu = Orange Business Services Moscow
+title = Orange Business Services Moscow - speedtest.rosprint.net
+host = speedtest.rosprint.net
+++++MTSMoscow
+menu = MTS Moscow
+title = MTS Moscow - librarian.comstar.ru
+host = librarian.comstar.ru
+++++MegafonMoscow
+menu = Megafon Moscow
+title = Megafon Moscow - speedtest-stf.megafon.ru
+host = speedtest-stf.megafon.ru
+++++Tele2Moscow
+menu = Tele2 Moscow
+title = Tele2 Moscow - msk1.companion.tele2.ru
+host = msk1.companion.tele2.ru
+
++++SaintPetersburg
+menu = Saint Petersburg
+title = Saint Petersburg
+++++RostelecomSaintPetersburg
+menu = Rostelecom Saint Petersburg
+title = Rostelecom Saint Petersburg - sankt-peterburg2.speedtest.rt.ru
+host = sankt-peterburg2.speedtest.rt.ru
+++++ERTelecomSaintPetersburg
+menu = ER-Telecom Saint Petersburg
+title = ER-Telecom Saint Petersburg - speedtest.spb.ertelecom.ru
+host = speedtest.spb.ertelecom.ru
+++++RASCOMSaintPetersburg
+menu = RASCOM Saint Petersburg
+title = RASCOM Saint Petersburg - stpetersburg1.speedtest.rascom.ru
+host = stpetersburg1.speedtest.rascom.ru
+++++RETNSaintPetersburg
+menu = RETN Saint Petersburg
+title = RETN Saint Petersburg - speedtest-spb.retn.net
+host = speedtest-spb.retn.net
+++++GlobalNetSaintPetersburg
+menu = GlobalNet Saint Petersburg
+title = GlobalNet Saint Petersburg - speedtest.gblnet.ru
+host = speedtest.gblnet.ru
+++++VimpelcomSaintPetersburg
+menu = Vimpelcom Saint Petersburg
+title = Vimpelcom Saint Petersburg - speedtest.spb.gldn.net
+host = speedtest.spb.gldn.net
+++++MTSSaintPetersburg
+menu = MTS Saint Petersburg
+title = MTS Saint Petersburg - speedtest-it.spb.mts.ru
+host = speedtest-it.spb.mts.ru
+++++MegafonSaintPetersburg
+menu = Megafon Saint Petersburg
+title = Megafon Saint Petersburg - speedtest-szf.megafon.ru
+host = speedtest-szf.megafon.ru
+++++Tele2SaintPetersburg
+menu = Tele2 Saint Petersburg
+title = Tele2 Saint Petersburg - spb1.companion.tele2.ru
+host = spb1.companion.tele2.ru
+
++++Novosibirsk
+menu = Novosibirsk
+title = Novosibirsk
+++++RostelecomNovosibirsk
+menu = Rostelecom Novosibirsk
+title = Rostelecom Novosibirsk - novosibirsk1.speedtest.rt.ru
+host = novosibirsk1.speedtest.rt.ru
+++++ERTelecomNovosibirsk
+menu = ER-Telecom Novosibirsk
+title = ER-Telecom Novosibirsk - st.nsk.ertelecom.ru
+host = st.nsk.ertelecom.ru
+++++MTSNovosibirsk
+menu = MTS Novosibirsk
+title = MTS Novosibirsk - speedtest1.sib.mts.ru
+host = speedtest1.sib.mts.ru
+++++MegafonNovosibirsk
+menu = Megafon Novosibirsk
+title = Megafon Novosibirsk - speedtest-sib.megafon.ru
+host = speedtest-sib.megafon.ru
+++++BeelineNovosibirsk
+menu = Beeline Novosibirsk
+title = Beeline Novosibirsk - speedcheck1.nsk.beeline.ru
+host = speedcheck1.nsk.beeline.ru
+++++Tele2Novosibirsk
+menu = Tele2 Novosibirsk
+title = Tele2 Novosibirsk - novosibirsk1.companion.tele2.ru
+host = novosibirsk1.companion.tele2.ru
+
++++Yekaterinburg
+menu = Yekaterinburg
+title = Yekaterinburg
+++++TranstelecomYekaterinburg
+menu = Transtelecom Yekaterinburg
+title = Transtelecom Yekaterinburg - speedtest.uralttk.ru
+host = speedtest.uralttk.ru
+++++ERTelecomYekaterinburg
+menu = ER-Telecom Yekaterinburg
+title = ER-Telecom Yekaterinburg - ookla.ekat.ertelecom.ru
+host = ookla.ekat.ertelecom.ru
+++++MTSYekaterinburg
+menu = MTS Yekaterinburg
+title = MTS Yekaterinburg - speedtest.ural.mts.ru
+host = speedtest.ural.mts.ru
+++++BeelineYekaterinburg
+menu = Beeline Yekaterinburg
+title = Beeline Yekaterinburg - ekat1.speedtest.corbina.net
+host = ekat1.speedtest.corbina.net
+++++Tele2Yekaterinburg
+menu = Tele2 Yekaterinburg
+title = Tele2 Yekaterinburg - ekt1.companion.tele2.ru
+host = ekt1.companion.tele2.ru
+
++++Irkutsk
+menu = Irkutsk
+title = Irkutsk
+++++RostelecomIrkutsk
+menu = Rostelecom Irkutsk
+title = Rostelecom Irkutsk - irkutsk.speedtest.rt.ru
+host = irkutsk.speedtest.rt.ru
+++++TranstelecomIrkutsk
+menu = Transtelecom Irkutsk
+title = Transtelecom Irkutsk - 5.254.224.9
+host = 5.254.224.9
+++++ERTelecomIrkutsk
+menu = ER-Telecom Irkutsk
+title = ER-Telecom Irkutsk - speedtest.irkutsk.ertelecom.ru
+host = speedtest.irkutsk.ertelecom.ru
+++++MTSIrkutsk
+menu = MTS Irkutsk
+title = MTS Irkutsk - speedtest-irk.mtsdv.ru
+host = speedtest-irk.mtsdv.ru
+++++BeelineIrkutsk
+menu = Beeline Irkutsk
+title = Beeline Irkutsk - 194.186.138.14
+host = 194.186.138.14
+
++++Khabarovsk
+menu = Khabarovsk
+title = Khabarovsk
+++++RostelecomKhabarovsk
+menu = Rostelecom Khabarovsk
+title = Rostelecom Khabarovsk - khabarovsk1.speedtest.rt.ru
+host = khabarovsk1.speedtest.rt.ru
+++++TranstelecomKhabarovsk
+menu = Transtelecom Khabarovsk
+title = Transtelecom Khabarovsk - server.ttk2701.cloudns.cc
+host = server.ttk2701.cloudns.cc
+++++ERTelecomKhabarovsk
+menu = ERTelecom Khabarovsk
+title = ERTelecom Khabarovsk - speedtest.khb.ertelecom.ru
+host = speedtest.khb.ertelecom.ru
+++++MegafonKhabarovsk
+menu = Megafon Khabarovsk
+title = Megafon Khabarovsk - khb.speedtest-dvf.megafon.ru
+host = khb.speedtest-dvf.megafon.ru
+
+
++++Vladivostok
+menu = Vladivostok
+title = Vladivostok
+++++RostelecomVladivostok
+menu = Rostelecom Vladivostok
+title = Rostelecom Vladivostok - vvosp1.dv.rt.ru
+host = vvosp1.dv.rt.ru
+++++ERTelecomVladivostok
+menu = ER-Telecom Vladivostok
+title = ER-Telecom Vladivostok - speedtest.vladivostok.ertelecom.ru
+host = speedtest.vladivostok.ertelecom.ru
+
++++Kaliningrad
+menu = Kaliningrad
+title =	Kaliningrad
+++++RostelecomKaliningrad
+menu = Rostelecom Kaliningrad
+title = Rostelecom Kaliningrad - kaliningrad.speedtest.rt.ru
+host = kaliningrad.speedtest.rt.ru
+++++TranstelecomKaliningrad
+menu = Transtelecom Kaliningrad
+title = Transtelecom Kaliningrad - speedtest7.ttksever.ru
+host = speedtest7.ttksever.ru
+
+
 ++Singapore
 menu = Singapore
 title = Singapore
