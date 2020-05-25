@@ -848,6 +848,271 @@ title = China Mobile Guangzhou - speedtest1.gd.chinamobile.com
 host = speedtest1.gd.chinamobile.com
 
 
+++India
+menu = India
+title = India
+
++++Mumbai
+menu = Mumbai
+title = Mumbai
+++++AirtelBroadbandMumbai
+menu = Airtel Broadband Mumbai
+title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
+host = speedtestmh.airtelbroadband.in
+++++VodafoneMumbai
+menu = Vodafone Mumbai
+title = Vodafone Mumbai - speedtestmum.vodafone.ind.in
+host = speedtestmum.vodafone.ind.in
+++++IdeaCellularMumbai
+menu = Idea Cellular Mumbai
+title = Idea Cellular Mumbai - sp3.ideaisp.net
+host = sp3.ideaisp.net
+++++JioMumbai
+menu = Jio Mumbai
+title = Jio Mumbai - speedmum2.jioconnect.com
+host = speedmum2.jioconnect.com
+++++YOUBroadbandMumbai
+menu = YOU Broadband Mumbai
+title = YOU Broadband Mumbai - sp1-mum.youbroadband.in
+host = sp1-mum.youbroadband.in
+++++TATASkyBroadbandMumbai
+menu = TATASky Broadband Mumbai
+title = TATASky Broadband Mumbai - speedtestmum.tataskybroadband.com
+host = speedtestmum.tataskybroadband.com
+++++RailTelMumbai
+menu = RailTel Mumbai
+title = RailTel Mumbai - mum.speedtest.rcil.gov.in
+host = mum.speedtest.rcil.gov.in
+
++++NewDelhi
+menu = New Delhi
+title = New Delhi
+++++AirtelNewDelhi
+menu = Airtel New Delhi
+title = Airtel New Delhi - speedtestggn1.airtel.in
+host = speedtestggn1.airtel.in
+++++AirtelBroadbandNewDelhi
+menu = Airtel Broadband New Delhi
+title = Airtel Broadband New Delhi - speedtestdel.airtelbroadband.in
+host = speedtestdel.airtelbroadband.in
+++++VodafoneNewDelhi
+menu = Vodafone New Delhi
+title = Vodafone New Delhi - speedtestdel.vodafone.ind.in
+host = speedtestdel.vodafone.ind.in
+++++JioNewDelhi
+menu = Jio New Delhi
+title = Jio New Delhi - speeddlh1.jioconnect.com
+host = speeddlh1.jioconnect.com
+++++YOUBroadbandNewDelhi
+menu = YOU Broadband New Delhi
+title = YOU Broadband New Delhi - sp1-gur.youbroadband.in
+host = sp1-gur.youbroadband.in
+++++TATASkyBroadbandNewDelhi
+menu = TATASky Broadband New Delhi
+title = TATASky Broadband New Delhi - speedtestdel.tataskybroadband.com
+host = speedtestdel.tataskybroadband.com
+++++ACTNewDelhi
+menu = ACT New Delhi
+title = ACT New Delhi - speedtestdelhi.actcorp.in
+host = speedtestdelhi.actcorp.in
+++++RailTelNewDelhi
+menu = RailTel New Delhi
+title = RailTel New Delhi - speedtest.ggn.rcil.gov.in
+host = speedtest.ggn.rcil.gov.in
+
++++Kolkata
+menu = Kolkata
+title = Kolkata
+++++AirtelKolkata
+menu = Airtel Kolkata
+title = Airtel Kolkata - speedtestkol1.airtel.in
+host = speedtestkol1.airtel.in
+++++VodafoneKolkata
+menu = Vodafone Kolkata
+title = Vodafone Kolkata - speedtestkol.vodafone.ind.in
+host = speedtestkol.vodafone.ind.in
+++++JioKolkata
+menu = Jio Kolkata
+title = Jio Kolkata - speedkol1.jioconnect.com
+host = speedkol1.jioconnect.com
+++++RailTelKolkata
+menu = RailTel Kolkata
+title = RailTel Kolkata - kol.speedtest.rcil.gov.in
+host = kol.speedtest.rcil.gov.in
+
++++Chennai
+menu = Chennai
+title = Chennai
+++++AirtelChennai
+menu = Airtel Chennai
+title = Airtel Chennai - speedtestchn1.airtel.in
+host = speedtestchn1.airtel.in
+++++AirtelBroadbandChennai
+menu = Airtel Broadband Chennai
+title = Airtel Broadband Chennai - speedtestchn.airtelbroadband.in
+host = speedtestchn.airtelbroadband.in
+++++VodafoneChennai
+menu = Vodafone Chennai
+title = Vodafone Chennai - speedtestchen.vodafone.ind.in
+host = speedtestchen.vodafone.ind.in
+++++JioChennai
+menu = Jio Chennai
+title = Jio Chennai - speedchn1.jioconnect.com
+host = speedchn1.jioconnect.com
+++++YOUBroadbandChennai
+menu = YOU Broadband Chennai
+title = YOU Broadband Chennai - sp1-chn.youbroadband.in
+host = sp1-chn.youbroadband.in
+++++ACTChennai
+menu = ACT Chennai
+title = ACT Chennai - speedtestchn.actcorp.in
+host = speedtestchn.actcorp.in
+++++RailTelChennai
+menu = RailTel Chennai
+title = RailTel Chennai - chn.speedtest.rcil.gov.in
+host = chn.speedtest.rcil.gov.in
+
++++Bangalore
+menu = Bangalore
+title = Bangalore
+++++AirtelBangalore
+menu = Airtel Bangalore
+title = Airtel Bangalore - speedtestkk1.airtel.in
+host = speedtestkk1.airtel.in
+++++AirtelBroadbandBangalore
+menu = Airtel Broadband Bangalore
+title = Airtel Broadband Bangalore - speedtestblr.airtelbroadband.in
+host = speedtestblr.airtelbroadband.in
+++++VodafoneBangalore
+menu = Vodafone Bangalore
+title = Vodafone Bangalore - ooklatestbenguluru.live.vodafone.in
+host = ooklatestbenguluru.live.vodafone.in
+++++JioBangalore
+menu = Jio Bangalore
+title = Jio Bangalore - speedbgl1.jioconnect.com
+host = speedbgl1.jioconnect.com
+++++YOUBroadbandBangalore
+menu = YOU Broadband Bangalore
+title = YOU Broadband Bangalore - sp1-blr.youbroadband.in
+host = sp1-blr.youbroadband.in
+++++TATASkyBroadbandBangalore
+menu = TATASky Broadband Bangalore
+title = TATASky Broadband Bangalore - speedtest.tataskybroadband.com
+host = speedtest.tataskybroadband.com
+++++ACTBangalore
+menu = ACT Bangalore
+title = ACT Bangalore - speedtestblr.actcorp.in
+host = speedtestblr.actcorp.in
+++++RailTelBangalore
+menu = RailTel Bangalore
+title = RailTel Bangalore - sbc.speedtest.rcil.gov.in
+host = sbc.speedtest.rcil.gov.in
+
++++Hyderabad
+menu = Hyderabad
+title = Hyderabad
+++++AirtelHyderabad
+menu = Airtel Hyderabad
+title = Airtel Hyderabad - speedtestap1.airtel.in
+host = speedtestap1.airtel.in
+++++AirtelBroadbandHyderabad
+menu = Airtel Broadband Hyderabad
+title = Airtel Broadband Hyderabad - speedtesthyd.airtelbroadband.in
+host = speedtesthyd.airtelbroadband.in
+++++VodafoneHyderabad
+menu = Vodafone Hyderabad
+title = Vodafone Hyderabad - ooklatesthydrabad.live.vodafone.in
+host = ooklatesthydrabad.live.vodafone.in
+++++JioHyderabad
+menu = Jio Hyderabad
+title = Jio Hyderabad - speedhyd1.jioconnect.com
+host = speedhyd1.jioconnect.com
+++++YOUBroadbandHyderabad
+menu = YOU Broadband Hyderabad
+title = YOU Broadband Hyderabad - sp1-hyd.youbroadband.in
+host = sp1-hyd.youbroadband.in
+++++ACTHyderabad
+menu = ACT Hyderabad
+title = ACT Hyderabad - speedtest.actcorp.in
+host = speedtest.actcorp.in
+++++RailTelHyderabad
+menu = RailTel Hyderabad
+title = RailTel Hyderabad - speedtest.sec.rcil.gov.in
+host = speedtest.sec.rcil.gov.in
+
++++Ahmedabad
+menu = Ahmedabad
+title = Ahmedabad
+++++AirtelAhmedabad
+menu = Airtel Ahmedabad
+title = Airtel Ahmedabad - speedtestguj1.airtel.in
+host = speedtestguj1.airtel.in
+++++VodafoneAhmedabad
+menu = Vodafone Ahmedabad
+title = Vodafone Ahmedabad - speedtestahm.vodafone.ind.in
+host = speedtestahm.vodafone.ind.in
+++++JioAhmedabad
+menu = Jio Ahmedabad
+title = Jio Ahmedabad - speedahm1.jioconnect.com
+host = speedahm1.jioconnect.com
+++++YOUBroadbandAhmedabad
+menu = YOU Broadband Ahmedabad
+title = YOU Broadband Ahmedabad - sp1-ahm.youbroadband.in
+host = sp1-ahm.youbroadband.in
+
++++Lucknow
+menu = Lucknow
+title = Lucknow
+++++VodafoneLucknow
+menu = Vodafone Lucknow
+title = Vodafone Lucknow - speedtestluc.vodafone.ind.in
+host = speedtestluc.vodafone.ind.in
+
++++Indore
+menu = Indore
+title = Indore
+++++VodafoneIndore
+menu = Vodafone Indore
+title = Vodafone Indore - ooklatestindore.live.vodafone.in
+host = ooklatestindore.live.vodafone.in
+
++++Patna
+menu = Patna
+title = Patna
+++++AirtelPatna
+menu = Airtel Patna
+title = Airtel Patna - speedtestbhr1.airtel.in
+host = speedtestbhr1.airtel.in
+++++VodafonePatna
+menu = Vodafone Patna
+title = Vodafone Patna - ooklatestpatna.live.vodafone.in
+host = ooklatestpatna.live.vodafone.in
+
++++Visakhapatnam
+menu = Visakhapatnam
+title = Visakhapatnam
+++++YOUBroadbandVisakhapatnam
+menu = YOU Broadband Visakhapatnam
+title = YOU Broadband Visakhapatnam - sp1-viz.youbroadband.in
+host = sp1-viz.youbroadband.in
+++++ACTVisakhapatnam
+menu = ACT Visakhapatnam
+title = ACT Visakhapatnam - vizspeedtest.acttv.in
+host = vizspeedtest.acttv.in
+
++++Guwahati
+menu = Guwahati
+title = Guwahati
+++++VodafoneGuwahati
+menu = Vodafone Guwahati
+title = Vodafone Guwahati - ooklatestguwahati.live.vodafone.in
+host = ooklatestguwahati.live.vodafone.in
+++++JioGuwahati
+menu = Jio Guwahati
+title = Jio Guwahati - speedgwh1.jioconnect.com
+host = speedgwh1.jioconnect.com
+
+
 ++Malaysia
 menu = Malaysia
 title = Malaysia
@@ -1056,7 +1321,6 @@ host = speedtest.khb.ertelecom.ru
 menu = Megafon Khabarovsk
 title = Megafon Khabarovsk - khb.speedtest-dvf.megafon.ru
 host = khb.speedtest-dvf.megafon.ru
-
 
 +++Vladivostok
 menu = Vladivostok
