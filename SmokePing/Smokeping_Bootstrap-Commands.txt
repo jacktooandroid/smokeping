@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Bootstrap.sh -O /tmp/Smokeping_Bootstrap.sh
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Bootstrap.sh -o /tmp/Smokeping_Bootstrap.sh
+
+sudo bash /tmp/Smokeping_Bootstrap.sh
