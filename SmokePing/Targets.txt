@@ -715,8 +715,8 @@ title = Internode Canberra - speedtest-cbr.cdn.on.net
 host = speedtest-cbr.cdn.on.net
 ++++AARNetCanberra
 menu = AARNet Canberra
-title = AARNet Canberra - cbr1.speedtest.telstra.net
-host = cbr1.speedtest.telstra.net
+title = AARNet Canberra - act-actn-speedtest.aarnet.net.au
+host = act-actn-speedtest.aarnet.net.au
 
 +++Sydney
 menu = Sydney
