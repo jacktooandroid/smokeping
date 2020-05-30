@@ -702,6 +702,22 @@ title = Telecom Speedtest Servers
 menu = Australia
 title = Australia
 
++++Canberra
+menu = Canberra
+title = Canberra
+++++TelstraCanberra
+menu = Telstra Canberra
+title = Telstra Canberra - cbr1.speedtest.telstra.net
+host = cbr1.speedtest.telstra.net
+++++InternodeCanberra
+menu = Internode Canberra
+title = Internode Canberra - speedtest-cbr.cdn.on.net
+host = speedtest-cbr.cdn.on.net
+++++AARNetCanberra
+menu = AARNet Canberra
+title = AARNet Canberra - cbr1.speedtest.telstra.net
+host = cbr1.speedtest.telstra.net
+
 +++Sydney
 menu = Sydney
 title = Sydney
@@ -717,6 +733,14 @@ host = speedtest.syd.optusnet.com.au
 menu = Vodafone AU Sydney
 title = Vodafone AU Sydney - ek.speedtest.vodafone.com.au
 host = ek.speedtest.vodafone.com.au
+++++InternodeSydney
+menu = Internode Sydney
+title = Internode Sydney - speedtest-syd.cdn.on.net
+host = speedtest-syd.cdn.on.net
+++++MyRepublicSydney
+menu = MyRepublic Sydney
+title = MyRepublic Sydney - speedtest.myrepublic.com.au
+host = speedtest.myrepublic.com.au
 ++++VocusSydney
 menu = Vocus Sydney
 title = Vocus Sydney - speedtest-syd.vocus.net
@@ -741,6 +765,10 @@ host = speedtest.mel.optusnet.com.au
 menu = Vodafone AU Melbourne
 title = Vodafone AU Melbourne - my1.speedtest.vodafone.com.au
 host = my1.speedtest.vodafone.com.au
+++++InternodeMelbourne
+menu = Internode Melbourne
+title = Internode Melbourne - speedtest-mel.cdn.on.net
+host = speedtest-mel.cdn.on.net
 ++++VocusMelbourne
 menu = Vocus Melbourne
 title = Vocus Melbourne - speedtest-mel.vocus.net
@@ -749,6 +777,30 @@ host = speedtest-mel.vocus.net
 menu = AARNet Melbourne
 title = AARNet Melbourne - vic-crlt-speedtest.aarnet.net.au
 host = vic-crlt-speedtest.aarnet.net.au
+
++++Brisbane
+menu = Brisbane
+title = Brisbane
+++++TelstraBrisbane
+menu = Telstra Brisbane
+title = Telstra Brisbane - brs1.speedtest.telstra.net
+host = brs1.speedtest.telstra.net
+++++OptusBrisbane
+menu = Optus Brisbane
+title = Optus Brisbane - speedtest.bri.optusnet.com.au
+host = speedtest.bri.optusnet.com.au
+++++InternodeBrisbane
+menu = Internode Brisbane
+title = Internode Brisbane - speedtest-bne.cdn.on.net
+host = speedtest-bne.cdn.on.net
+++++VocusBrisbane
+menu = Vocus Brisbane
+title = Vocus Brisbane - speedtest-bne.vocus.net
+host = speedtest-bne.vocus.net
+++++AARNetBrisbane
+menu = AARNet Brisbane
+title = AARNet Brisbane - qld-gdpt-speedtest.aarnet.net.au
+host = qld-gdpt-speedtest.aarnet.net.au
 
 +++Perth
 menu = Perth
@@ -765,6 +817,10 @@ host = speedtest.per.optusnet.com.au
 menu = Vodafone AU Perth
 title = Vodafone AU Perth - ph.speedtest.vodafone.com.au
 host = ph.speedtest.vodafone.com.au
+++++InternodePerth
+menu = Internode Perth
+title = Internode Perth - speedtest-per.cdn.on.net
+host = speedtest-per.cdn.on.net
 ++++VocusPerth
 menu = Vocus Perth
 title = Vocus Perth - speedtest-pth.vocus.net
@@ -773,6 +829,70 @@ host = speedtest-pth.vocus.net
 menu = AARNet Perth
 title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
 host = wa-knsg-speedtest.aarnet.net.au
+
++++Adelaide
+menu = Adelaide
+title = Adelaide
+++++TelstraAdelaide
+menu = Telstra Adelaide
+title = Telstra Adelaide - ade1.speedtest.telstra.net
+host = ade1.speedtest.telstra.net
+++++OptusAdelaide
+menu = Optus Adelaide
+title = Optus Adelaide - speedtest.adl.optusnet.com.au
+host = speedtest.adl.optusnet.com.au
+++++VodafoneAUAdelaide
+menu = Vodafone AU Adelaide
+title = Vodafone AU Adelaide - ae.speedtest.vodafone.com.au
+host = ae.speedtest.vodafone.com.au
+++++InternodeAdelaide
+menu = Internode Adelaide
+title = Internode Adelaide - speedtest-adl.cdn.on.net
+host = speedtest-adl.cdn.on.net
+++++VocusAdelaide
+menu = Vocus Adelaide
+title = Vocus Adelaide - speedtest-ade.vocus.net
+host = speedtest-ade.vocus.net
+++++AARNetAdelaide
+menu = AARNet Adelaide
+title = AARNet Adelaide - sa-prka-speedtest2.aarnet.net.au
+host = sa-prka-speedtest2.aarnet.net.au
+
++++Hobart
+menu = Hobart
+title = Hobart
+++++TelstraHobart
+menu = Telstra Hobart
+title = Telstra Hobart - hob1.speedtest.telstra.net
+host = hob1.speedtest.telstra.net
+++++OptusHobart
+menu = Optus Hobart
+title = Optus Hobart - speedtest.tas.optusnet.com.au
+host = speedtest.tas.optusnet.com.au
+++++TasmaNetAUHobart
+menu = TasmaNet AU Hobart
+title = TasmaNet AU Hobart - speedtest.tasmanet.com.au
+host = speedtest.tasmanet.com.au
+
++++Darwin
+menu = Darwin
+title = Darwin
+++++TelstraDarwin
+menu = Telstra Darwin
+title = Telstra Darwin - drw1.speedtest.telstra.net
+host = drw1.speedtest.telstra.net
+++++OptusDarwin
+menu = Optus Darwin
+title = Optus Darwin - darwin.nt.speedtest.optusnet.com.au
+host = darwin.nt.speedtest.optusnet.com.au
+++++InternodeDarwin
+menu = Internode Darwin
+title = Internode Darwin - speedtest-drw.cdn.on.net
+host = speedtest-drw.cdn.on.net
+++++AARNetDarwin
+menu = AARNet Darwin
+title = AARNet Darwin - nt-drwn-speedtest.aarnet.net.au
+host = nt-drwn-speedtest.aarnet.net.au
 
 
 ++China
