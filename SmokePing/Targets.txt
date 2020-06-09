@@ -1850,10 +1850,36 @@ title = My Servers
 ++UbiquitiUniFiController
 menu = Ubiquiti UniFi Controller
 title = Ubiquiti UniFi Controller
+
 +++UbiquitiUniFiControllerLON
 menu = UniFi Controller LON
 title = UniFi Controller LON - inform.unifi.thetooorg.net
 host = inform.unifi.thetooorg.net
+
+
+++OpenVPNServer
+menu = OpenVPN Server
+title = OpenVPN Server
+
++++OpenVPNServerAWSLONGB
+menu = OpenVPN Server AWS-LON.GB
+title = OpenVPN Server AWS-LON.GB - vpn.aws-lon.gb.thetooorg.net
+host = vpn.aws-lon.gb.thetooorg.net
+
++++OpenVPNServerAWSSINSG
+menu = OpenVPN Server AWS-SIN.SG
+title = OpenVPN Server AWS-SIN.SG - vpn.aws-sin.sg.thetooorg.net
+host = vpn.aws-sin.sg.thetooorg.net
+
++++OpenVPNServerAWSSYDAU
+menu = OpenVPN Server AWS-SYD.AU
+title = OpenVPN Server AWS-SYD.AU - vpn.aws-syd.au.thetooorg.net
+host = vpn.aws-syd.au.thetooorg.net
+
++++OpenVPNServerAWSTYOJP
+menu = OpenVPN Server AWS-TYO.JP
+title = OpenVPN Server AWS-TYO.JP - vpn.aws-tyo.jp.thetooorg.net
+host = vpn.aws-tyo.jp.thetooorg.net
 
 
 
