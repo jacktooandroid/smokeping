@@ -4,3 +4,7 @@ sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Smok
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Bootstrap.sh -o /tmp/Smokeping_Bootstrap.sh
 
 sudo bash /tmp/Smokeping_Bootstrap.sh
+
+#crontab command
+0 0 * * * sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Targets.txt -o /etc/smokeping/config.d/Targets
+5 0 * * * sudo service smokeping restart
