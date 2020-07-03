@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "DefaultTimeoutStartSec=600s" | sudo tee -a /etc/systemd/system.conf
+sudo systemctl daemon-reload
+
 sudo apt-get update && sudo apt-get install smokeping miniupnpc -y
 sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Probes.txt -O /etc/smokeping/config.d/Probes
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Probes.txt -o /etc/smokeping/config.d/Probes
