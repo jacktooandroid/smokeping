@@ -489,7 +489,7 @@ title = eu-west-1 (Ireland) - 3.248.0.0
 host = 3.248.0.0
 +++euwest2
 menu = eu-west-2 (London)
-title = eu-west-2 (Lonodn) - 3.8.0.0
+title = eu-west-2 (London) - 3.8.0.0
 host = 3.8.0.0
 +++euwest3
 menu = eu-west-3 (Paris)

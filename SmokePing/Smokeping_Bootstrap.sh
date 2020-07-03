@@ -28,4 +28,7 @@ echo "sudo upnpc -r 53 tcp" | sudo tee -a /home/miniupnp.sh
 echo "sudo upnpc -r 53 udp" | sudo tee -a /home/miniupnp.sh
 sudo bash /home/miniupnp.sh
 
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Targets_Monitoring_Script.sh -O /home/Smokeping_Targets_Monitoring_Script.sh
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Targets_Monitoring_Script.sh -o /home/Smokeping_Targets_Monitoring_Script.sh
+
 exit

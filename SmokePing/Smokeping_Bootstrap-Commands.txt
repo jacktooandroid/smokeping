@@ -6,6 +6,5 @@ sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Smok
 sudo bash /tmp/Smokeping_Bootstrap.sh
 
 #crontab command
-*/15 * * * *  sudo bash /home/miniupnp-smokeping.sh
-0 0 * * * sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Targets.txt -o /etc/smokeping/config.d/Targets
-5 0 * * * sudo service smokeping restart
+* * * * * sudo bash /home/Smokeping_Targets_Monitoring_Script.sh
+*/15 * * * *  sudo bash /home/miniupnp.sh
