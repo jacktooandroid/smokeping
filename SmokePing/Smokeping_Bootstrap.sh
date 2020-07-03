@@ -22,10 +22,10 @@ sudo wget https://raw.githubusercontent.com/jacktooandroid/cloudflare/master/clo
 sudo curl https://raw.githubusercontent.com/jacktooandroid/cloudflare/master/cloudflare_ddns_modified-smokeping.sh -o /home/cloudflare_ddns_modified-smokeping.sh
 
 #MiniUPNP Settings
-echo "sudo upnpc -r 80 tcp" | sudo tee -a /home/miniupnp-smokeping.sh
-echo "sudo upnpc -r 8080 tcp" | sudo tee -a /home/miniupnp-smokeping.sh
-echo "sudo upnpc -r 53 tcp" | sudo tee -a /home/miniupnp-smokeping.sh
-echo "sudo upnpc -r 53 udp" | sudo tee -a /home/miniupnp-smokeping.sh
-sudo bash /home/miniupnp-smokeping.sh
+echo "sudo upnpc -r 80 tcp" | sudo tee -a /home/miniupnp.sh
+echo "sudo upnpc -r 8080 tcp" | sudo tee -a /home/miniupnp.sh
+echo "sudo upnpc -r 53 tcp" | sudo tee -a /home/miniupnp.sh
+echo "sudo upnpc -r 53 udp" | sudo tee -a /home/miniupnp.sh
+sudo bash /home/miniupnp.sh
 
 exit
