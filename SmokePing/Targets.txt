@@ -265,6 +265,30 @@ host = 64.209.89.0
 menu = Trading Platforms
 title = Trading Platforms
 
++++CMCMarkets
+menu = CMC Markets
+title = CMC Markets
+++++CMCMarketsLive
+menu = CMC Markets Live
+title = CMC Markets Live - 172.21.33.205
+host = 172.21.33.205
+++++CMCMarketsCALive
+menu = CMC Markets CA Live
+title = CMC Markets CA Live - 91.220.199.48
+host = 91.220.199.48
+++++CMCMarketsEULive
+menu = CMC Markets EU Live
+title = CMC Markets EU Live - 91.220.199.46
+host = 91.220.199.46
+++++CMCMarketsRoWLive
+menu = CMC Markets RoW Live
+title = CMC Markets RoW Live - 91.220.199.49
+host = 91.220.199.49
+++++CMCMarketsSGLive
+menu = CMC Markets SG Live
+title = CMC Markets SG Live - 91.220.199.47
+host = 91.220.199.47
+
 +++FusionMarketsLive
 menu = Fusion Markets Live
 title = Fusion Markets Live - 170.75.197.152
