@@ -1687,22 +1687,34 @@ host = speedtest2.etisalat.ae
 ++UnitedKingdom
 menu = United Kingdom
 title = United Kindgom
-+++GTTLondon
+
++++London
+menu = London
+title = London
+++++GTTLondon
 menu = GTT London
 title = GTT London - lon.speedtest.gtt.net
 host = lon.speedtest.gtt.net
-+++TelxiusLondon
+++++TelxiusLondon
 menu = Telxius London
 title = Telxius London - speedtestlon.telefonica.com
 host = speedtestlon.telefonica.com
-+++VodafoneLondon
-menu = Vodafone London
-title = Vodafone London - speedtest-london-east.vodafone.co.uk
+++++VodafoneUKLondon
+menu = Vodafone UK London
+title = Vodafone UK London - speedtest-london-east.vodafone.co.uk
 host = speedtest-london-east.vodafone.co.uk
-+++VirginMediaLondon
+++++VirginMediaLondon
 menu = Virgin Media London
 title = Virgin Media London - hari-speedtest-1.server.virginmedia.net
 host = hari-speedtest-1.server.virginmedia.net
+
++++Manchester
+menu = Manchester
+title = Manchester
+++++VodadoneUKManchester
+menu = Vodafone UK Manchester
+title = Vodafone UK Manchester - speedtest-manchester.vodafone.co.uk
+host = speedtest-manchester.vodafone.co.uk
 
 
 ++UnitedStates
