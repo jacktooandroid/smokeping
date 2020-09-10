@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "DefaultTimeoutStartSec=600s" | sudo tee -a /etc/systemd/system.conf
+echo "DefaultTimeoutStartSec=1800s" | sudo tee -a /etc/systemd/system.conf
 sudo systemctl daemon-reload
 
 sudo apt-get update && sudo apt-get install smokeping miniupnpc -y
