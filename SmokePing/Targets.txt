@@ -1,4 +1,4 @@
-#Updated 20200418
+#Updated 20200910
 *** Targets ***
 
 probe = FPing
@@ -21,12 +21,6 @@ menu = Local Machine
 title = This host
 host = localhost
 #alerts = someloss
-
-
-++Gateway
-menu = Gateway
-title = Gateway - 10.0.0.1
-host = 10.0.0.1
 
 
 
@@ -193,39 +187,6 @@ host = api6.bloomberg.net
 menu = FactSet
 title = FactSet
 
-+++FactSetRT1
-menu = FactSet RT1
-title = FaceSet RT1 - 164.55.240.0
-host = 164.55.240.0
-+++FactSetRT2
-menu = FactSet RT2
-title = FaceSet RT2 - 208.184.40.0 
-host = 208.184.40.0 
-+++FactSetRT3
-menu = FactSet RT3
-title = FaceSet RT3 - 64.95.112.160
-host = 64.95.112.160
-+++FactSetRT4
-menu = FactSet RT4
-title = FaceSet RT4 - 208.44.129.192
-host = 208.44.129.192
-+++FactSetRT5
-menu = FactSet RT5
-title = FaceSet RT5 - 64.124.108.192 
-host = 64.124.108.192 
-+++FactSetRT6
-menu = FactSet RT6
-title = FaceSet RT6 - 70.42.57.192 
-host = 70.42.57.192 
-+++FactSetRT7
-menu = FactSet RT7
-title = FaceSet RT7 - 38.86.173.96 
-host = 38.86.173.96 
-+++FactSetRT8
-menu = FactSet RT8
-title = FaceSet RT8 - 173.205.61.56
-host = 173.205.61.56
-
 +++FactSetAC1
 menu = FactSet AC1
 title = FaceSet AC1 - 192.234.235.1
@@ -243,22 +204,6 @@ menu = FactSet AC4
 title = FaceSet AC4 - 64.209.89.2
 host = 64.209.89.2
 +++FactSetAC5
-menu = FactSet AC5
-title = FaceSet AC5 - 164.55.240.0 
-host = 164.55.240.0
-
-+++FactSetPU1
-menu = FactSet PU1
-title = FaceSet PU1 - 164.55.240.0
-host = 164.55.240.0
-+++FactSetPU2
-menu = FactSet PU2
-title = FaceSet PU2 - 192.234.235.0
-host = 192.234.235.0
-+++FactSetPU3
-menu = FactSet PU3
-title = FaceSet PU3 - 64.209.89.0
-host = 64.209.89.0
 
 
 ++TradingPlatforms
@@ -325,146 +270,6 @@ host = 185.63.223.58
 menu = Tradesto Live
 title = Tradesto Live - 139.99.115.117
 host = 139.99.115.117
-
-+++XM
-menu = XM
-title = XM
-++++XMLive1
-menu = XM Live 1
-title = XM Live 1 - dc-r01-18.mt4servers.com
-host = dc-r01-18.mt4servers.com
-++++XMLive2
-menu = XM Live 2
-title = XM Live 2 - dc-r02-03.mt4servers.com
-host = dc-r02-03.mt4servers.com
-++++XMLive3
-menu = XM Live 3
-title = XM Live 3 - dc-r03-01.mt4servers.com
-host = dc-r03-01.mt4servers.com
-++++XMLive5
-menu = XM Live 5
-title = XM Live 5 - dc-r05-01.mt4servers.com
-host = dc-r05-01.mt4servers.com
-++++XMLive6
-menu = XM Live 6
-title = XM Live 6 - dc-r06-15.mt4servers.com
-host = dc-r06-15.mt4servers.com
-++++XMLive8
-menu = XM Live 8
-title = XM Live 8 - dc-r08-01.mt4servers.com
-host = dc-r08-01.mt4servers.com
-++++XMLive9
-menu = XM Live 9
-title = XM Live 9 - dc-r09-01.mt4servers.com
-host = dc-r09-01.mt4servers.com
-++++XMLive10
-menu = XM Live 10
-title = XM Live 10 - dc-r10-03.mt4servers.com
-host = dc-r10-03.mt4servers.com
-++++XMLive13
-menu = XM Live 13
-title = XM Live 13 - dc-r13-01.mt4servers.com
-host = dc-r13-01.mt4servers.com
-++++XMLive14
-menu = XM Live 14
-title = XM Live 14 - dc-r14-01.mt4servers.com
-host = dc-r14-01.mt4servers.com
-++++XMLive15
-menu = XM Live 15
-title = XM Live 15 - dc-r15-01.mt4servers.com
-host = dc-r15-01.mt4servers.com
-++++XMLive16
-menu = XM Live 16
-title = XM Live 16 - dc-r16-01.mt4servers.com
-host = dc-r16-01.mt4servers.com
-++++XMLive17
-menu = XM Live 17
-title = XM Live 17 - dc-r17-03.mt4servers.com
-host = dc-r17-03.mt4servers.com
-++++XMLive18
-menu = XM Live 18
-title = XM Live 18 - dc-r18-01.mt4servers.com
-host = dc-r18-01.mt4servers.com
-++++XMLive19
-menu = XM Live 19
-title = XM Live 19 - dc-r19-01.mt4servers.com
-host = dc-r19-01.mt4servers.com
-++++XMLive20
-menu = XM Live 20
-title = XM Live 20 - dc-r20-01.mt4servers.com
-host = dc-r20-01.mt4servers.com
-++++XMLive21
-menu = XM Live 21
-title = XM Live 21 - dc-r21-01.mt4servers.com
-host = dc-r21-01.mt4servers.com
-++++XMLive22
-menu = XM Live 22
-title = XM Live 22 - dc-r22-01.mt4servers.com
-host = dc-r22-01.mt4servers.com
-++++XMLive23
-menu = XM Live 23
-title = XM Live 23 - dc-r23-01.mt4servers.com
-host = dc-r23-01.mt4servers.com
-++++XMLive24
-menu = XM Live 24
-title = XM Live 24 - dc-r24-01.mt4servers.com
-host = dc-r24-01.mt4servers.com
-++++XMLive26
-menu = XM Live 26
-title = XM Live 26 - dc-r26-01.mt4servers.com
-host = dc-r26-01.mt4servers.com
-++++XMLive27
-menu = XM Live 27
-title = XM Live 27 - dc-r27-01.mt4servers.com
-host = dc-r27-01.mt4servers.com
-++++XMLive28
-menu = XM Live 28
-title = XM Live 28 - dc-r28-01.mt4servers.com
-host = dc-r28-01.mt4servers.com
-++++XMLive29
-menu = XM Live 29
-title = XM Live 29 - dc-r29-05.mt4servers.com
-host = dc-r29-05.mt4servers.com
-++++XMLive32
-menu = XM Live 32
-title = XM Live 32 - dc-r32-02.mt4servers.com
-host = dc-r32-02.mt4servers.com
-++++XMLive33
-menu = XM Live 33
-title = XM Live 33 - dc-r33-02.mt4servers.com
-host = dc-r33-02.mt4servers.com
-++++XMLive35
-menu = XM Live 35
-title = XM Live 35 - dc-r35-01.mt4servers.com
-host = dc-r35-01.mt4servers.com
-++++XMLive36
-menu = XM Live 36
-title = XM Live 36 - dc-r36-02.mt4servers.com
-host = dc-r36-02.mt4servers.com
-++++XMLive38
-menu = XM Live 38
-title = XM Live 38 - dc-r38-06.mt4servers.com
-host = dc-r38-06.mt4servers.com
-++++XMLive39
-menu = XM Live 39
-title = XM Live 39 - dc-r39-06.mt4servers.com
-host = dc-r39-06.mt4servers.com
-++++XMLive41
-menu = XM Live 41
-title = XM Live 41 - dc-r41-01.mt4servers.com
-host = dc-r41-01.mt4servers.com
-++++XMLive42
-menu = XM Live 42
-title = XM Live 42 - dc-r42-01.mt4servers.com
-host = dc-r42-01.mt4servers.com
-++++XMLive43
-menu = XM Live 43
-title = XM Live 43 - dc-r43-01.mt4servers.com
-host = dc-r43-01.mt4servers.com
-++++XMLive44
-menu = XM Live 44
-title = XM Live 44 - dc-r44-01.mt4servers.com
-host = dc-r06-15.mt4servers.com
 
 
 
@@ -599,10 +404,6 @@ menu = LON1
 title = London 1 - speedtest-lon1.digitalocean.com
 host = speedtest-lon1.digitalocean.com
 
-+++Amsterdam1
-menu = AMS1
-title = Amsterdam 1 - speedtest-ams1.digitalocean.com
-host = speedtest-ams1.digitalocean.com
 +++Amsterdam2
 menu = AMS2
 title = Amsterdam 2 - speedtest-ams2.digitalocean.com
@@ -653,10 +454,6 @@ host = eduroam.monash.edu
 +++UniversityofMelbourne
 menu = University of Melbourne
 title = University of Melbourne
-++++UniversityofMelbourneVPN
-menu = University of Melbourne VPN
-title = University of Melbourne VPN - remote.unimelb.edu.au
-host = remote.unimelb.edu.au
 ++++UniversityofMelbourneEduroam
 menu = University of Melbourne Eduroam
 title = University of Melbourne Eduroam - wireless.unimelb.edu.au
@@ -674,46 +471,14 @@ title = London School of Economics and Political Science
 menu = London School of Economics and Political Science VPN
 title = London School of Economics and Political Science VPN - remote.lse.ac.uk
 host = remote.lse.ac.uk
-++++LondonSchoolofEconomicsandPoliticalScienceEduroam
-menu = London School of Economics and Political Science Eduroam
-title = London School of Economics and Political Science VPN - eduroam.lse.ac.uk
-host = eduroam.lse.ac.uk
 
 +++UniversityofWarwick
 menu = University of Warwick
 title = University of Warwick
 ++++UniversityofWarwickVPN
 menu = University of Warwick VPN
-title = University of Warwick VPN - vpn.warwick.ac.uk
-host = vpn.warwick.ac.uk
-++++UniversityofWarwickEduroam
-menu = University of Warwick Eduroam
-title = University of Warwick Eduroam - warwick-wireless1.warwick.ac.uk
-host = warwick-wireless1.warwick.ac.uk
-
-+++UniversityofNottingham
-menu = University of Nottingham
-title = University of Nottingham
-++++UniversityofNottinghamVPN
-menu = University of Nottingham VPN
-title = University of Nottingham VPN - vpntest.nottingham.ac.uk
-host = vpntest.nottingham.ac.uk
-++++UniversityofNottinghamEduroam
-menu = University of Nottingham Eduroam
-title = University of Nottingham Eduroam - radius.nottingham.ac.uk
-host = radius.nottingham.ac.uk
-
-+++UniversityofReading
-menu = University of Reading
-title = University of Reading
-++++UniversityofNottinghamVPN
-menu = University of Reading VPN
-title = University of Reading VPN - webvpn.reading.ac.uk
-host = webvpn.reading.ac.uk
-++++UniversityofReadingEduroam
-menu = University of Reading Eduroam
-title = University of Reading Eduroam - radius.auth.reading.ac.uk
-host = radius.auth.reading.ac.uk
+title = University of Warwick VPN - campusvpn.warwick.ac.uk
+host = campusvpn.warwick.ac.uk
 
 
 
@@ -761,14 +526,6 @@ host = ek.speedtest.vodafone.com.au
 menu = Internode Sydney
 title = Internode Sydney - speedtest-syd.cdn.on.net
 host = speedtest-syd.cdn.on.net
-++++MyRepublicSydney
-menu = MyRepublic Sydney
-title = MyRepublic Sydney - speedtest.myrepublic.com.au
-host = speedtest.myrepublic.com.au
-++++VocusSydney
-menu = Vocus Sydney
-title = Vocus Sydney - speedtest-syd.vocus.net
-host = speedtest-syd.vocus.net
 ++++AARNetSydney
 menu = AARNet Sydney
 title = AARNet Sydney - nsw-brwy-speedtest.aarnet.net.au
@@ -793,10 +550,6 @@ host = my1.speedtest.vodafone.com.au
 menu = Internode Melbourne
 title = Internode Melbourne - speedtest-mel.cdn.on.net
 host = speedtest-mel.cdn.on.net
-++++VocusMelbourne
-menu = Vocus Melbourne
-title = Vocus Melbourne - speedtest-mel.vocus.net
-host = speedtest-mel.vocus.net
 ++++AARNetMelbourne
 menu = AARNet Melbourne
 title = AARNet Melbourne - vic-crlt-speedtest.aarnet.net.au
@@ -817,10 +570,6 @@ host = speedtest.bri.optusnet.com.au
 menu = Internode Brisbane
 title = Internode Brisbane - speedtest-bne.cdn.on.net
 host = speedtest-bne.cdn.on.net
-++++VocusBrisbane
-menu = Vocus Brisbane
-title = Vocus Brisbane - speedtest-bne.vocus.net
-host = speedtest-bne.vocus.net
 ++++AARNetBrisbane
 menu = AARNet Brisbane
 title = AARNet Brisbane - qld-gdpt-speedtest.aarnet.net.au
@@ -837,19 +586,11 @@ host = per1.speedtest.telstra.net
 menu = Optus Perth
 title = Optus Perth - speedtest.per.optusnet.com.au
 host = speedtest.per.optusnet.com.au
-++++VodafoneAUPerth
-menu = Vodafone AU Perth
-title = Vodafone AU Perth - ph.speedtest.vodafone.com.au
-host = ph.speedtest.vodafone.com.au
 ++++InternodePerth
 menu = Internode Perth
 title = Internode Perth - speedtest-per.cdn.on.net
 host = speedtest-per.cdn.on.net
-++++VocusPerth
-menu = Vocus Perth
-title = Vocus Perth - speedtest-pth.vocus.net
-host = speedtest-pth.vocus.net
-++++AARNetPerth
++++AARNetPerth
 menu = AARNet Perth
 title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
 host = wa-knsg-speedtest.aarnet.net.au
@@ -873,10 +614,6 @@ host = ae.speedtest.vodafone.com.au
 menu = Internode Adelaide
 title = Internode Adelaide - speedtest-adl.cdn.on.net
 host = speedtest-adl.cdn.on.net
-++++VocusAdelaide
-menu = Vocus Adelaide
-title = Vocus Adelaide - speedtest-ade.vocus.net
-host = speedtest-ade.vocus.net
 ++++AARNetAdelaide
 menu = AARNet Adelaide
 title = AARNet Adelaide - sa-prka-speedtest2.aarnet.net.au
@@ -950,10 +687,6 @@ host = speedtest1.online.sh.cn
 menu = China Unicom Shanghai
 title = China Unicom Shanghai - 5g.shunicomtest.com
 host = 5g.shunicomtest.com
-++++ChinaMobileShanghai
-menu = China Mobile Shanghai
-title = China Mobile Shanghai - speedtest4.sh.chinamobile.com
-host = speedtest4.sh.chinamobile.com
 
 +++HongKong
 menu = Hong Kong
@@ -962,26 +695,14 @@ title = Hong Kong
 menu = GTT Hong Kong
 title = GTT Hong Kong - hon.speedtest.gtt.net
 host = hon.speedtest.gtt.net
-++++CSLHongKong
-menu = CSL Hong Kong
-title = CSL Hong Kong - csl.hkspeedtest.com
-host = csl.hkspeedtest.com
 ++++HutchisonHongKong
 menu = Hutchison Hong Kong
 title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
 host = ookla-speedtest.hgconair.hgc.com.hk
-++++SmarToneHongKong
-menu = SmarTone Hong Kong
-title = SmarTone Hong Kong - shenron.smartone.com
-host = shenron.smartone.com
 
 +++Guangzhou
 menu = Guangzhou
 title = Guangzhou
-++++ChinaTelecomGuangzhou
-menu = China Telecom Guangzhou
-title = China Telecom Guangzhou - www.gdspeedtest.com
-host = www.gdspeedtest.com
 ++++ChinaUnicomGuangzhou
 menu = China Unicom Guangzhou
 title = China Unicom Guangzhou - speedtest1.gzuni.com
@@ -1003,9 +724,9 @@ title = Mumbai
 menu = Airtel Broadband Mumbai
 title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
 host = speedtestmh.airtelbroadband.in
-++++VodafoneMumbai
-menu = Vodafone Mumbai
-title = Vodafone Mumbai - speedtestmum.vodafone.ind.in
+++++VodafoneINMumbai
+menu = Vodafone IN Mumbai
+title = Vodafone IN Mumbai - speedtestmum.vodafone.ind.in
 host = speedtestmum.vodafone.ind.in
 ++++IdeaCellularMumbai
 menu = Idea Cellular Mumbai
@@ -1039,18 +760,14 @@ host = speedtestggn1.airtel.in
 menu = Airtel Broadband New Delhi
 title = Airtel Broadband New Delhi - speedtestdel.airtelbroadband.in
 host = speedtestdel.airtelbroadband.in
-++++VodafoneNewDelhi
-menu = Vodafone New Delhi
-title = Vodafone New Delhi - speedtestdel.vodafone.ind.in
+++++VodafoneINNewDelhi
+menu = Vodafone IN New Delhi
+title = Vodafone IN New Delhi - speedtestdel.vodafone.ind.in
 host = speedtestdel.vodafone.ind.in
 ++++JioNewDelhi
 menu = Jio New Delhi
 title = Jio New Delhi - speeddlh1.jioconnect.com
 host = speeddlh1.jioconnect.com
-++++YOUBroadbandNewDelhi
-menu = YOU Broadband New Delhi
-title = YOU Broadband New Delhi - sp1-gur.youbroadband.in
-host = sp1-gur.youbroadband.in
 ++++TATASkyBroadbandNewDelhi
 menu = TATASky Broadband New Delhi
 title = TATASky Broadband New Delhi - speedtestdel.tataskybroadband.com
@@ -1071,9 +788,9 @@ title = Kolkata
 menu = Airtel Kolkata
 title = Airtel Kolkata - speedtestkol1.airtel.in
 host = speedtestkol1.airtel.in
-++++VodafoneKolkata
-menu = Vodafone Kolkata
-title = Vodafone Kolkata - speedtestkol.vodafone.ind.in
+++++VodafoneINKolkata
+menu = Vodafone IN Kolkata
+title = Vodafone IN Kolkata - speedtestkol.vodafone.ind.in
 host = speedtestkol.vodafone.ind.in
 ++++JioKolkata
 menu = Jio Kolkata
@@ -1095,9 +812,9 @@ host = speedtestchn1.airtel.in
 menu = Airtel Broadband Chennai
 title = Airtel Broadband Chennai - speedtestchn.airtelbroadband.in
 host = speedtestchn.airtelbroadband.in
-++++VodafoneChennai
-menu = Vodafone Chennai
-title = Vodafone Chennai - speedtestchen.vodafone.ind.in
+++++VodafoneINChennai
+menu = Vodafone IN Chennai
+title = Vodafone IN Chennai - speedtestchen.vodafone.ind.in
 host = speedtestchen.vodafone.ind.in
 ++++JioChennai
 menu = Jio Chennai
@@ -1127,9 +844,9 @@ host = speedtestkk1.airtel.in
 menu = Airtel Broadband Bangalore
 title = Airtel Broadband Bangalore - speedtestblr.airtelbroadband.in
 host = speedtestblr.airtelbroadband.in
-++++VodafoneBangalore
-menu = Vodafone Bangalore
-title = Vodafone Bangalore - ooklatestbenguluru.live.vodafone.in
+++++VodafoneINBangalore
+menu = Vodafone IN Bangalore
+title = Vodafone IN Bangalore - ooklatestbenguluru.live.vodafone.in
 host = ooklatestbenguluru.live.vodafone.in
 ++++JioBangalore
 menu = Jio Bangalore
@@ -1139,10 +856,6 @@ host = speedbgl1.jioconnect.com
 menu = YOU Broadband Bangalore
 title = YOU Broadband Bangalore - sp1-blr.youbroadband.in
 host = sp1-blr.youbroadband.in
-++++TATASkyBroadbandBangalore
-menu = TATASky Broadband Bangalore
-title = TATASky Broadband Bangalore - speedtest.tataskybroadband.com
-host = speedtest.tataskybroadband.com
 ++++ACTBangalore
 menu = ACT Bangalore
 title = ACT Bangalore - speedtestblr.actcorp.in
@@ -1163,10 +876,6 @@ host = speedtestap1.airtel.in
 menu = Airtel Broadband Hyderabad
 title = Airtel Broadband Hyderabad - speedtesthyd.airtelbroadband.in
 host = speedtesthyd.airtelbroadband.in
-++++VodafoneHyderabad
-menu = Vodafone Hyderabad
-title = Vodafone Hyderabad - ooklatesthydrabad.live.vodafone.in
-host = ooklatesthydrabad.live.vodafone.in
 ++++JioHyderabad
 menu = Jio Hyderabad
 title = Jio Hyderabad - speedhyd1.jioconnect.com
@@ -1191,9 +900,9 @@ title = Ahmedabad
 menu = Airtel Ahmedabad
 title = Airtel Ahmedabad - speedtestguj1.airtel.in
 host = speedtestguj1.airtel.in
-++++VodafoneAhmedabad
-menu = Vodafone Ahmedabad
-title = Vodafone Ahmedabad - speedtestahm.vodafone.ind.in
+++++VodafoneINAhmedabad
+menu = Vodafone IN Ahmedabad
+title = Vodafone IN Ahmedabad - speedtestahm.vodafone.ind.in
 host = speedtestahm.vodafone.ind.in
 ++++JioAhmedabad
 menu = Jio Ahmedabad
@@ -1207,18 +916,10 @@ host = sp1-ahm.youbroadband.in
 +++Lucknow
 menu = Lucknow
 title = Lucknow
-++++VodafoneLucknow
-menu = Vodafone Lucknow
-title = Vodafone Lucknow - speedtestluc.vodafone.ind.in
+++++VodafoneINLucknow
+menu = Vodafone IN Lucknow
+title = Vodafone IN Lucknow - speedtestluc.vodafone.ind.in
 host = speedtestluc.vodafone.ind.in
-
-+++Indore
-menu = Indore
-title = Indore
-++++VodafoneIndore
-menu = Vodafone Indore
-title = Vodafone Indore - ooklatestindore.live.vodafone.in
-host = ooklatestindore.live.vodafone.in
 
 +++Patna
 menu = Patna
@@ -1227,9 +928,9 @@ title = Patna
 menu = Airtel Patna
 title = Airtel Patna - speedtestbhr1.airtel.in
 host = speedtestbhr1.airtel.in
-++++VodafonePatna
-menu = Vodafone Patna
-title = Vodafone Patna - ooklatestpatna.live.vodafone.in
+++++VodafoneINPatna
+menu = Vodafone IN Patna
+title = Vodafone IN Patna - ooklatestpatna.live.vodafone.in
 host = ooklatestpatna.live.vodafone.in
 
 +++Visakhapatnam
@@ -1247,10 +948,6 @@ host = vizspeedtest.acttv.in
 +++Guwahati
 menu = Guwahati
 title = Guwahati
-++++VodafoneGuwahati
-menu = Vodafone Guwahati
-title = Vodafone Guwahati - ooklatestguwahati.live.vodafone.in
-host = ooklatestguwahati.live.vodafone.in
 ++++JioGuwahati
 menu = Jio Guwahati
 title = Jio Guwahati - speedgwh1.jioconnect.com
@@ -1297,18 +994,10 @@ host = speedtest1.myren.net.my
 ++Qatar
 menu = Qatar
 title = Qatar
-+++OoredooDoha
-menu = Ooredoo Doha
-title = Ooredoo Doha - speedtest2a.ooredoo.qa
-host = speedtest2a.ooredoo.qa
-+++VodafoneQatarDoha
-menu = Vodafone Qatar Doha
-title = Vodafone Qatar Doha - speedtest01.vodafone.com.qa
++++VodafoneQADoha
+menu = Vodafone QA Doha
+title = Vodafone QA Doha - speedtest01.vodafone.com.qa
 host = speedtest01.vodafone.com.qa
-+++OoredooAlRayyan
-menu = Ooredoo Al Rayyan
-title = Ooredoo Al Rayyan - speedtest2.ooredoo.qa
-host = speedtest2.ooredoo.qa
 
 
 ++Oman
@@ -1507,10 +1196,6 @@ host = khb.speedtest-dvf.megafon.ru
 +++Vladivostok
 menu = Vladivostok
 title = Vladivostok
-++++RostelecomVladivostok
-menu = Rostelecom Vladivostok
-title = Rostelecom Vladivostok - vvosp1.dv.rt.ru
-host = vvosp1.dv.rt.ru
 ++++ERTelecomVladivostok
 menu = ER-Telecom Vladivostok
 title = ER-Telecom Vladivostok - speedtest.vladivostok.ertelecom.ru
@@ -1548,10 +1233,6 @@ host = ryd.myspeed.net.sa
 menu = Zain KSA Riyadh
 title = Zain KSA Riyadh - speedtest-riyadhnew.sa.zain.com
 host = speedtest-riyadhnew.sa.zain.com
-++++IntegratedTelecomCompanyRiyadh
-menu = Integrated Telecom Company Riyadh
-title = Integrated Telecom Company Riyadh - ftthspeed-ruh.itc.sa
-host = ftthspeed-ruh.itc.sa
 
 +++Jeddah
 menu = Jeddah
@@ -1667,23 +1348,6 @@ title = MyRepublic Singapore - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 
 
-++UnitedArabEmirates
-menu = United Arab Emirates
-title = United Arab Emirates
-+++EtisalatDubai
-menu = Etisalat Dubai
-title = Etisalat Dubai - speedtest1.etisalat.ae
-host = speedtest1.etisalat.ae
-+++duDubai
-menu = du Dubai
-title = du Dubai - speedtest.du.ae
-host = speedtest.du.ae
-+++EtisalatAbuDhabi
-menu = Etisalat Abu Dhabi
-title = Etisalat Abu Dhabi - speedtest2.etisalat.ae
-host = speedtest2.etisalat.ae
-
-
 ++UnitedKingdom
 menu = United Kingdom
 title = United Kindgom
@@ -1695,26 +1359,6 @@ title = London
 menu = GTT London
 title = GTT London - lon.speedtest.gtt.net
 host = lon.speedtest.gtt.net
-++++TelxiusLondon
-menu = Telxius London
-title = Telxius London - speedtestlon.telefonica.com
-host = speedtestlon.telefonica.com
-++++VodafoneUKLondon
-menu = Vodafone UK London
-title = Vodafone UK London - speedtest-london-east.vodafone.co.uk
-host = speedtest-london-east.vodafone.co.uk
-++++VirginMediaLondon
-menu = Virgin Media London
-title = Virgin Media London - hari-speedtest-1.server.virginmedia.net
-host = hari-speedtest-1.server.virginmedia.net
-
-+++Manchester
-menu = Manchester
-title = Manchester
-++++VodadoneUKManchester
-menu = Vodafone UK Manchester
-title = Vodafone UK Manchester - speedtest-manchester.vodafone.co.uk
-host = speedtest-manchester.vodafone.co.uk
 
 
 ++UnitedStates
@@ -1744,10 +1388,6 @@ host = ookla1.nycmny.sprintadp.net
 +++Chicago
 menu = Chicago
 title = Chicago
-++++ATTChicago
-menu = AT&T Chicago
-title = AT&T Chicago - mobspeedtest005.npm.mobile.att.net
-host = mobspeedtest005.npm.mobile.att.net
 ++++VerizonChicago
 menu = Verizon Chicago
 title = Verizon Chicago - ilhhp1.speed.vzwnet.com
@@ -1764,10 +1404,6 @@ host = chicago.speedtest.centurylink.net
 menu = Frontier Chicago
 title = Frontier Chicago - chicago.il.speedtest.frontier.com
 host = chicago.il.speedtest.frontier.com
-++++ComcastChicago
-menu = Comcast Chicago
-title = Comcast Chicago - stosat-chic-01.sys.comcast.net
-host = stosat-chic-01.sys.comcast.net
 
 +++LosAngeles
 menu = Los Angeles
@@ -1800,10 +1436,6 @@ host = sfo.speedtest.sbcglobal.net
 menu = Verizon San Francisco
 title = Verizon San Francisco - casvp1.speed.vzwnet.com
 host = casvp1.speed.vzwnet.com
-++++ComcastSanFrancisco
-menu = Comcast San Francisco
-title = Comcast San Francisco - stosat-scla-01.sys.comcast.net
-host = stosat-scla-01.sys.comcast.net
 ++++TMobileSanFrancisco
 menu = T-Mobile San Francisco
 title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
@@ -1912,11 +1544,6 @@ menu = OpenVPN Server AWS-SYD.AU
 title = OpenVPN Server AWS-SYD.AU - vpn.aws-syd.au.thetooorg.net
 host = vpn.aws-syd.au.thetooorg.net
 
-+++OpenVPNServerAWSTYOJP
-menu = OpenVPN Server AWS-TYO.JP
-title = OpenVPN Server AWS-TYO.JP - vpn.aws-tyo.jp.thetooorg.net
-host = vpn.aws-tyo.jp.thetooorg.net
-
 
 
 +Games
@@ -2012,42 +1639,3 @@ host = 104.160.131.3
 menu = OCE
 title = OCE - 104.160.156.1
 host = 104.160.156.1
-
-
-++Overwatch
-menu = Overwatch
-title = Overwatch
-+++Americas
-menu = Americas
-title = Americas
-++++USWest
-menu = US West
-title = US West - 24.105.30.129
-host = 24.105.30.129
-++++USCentral
-menu = US Central
-title = US Central - 24.105.62.129
-host = 24.105.62.129
-+++Brazil
-menu = Brazil
-title = Brazil - 54.207.107.12
-host = 54.207.107.12
-+++Europe
-menu = Europe
-title = Europe
-++++Europe1
-menu = Europe 1
-title = Europe 1 - 185.60.114.159
-host = 185.60.114.159
-++++Europe2
-menu = Europe 2
-title = Europe 2 - 185.60.112.157
-host = 185.60.112.157
-+++Korea
-menu = Korea
-title = Korea - 211.234.110.1
-host = 211.234.110.1
-+++Taiwan
-menu = Taiwan
-title = Taiwan - 203.66.81.98
-host = 203.66.81.98
