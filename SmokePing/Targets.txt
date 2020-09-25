@@ -656,6 +656,103 @@ title = AARNet Darwin - nt-drwn-speedtest.aarnet.net.au
 host = nt-drwn-speedtest.aarnet.net.au
 
 
+++Canada
+menu = Canada
+title = Canada
+
++++Ottawa
+menu = Ottawa
+title = Ottawa
+++++RogersOttawa
+menu = Rogers Ottawa
+title = Rogers Ottawa - speedtestslnt.rogers.com
+host = speedtestslnt.rogers.com
+++++BellCAOttawa
+menu = Bell CA Ottawa
+title = Bell CA Ottawa - otw23spd01.srvr.bell.ca
+host = otw23spd01.srvr.bell.ca
+
++++Toronto
+menu = Toronto
+title = Toronto
+++++RogersToronto
+menu = Rogers Toronto
+title = Rogers Toronto - speedtestgta.rogers.com
+host = speedtestgta.rogers.com
+++++BellCAToronto
+menu = Bell CA Toronto
+title = Bell CA Toronto - tor47spd01.srvr.bell.ca
+host = tor47spd01.srvr.bell.ca
+++++TELUSToronto
+menu = TELUS Toronto
+title = TELUS Toronto - toronto.speedtest.telus.com
+host = toronto.speedtest.telus.com
+
++++Montreal
+menu = Montreal
+title = Montreal
+++++RogersMontreal
+menu = Rogers Montreal
+title = Rogers Montreal - speedtestqcmtl.rogers.com
+host = speedtestqcmtl.rogers.com
+++++BellCAMontreal
+menu = Bell CA Montreal
+title = Bell CA Montreal - mtldjspeedtest01.srvr.bell.ca
+host = mtldjspeedtest01.srvr.bell.ca
+++++TELUSMontreal
+menu = TELUS Montreal
+title = TELUS Montreal - montreal.speedtest.telus.com
+host = montreal.speedtest.telus.com
+
++++Vancouver
+menu = Vancouver
+title = Vancouver
+++++RogersVancouver
+menu = Rogers Vancouver
+title = Rogers Vancouver - speedtestbcvan.rogers.com
+host = speedtestbcvan.rogers.com
+++++BellCAVancouver
+menu = Bell CA Vancouver
+title = Bell CA Vancouver - vancnspd01.srvr.bell.ca
+host = vancnspd01.srvr.bell.ca
+++++TELUSVancouver
+menu = TELUS Vancouver
+title = TELUS Vancouver - vancouver.speedtest.telus.com
+host = vancouver.speedtest.telus.com
+
++++Calgary
+menu = Calgary
+title = Calgary
+++++RogersCalgary
+menu = Rogers Calgary
+title = Rogers Calgary - speedtestcalgary.rogers.com
+host = speedtestcalgary.rogers.com
+++++BellCACalgary
+menu = Bell CA Calgary
+title = Bell CA Calgary - clgqaspd01.srvr.bell.ca
+host = clgqaspd01.srvr.bell.ca
+++++TELUSCalgary
+menu = TELUS Calgary
+title = TELUS Calgary - calgary.speedtest.telus.com
+host = calgary.speedtest.telus.com
+
++++Winnipeg
+menu = Winnipeg
+title = Winnipeg
+++++BellCAWinnipeg
+menu = Bell CA Winnipeg
+title = Bell CA Winnipeg - wnpcfspd02.srvr.bell.ca
+host = wnpcfspd02.srvr.bell.ca
+++++TELUSWinnipeg
+menu = TELUS Winnipeg
+title = TELUS Winnipeg - winnipeg.speedtest.telus.com
+host = winnipeg.speedtest.telus.com
+++++ShawWinnipeg
+menu = Shaw Winnipeg
+title = Shaw Winnipeg - speedtest.wp.shawcable.net
+host = speedtest.wp.shawcable.net
+
+
 ++China
 menu = China
 title = China
