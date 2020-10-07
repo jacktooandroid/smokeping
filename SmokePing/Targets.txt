@@ -1047,6 +1047,67 @@ title = MYREN Malaysia - speedtest1.myren.net.my
 host = speedtest1.myren.net.my
 
 
+++NewZealand
+menu = New Zealand
+title = New Zealand
+
++++Wellington
+menu = Wellington
+title = Wellington
+++++SparkNZWellington
+menu = Spark NZ Wellington
+title = Spark NZ Wellington - speedtest-wellington.spark.co.nz
+host = speedtest-wellington.spark.co.nz
+++++VodafoneNZWellington
+menu = Vodafone NZ Wellington
+title = Vodafone NZ Wellington - wellington.speedtest.vodafone.co.nz
+host = wellington.speedtest.vodafone.co.nz
+
++++Auckland
+menu = Auckland
+title = Auckland
+++++SparkNZAuckland
+menu = Spark NZ Auckland
+title = Spark NZ Auckland - speedtest-auckland.spark.co.nz
+host = speedtest-auckland.spark.co.nz
+++++VodafoneNZAuckland
+menu = Vodafone NZ Auckland
+title = Vodafone NZ Auckland - auckland.speedtest.vodafone.co.nz
+host = auckland.speedtest.vodafone.co.nz
+++++2degreesAuckland
+menu = 2degrees Auckland
+title = 2degrees Auckland - speed2.snap.net.nz
+host = speed2.snap.net.nz
+++++VocusNZAuckland
+menu = Vocus NZ Auckland
+title = Vocus NZ Auckland - akl1.linetest.nz
+host = akl1.linetest.nz
+++++MyRepublicNZAuckland
+menu = MyRepublic NZ Auckland
+title = MyRepublic NZ Auckland - speedtest.myrepublic.co.nz
+host = speedtest.myrepublic.co.nz
+
++++Christchurch
+menu = Christchurch
+title = Christchurch
+++++SparkNZChristchurch
+menu = Spark NZ Christchurch
+title = Spark NZ Christchurch - speedtest-christchurch.spark.co.nz
+host = speedtest-christchurch.spark.co.nz
+++++VodafoneNZChristchurch
+menu = Vodafone NZ Christchurch
+title = Vodafone NZ Christchurch - christchurch.speedtest.vodafone.co.nz
+host = christchurch.speedtest.vodafone.co.nz
+++++2degreesChristchurch
+menu = 2degrees Christchurch
+title = 2degrees Christchurch - speed.snap.net.nz
+host = speed.snap.net.nz
+++++VocusNZChristchurch
+menu = Vocus NZ Christchurch
+title = Vocus NZ Christchurch - chch1.linetest.nz
+host = chch1.linetest.nz
+
+
 ++Qatar
 menu = Qatar
 title = Qatar
@@ -1383,24 +1444,24 @@ host = abha-speedtest.saudi.net.sa
 menu = Singapore
 title = Singapore
 +++SingTelSingapore
-menu = SingTel Singapore
-title = SingTel Singapore - speedtest.singnet.com.sg
+menu = SingTel
+title = SingTel - speedtest.singnet.com.sg
 host = speedtest.singnet.com.sg
-+++StarhubSingapore
-menu = Starhub Singapore
-title = Starhub Singapore - broadbandspeedtestuat.starhub.com
++++StarHub
+menu = StarHub 
+title = StarHub - broadbandspeedtestuat.starhub.com
 host = broadbandspeedtestuat.starhub.com
-+++M1Singapore
-menu = M1 Singapore
-title = M1 Singapore - m1speedtest1.m1net.com.sg
++++M1
+menu = M1
+title = M1 - m1speedtest1.m1net.com.sg
 host = m1speedtest1.m1net.com.sg
-+++ViewquestSingapore
-menu = Viewquest Singapore
-title = Viewquest Singapore - speedtest10.vqbn.com
++++Viewquest
+menu = Viewquest
+title = Viewquest - speedtest10.vqbn.com
 host = speedtest10.vqbn.com
-+++MyRepublicSingapore
-menu = MyRepublic Singapore
-title = MyRepublic Singapore - speedtest.myrepublic.com.sg
++++MyRepublicSG
+menu = MyRepublic SG
+title = MyRepublic SG - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 
 
