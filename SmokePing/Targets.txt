@@ -210,30 +210,6 @@ host = 64.209.89.2
 menu = Trading Platforms
 title = Trading Platforms
 
-+++CMCMarkets
-menu = CMC Markets
-title = CMC Markets
-++++CMCMarketsLive
-menu = CMC Markets Live
-title = CMC Markets Live - 172.21.33.205
-host = 172.21.33.205
-++++CMCMarketsCALive
-menu = CMC Markets CA Live
-title = CMC Markets CA Live - 91.220.199.48
-host = 91.220.199.48
-++++CMCMarketsEULive
-menu = CMC Markets EU Live
-title = CMC Markets EU Live - 91.220.199.46
-host = 91.220.199.46
-++++CMCMarketsRoWLive
-menu = CMC Markets RoW Live
-title = CMC Markets RoW Live - 91.220.199.49
-host = 91.220.199.49
-++++CMCMarketsSGLive
-menu = CMC Markets SG Live
-title = CMC Markets SG Live - 91.220.199.47
-host = 91.220.199.47
-
 +++FusionMarketsLive
 menu = Fusion Markets Live
 title = Fusion Markets Live - 170.75.197.152
@@ -249,11 +225,6 @@ menu = IC Markets Live
 title = IC Markets Live - 170.75.200.10
 host = 170.75.200.10
 
-+++IGLive
-menu = IG Live
-title = IG Live - mt4a.ig.com
-host = mt4a.ig.com
-
 +++Pepperstone
 menu = Pepperstone
 title = Pepperstone
@@ -261,10 +232,6 @@ title = Pepperstone
 menu = Pepperstone Live
 title = Pepperstone Live - 170.75.202.219
 host = 170.75.202.219
-++++PepperstoneUKLive
-menu = Pepperstone UK Live
-title = Pepperstone UK Live - 185.63.223.58
-host = 185.63.223.58
 
 +++TradestoLive
 menu = Tradesto Live
@@ -590,7 +557,7 @@ host = speedtest.per.optusnet.com.au
 menu = Internode Perth
 title = Internode Perth - speedtest-per.cdn.on.net
 host = speedtest-per.cdn.on.net
-+++AARNetPerth
+++++AARNetPerth
 menu = AARNet Perth
 title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
 host = wa-knsg-speedtest.aarnet.net.au
@@ -800,10 +767,6 @@ host = ookla-speedtest.hgconair.hgc.com.hk
 +++Guangzhou
 menu = Guangzhou
 title = Guangzhou
-++++ChinaUnicomGuangzhou
-menu = China Unicom Guangzhou
-title = China Unicom Guangzhou - speedtest1.gzuni.com
-host = speedtest1.gzuni.com
 ++++ChinaMobileGuangzhou
 menu = China Mobile Guangzhou
 title = China Mobile Guangzhou - speedtest1.gd.chinamobile.com
@@ -1078,10 +1041,6 @@ host = speedtest.digi.com.my
 menu = U Mobile Malaysia
 title = U Mobile Malaysia - speedtest.u.com.my
 host = speedtest.u.com.my
-+++Yes4GMalaysia
-menu = Yes 4G Malaysia
-title = Yes 4G Malaysia - speedtest.ytlcomms.my
-host = speedtest.ytlcomms.my
 +++MYRENMalaysia
 menu = MYREN Malaysia
 title = MYREN Malaysia - speedtest1.myren.net.my
@@ -1652,11 +1611,6 @@ title = Games
 menu = Dota 2
 title = Dota 2
 
-+++Australia
-menu = Australia
-title = Australia - syd.valve.net
-host = syd.valve.net
-
 +++Europe
 menu = Europe
 title = Europe
@@ -1673,16 +1627,6 @@ host = lux.valve.net
 menu = Russia
 title = Russia - sto.valve.net
 host = sto.valve.net
-
-+++SouthAfrica
-menu = South Africa
-title = South Africa - cpt-1.valve.net
-host = cpt-1.valve.net
-
-+++SouthAmerica
-menu = South America
-title = South America - gru.valve.net
-host = gru.valve.net
 
 +++SoutheastAsia
 menu = Southeast Asia
@@ -1720,19 +1664,7 @@ host = 104.160.152.3
 menu = EUNE
 title = EUNE - 104.160.142.3
 host = 104.160.142.3
-+++EUW
-menu = EUW
-title = EUW - 104.160.141.3
-host = 104.160.141.3
 +++LAN
 menu = LAN
 title = LAN - 104.160.136.3
 host = 104.160.136.3
-+++NA
-menu = NA
-title = NA - 104.160.131.3
-host = 104.160.131.3
-+++OCE
-menu = OCE
-title = OCE - 104.160.156.1
-host = 104.160.156.1
