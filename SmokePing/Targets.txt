@@ -497,6 +497,10 @@ host = speedtest-syd.cdn.on.net
 menu = AARNet Sydney
 title = AARNet Sydney - nsw-brwy-speedtest.aarnet.net.au
 host = nsw-brwy-speedtest.aarnet.net.au
+++++2degreesSydney
+menu = 2degrees Sydney
+title = 2degrees Sydney - speed4.snap.net.nz
+host = speed4.snap.net.nz
 
 +++Melbourne
 menu = Melbourne
@@ -1017,34 +1021,84 @@ host = speedgwh1.jioconnect.com
 ++Malaysia
 menu = Malaysia
 title = Malaysia
-+++TelekomMalaysia
-menu = Telekom Malaysia
-title = Telekom Malaysia - speedtest-ookla1.tm.net.my
+
++++KualaLumpur
+menu = Kuala Lumpur
+title = Kuala Lumpur
+++++TelekomMalaysiaKualaLumpur
+menu = Telekom Malaysia Kuala Lumpur
+title = Telekom Malaysia Kuala Lumpur - speedtest-ookla1.tm.net.my
 host = speedtest-ookla1.tm.net.my
-+++TIMEdotcomMalaysia
-menu = TIME dotcom Malaysia
-title = TIME dotcom Malaysia - speed.time.com.my
+++++TIMEdotcomKualaLumpur
+menu = TIME dotcom Kuala Lumpur
+title = TIME dotcom Kuala Lumpur - speed.time.com.my
 host = speed.time.com.my
-+++MaxisMalaysia
-menu = Maxis Malaysia
-title = Maxis Malaysia - speedtest.maxis.com.my
+++++MaxisKualaLumpur
+menu = Maxis Kuala Lumpur
+title = Maxis Kuala Lumpur - speedtest.maxis.com.my
 host = speedtest.maxis.com.my
-+++CelcomAxiataMalaysia
-menu = Celcom Axiata Malaysia
-title = Celcom Axiata Malaysia - speedosht1.celcom.net.my
+++++CelcomAxiataKualaLumpur
+menu = Celcom Axiata Kuala Lumpur
+title = Celcom Axiata Kuala Lumpur - speedosht1.celcom.net.my
 host = speedosht1.celcom.net.my
-+++DigiMalaysia
-menu = Digi Malaysia
-title = Digi Malaysia - speedtest.digi.com.my
+++++DigiKualaLumpur
+menu = Digi Kuala Lumpur
+title = Digi Kuala Lumpur - speedtest.digi.com.my
 host = speedtest.digi.com.my
-+++UMobileMalaysia
-menu = U Mobile Malaysia
-title = U Mobile Malaysia - speedtest.u.com.my
+++++UMobileKualaLumpur
+menu = U Mobile Kuala Lumpur
+title = U Mobile Kuala Lumpur - speedtest.u.com.my
 host = speedtest.u.com.my
-+++MYRENMalaysia
-menu = MYREN Malaysia
-title = MYREN Malaysia - speedtest1.myren.net.my
+++++MYRENKualaLumpur
+menu = MYREN Kuala Lumpur
+title = MYREN Kuala Lumpur - speedtest1.myren.net.my
 host = speedtest1.myren.net.my
+
+
+++Mauritius
+menu = Mauritius
+title = Mauritius
+
++++PortLouis
+menu = Port Louis
+title = Port Louis
+++++MauritiusTelecomPortLouis
+menu = Mauritius Telecom Port Louis
+title = Mauritius Telecom Port Louis - speedtest.telecom.mu
+host = speedtest.telecom.mu
+++++EmtelPortLouis
+menu = Emtel Port Louis
+title = Emtel Port Louis - speedtest6-10g.emtelnet.com
+host = speedtest6-10g.emtelnet.com
+
+
+++Morocco
+menu = Morocco
+title = Morocco
+
++++Rabat
+menu = Rabat
+title = Rabat
+++++MorocTelecomRabat
+menu = Moroc Telecom Rabat
+title = Moroc Telecom Rabat - speedtest.iam.ma
+host = speedtest.iam.ma
+++++OrangeMARabat
+menu = Orange MA Rabat
+title = Orange MA Rabat - speedtestrabat1.meditel.net.ma
+host = speedtestrabat1.meditel.net.ma
+
++++Casablanca
+menu = Casablanca
+title = Casablanca
+++++MorocTelecomCasablanca
+menu = Moroc Telecom Casablanca
+title = Moroc Telecom Casablanca - casablancast.iam.ma
+host = casablancast.iam.ma
+++++OrangeMACasablanca
+menu = Orange MA Casablanca
+title = Orange MA Casablanca - speedtestcasa1.meditel.net.ma
+host = speedtestcasa1.meditel.net.ma
 
 
 ++NewZealand
@@ -1465,6 +1519,39 @@ title = MyRepublic SG - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 
 
+++Switzerland
+menu = Switzerland
+title = Switzerland
+
++++Zurich
+menu = Zurich
+title = Zurich
+++++SwisscomZurich
+menu = Swisscom Zurich
+title = Swisscom Zurich - speedtest.wingo.ch
+host = speedtest.wingo.ch
+++++iWayZurich
+menu = iWay Zurich
+title = iWay Zurich - speedtest.iway.ch
+host = speedtest.iway.ch
+++++SunriseZurich
+menu = Sunrise Zurich
+title = Sunrise Zurich - pzur01speedtst02.sunrise.ch
+host = pzur01speedtst02.sunrise.ch
+++++GTTZurich
+menu = GTT Zurich
+title = GTT Zurich - zrh.speedtest.gtt.net
+host = zrh.speedtest.gtt.net
+
++++Geneva
+menu = Geneva
+title = Geneva
+++++GTTGeneva
+menu = GTT Geneva
+title = GTT Geneva - gva.speedtest.gtt.net
+host = gva.speedtest.gtt.net
+
+
 ++UnitedKingdom
 menu = United Kingdom
 title = United Kindgom
@@ -1541,6 +1628,14 @@ host = speedtest.west.rr.com
 menu = Frontier Los Angeles
 title = Frontier Los Angeles - losangeles.ca.speedtest.frontier.com
 host = losangeles.ca.speedtest.frontier.com
+++++WindstreamLosAngeles
+menu = Windstream Los Angeles
+title = Windstream Los Angeles - la02.speedtest.windstream.net
+host = la02.speedtest.windstream.net
+++++2degreesLosAngeles
+menu = 2degrees Los Angeles
+title = 2degrees Los Angeles - speed5.snap.net.nz
+host = speed5.snap.net.nz
 
 +++SanFrancisco
 menu = San Francisco
@@ -1553,6 +1648,10 @@ host = sfo.speedtest.sbcglobal.net
 menu = Verizon San Francisco
 title = Verizon San Francisco - casvp1.speed.vzwnet.com
 host = casvp1.speed.vzwnet.com
+++++ComcastSanFrancisco
+menu = Comcast San Francisco
+title = Comcast San Francisco - stosat-scla-01.sys.comcast.net
+host = stosat-scla-01.sys.comcast.net
 ++++TMobileSanFrancisco
 menu = T-Mobile San Francisco
 title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
