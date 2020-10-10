@@ -694,12 +694,12 @@ menu = Brasilia
 title = Brasilia
 ++++VivoBRBrasilia
 menu = Vivo BR Brasilia
-title = Vivo BR Brasilia - spd32.claro.com.br
-host = spd32.claro.com.br
+title = Vivo BR Brasilia - bsa.testepower.com.br
+host = bsa.testepower.com.br
 ++++ClaroBRBrasilia
 menu = Claro BR Brasilia
-title = Claro BR Brasilia - velocimetro-bsb.virtua.com.br
-host = velocimetro-bsb.virtua.com.br
+title = Claro BR Brasilia - spd32.claro.com.br
+host = spd32.claro.com.br
 ++++TIMBRBrasilia
 menu = TIM BR Brasilia
 title = TIM BR Brasilia - spetstbsa01.timbrasil.com.br
