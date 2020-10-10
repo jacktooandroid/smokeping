@@ -454,6 +454,51 @@ menu = Telecoms
 title = Telecom Speedtest Servers
 
 
+++Argentina
+menu = Argentina
+title = Argentina
+
++++BuenosAires
+menu = Buenos Aires
+title = Buenos Aires
+++++MovistarARBuenosAires
+menu = Movistar AR Buenos Aires
+title = Movistar AR Buenos Aires - speedtest1.gics.telefonica.com.ar
+host = speedtest1.gics.telefonica.com.ar
+++++ClaroARBuenosAires
+menu = Claro AR Buenos Aires
+title = Claro AR Buenos Aires - speedtest.claro.com.ar
+host = speedtest.claro.com.ar
+++++TelecomArgentinaBuenosAires
+menu = Telecom Argentina Buenos Aires
+title = Telecom Argentina Buenos Aires - st-cabanorte.cablevisionfibertel.com.ar
+host = st-cabanorte.cablevisionfibertel.com.ar
+
++++SanMigueldeTucuman
+menu = San Miguel de Tucuman
+title = San Miguel de Tucuman
+++++TelecomArgentinaSanMigueldeTucuman
+menu = Telecom Argentina San Miguel de Tucuman
+title = Telecom Argentina San Miguel de Tucuman - st1tuc.personal.com.ar
+host = st1tuc.personal.com.ar
+
++++Salta
+menu = Salta
+title = Salta
+++++TelecomArgentinaSalta
+menu = Telecom Argentina Salta
+title = Telecom Argentina Salta - st1slt.telecom.com.ar
+host = st1slt.telecom.com.ar
+
++++Corrientes
+menu = Corrientes
+title = Corrientes
+++++TelecomArgentinaCorrientes
+menu = Telecom Argentina Corrientes
+title = Telecom Argentina Corrientes - st-corrientes.cablevisionfibertel.com.ar
+host = st-corrientes.cablevisionfibertel.com.ar
+
+
 ++Australia
 menu = Australia
 title = Australia
@@ -627,9 +672,265 @@ title = AARNet Darwin - nt-drwn-speedtest.aarnet.net.au
 host = nt-drwn-speedtest.aarnet.net.au
 
 
+++Bermuda
+menu = Bermuda
+title = Bermuda
++++OneCommunicationHamilton
+menu = One Communication Hamilton
+title = One Communication Hamilton - speedtest.onecomm.bm
+host = speedtest.onecomm.bm
++++DigicelBMHamilton
+menu = Digicel BM Hamilton
+title = Digicel BM Hamilton - speedtest.digicel.bm
+host = speedtest.digicel.bm
+
+
+++Brazil
+menu = Brazil
+title = Brazil
+
++++Brasilia
+menu = Brasilia
+title = Brasilia
+++++VivoBRBrasilia
+menu = Vivo BR Brasilia
+title = Vivo BR Brasilia - spd32.claro.com.br
+host = spd32.claro.com.br
+++++ClaroBRBrasilia
+menu = Claro BR Brasilia
+title = Claro BR Brasilia - velocimetro-bsb.virtua.com.br
+host = velocimetro-bsb.virtua.com.br
+++++TIMBRBrasilia
+menu = TIM BR Brasilia
+title = TIM BR Brasilia - spetstbsa01.timbrasil.com.br
+host = spetstbsa01.timbrasil.com.br
+
++++SaoPaulo
+menu = Sao Paulo
+title = Sao Paulo
+++++VivoBRSaoPaulo
+menu = Vivo BR Sao Paulo
+title = Vivo BR Sao Paulo - testedevelocidade.vivo.com.br
+host = testedevelocidade.vivo.com.br
+++++ClaroBRSaoPaulo
+menu = Claro BR Sao Paulo
+title = Claro BR Sao Paulo - spd5.claro.com.br
+host = spd5.claro.com.br
+++++TIMBRSaoPaulo
+menu = TIM BR Sao Paulo
+title = TIM BR Sao Paulo - svstsne0101.timbrasil.com.br
+host = svstsne0101.timbrasil.com.br
+++++AlgarTelecomBRSaoPaulo
+menu = Algar Telecom BR Sao Paulo
+title = Algar Telecom BR Sao Paulo - velocidade-spo.algartelecom.com.br
+host = velocidade-spo.algartelecom.com.br
+++++LumenBRSaoPaulo
+menu = Lumen Sao Paulo
+title = Lumen Sao Paulo - brasaospeedtest01.level3.net
+host = brasaospeedtest01.level3.net
+
++++RiodeJaneiro
+menu = Rio de Janeiro
+title = Rio de Janeiro
+++++VivoBRRiodeJaneiro
+menu = Vivo BR Rio de Janeiro
+title = Vivo BR Rio de Janeiro - rjo.testepower.com.br
+host = rjo.testepower.com.br
+++++ClaroBRRiodeJaneiro
+menu = Claro BR Rio de Janeiro
+title = Claro BR Rio de Janeiro - spd2.claro.com.br
+host = spd2.claro.com.br
+++++TIMBRRiodeJaneiro
+menu = TIM BR Rio de Janeiro
+title = TIM BR Rio de Janeiro - svstrjo0101.timbrasil.com.br
+host = svstrjo0101.timbrasil.com.br
+++++LumenBRRiodeJaneiro
+menu = Lumen Rio de Janeiro
+title = Lumen Rio de Janeiro - brariospeedtest01.level3.net
+host = brariospeedtest01.level3.net
+
++++Salvador
+menu = Salvador
+title = Salvador
+++++VivoBRSalvador
+menu = Vivo BR Salvador
+title = Vivo BR Salvador - sdr.testepower.com.br
+host = sdr.testepower.com.br
+++++ClaroBRSalvador
+menu = Claro BR Salvador
+title = Claro BR Salvador - spd9.claro.com.br
+host = spd9.claro.com.br
+++++TIMBRSalvador
+menu = TIM BR Salvador
+title = TIM BR Salvador - spetstsdr01.timbrasil.com.br
+host = spetstsdr01.timbrasil.com.br
+++++AlgarTelecomBRSalvador
+menu = Algar Telecom BR Salvador
+title = Algar Telecom BR Salvador - velocidade-sdr.algartelecom.com.br
+host = velocidade-sdr.algartelecom.com.br
+
++++Fortaleza
+menu = Fortaleza
+title = Fortaleza
+++++VivoBRFortaleza
+menu = Vivo BR Fortaleza
+title = Vivo BR Fortaleza - fla.testepower.com.br
+host = fla.testepower.com.br
+++++ClaroBRFortaleza
+menu = Claro BR Fortaleza
+title = Claro BR Fortaleza - spd1.claro.com.br
+host = spd1.claro.com.br
+++++AlgarTelecomBRFortaleza
+menu = Algar Telecom BR Fortaleza
+title = Algar Telecom BR Fortaleza - velocidade-fla.algartelecom.com.br
+host = velocidade-fla.algartelecom.com.br
+
++++BeloHorizonte
+menu = Belo Horizonte
+title = Belo Horizonte
+++++VivoBRBeloHorizonte
+menu = Vivo BR Belo Horizonte
+title = Vivo BR Belo Horizonte - bhe.testepower.com.br
+host = bhe.testepower.com.br
+++++ClaroBRBeloHorizonte
+menu = Claro BR Belo Horizonte
+title = Claro BR Belo Horizonte - spd8.claro.com.br
+host = spd8.claro.com.br
+++++TIMBRBeloHorizonte
+menu = TIM BR Belo Horizonte
+title = TIM BR Belo Horizonte - spetstbhe01.timbrasil.com.br
+host = spetstbhe01.timbrasil.com.br
+
++++Manaus
+menu = Manaus
+title = Manaus
+++++VivoBRManaus
+menu = Vivo BR Manaus
+title = Vivo BR Manaus - mns.testepower.com.br
+host = mns.testepower.com.br
+++++ClaroBRManaus
+menu = Claro BR Manaus
+title = Claro BR Manaus - spd7.claro.com.br
+host = spd7.claro.com.br
+++++TIMBRManaus
+menu = TIM BR Manaus
+title = TIM BR Manaus - spetstmns01.timbrasil.com.br
+host = spetstmns01.timbrasil.com.br
+
++++Curitiba
+menu = Curitiba
+title = Curitiba
+++++VivoBRCuritiba
+menu = Vivo BR Curitiba
+title = Vivo BR Curitiba - cta.testepower.com.br
+host = cta.testepower.com.br
+++++ClaroBRCuritiba
+menu = Claro BR Curitiba
+title = Claro BR Curitiba - spd11.claro.com.br
+host = spd11.claro.com.br
+++++TIMBRCuritiba
+menu = TIM BR Curitiba
+title = TIM BR Curitiba - spetstcta01.timbrasil.com.br
+host = spetstcta01.timbrasil.com.br
+
++++Recife
+menu = Recife
+title = Recife
+++++VivoBRRecife
+menu = Vivo BR Recife
+title = Vivo BR Recife - rce.testepower.com.br
+host = rce.testepower.com.br
+++++ClaroBRRecife
+menu = Claro BR Recife
+title = Claro BR Recife - spd22.claro.com.br
+host = spd22.claro.com.br
+++++TIMBRRecife
+menu = TIM BR Recife
+title = TIM BR Recife - spetstrce01.timbrasil.com.br
+host = spetstrce01.timbrasil.com.br
+
++++Goiania
+menu = Goiania
+title = Goiania
+++++ClaroBRGoiania
+menu = Claro BR Goiania
+title = Claro BR Goiania - spd38.claro.com.br
+host = spd38.claro.com.br
+++++TIMBRGoiania
+menu = TIM BR Goiania
+title = TIM BR Goiania - spetstgna01.timbrasil.com.br
+host = spetstgna01.timbrasil.com.br
+
++++Belem
+menu = Belem
+title = Belem
+++++VivoBRBelem
+menu = Vivo BR Belem
+title = Vivo BR Belem - blm.testepower.com.br
+host = blm.testepower.com.br
+++++ClaroBRBelem
+menu = Claro BR Belem
+title = Claro BR Belem - spd10.claro.com.br
+host = spd10.claro.com.br
+++++TIMBRBelem
+menu = TIM BR Belem
+title = TIM BR Belem - spetstblm01.timbrasil.com.br
+host = spetstblm01.timbrasil.com.br
+
++++PortoAlegre
+menu = Porto Alegre
+title = Porto Alegre
+++++VivoBRPortoAlegre
+menu = Vivo BR Porto Alegre
+title = Vivo BR Porto Alegre - pae.testepower.com.br
+host = pae.testepower.com.br
+++++ClaroBRPortoAlegre
+menu = Claro BR Porto Alegre
+title = Claro BR Porto Alegre - spd12.claro.com.br
+host = spd12.claro.com.br
+
++++SaoLuis
+menu = Sao Luis
+title = Sao Luis
+++++ClaroBRSaoLuis
+menu = Claro BR Sao Luis
+title = Claro BR Sao Luis - spd27.claro.com.br
+host = spd27.claro.com.br
+
++++CampoGrande
+menu = Campo Grande
+title = Campo Grande
+++++ClaroBRCampoGrande
+menu = Claro BR Campo Grande
+title = Claro BR Campo Grande - spd16.claro.com.br
+host = spd16.claro.com.br
+
++++PortoVelho
+menu = Porto Velho
+title = Porto Velho
+++++ClaroBRPortoVelho
+menu = Claro BR Porto Velho
+title = Claro BR Porto Velho - spd18.claro.com.br
+host = spd18.claro.com.br
+
+
+++BritishVirginIslands
+menu = British Virgin Islands
+title = British Virgin Islands
++++FlowVGRoadTown
+menu = Flow VG Road Town
+title = Flow VG Road Town - speedtestbvi.discoverflow.co
+host = speedtestbvi.discoverflow.co
++++CCTRoadTown
+menu = CCT Road Town
+title = CCT Road Town - speedtest.cctwireless.com
+host = speedtest.cctwireless.com
+
+
 ++Canada
 menu = Canada
 title = Canada
+
 
 +++Ottawa
 menu = Ottawa
@@ -722,6 +1023,27 @@ host = winnipeg.speedtest.telus.com
 menu = Shaw Winnipeg
 title = Shaw Winnipeg - speedtest.wp.shawcable.net
 host = speedtest.wp.shawcable.net
+
+
+++CaymanIslands
+menu = Cayman Islands
+title = Cayman Islands
++++FlowKYCaymanIslands
+menu = Flow KY Cayman Islands
+title = Flow KY Cayman Islands - speedtest.candw.ky
+host = speedtest.candw.ky
++++LogicCaymanIslands
+menu = Logic Cayman Islands
+title = Logic Cayman Islands - speedtest.candw.ky
+host = speedtest.candw.ky
++++C3CaymanIslands
+menu = C3 Cayman Islands
+title = C3 Cayman Islands - speedtest.c3.ky
+host = speedtest.c3.ky
++++DigicelKYCaymanIslands
+menu = Digicel KY Cayman Islands
+title = Digicel KY Cayman Islands - kyspeedtest0.digicelbroadband.com
+host = kyspeedtest0.digicelbroadband.com
 
 
 ++China
@@ -1070,6 +1392,55 @@ host = speedtest.telecom.mu
 menu = Emtel Port Louis
 title = Emtel Port Louis - speedtest6-10g.emtelnet.com
 host = speedtest6-10g.emtelnet.com
+
+
+++Mexico
+menu = Mexico
+title = Mexico
+
++++MexicoCity
+menu = Mexico City
+title = Mexico City
+++++izziMexicoCity
+menu = izzi Mexico City
+title = izzi Mexico City - speedtest.sevilla.izzi.mx
+host = speedtest.sevilla.izzi.mx
+++++ATTMXMexicoCity
+menu = AT&T MX Mexico City
+title = AT&T MX Mexico City - speed1.stafemex.attmex.mx
+host = speed1.stafemex.attmex.mx
+
++++Guadalajara
+menu = Guadalajara
+title = Guadalajara
+++++ATTMXGuadalajara
+menu = AT&T MX Guadalajara
+title = AT&T MX Guadalajara - speed1.gdl.attmex.mx
+host = speed1.gdl.attmex.mx
+
++++CiudadJuarez
+menu = Ciudad Juarez
+title = Ciudad Juarez
+++++izziCiudadJuarez
+menu = izzi Ciudad Juarez
+title = izzi Ciudad Juarez - speedtest.juarez.izzi.mx
+host = speedtest.juarez.izzi.mx
+
++++Tijuana
+menu = Tijuana
+title = Tijuana
+++++izziTijuana
+menu = izzi Tijuana
+title = izzi Tijuana - speedtest.monterreygpon.izzi.mx
+host = speedtest.monterreygpon.izzi.mx
+++++izziTijuana
+menu = Movistar MX Tijuana
+title = Movistar MX Tijuana - internet4b.movistar.com.mx
+host = internet4b.movistar.com.mx
+++++ATTMXTijuana
+menu = AT&T MX Tijuana
+title = AT&T MX Tijuana - speed1.mty.attmex.mx
+host = speed1.mty.attmex.mx
 
 
 ++Morocco
@@ -1648,10 +2019,6 @@ host = sfo.speedtest.sbcglobal.net
 menu = Verizon San Francisco
 title = Verizon San Francisco - casvp1.speed.vzwnet.com
 host = casvp1.speed.vzwnet.com
-++++ComcastSanFrancisco
-menu = Comcast San Francisco
-title = Comcast San Francisco - stosat-scla-01.sys.comcast.net
-host = stosat-scla-01.sys.comcast.net
 ++++TMobileSanFrancisco
 menu = T-Mobile San Francisco
 title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
