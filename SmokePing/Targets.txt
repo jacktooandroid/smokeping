@@ -1028,21 +1028,21 @@ host = speedtest.wp.shawcable.net
 ++CaymanIslands
 menu = Cayman Islands
 title = Cayman Islands
-+++FlowKYCaymanIslands
-menu = Flow KY Cayman Islands
-title = Flow KY Cayman Islands - speedtest.candw.ky
++++FlowKYGeorgeTown
+menu = Flow KY George Town
+title = Flow KY George Town - speedtest.candw.ky
 host = speedtest.candw.ky
-+++LogicCaymanIslands
-menu = Logic Cayman Islands
-title = Logic Cayman Islands - speedtest.candw.ky
++++LogicGeorgeTown
+menu = Logic George Town
+title = Logic George Town - speedtest.candw.ky
 host = speedtest.candw.ky
-+++C3CaymanIslands
-menu = C3 Cayman Islands
-title = C3 Cayman Islands - speedtest.c3.ky
++++C3GeorgeTown
+menu = C3 George Town
+title = C3 George Town - speedtest.c3.ky
 host = speedtest.c3.ky
-+++DigicelKYCaymanIslands
-menu = Digicel KY Cayman Islands
-title = Digicel KY Cayman Islands - kyspeedtest0.digicelbroadband.com
++++DigicelKYGeorgeTown
+menu = Digicel KY George Town
+title = Digicel KY George Town - kyspeedtest0.digicelbroadband.com
 host = kyspeedtest0.digicelbroadband.com
 
 
