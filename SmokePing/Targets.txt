@@ -1433,7 +1433,7 @@ title = Tijuana
 menu = izzi Tijuana
 title = izzi Tijuana - speedtest.monterreygpon.izzi.mx
 host = speedtest.monterreygpon.izzi.mx
-++++izziTijuana
+++++MovistarMXTijuana
 menu = Movistar MX Tijuana
 title = Movistar MX Tijuana - internet4b.movistar.com.mx
 host = internet4b.movistar.com.mx
