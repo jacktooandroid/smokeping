@@ -360,6 +360,10 @@ host = speedtest-sfo1.digitalocean.com
 menu = SFO2
 title = San Francisco 2 - speedtest-sfo2.digitalocean.com
 host = speedtest-sfo2.digitalocean.com
++++SanFrancisco3
+menu = SFO3
+title = San Francisco 3 - speedtest-sfo3.digitalocean.com
+host = speedtest-sfo3.digitalocean.com
 
 +++Toronto1
 menu = TOR1
