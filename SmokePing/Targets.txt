@@ -473,10 +473,6 @@ host = speedtest1.gics.telefonica.com.ar
 menu = Claro AR Buenos Aires
 title = Claro AR Buenos Aires - speedtest.claro.com.ar
 host = speedtest.claro.com.ar
-++++TelecomArgentinaBuenosAires
-menu = Telecom Argentina Buenos Aires
-title = Telecom Argentina Buenos Aires - st-cabanorte.cablevisionfibertel.com.ar
-host = st-cabanorte.cablevisionfibertel.com.ar
 
 +++SanMigueldeTucuman
 menu = San Miguel de Tucuman
@@ -493,14 +489,6 @@ title = Salta
 menu = Telecom Argentina Salta
 title = Telecom Argentina Salta - st1slt.telecom.com.ar
 host = st1slt.telecom.com.ar
-
-+++Corrientes
-menu = Corrientes
-title = Corrientes
-++++TelecomArgentinaCorrientes
-menu = Telecom Argentina Corrientes
-title = Telecom Argentina Corrientes - st-corrientes.cablevisionfibertel.com.ar
-host = st-corrientes.cablevisionfibertel.com.ar
 
 
 ++Australia
@@ -696,10 +684,6 @@ title = Brazil
 +++Brasilia
 menu = Brasilia
 title = Brasilia
-++++VivoBRBrasilia
-menu = Vivo BR Brasilia
-title = Vivo BR Brasilia - bsa.testepower.com.br
-host = bsa.testepower.com.br
 ++++ClaroBRBrasilia
 menu = Claro BR Brasilia
 title = Claro BR Brasilia - spd32.claro.com.br
@@ -712,10 +696,6 @@ host = spetstbsa01.timbrasil.com.br
 +++SaoPaulo
 menu = Sao Paulo
 title = Sao Paulo
-++++VivoBRSaoPaulo
-menu = Vivo BR Sao Paulo
-title = Vivo BR Sao Paulo - testedevelocidade.vivo.com.br
-host = testedevelocidade.vivo.com.br
 ++++ClaroBRSaoPaulo
 menu = Claro BR Sao Paulo
 title = Claro BR Sao Paulo - spd5.claro.com.br
@@ -736,10 +716,6 @@ host = brasaospeedtest01.level3.net
 +++RiodeJaneiro
 menu = Rio de Janeiro
 title = Rio de Janeiro
-++++VivoBRRiodeJaneiro
-menu = Vivo BR Rio de Janeiro
-title = Vivo BR Rio de Janeiro - rjo.testepower.com.br
-host = rjo.testepower.com.br
 ++++ClaroBRRiodeJaneiro
 menu = Claro BR Rio de Janeiro
 title = Claro BR Rio de Janeiro - spd2.claro.com.br
@@ -756,10 +732,6 @@ host = brariospeedtest01.level3.net
 +++Salvador
 menu = Salvador
 title = Salvador
-++++VivoBRSalvador
-menu = Vivo BR Salvador
-title = Vivo BR Salvador - sdr.testepower.com.br
-host = sdr.testepower.com.br
 ++++ClaroBRSalvador
 menu = Claro BR Salvador
 title = Claro BR Salvador - spd9.claro.com.br
@@ -776,10 +748,6 @@ host = velocidade-sdr.algartelecom.com.br
 +++Fortaleza
 menu = Fortaleza
 title = Fortaleza
-++++VivoBRFortaleza
-menu = Vivo BR Fortaleza
-title = Vivo BR Fortaleza - fla.testepower.com.br
-host = fla.testepower.com.br
 ++++ClaroBRFortaleza
 menu = Claro BR Fortaleza
 title = Claro BR Fortaleza - spd1.claro.com.br
@@ -792,10 +760,6 @@ host = velocidade-fla.algartelecom.com.br
 +++BeloHorizonte
 menu = Belo Horizonte
 title = Belo Horizonte
-++++VivoBRBeloHorizonte
-menu = Vivo BR Belo Horizonte
-title = Vivo BR Belo Horizonte - bhe.testepower.com.br
-host = bhe.testepower.com.br
 ++++ClaroBRBeloHorizonte
 menu = Claro BR Belo Horizonte
 title = Claro BR Belo Horizonte - spd8.claro.com.br
@@ -808,11 +772,7 @@ host = spetstbhe01.timbrasil.com.br
 +++Manaus
 menu = Manaus
 title = Manaus
-++++VivoBRManaus
-menu = Vivo BR Manaus
-title = Vivo BR Manaus - mns.testepower.com.br
-host = mns.testepower.com.br
-++++ClaroBRManaus
+    ++++ClaroBRManaus
 menu = Claro BR Manaus
 title = Claro BR Manaus - spd7.claro.com.br
 host = spd7.claro.com.br
@@ -824,10 +784,6 @@ host = spetstmns01.timbrasil.com.br
 +++Curitiba
 menu = Curitiba
 title = Curitiba
-++++VivoBRCuritiba
-menu = Vivo BR Curitiba
-title = Vivo BR Curitiba - cta.testepower.com.br
-host = cta.testepower.com.br
 ++++ClaroBRCuritiba
 menu = Claro BR Curitiba
 title = Claro BR Curitiba - spd11.claro.com.br
@@ -840,10 +796,6 @@ host = spetstcta01.timbrasil.com.br
 +++Recife
 menu = Recife
 title = Recife
-++++VivoBRRecife
-menu = Vivo BR Recife
-title = Vivo BR Recife - rce.testepower.com.br
-host = rce.testepower.com.br
 ++++ClaroBRRecife
 menu = Claro BR Recife
 title = Claro BR Recife - spd22.claro.com.br
@@ -868,10 +820,6 @@ host = spetstgna01.timbrasil.com.br
 +++Belem
 menu = Belem
 title = Belem
-++++VivoBRBelem
-menu = Vivo BR Belem
-title = Vivo BR Belem - blm.testepower.com.br
-host = blm.testepower.com.br
 ++++ClaroBRBelem
 menu = Claro BR Belem
 title = Claro BR Belem - spd10.claro.com.br
@@ -884,10 +832,6 @@ host = spetstblm01.timbrasil.com.br
 +++PortoAlegre
 menu = Porto Alegre
 title = Porto Alegre
-++++VivoBRPortoAlegre
-menu = Vivo BR Porto Alegre
-title = Vivo BR Porto Alegre - pae.testepower.com.br
-host = pae.testepower.com.br
 ++++ClaroBRPortoAlegre
 menu = Claro BR Porto Alegre
 title = Claro BR Porto Alegre - spd12.claro.com.br
@@ -1044,10 +988,6 @@ host = speedtest.candw.ky
 menu = C3 George Town
 title = C3 George Town - speedtest.c3.ky
 host = speedtest.c3.ky
-+++DigicelKYGeorgeTown
-menu = Digicel KY George Town
-title = Digicel KY George Town - kyspeedtest0.digicelbroadband.com
-host = kyspeedtest0.digicelbroadband.com
 
 
 ++China
@@ -1433,10 +1373,6 @@ host = speedtest.juarez.izzi.mx
 +++Tijuana
 menu = Tijuana
 title = Tijuana
-++++izziTijuana
-menu = izzi Tijuana
-title = izzi Tijuana - speedtest.monterreygpon.izzi.mx
-host = speedtest.monterreygpon.izzi.mx
 ++++MovistarMXTijuana
 menu = Movistar MX Tijuana
 title = Movistar MX Tijuana - internet4b.movistar.com.mx
