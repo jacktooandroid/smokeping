@@ -2051,8 +2051,8 @@ title = TOT Khon Kaen - kknspeedtestnet.totbroadband.com
 host = kknspeedtestnet.totbroadband.com
 
 +++Phitsanulok
-menu = Phitsanulo
-title = Phitsanulo
+menu = Phitsanulok
+title = Phitsanulok
 ++++CATTelecomPhitsanulok
 menu = CAT Telecom Phitsanulok
 title = CAT Telecom Phitsanulok - www.catspeedtest.net
