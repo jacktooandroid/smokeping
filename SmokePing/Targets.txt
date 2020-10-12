@@ -2050,28 +2050,28 @@ menu = TOT Khon Kaen
 title = TOT Khon Kaen - kknspeedtestnet.totbroadband.com
 host = kknspeedtestnet.totbroadband.com
 
-+++‎Phitsanulok
-menu = ‎Phitsanulok
-title = ‎Phitsanulok
-++++CATTelecom‎Phitsanulok
-menu = CAT Telecom ‎Phitsanulok
-title = CAT Telecom ‎Phitsanulok - www.catspeedtest.net
++++Phitsanulok
+menu = Phitsanulo
+title = Phitsanulo
+++++CATTelecomPhitsanulok
+menu = CAT Telecom Phitsanulok
+title = CAT Telecom Phitsanulok - www.catspeedtest.net
 host = www.catspeedtest.net
-++++AIS‎Phitsanulok
-menu = AIS ‎Phitsanulok
-title = AIS ‎Phitsanulok - speedtest1.ais-idc.net
+++++AISPhitsanulok
+menu = AIS Phitsanulok
+title = AIS Phitsanulok - speedtest1.ais-idc.net
 host = speedtest1.ais-idc.net
-++++DTAC‎Phitsanulok
-menu = DTAC ‎Phitsanulok
-title = DTAC ‎Phitsanulok - speedtest5.dtacnetwork.co.th
+++++DTACPhitsanulok
+menu = DTAC Phitsanulok
+title = DTAC Phitsanulok - speedtest5.dtacnetwork.co.th
 host = speedtest5.dtacnetwork.co.th
-++++3BB‎Phitsanulok
-menu = 3BB ‎Phitsanulok
-title = 3BB ‎Phitsanulok - speedtest-sp1.3bb.co.th
+++++3BBPhitsanulok
+menu = 3BB Phitsanulok
+title = 3BB Phitsanulok - speedtest-sp1.3bb.co.th
 host = speedtest-sp1.3bb.co.th
-++++TOT‎Phitsanulok
-menu = TOT ‎Phitsanulok
-title = TOT ‎Phitsanulok - totspeedtest.totbroadband.com
+++++TOTPhitsanulok
+menu = TOT Phitsanulok
+title = TOT Phitsanulok - totspeedtest.totbroadband.com
 host = totspeedtest.totbroadband.com
 
 
