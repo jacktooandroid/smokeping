@@ -1,4 +1,4 @@
-#Updated 20200910
+#Updated 20201012
 *** Targets ***
 
 probe = FPing
@@ -410,6 +410,14 @@ title = Universities
 menu = Australia
 title = Australia
 
++++UniversityofMelbourne
+menu = University of Melbourne
+title = University of Melbourne
+++++UniversityofMelbourneEduroam
+menu = University of Melbourne Eduroam
+title = University of Melbourne Eduroam - wireless.unimelb.edu.au
+host = wireless.unimelb.edu.au
+
 +++MonashUniversity
 menu = Monash University
 title = Monash University
@@ -422,13 +430,59 @@ menu = Monash University Eduroam
 title = Monash University Eduroam - eduroam.monash.edu
 host = eduroam.monash.edu
 
-+++UniversityofMelbourne
-menu = University of Melbourne
-title = University of Melbourne
-++++UniversityofMelbourneEduroam
-menu = University of Melbourne Eduroam
-title = University of Melbourne Eduroam - wireless.unimelb.edu.au
-host = wireless.unimelb.edu.au
+
+++Canada
+menu = Canada
+title = Canada
+
++++UniversityofToronto
+menu = University of Toronto
+title = University of Toronto
+++++UniversityofTorontoVPN
+menu = University of Toronto VPN
+title = University of Toronto VPN - general.vpn.utoronto.ca
+host = general.vpn.utoronto.ca
+++++UniversityofTorontoEduroam
+menu = University of Toronto Eduroam
+title = University of Toronto Eduroam - radius.wireless.utoronto.ca
+host = radius.wireless.utoronto.ca
+
++++McGillUniversity
+menu = McGill University
+title = McGill University
+++++McGillUniversityVPN
+menu = McGill University VPN
+title = McGill University VPN - securevpn.mcgill.ca
+host = securevpn.mcgill.ca
+
++++UniversityofBritishColumbia
+menu = University of British Columbia
+title = University of British Columbia
+++++UniversityofBritishColumbiaVPN
+menu = University of British Columbia VPN
+title = University of British Columbia VPN - myvpn.ubc.ca
+host = myvpn.ubc.ca
+
+
+++NewZealand
+menu = New Zealand
+title = New Zealand
+
++++UniversityofAuckland
+menu = University of Auckland
+title = University of Auckland
+++++UniversityofAucklandVPN
+menu = University of Auckland VPN
+title = University of Auckland VPN - connectvpn.auckland.ac.nz
+host = connectvpn.auckland.ac.nz
+
++++VictoriaUniversityofWellington
+menu = Victoria University of Wellington
+title = Victoria University of Wellington
+++++VictoriaUniversityofWellingtonVPN
+menu = Victoria University of Wellington VPN
+title = Victoria University of Wellington VPN - vpn.vuw.ac.nz
+host = vpn.vuw.ac.nz
 
 
 ++UnitedKingdom
@@ -1874,6 +1928,151 @@ title = London
 menu = GTT London
 title = GTT London - lon.speedtest.gtt.net
 host = lon.speedtest.gtt.net
+
+
+++Thailand
+menu = Thailand
+title = Thailand
+
++++Bangkok
+menu = Bangkok
+title = Bangkok
+++++CATTelecomBangkok
+menu = CAT Telecom Bangkok
+title = CAT Telecom Bangkok - www.catspeedtest.net
+host = www.catspeedtest.net
+++++AISBangkok
+menu = AIS Bangkok
+title = AIS Bangkok - speedtest1.ais-idc.net
+host = speedtest1.ais-idc.net
+++++DTACBangkok
+menu = DTAC Bangkok
+title = DTAC Bangkok - speedtest5.dtacnetwork.co.th
+host = speedtest5.dtacnetwork.co.th
+++++3BBBangkok
+menu = 3BB Bangkok
+title = 3BB Bangkok - speedtest-sp1.3bb.co.th
+host = speedtest-sp1.3bb.co.th
+++++TOTBangkok
+menu = TOT Bangkok
+title = TOT Bangkok - totspeedtest.totbroadband.com
+host = totspeedtest.totbroadband.com
+
++++HatYai
+menu = Hat Yai
+title = Hat Yai
+++++CATTelecomHatYai
+menu = CAT Telecom Hat Yai
+title = CAT Telecom Hat Yai - hatyai.catspeedtest.net
+host = hatyai.catspeedtest.net
+++++AISHatYai
+menu = AIS Hat Yai
+title = AIS Hat Yai - speedtest-hyi1.ais-idc.net
+host = speedtest-hyi1.ais-idc.net
+++++3BBHatYai
+menu = 3BB Hat Yai
+title = 3BB Hat Yai - speedtest-hyi1.3bb.co.th
+host = speedtest-hyi1.3bb.co.th
+++++TOTHatYai
+menu = TOT Hat Yai
+title = TOT Hat Yai - hyispeedtestnet.totbroadband.com
+host = hyispeedtestnet.totbroadband.com
+
++++SuratThani
+menu = Surat Thani
+title = Surat Thani
+++++AISSuratThani
+menu = AIS Surat Thani
+title = AIS Surat Thani - speedtest-sni1.ais-idc.net
+host = speedtest-sni1.ais-idc.net
+++++DTACSuratThani
+menu = DTAC Surat Thani
+title = DTAC Surat Thani - speedtest14.dtacnetwork.co.th
+host = speedtest14.dtacnetwork.co.th
+++++3BBSuratThani
+menu = 3BB Surat Thani
+title = 3BB Surat Thani - speedtest-sni1.3bb.co.th
+host = speedtest-sni1.3bb.co.th
+++++TOTSuratThani
+menu = TOT Surat Thani
+title = TOT Surat Thani - ppnspeedtestnet.totbroadband.com
+host = ppnspeedtestnet.totbroadband.com
+
++++ChiangMai
+menu = Chiang Mai
+title = Chiang Mai
+++++AISChiangMai
+menu = AIS Chiang Mai
+title = AIS Chiang Mai - speedtest-cmi1.ais-idc.net
+host = speedtest-cmi1.ais-idc.net
+++++3BBChiangMai
+menu = 3BB Chiang Mai
+title = 3BB Chiang Mai - speedtest-cmi2.3bb.co.th
+host = speedtest-cmi2.3bb.co.th
+++++TOTChiangMai
+menu = TOT Chiang Mai
+title = TOT Chiang Mai - cmispeedtestnet.totbroadband.com
+host = cmispeedtestnet.totbroadband.com
+
++++NakhonRatchasima
+menu = Nakhon Ratchasima
+title = Nakhon Ratchasima
+++++AISNakhonRatchasima
+menu = AIS Nakhon Ratchasima
+title = AIS Nakhon Ratchasima - speedtest-nma1.ais-idc.net
+host = sspeedtest-nma1.ais-idc.net
+++++3BBNakhonRatchasima
+menu = 3BB Nakhon Ratchasima
+title = 3BB Nakhon Ratchasima - speedtest-nma1.3bb.co.th
+host = speedtest-nma1.3bb.co.th
+++++TOTNakhonRatchasima
+menu = TOT Nakhon Ratchasima
+title = TOT Nakhon Ratchasima - nmaspeedtestnet.totbroadband.com
+host = nmaspeedtestnet.totbroadband.com
+
++++KhonKaen
+menu = Khon Kaen
+title = Khon Kaen
+++++AISKhonKaen
+menu = AIS Khon Kaen
+title = AIS Khon Kaen - speedtest-kkn1.ais-idc.net
+host = speedtest-kkn1.ais-idc.net
+++++DTACKhonKaen
+menu = DTAC Khon Kaen
+title = DTAC Khon Kaen - speedtest13.dtacnetwork.co.th
+host = speedtest13.dtacnetwork.co.th
+++++3BBKhonKaen
+menu = 3BB Khon Kaen
+title = 3BB Khon Kaen - speedtest-kkn1.3bb.co.th
+host = speedtest-kkn1.3bb.co.th
+++++TOTKhonKaen
+menu = TOT Khon Kaen
+title = TOT Khon Kaen - kknspeedtestnet.totbroadband.com
+host = kknspeedtestnet.totbroadband.com
+
++++‎Phitsanulok
+menu = ‎Phitsanulok
+title = ‎Phitsanulok
+++++CATTelecom‎Phitsanulok
+menu = CAT Telecom ‎Phitsanulok
+title = CAT Telecom ‎Phitsanulok - www.catspeedtest.net
+host = www.catspeedtest.net
+++++AIS‎Phitsanulok
+menu = AIS ‎Phitsanulok
+title = AIS ‎Phitsanulok - speedtest1.ais-idc.net
+host = speedtest1.ais-idc.net
+++++DTAC‎Phitsanulok
+menu = DTAC ‎Phitsanulok
+title = DTAC ‎Phitsanulok - speedtest5.dtacnetwork.co.th
+host = speedtest5.dtacnetwork.co.th
+++++3BB‎Phitsanulok
+menu = 3BB ‎Phitsanulok
+title = 3BB ‎Phitsanulok - speedtest-sp1.3bb.co.th
+host = speedtest-sp1.3bb.co.th
+++++TOT‎Phitsanulok
+menu = TOT ‎Phitsanulok
+title = TOT ‎Phitsanulok - totspeedtest.totbroadband.com
+host = totspeedtest.totbroadband.com
 
 
 ++UnitedStates
