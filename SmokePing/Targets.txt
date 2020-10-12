@@ -2053,26 +2053,22 @@ host = kknspeedtestnet.totbroadband.com
 +++Phitsanulok
 menu = Phitsanulok
 title = Phitsanulok
-++++CATTelecomPhitsanulok
-menu = CAT Telecom Phitsanulok
-title = CAT Telecom Phitsanulok - www.catspeedtest.net
-host = www.catspeedtest.net
 ++++AISPhitsanulok
 menu = AIS Phitsanulok
-title = AIS Phitsanulok - speedtest1.ais-idc.net
-host = speedtest1.ais-idc.net
+title = AIS Phitsanulok - speedtest-plk1.ais-idc.net
+host = speedtest-plk1.ais-idc.net
 ++++DTACPhitsanulok
 menu = DTAC Phitsanulok
-title = DTAC Phitsanulok - speedtest5.dtacnetwork.co.th
-host = speedtest5.dtacnetwork.co.th
+title = DTAC Phitsanulok - speedtest12.dtacnetwork.co.th
+host = speedtest12.dtacnetwork.co.th
 ++++3BBPhitsanulok
 menu = 3BB Phitsanulok
-title = 3BB Phitsanulok - speedtest-sp1.3bb.co.th
-host = speedtest-sp1.3bb.co.th
+title = 3BB Phitsanulok - speedtest-plk1.3bb.co.th
+host = speedtest-plk1.3bb.co.th
 ++++TOTPhitsanulok
 menu = TOT Phitsanulok
-title = TOT Phitsanulok - totspeedtest.totbroadband.com
-host = totspeedtest.totbroadband.com
+title = TOT Phitsanulok - plkspeedtestnet.totbroadband.com
+host = plkspeedtestnet.totbroadband.com
 
 
 ++UnitedStates
