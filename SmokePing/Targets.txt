@@ -2020,7 +2020,7 @@ title = Nakhon Ratchasima
 ++++AISNakhonRatchasima
 menu = AIS Nakhon Ratchasima
 title = AIS Nakhon Ratchasima - speedtest-nma1.ais-idc.net
-host = sspeedtest-nma1.ais-idc.net
+host = speedtest-nma1.ais-idc.net
 ++++3BBNakhonRatchasima
 menu = 3BB Nakhon Ratchasima
 title = 3BB Nakhon Ratchasima - speedtest-nma1.3bb.co.th
