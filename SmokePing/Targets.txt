@@ -65,7 +65,7 @@ title = Level3 DNS 1 - resolver1.level3.net
 host = resolver1.level3.net
 ++Level3DNS2
 menu = Level3 DNS 2
-title = Level3 DNS 2 - resolver2.level3.net 
+title = Level3 DNS 2 - resolver2.level3.net
 host = resolver2.level3.net
 
 
@@ -2269,14 +2269,12 @@ title = Games
 menu = Dota 2
 title = Dota 2
 
-+++Europe
-menu = Europe
-title = Europe
-++++EuropeEast
++++EuropeEast
 menu = Europe East
 title = Europe East - vie.valve.net
 host = vie.valve.net
-++++EuropeWest
+
++++EuropeWest
 menu = Europe West
 title = Europe West - lux.valve.net
 host = lux.valve.net
@@ -2286,26 +2284,22 @@ menu = Russia
 title = Russia - sto.valve.net
 host = sto.valve.net
 
-+++SoutheastAsia
-menu = Southeast Asia
-title = Southeast Asia
-++++SoutheastAsia1
++++SoutheastAsia1
 menu = SE Asia 1
 title = SE Asia 1 - sgp-1.valve.net
 host = sgp-1.valve.net
-++++SoutheastAsia2
+
++++SoutheastAsia2
 menu = SE Asia 2
 title = SE Asia 2 - sgp-2.valve.net
 host = sgp-2.valve.net
 
-+++UnitedStates
-menu = United States
-title = United States
-++++USEast
++++USEast
 menu = US East
 title = US East - iad.valve.net
 host = iad.valve.net
-++++USWest
+
++++USWest
 menu = US West
 title = US West - eat.valve.net
 host = eat.valve.net
