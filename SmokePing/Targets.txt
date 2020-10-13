@@ -1937,10 +1937,6 @@ title = Thailand
 +++Bangkok
 menu = Bangkok
 title = Bangkok
-++++CATTelecomBangkok
-menu = CAT Telecom Bangkok
-title = CAT Telecom Bangkok - www.catspeedtest.net
-host = www.catspeedtest.net
 ++++AISBangkok
 menu = AIS Bangkok
 title = AIS Bangkok - speedtest1.ais-idc.net
