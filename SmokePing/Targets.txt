@@ -2308,14 +2308,17 @@ host = eat.valve.net
 ++LeagueofLegends
 menu = League of Legends
 title = League of Legends
+
 +++BR
 menu = BR
 title = BR - 104.160.152.3
 host = 104.160.152.3
+
 +++EUNE
 menu = EUNE
 title = EUNE - 104.160.142.3
 host = 104.160.142.3
+
 +++LAN
 menu = LAN
 title = LAN - 104.160.136.3
