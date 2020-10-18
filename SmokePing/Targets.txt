@@ -20,7 +20,6 @@ title = Local Network
 menu = Local Machine
 title = This host
 host = localhost
-#alerts = someloss
 
 
 
@@ -117,6 +116,24 @@ title = Amazon CloudFront - d3mduebighmd0u.cloudfront.net
 host = d3mduebighmd0u.cloudfront.net
 
 
+++Cloudflare
+menu = Cloudflare
+title = Cloudflare - www.cloudflare.com
+host = www.cloudflare.com
+
+
+++Fastly
+menu = Fastly
+title = Fastly - www.fastly.com
+host = www.fastly.com
+
+
+++Imperva
+menu = Imperva
+title = Imperva - www.imperva.com
+host = www.imperva.com
+
+
 ++LimelightNetworks
 menu = Limelight Networks
 title = Limelight Networks - www.limelight.com
@@ -129,22 +146,16 @@ title = StackPath - www.stackpath.com
 host = www.stackpath.com
 
 
-++Imperva
-menu = Imperva
-title = Imperva - www.imperva.com
-host = www.imperva.com
+++TataCommunicationsCDN
+menu = Tata Communications CDN
+title = Tata Communications CDN - cdn.tatacommunications.com
+host = cdn.tatacommunications.com
 
 
-++Cloudflare
-menu = Cloudflare
-title = Cloudflare - www.cloudflare.com
-host = www.cloudflare.com
-
-
-++Fastly
-menu = Fastly
-title = Fastly - www.fastly.com
-host = www.fastly.com
+++VerizonEdgecast
+menu = Verizon Edgecast
+title = Verizon Edgecast - www.verizondigitalmedia.com
+host = www.verizondigitalmedia.com
 
 
 
