@@ -2258,6 +2258,11 @@ menu = OpenVPN Server AWS-SYD.AU
 title = OpenVPN Server AWS-SYD.AU - vpn.aws-syd.au.thetooorg.net
 host = vpn.aws-syd.au.thetooorg.net
 
++++OpenVPNServerAWSSYDAU
+menu = OpenVPN Server AWS-TYO.JP
+title = OpenVPN Server AWS-TYO.JP - vpn.aws-tyo.jp.thetooorg.net
+host = vpn.aws-tyo.jp.thetooorg.net
+
 
 
 +Games
