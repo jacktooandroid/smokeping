@@ -1,4 +1,4 @@
-#Updated 20201012
+#Updated 20201021
 *** Targets ***
 
 probe = FPing
@@ -589,12 +589,20 @@ title = Optus Sydney - speedtest.syd.optusnet.com.au
 host = speedtest.syd.optusnet.com.au
 ++++VodafoneAUSydney
 menu = Vodafone AU Sydney
-title = Vodafone AU Sydney - ek.speedtest.vodafone.com.au
-host = ek.speedtest.vodafone.com.au
+title = Vodafone AU Sydney - nn.speedtest.vodafone.com.au
+host = nn.speedtest.vodafone.com.au
+++++VocusAUSydney
+menu = Vocus AU Sydney
+title = Vocus AU Sydney - speedtest-syd.vocus.net
+host = speedtest-syd.vocus.net
 ++++InternodeSydney
 menu = Internode Sydney
 title = Internode Sydney - speedtest-syd.cdn.on.net
 host = speedtest-syd.cdn.on.net
+++++LauntelSydney
+menu = Launtel Sydney
+title = Launtel Sydney - speedtest-syd.launtel.net.au
+host = speedtest-syd.launtel.net.au
 ++++AARNetSydney
 menu = AARNet Sydney
 title = AARNet Sydney - nsw-brwy-speedtest.aarnet.net.au
@@ -619,6 +627,10 @@ host = speedtest.mel.optusnet.com.au
 menu = Vodafone AU Melbourne
 title = Vodafone AU Melbourne - my1.speedtest.vodafone.com.au
 host = my1.speedtest.vodafone.com.au
+++++VocusAUMelbourne
+menu = Vocus AU Melbourne
+title = Vocus AU Melbourne - speedtest-mel.vocus.net
+host = speedtest-mel.vocus.net
 ++++InternodeMelbourne
 menu = Internode Melbourne
 title = Internode Melbourne - speedtest-mel.cdn.on.net
@@ -639,6 +651,10 @@ host = brs1.speedtest.telstra.net
 menu = Optus Brisbane
 title = Optus Brisbane - speedtest.bri.optusnet.com.au
 host = speedtest.bri.optusnet.com.au
+++++VocusAUBrisbane
+menu = Vocus AU Brisbane
+title = Vocus AU Brisbane - speedtest-bne.vocus.net
+host = speedtest-bne.vocus.net
 ++++InternodeBrisbane
 menu = Internode Brisbane
 title = Internode Brisbane - speedtest-bne.cdn.on.net
@@ -659,6 +675,14 @@ host = per1.speedtest.telstra.net
 menu = Optus Perth
 title = Optus Perth - speedtest.per.optusnet.com.au
 host = speedtest.per.optusnet.com.au
+++++VodafoneAUPerth
+menu = Vodafone AU Perth
+title = Vodafone AU Perth - ph.speedtest.vodafone.com.au
+host = ph.speedtest.vodafone.com.au
+++++VocusAUPerth
+menu = Vocus AU Perth
+title = Vocus AU Perth - speedtest-pth.vocus.net
+host = speedtest-pth.vocus.net
 ++++InternodePerth
 menu = Internode Perth
 title = Internode Perth - speedtest-per.cdn.on.net
@@ -683,6 +707,10 @@ host = speedtest.adl.optusnet.com.au
 menu = Vodafone AU Adelaide
 title = Vodafone AU Adelaide - ae.speedtest.vodafone.com.au
 host = ae.speedtest.vodafone.com.au
+++++VocusAUAdelaide
+menu = Vocus AU Adelaide
+title = Vocus AU Adelaide - speedtest-ade.vocus.net
+host = speedtest-ade.vocus.net
 ++++InternodeAdelaide
 menu = Internode Adelaide
 title = Internode Adelaide - speedtest-adl.cdn.on.net
@@ -703,10 +731,18 @@ host = hob1.speedtest.telstra.net
 menu = Optus Hobart
 title = Optus Hobart - speedtest.tas.optusnet.com.au
 host = speedtest.tas.optusnet.com.au
+++++LauntelHobart
+menu = Launtel Hobart
+title = Launtel Hobart - speedtest.launtel.net.au
+host = speedtest.launtel.net.au
 ++++TasmaNetAUHobart
 menu = TasmaNet AU Hobart
 title = TasmaNet AU Hobart - speedtest.tasmanet.com.au
 host = speedtest.tasmanet.com.au
+++++AARNetHobart
+menu = AARNet Hobart
+title = AARNet Hobart - tas-dwpk-speedtest.aarnet.net.au
+host = tas-dwpk-speedtest.aarnet.net.au
 
 +++Darwin
 menu = Darwin
@@ -1098,14 +1134,6 @@ host = hon.speedtest.gtt.net
 menu = Hutchison Hong Kong
 title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
 host = ookla-speedtest.hgconair.hgc.com.hk
-
-+++Guangzhou
-menu = Guangzhou
-title = Guangzhou
-++++ChinaMobileGuangzhou
-menu = China Mobile Guangzhou
-title = China Mobile Guangzhou - speedtest1.gd.chinamobile.com
-host = speedtest1.gd.chinamobile.com
 
 
 ++India
