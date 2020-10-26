@@ -1963,10 +1963,26 @@ title = United Kindgom
 +++London
 menu = London
 title = London
+++++FibreNest London
+menu = FibreNest London
+title = FibreNest London - st-1.fibrenest.net
+host = st-1.fibrenest.net
+++++GlideLondon
+menu = Glide London
+title = Glide London - speedtest.warwicknet.com
+host = speedtest.warwicknet.com
 ++++GTTLondon
 menu = GTT London
 title = GTT London - lon.speedtest.gtt.net
 host = lon.speedtest.gtt.net
+++++LightningFibreLondon
+menu = Lightning Fibre London
+title = Lightning Fibre London - speedtest2.lightningfibre.net.uk
+host = speedtest2.lightningfibre.net.uk
+++++RETNGBLondon
+menu = RETN GB London
+title = RETN GB London - speedtest-lon.retn.net
+host = speedtest-lon.retn.net
 
 
 ++Thailand
