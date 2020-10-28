@@ -116,6 +116,12 @@ title = Amazon CloudFront - d3mduebighmd0u.cloudfront.net
 host = d3mduebighmd0u.cloudfront.net
 
 
+++AppleCDN
+menu = Apple CDN
+title = Apple CDN - updates-http.cdn-apple.com
+host = updates-http.cdn-apple.com
+
+
 ++Cloudflare
 menu = Cloudflare
 title = Cloudflare - www.cloudflare.com
