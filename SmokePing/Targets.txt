@@ -1129,6 +1129,126 @@ menu = China Unicom Shanghai
 title = China Unicom Shanghai - 5g.shunicomtest.com
 host = 5g.shunicomtest.com
 
++++Shenzhen
+menu = Shenzhen
+title = Shenzhen
+++++ChinaUnicomShenzhen
+menu = China Unicom Shenzhen
+title = China Unicom Shenzhen - speedtest.75510010.com
+host = speedtest.75510010.com
+
++++Wuhan
+menu = Wuhan
+title = Wuhan
+++++ChinaUnicomWuhan
+menu = China Unicom Wuhan
+title = China Unicom Wuhan - 113.57.249.2
+host = 113.57.249.2
+
++++Chongqing
+menu = Chongqing
+title = Chongqing
+++++ChinaTelecomChongqing
+menu = China Telecom Chongqing
+title = China Telecom Chongqing - speed.cqtelecom.com.cn
+host = speed.cqtelecom.com.cn
+++++ChinaUnicomChongqing
+menu = China Unicom Chongqing
+title = China Unicom Chongqing - speedtest.cqwin.com
+host = speedtest.cqwin.com
+++++ChinaMobileChongqing
+menu = China Mobile Chongqing
+title = China Mobile Chongqing - speedtest2.cq.chinamobile.com
+host = speedtest2.cq.chinamobile.com
+
++++Chengdu
+menu = Chengdu
+title = Chengdu
+++++ChinaTelecomChengdu
+menu = China Telecom Chengdu
+title = China Telecom Chengdu - speedtest1.sc.189.cn
+host = speedtest1.sc.189.cn
+++++ChinaUnicomChengdu
+menu = China Unicom Chengdu
+title = China Unicom Chengdu - speedtest1.wangjia.net
+host = speedtest1.wangjia.net
+++++ChinaMobileChengdu
+menu = China Mobile Chengdu
+title = China Mobile Chengdu - speedtest2.sc.chinamobile.com
+host = speedtest2.sc.chinamobile.com
+
++++Nanjing
+menu = Nanjing
+title = Nanjing
+++++ChinaUnicomNanjing
+menu = China Unicom Nanjing
+title = China Unicom Nanjing - speedtest02.js165.com
+host = speedtest02.js165.com
+++++ChinaMobileNanjing
+menu = China Mobile Nanjing
+title = China Mobile Nanjing - owa.eastcom-sw.com
+host = owa.eastcom-sw.com
+
++++Xian
+menu = Xi'an
+title = Xi'an
+++++ChinaUnicomXian
+menu = China Unicom Xi'an
+title = China Unicom Xi'an - xatest.wo-xa.com
+host = xatest.wo-xa.com
+
++++Shenyang
+menu = Shenyang
+title = Shenyang
+++++ChinaMobileShenyang
+menu = China Mobile Shenyang
+title = China Mobile Shenyang - speedtest1.ln.chinamobile.com
+host = speedtest1.ln.chinamobile.com
+
++++Harbin
+menu = Harbin
+title = Harbin
+++++ChinaMobileHarbin
+menu = China Mobile Harbin
+title = China Mobile Harbin - 5gtest.hl.chinamobile.com
+host = 5gtest.hl.chinamobile.com
+
++++Urumqi
+menu = Urumqi
+title = Urumqi
+++++ChinaTelecomUrumqi
+menu = China Telecom Urumqi
+title = China Telecom Urumqi - speedtest.open189.net
+host = speedtest.open189.net
+++++ChinaMobileUrumqi
+menu = China Mobile Urumqi
+title = China Mobile Urumqi - speedtest6.xj.chinamobile.com
+host = speedtest6.xj.chinamobile.com
+
++++Lanzhou
+menu = Lanzhou
+title = Lanzhou
+++++ChinaTelecomLanzhou
+menu = China Telecom Lanzhou
+title = China Telecom Lanzhou - speedtest.bajianjun.com
+host = speedtest.bajianjun.com
+++++ChinaUnicomLanzhou
+menu = China Unicom Lanzhou
+title = China Unicom Lanzhou - lanzhouunicom.com
+host = lanzhouunicom.com
+++++ChinaMobileLanzhou
+menu = China Mobile Lanzhou
+title = China Mobile Lanzhou - speedtest1.gs.chinamobile.com
+host = speedtest1.gs.chinamobile.com
+
++++Lhasa
+menu = Lhasa
+title = Lhasa
+++++ChinaMobileLhasa
+menu = China Mobile Lhasa
+title = China Mobile Lhasa - speedtest1.xz.chinamobile.com
+host = speedtest1.xz.chinamobile.com
+
 +++HongKong
 menu = Hong Kong
 title = Hong Kong
@@ -1140,6 +1260,7 @@ host = hon.speedtest.gtt.net
 menu = Hutchison Hong Kong
 title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
 host = ookla-speedtest.hgconair.hgc.com.hk
+
 
 
 ++India
