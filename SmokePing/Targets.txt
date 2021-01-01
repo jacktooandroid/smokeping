@@ -522,6 +522,18 @@ menu = University of Warwick VPN
 title = University of Warwick VPN - campusvpn.warwick.ac.uk
 host = campusvpn.warwick.ac.uk
 
++++UniversityofEdinburgh
+menu = University of Edinburgh
+title = University of Edinburgh
+++++UniversityofEdinburghVPN
+menu = University of Edinburgh VPN
+title = University of Edinburgh VPN - remote.net.ed.ac.uk
+host = remote.net.ed.ac.uk
+++++UniversityofEdinburghEduroam
+menu = University of Edinburgh Eduroam
+title = University of Edinburgh Eduroam - archer.ucs.ed.ac.uk
+host = archer.ucs.ed.ac.uk
+
 
 
 +Telecoms
@@ -2509,4 +2521,24 @@ host = 104.160.142.3
 +++LAN
 menu = LAN
 title = LAN - 104.160.136.3
-host = 104.160.136.3
+host = 104.160.136.3é
+
+
+++StarCraft2
+menu = StarCraft 2
+title = StarCraft 2
+
++++USWest
+menu = US West
+title = US West - 24.105.30.129
+host = 24.105.30.129
+
++++Europe
+menu = Europe
+title = Europe - 185.60.112.157
+host = 185.60.112.157
+
++++Australia
+menu = Australia
+title = Australia - 103.4.114.233
+host = 103.4.114.233
