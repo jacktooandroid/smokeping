@@ -2521,7 +2521,7 @@ host = 104.160.142.3
 +++LAN
 menu = LAN
 title = LAN - 104.160.136.3
-host = 104.160.136.3é
+host = 104.160.136.3
 
 
 ++StarCraft2
