@@ -1516,6 +1516,31 @@ title = Jio Guwahati - speedgwh1.jioconnect.com
 host = speedgwh1.jioconnect.com
 
 
+++Ireland
+menu = Ireland
+title = Ireland
+
++++Dublin
+menu = Dublin
+title = Dublin
+++++eirDublin
+menu = eir Dublin
+title = eir  Dublin - ngaweb00.eircom.net
+host = ngaweb00.eircom.net
+++++VodafoneIEDublin
+menu = Vodafone IE Dublin
+title = Vodafone IE Dublin - speedtest.vodafone.ie
+host = speedtest.vodafone.ie
+++++ThreeIEDublin 
+menu = Three IE Dublin
+title = Three IE Dublin - speedtest.three.ie
+host = speedtest.three.ie
+++++BTIEDublin
+menu = BT IE Dublin
+title = BT IE Dublin - roadrunner.cwt.btireland.net
+host = roadrunner.cwt.btireland.net
+
+
 ++Malaysia
 menu = Malaysia
 title = Malaysia
