@@ -1550,8 +1550,8 @@ menu = Kuala Lumpur
 title = Kuala Lumpur
 ++++TelekomMalaysiaKualaLumpur
 menu = Telekom Malaysia Kuala Lumpur
-title = Telekom Malaysia Kuala Lumpur - speedtest-ookla1.tm.net.my
-host = speedtest-ookla1.tm.net.my
+title = Telekom Malaysia Kuala Lumpur - speedtest.tm.com.my
+host = speedtest.tm.com.my
 ++++TIMEdotcomKualaLumpur
 menu = TIME dotcom Kuala Lumpur
 title = TIME dotcom Kuala Lumpur - speed.time.com.my
