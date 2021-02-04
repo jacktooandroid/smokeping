@@ -32,3 +32,7 @@ sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Smok
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Smokeping_Targets_Monitoring_Script.sh -o /home/Smokeping_Targets_Monitoring_Script.sh
 
 exit
+
+#crontab command
+* * * * * sudo bash /home/Smokeping_Targets_Monitoring_Script.sh
+*/15 * * * *  sudo bash /home/miniupnp.sh
