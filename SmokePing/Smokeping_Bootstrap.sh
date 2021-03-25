@@ -23,9 +23,9 @@ sudo curl https://raw.githubusercontent.com/jacktooandroid/cloudflare/master/clo
 
 #MiniUPNP Settings
 echo "sudo upnpc -r 80 tcp" | sudo tee -a /home/miniupnp.sh
-echo "sudo upnpc -r 8080 tcp" | sudo tee -a /home/miniupnp.sh
-echo "sudo upnpc -r 53 tcp" | sudo tee -a /home/miniupnp.sh
-echo "sudo upnpc -r 53 udp" | sudo tee -a /home/miniupnp.sh
+#echo "sudo upnpc -r 8080 tcp" | sudo tee -a /home/miniupnp.sh
+#echo "sudo upnpc -r 53 tcp" | sudo tee -a /home/miniupnp.sh
+#echo "sudo upnpc -r 53 udp" | sudo tee -a /home/miniupnp.sh
 echo "sudo upnpc -r 5201 tcp" | sudo tee -a /home/miniupnp.sh
 sudo bash /home/miniupnp.sh
 
