@@ -427,6 +427,14 @@ title = Universities
 menu = Australia
 title = Australia
 
++++UniversityofSydney
+menu = University of Sydney
+title = University of Sydney
+++++UniversityofSydneyVPN
+menu = University of Sydney VPN
+title = University of Sydney VPN - vpn.sydney.edu.au
+host = vpn.sydney.edu.au
+
 +++UniversityofMelbourne
 menu = University of Melbourne
 title = University of Melbourne
@@ -434,6 +442,14 @@ title = University of Melbourne
 menu = University of Melbourne Eduroam
 title = University of Melbourne Eduroam - wireless.unimelb.edu.au
 host = wireless.unimelb.edu.au
+
++++UniversityofNewSouthWales
+menu = University of New South Wales
+title = University of New South Wales
+++++UniversityofNewSouthWalesVPN
+menu = University of New South Wales VPN
+title = University of New South Wales VPN - vpn.unsw.edu.au
+host = vpn.unsw.edu.au
 
 +++MonashUniversity
 menu = Monash University
@@ -1279,38 +1295,6 @@ host = ookla-speedtest.hgconair.hgc.com.hk
 menu = India
 title = India
 
-+++Mumbai
-menu = Mumbai
-title = Mumbai
-++++AirtelBroadbandMumbai
-menu = Airtel Broadband Mumbai
-title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
-host = speedtestmh.airtelbroadband.in
-++++VodafoneINMumbai
-menu = Vodafone IN Mumbai
-title = Vodafone IN Mumbai - speedtestmum.vodafone.ind.in
-host = speedtestmum.vodafone.ind.in
-++++IdeaCellularMumbai
-menu = Idea Cellular Mumbai
-title = Idea Cellular Mumbai - sp3.ideaisp.net
-host = sp3.ideaisp.net
-++++JioMumbai
-menu = Jio Mumbai
-title = Jio Mumbai - speedmum2.jioconnect.com
-host = speedmum2.jioconnect.com
-++++YOUBroadbandMumbai
-menu = YOU Broadband Mumbai
-title = YOU Broadband Mumbai - sp1-mum.youbroadband.in
-host = sp1-mum.youbroadband.in
-++++TATASkyBroadbandMumbai
-menu = TATASky Broadband Mumbai
-title = TATASky Broadband Mumbai - speedtestmum.tataskybroadband.com
-host = speedtestmum.tataskybroadband.com
-++++RailTelMumbai
-menu = RailTel Mumbai
-title = RailTel Mumbai - mum.speedtest.rcil.gov.in
-host = mum.speedtest.rcil.gov.in
-
 +++NewDelhi
 menu = New Delhi
 title = New Delhi
@@ -1342,6 +1326,38 @@ host = speedtestdelhi.actcorp.in
 menu = RailTel New Delhi
 title = RailTel New Delhi - speedtest.ggn.rcil.gov.in
 host = speedtest.ggn.rcil.gov.in
+
++++Mumbai
+menu = Mumbai
+title = Mumbai
+++++AirtelBroadbandMumbai
+menu = Airtel Broadband Mumbai
+title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
+host = speedtestmh.airtelbroadband.in
+++++VodafoneINMumbai
+menu = Vodafone IN Mumbai
+title = Vodafone IN Mumbai - speedtestmum.vodafone.ind.in
+host = speedtestmum.vodafone.ind.in
+++++IdeaCellularMumbai
+menu = Idea Cellular Mumbai
+title = Idea Cellular Mumbai - sp3.ideaisp.net
+host = sp3.ideaisp.net
+++++JioMumbai
+menu = Jio Mumbai
+title = Jio Mumbai - speedmum2.jioconnect.com
+host = speedmum2.jioconnect.com
+++++YOUBroadbandMumbai
+menu = YOU Broadband Mumbai
+title = YOU Broadband Mumbai - sp1-mum.youbroadband.in
+host = sp1-mum.youbroadband.in
+++++TATASkyBroadbandMumbai
+menu = TATASky Broadband Mumbai
+title = TATASky Broadband Mumbai - speedtestmum.tataskybroadband.com
+host = speedtestmum.tataskybroadband.com
+++++RailTelMumbai
+menu = RailTel Mumbai
+title = RailTel Mumbai - mum.speedtest.rcil.gov.in
+host = mum.speedtest.rcil.gov.in
 
 +++Kolkata
 menu = Kolkata
