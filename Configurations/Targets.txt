@@ -505,6 +505,35 @@ title = University of British Columbia VPN - myvpn.ubc.ca
 host = myvpn.ubc.ca
 
 
+++China
+menu = China
+title = China
+
++++TsinghuaUniversity
+menu = Tsinghua University
+title = Tsinghua University
+++++TsinghuaUniversityVPN
+menu = Tsinghua University VPN
+title = Tsinghua University VPN - sslvpn.tsinghua.edu.cn
+host = sslvpn.tsinghua.edu.cn
+
++++PekingUniversity
+menu = Peking University
+title = Peking University
+++++PekingUniversityVPN
+menu = Peking University VPN
+title = Peking University VPN - vpn.pku.edu.cn
+host = vpn.pku.edu.cn
+
++++FudanUniversity
+menu = Fudan University
+title = Fudan University
+++++FudanUniversityVPN
+menu = Fudan University VPN
+title = Fudan University VPN - te.sslvpn.fudan.edu.cn
+host = te.sslvpn.fudan.edu.cn
+
+
 ++NewZealand
 menu = New Zealand
 title = New Zealand
@@ -543,6 +572,38 @@ host = webvpn.nus.edu.sg
 menu = United Kingdom
 title = United Kingdom
 
++++UniversityofOxford
+menu = University of Oxford
+title = University of Oxford
+++++UniversityofOxfordVPN
+menu = University of Oxford VPN
+title = University of Oxford VPN - vpn.ox.ac.uk
+host = vpn.ox.ac.uk
+++++UniversityofOxfordEduroam
+menu = University of Oxford Eduroam
+title = University of Oxford VPN - radius.oucs.ox.ac.uk
+host = radius.oucs.ox.ac.uk
+
++++UniversityofCambridge
+menu = University of Cambridge
+title = University of Cambridge
+++++UniversityofCambridgeVPN
+menu = University of Cambridge VPN
+title = University of Cambridge VPN - vpn.uis.cam.ac.uk
+host = vpn.uis.cam.ac.uk
+
++++ImperialCollegeLondon
+menu = Imperial College London
+title = Imperial College London
+++++ImperialCollegeLondonVPN1
+menu = Imperial College London VPN 1
+title = Imperial College London VPN 1 - vpn.ic.ac.uk
+host = vpn.ic.ac.uk
+++++ImperialCollegeLondonVPN2
+menu = Imperial College London VPN 2
+title = Imperial College London VPN 2 - openvpn.ic.ac.uk
+host = openvpn.ic.ac.uk
+
 +++UniversityofWarwick
 menu = University of Warwick
 title = University of Warwick
@@ -562,6 +623,14 @@ host = remote.net.ed.ac.uk
 menu = University of Edinburgh Eduroam
 title = University of Edinburgh Eduroam - archer.ucs.ed.ac.uk
 host = archer.ucs.ed.ac.uk
+
++++CardiffUniversity
+menu = Cardiff University
+title = Cardiff University
+++++CardiffUniversityVPN
+menu = Cardiff University VPN
+title = Cardiff University VPN - pavpn.cf.ac.uk
+host = pavpn.cf.ac.uk
 
 
 
