@@ -2,8 +2,8 @@
 
 mkdir /tmp/smokeping
 
-sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Targets.txt -O /tmp/smokeping/Targets
-sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/SmokePing/Targets.txt -o /tmp/smokeping/Targets
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Targets.txt -O /tmp/smokeping/Targets
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Targets.txt -o /tmp/smokeping/Targets
 
 sha256sum /tmp/smokeping/Targets | head -c 64 | sudo tee /tmp/smokeping/GitHub_Targets > /dev/null
 sha256sum /etc/smokeping/config.d/Targets | head -c 64 | sudo tee /tmp/smokeping/Local_Targets > /dev/null
