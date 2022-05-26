@@ -1,0 +1,7 @@
+*** Probes ***
+
++ FPing
+
+binary          = /usr/bin/fping
+packetsize      = 56
+pings           = 20

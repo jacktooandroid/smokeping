@@ -1,0 +1,2585 @@
+#Updated 20201021
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of MicroFox Telecom Network. \
+Here you will learn all about the latency of our network.
+
+
+
++Local
+menu = Local
+title = Local Network
+#parents = owner:/Test/James location:/
+
+
+++LocalMachine
+menu = Local Machine
+title = This host
+host = localhost
+
+
+
++DNS
+menu = DNS
+title = Recursive DNS
+
+
+++CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1 - 1.1.1.1
+host = 1.1.1.1
+++CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 2 - 1.0.0.1
+host = 1.0.0.1
+
+
+++DynDNS1
+menu = Dyn DNS 1
+title = Dyn DNS 1 - resolver1.dyndnsinternetguide.com
+host = resolver1.dyndnsinternetguide.com
+++DynDNS2
+menu = Dyn DNS 2
+title = Dyn DNS 2 - resolver2.dyndnsinternetguide.com
+host = resolver2.dyndnsinternetguide.com
+
+
+++GoogleDNS1
+menu = Google DNS 1
+title = Google DNS 1 - 8.8.8.8
+host = 8.8.8.8
+++GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 2 - 8.8.4.4
+host = 8.8.4.4
+
+
+++Level3DNS1
+menu = Level3 DNS 1
+title = Level3 DNS 1 - resolver1.level3.net
+host = resolver1.level3.net
+++Level3DNS2
+menu = Level3 DNS 2
+title = Level3 DNS 2 - resolver2.level3.net
+host = resolver2.level3.net
+
+
+++OpenDNS1
+menu = OpenDNS 1
+title = OpenDNS 1 - 208.67.222.222
+host = 208.67.222.222
+++OpenDNS2
+menu = OpenDNS 2
+title = OpenDNS 2 - 208.67.220.220
+host = 208.67.220.220
+
+
+++Quad9DNS1
+menu = Quad9 DNS 1
+title = Quad9 DNS 1 - 9.9.9.9
+host = 9.9.9.9
+++Quad9DNS2
+menu = Quad9 DNS 2
+title = Quad9 DNS 2 - 149.112.112.112
+host = 149.112.112.112
+
+
+++VerisignDNS1
+menu = Verisign DNS 1
+title = Verisign DNS 1 - 64.6.64.6
+host = 64.6.64.6
+++VerisignDNS2
+menu = Verisign DNS 2
+title = Verisign DNS 2 - 64.6.65.6
+host = 64.6.65.6
+
+
+
++CDN
+menu = CDN
+title = CDN
+
+
+++Akamai
+menu = Akamai
+title = Akamai - www.akamai.com
+host = www.akamai.com
+
+
+++AmazonCloudFront
+menu = Amazon CloudFront
+title = Amazon CloudFront - d3mduebighmd0u.cloudfront.net
+host = d3mduebighmd0u.cloudfront.net
+
+
+++AppleCDN
+menu = Apple CDN
+title = Apple CDN - updates-http.cdn-apple.com
+host = updates-http.cdn-apple.com
+
+
+++Cloudflare
+menu = Cloudflare
+title = Cloudflare - www.cloudflare.com
+host = www.cloudflare.com
+
+
+++Fastly
+menu = Fastly
+title = Fastly - www.fastly.com
+host = www.fastly.com
+
+
+++Imperva
+menu = Imperva
+title = Imperva - www.imperva.com
+host = www.imperva.com
+
+
+++LimelightNetworks
+menu = Limelight Networks
+title = Limelight Networks - www.limelight.com
+host = www.limelight.com
+
+
+++StackPath
+menu = StackPath
+title = StackPath - www.stackpath.com
+host = www.stackpath.com
+
+
+++TataCommunicationsCDN
+menu = Tata Communications CDN
+title = Tata Communications CDN - cdn.tatacommunications.com
+host = cdn.tatacommunications.com
+
+
+++VerizonEdgecast
+menu = Verizon Edgecast
+title = Verizon Edgecast - www.verizondigitalmedia.com
+host = www.verizondigitalmedia.com
+
+
+
++Finance
+menu = Finance
+title = Finance
+
+
+++BloombergTerminal
+menu = Bloomberg Terminal
+title = Bloomberg Terminal
+
++++BloombergTerminalAPI1
+menu = Bloomberg Terminal API1
+title = Bloomberg Terminal API1 - api1.bloomberg.net
+host = api1.bloomberg.net
++++BloombergTerminalAPI2
+menu = Bloomberg Terminal API2
+title = Bloomberg Terminal API2 - api2.bloomberg.net
+host = api2.bloomberg.net
++++BloombergTerminalAPI3
+menu = Bloomberg Terminal API3
+title = Bloomberg Terminal API3 - api3.bloomberg.net
+host = api3.bloomberg.net
++++BloombergTerminalAPI4
+menu = Bloomberg Terminal API4
+title = Bloomberg Terminal API4 - api4.bloomberg.net
+host = api4.bloomberg.net
++++BloombergTerminalAPI5
+menu = Bloomberg Terminal API5
+title = Bloomberg Terminal API5 - api5.bloomberg.net
+host = api5.bloomberg.net
++++BloombergTerminalAPI6
+menu = Bloomberg Terminal API6
+title = Bloomberg Terminal API6 - api6.bloomberg.net
+host = api6.bloomberg.net
+
+
+++FactSet
+menu = FactSet
+title = FactSet
+
++++FactSetAC1
+menu = FactSet AC1
+title = FaceSet AC1 - 192.234.235.1
+host = 192.234.235.1
++++FactSetAC2
+menu = FactSet AC2
+title = FaceSet AC2 - 192.234.235.2
+host = 192.234.235.2
++++FactSetAC3
+menu = FactSet AC3
+title = FaceSet AC3 - 64.209.89.1
+host = 64.209.89.1
++++FactSetAC4
+menu = FactSet AC4
+title = FaceSet AC4 - 64.209.89.2
+host = 64.209.89.2
++++FactSetAC5
+
+
+++TradingPlatforms
+menu = Trading Platforms
+title = Trading Platforms
+
++++FusionMarketsLive
+menu = Fusion Markets Live
+title = Fusion Markets Live - 170.75.197.152
+host = 170.75.197.152
+
++++FXCMLive
+menu = FXCM Live
+title = FXCM Live - mt4r01.fxcorporate.com
+host = mt4r01.fxcorporate.com
+
++++ICMarketsLive
+menu = IC Markets Live
+title = IC Markets Live - 170.75.200.10
+host = 170.75.200.10
+
++++Pepperstone
+menu = Pepperstone
+title = Pepperstone
+++++PepperstoneLive
+menu = Pepperstone Live
+title = Pepperstone Live - 170.75.202.219
+host = 170.75.202.219
+
++++TradestoLive
+menu = Tradesto Live
+title = Tradesto Live - 139.99.115.117
+host = 139.99.115.117
+
+
+
++CloudProviders
+menu = Cloud Providers
+title = Cloud Providers
+
+
+++AmazonAWS
+menu = Amazon Web Services
+title = Amazon Web Services
+
++++useast1
+menu = us-east-1 (North Virginia)
+title = us-east-1 (North Virginia) - 3.80.0.0
+host = 3.80.0.0
++++useast2
+menu = us-east-2 (Ohio)
+title = us-east-2 (Ohio) - 3.12.0.0
+host = 3.12.0.0
++++uswest1
+menu = us-west-1 (North California)
+title = us-west-1 (North California) - 13.52.0.0
+host = 13.52.0.0
++++uswest2
+menu = us-west-2 (Oregon)
+title = us-west-2 (Oregon) - 18.236.0.0
+host = 18.236.0.0
++++uswest2lax1
+menu = us-west-2-lax-1 (Los Angeles)
+title = us-west-2-lax-1 (Los Angeles) - 70.224.224.253
+host = 70.224.224.253
++++cacentral1
+menu = ca-central-1 (Central)
+title = ca-central-1 (Central) - 15.222.0.0
+host = 15.222.0.0
+
++++saeast1
+menu = sa-east-1 (Sao Paulo)
+title = sa-east-1 (Sao Paulo) - 18.228.0.0
+host = 18.228.0.0
+
++++euwest1
+menu = eu-west-1 (Ireland)
+title = eu-west-1 (Ireland) - 3.248.0.0
+host = 3.248.0.0
++++euwest2
+menu = eu-west-2 (London)
+title = eu-west-2 (London) - 3.8.0.0
+host = 3.8.0.0
++++euwest3
+menu = eu-west-3 (Paris)
+title = eu-west-3 (Paris) - 15.188.0.0
+host = 15.188.0.0
++++eucentral1
+menu = eu-central-1 (Frankfurt)
+title = eu-central-1 (Frankfurt) - 3.120.0.0
+host = 3.120.0.0
++++eunorth1
+menu = eu-north-1 (Stockholm)
+title = eu-north-1 (Stockholm) - 13.48.0.0
+host = 13.48.0.0
+
++++mesouth1
+menu = me-south-1 (Bahrain)
+title = me-south-1 (Bahrain) - 15.185.32.254
+host = 15.185.32.254
+
++++apnortheast1
+menu = ap-northeast-1 (Tokyo)
+title = ap-northeast-1 (Tokyo) - 3.112.0.0
+host = 3.112.0.0
++++apnortheast2
+menu = ap-northeast-2 (Seoul)
+title = ap-northeast-2 (Seoul) - 3.34.0.0
+host = 3.34.0.0
++++apnortheast3
+menu = ap-northeast-3 (Osaka)
+title = ap-northeast-2 (Osaka) - 13.208.32.253
+host = 13.208.32.253
++++apsoutheast1
+menu = ap-southeast-1 (Singapore)
+title = ap-southeast-1 (Singapore) - 3.0.0.9
+host = 3.0.0.9
++++apsoutheast2
+menu = ap-southeast-2 (Sydney)
+title = ap-southeast-2 (Sydney) - 3.24.0.0
+host = 3.24.0.0
++++apsouth1
+menu = ap-south-1 (Mumbai)
+title = ap-south-1 (Mumbai) - 3.6.0.0
+host = 3.6.0.0
++++apeast1
+menu = ap-east-1 (Hong Kong)
+title = ap-south-1 (Hong Kong) - 18.162.80.8
+host = 18.162.80.8
+
+
+++DigitalOcean
+menu = DigitalOcean
+title = DigitalOcean
+
++++NewYorkCity1
+menu = NYC1
+title = New York City 1 - speedtest-nyc1.digitalocean.com
+host = speedtest-nyc1.digitalocean.com
++++NewYorkCity2
+menu = NYC2
+title = New York City 2 - speedtest-nyc2.digitalocean.com
+host = speedtest-nyc2.digitalocean.com
++++NewYorkCity3
+menu = NYC3
+title = New York City 3 - speedtest-nyc3.digitalocean.com
+host = speedtest-nyc3.digitalocean.com
+
++++SanFrancisco1
+menu = SFO1
+title = San Francisco 1 - speedtest-sfo1.digitalocean.com
+host = speedtest-sfo1.digitalocean.com
++++SanFrancisco2
+menu = SFO2
+title = San Francisco 2 - speedtest-sfo2.digitalocean.com
+host = speedtest-sfo2.digitalocean.com
++++SanFrancisco3
+menu = SFO3
+title = San Francisco 3 - speedtest-sfo3.digitalocean.com
+host = speedtest-sfo3.digitalocean.com
+
++++Toronto1
+menu = TOR1
+title = Toronto 1 - speedtest-tor1.digitalocean.com
+host = speedtest-tor1.digitalocean.com
+
++++London1
+menu = LON1
+title = London 1 - speedtest-lon1.digitalocean.com
+host = speedtest-lon1.digitalocean.com
+
++++Amsterdam2
+menu = AMS2
+title = Amsterdam 2 - speedtest-ams2.digitalocean.com
+host = speedtest-ams2.digitalocean.com
++++Amsterdam3
+menu = AMS3
+title = Amsterdam 3 - speedtest-ams3.digitalocean.com
+host = speedtest-ams3.digitalocean.com
+
++++Frankfurt1
+menu = FRA1
+title = Frankfurt 1 - speedtest-fra1.digitalocean.com
+host = speedtest-fra1.digitalocean.com
+
++++Singapore1
+menu = SGP1
+title = Singapore 1 - speedtest-sgp1.digitalocean.com
+host = speedtest-sgp1.digitalocean.com
+
++++Bangalore1
+menu = BLR1
+title = Bangalore 1 - speedtest-blr1.digitalocean.com
+host = speedtest-blr1.digitalocean.com
+
+
+
++Universities
+menu = Universities
+title = Universities
+
+
+++Australia
+menu = Australia
+title = Australia
+
++++UniversityofSydney
+menu = University of Sydney
+title = University of Sydney
+++++UniversityofSydneyVPN
+menu = University of Sydney VPN
+title = University of Sydney VPN - vpn.sydney.edu.au
+host = vpn.sydney.edu.au
+
++++UniversityofMelbourne
+menu = University of Melbourne
+title = University of Melbourne
+++++UniversityofMelbourneEduroam
+menu = University of Melbourne Eduroam
+title = University of Melbourne Eduroam - wireless.unimelb.edu.au
+host = wireless.unimelb.edu.au
+
++++UniversityofNewSouthWales
+menu = University of New South Wales
+title = University of New South Wales
+++++UniversityofNewSouthWalesVPN
+menu = University of New South Wales VPN
+title = University of New South Wales VPN - vpn.unsw.edu.au
+host = vpn.unsw.edu.au
+
++++MonashUniversity
+menu = Monash University
+title = Monash University
+++++MonashUniversityVPN
+menu = Monash University VPN
+title = Monash University VPN - vpn.monash.edu
+host = vpn.monash.edu
+++++MonashUniversityEduroam
+menu = Monash University Eduroam
+title = Monash University Eduroam - eduroam.monash.edu
+host = eduroam.monash.edu
+
+
+++Canada
+menu = Canada
+title = Canada
+
++++UniversityofToronto
+menu = University of Toronto
+title = University of Toronto
+++++UniversityofTorontoVPN
+menu = University of Toronto VPN
+title = University of Toronto VPN - general.vpn.utoronto.ca
+host = general.vpn.utoronto.ca
+++++UniversityofTorontoEduroam
+menu = University of Toronto Eduroam
+title = University of Toronto Eduroam - radius.wireless.utoronto.ca
+host = radius.wireless.utoronto.ca
+
++++McGillUniversity
+menu = McGill University
+title = McGill University
+++++McGillUniversityVPN
+menu = McGill University VPN
+title = McGill University VPN - securevpn.mcgill.ca
+host = securevpn.mcgill.ca
+
++++UniversityofBritishColumbia
+menu = University of British Columbia
+title = University of British Columbia
+++++UniversityofBritishColumbiaVPN
+menu = University of British Columbia VPN
+title = University of British Columbia VPN - myvpn.ubc.ca
+host = myvpn.ubc.ca
+
+
+++NewZealand
+menu = New Zealand
+title = New Zealand
+
++++UniversityofAuckland
+menu = University of Auckland
+title = University of Auckland
+++++UniversityofAucklandVPN
+menu = University of Auckland VPN
+title = University of Auckland VPN - connectvpn.auckland.ac.nz
+host = connectvpn.auckland.ac.nz
+
++++VictoriaUniversityofWellington
+menu = Victoria University of Wellington
+title = Victoria University of Wellington
+++++VictoriaUniversityofWellingtonVPN
+menu = Victoria University of Wellington VPN
+title = Victoria University of Wellington VPN - vpn.vuw.ac.nz
+host = vpn.vuw.ac.nz
+
+
+++UnitedKingdom
+menu = United Kingdom
+title = United Kingdom
+
++++LondonSchoolofEconomicsandPoliticalScience
+menu = London School of Economics and Political Science
+title = London School of Economics and Political Science
+++++LondonSchoolofEconomicsandPoliticalScienceVPN
+menu = London School of Economics and Political Science VPN
+title = London School of Economics and Political Science VPN - remote.lse.ac.uk
+host = remote.lse.ac.uk
+
++++UniversityofWarwick
+menu = University of Warwick
+title = University of Warwick
+++++UniversityofWarwickVPN
+menu = University of Warwick VPN
+title = University of Warwick VPN - campusvpn.warwick.ac.uk
+host = campusvpn.warwick.ac.uk
+
++++UniversityofEdinburgh
+menu = University of Edinburgh
+title = University of Edinburgh
+++++UniversityofEdinburghVPN
+menu = University of Edinburgh VPN
+title = University of Edinburgh VPN - remote.net.ed.ac.uk
+host = remote.net.ed.ac.uk
+++++UniversityofEdinburghEduroam
+menu = University of Edinburgh Eduroam
+title = University of Edinburgh Eduroam - archer.ucs.ed.ac.uk
+host = archer.ucs.ed.ac.uk
+
+
+
++Telecoms
+menu = Telecoms
+title = Telecom Speedtest Servers
+
+
+++Argentina
+menu = Argentina
+title = Argentina
+
++++BuenosAires
+menu = Buenos Aires
+title = Buenos Aires
+++++MovistarARBuenosAires
+menu = Movistar AR Buenos Aires
+title = Movistar AR Buenos Aires - speedtest1.gics.telefonica.com.ar
+host = speedtest1.gics.telefonica.com.ar
+++++ClaroARBuenosAires
+menu = Claro AR Buenos Aires
+title = Claro AR Buenos Aires - speedtest.claro.com.ar
+host = speedtest.claro.com.ar
+
++++SanMigueldeTucuman
+menu = San Miguel de Tucuman
+title = San Miguel de Tucuman
+++++TelecomArgentinaSanMigueldeTucuman
+menu = Telecom Argentina San Miguel de Tucuman
+title = Telecom Argentina San Miguel de Tucuman - st1tuc.personal.com.ar
+host = st1tuc.personal.com.ar
+
++++Salta
+menu = Salta
+title = Salta
+++++TelecomArgentinaSalta
+menu = Telecom Argentina Salta
+title = Telecom Argentina Salta - st1slt.telecom.com.ar
+host = st1slt.telecom.com.ar
+
+
+++Australia
+menu = Australia
+title = Australia
+
++++Canberra
+menu = Canberra
+title = Canberra
+++++TelstraCanberra
+menu = Telstra Canberra
+title = Telstra Canberra - cbr1.speedtest.telstra.net
+host = cbr1.speedtest.telstra.net
+++++InternodeCanberra
+menu = Internode Canberra
+title = Internode Canberra - speedtest-cbr.cdn.on.net
+host = speedtest-cbr.cdn.on.net
+++++AARNetCanberra
+menu = AARNet Canberra
+title = AARNet Canberra - act-actn-speedtest.aarnet.net.au
+host = act-actn-speedtest.aarnet.net.au
+
++++Sydney
+menu = Sydney
+title = Sydney
+++++TelstraSydney
+menu = Telstra Sydney
+title = Telstra Sydney - syd1.speedtest.telstra.net
+host = syd1.speedtest.telstra.net
+++++OptusSydney
+menu = Optus Sydney
+title = Optus Sydney - speedtest.syd.optusnet.com.au
+host = speedtest.syd.optusnet.com.au
+++++VodafoneAUSydney
+menu = Vodafone AU Sydney
+title = Vodafone AU Sydney - nn.speedtest.vodafone.com.au
+host = nn.speedtest.vodafone.com.au
+++++VocusAUSydney
+menu = Vocus AU Sydney
+title = Vocus AU Sydney - speedtest-syd.vocus.net
+host = speedtest-syd.vocus.net
+++++InternodeSydney
+menu = Internode Sydney
+title = Internode Sydney - speedtest-syd.cdn.on.net
+host = speedtest-syd.cdn.on.net
+++++LauntelSydney
+menu = Launtel Sydney
+title = Launtel Sydney - speedtest-syd.launtel.net.au
+host = speedtest-syd.launtel.net.au
+++++AARNetSydney
+menu = AARNet Sydney
+title = AARNet Sydney - nsw-brwy-speedtest.aarnet.net.au
+host = nsw-brwy-speedtest.aarnet.net.au
+++++2degreesSydney
+menu = 2degrees Sydney
+title = 2degrees Sydney - speed4.snap.net.nz
+host = speed4.snap.net.nz
+
++++Melbourne
+menu = Melbourne
+title = Melbourne
+++++TelstraMelbourne
+menu = Telstra Melbourne
+title = Telstra Melbourne - mel1.speedtest.telstra.net
+host = mel1.speedtest.telstra.net
+++++OptusMelbourne
+menu = Optus Melbourne
+title = Optus Melbourne - speedtest.mel.optusnet.com.au
+host = speedtest.mel.optusnet.com.au
+++++VodafoneAUMelbourne
+menu = Vodafone AU Melbourne
+title = Vodafone AU Melbourne - my1.speedtest.vodafone.com.au
+host = my1.speedtest.vodafone.com.au
+++++VocusAUMelbourne
+menu = Vocus AU Melbourne
+title = Vocus AU Melbourne - speedtest-mel.vocus.net
+host = speedtest-mel.vocus.net
+++++InternodeMelbourne
+menu = Internode Melbourne
+title = Internode Melbourne - speedtest-mel.cdn.on.net
+host = speedtest-mel.cdn.on.net
+++++AARNetMelbourne
+menu = AARNet Melbourne
+title = AARNet Melbourne - vic-crlt-speedtest.aarnet.net.au
+host = vic-crlt-speedtest.aarnet.net.au
+
++++Brisbane
+menu = Brisbane
+title = Brisbane
+++++TelstraBrisbane
+menu = Telstra Brisbane
+title = Telstra Brisbane - brs1.speedtest.telstra.net
+host = brs1.speedtest.telstra.net
+++++OptusBrisbane
+menu = Optus Brisbane
+title = Optus Brisbane - speedtest.bri.optusnet.com.au
+host = speedtest.bri.optusnet.com.au
+++++VocusAUBrisbane
+menu = Vocus AU Brisbane
+title = Vocus AU Brisbane - speedtest-bne.vocus.net
+host = speedtest-bne.vocus.net
+++++InternodeBrisbane
+menu = Internode Brisbane
+title = Internode Brisbane - speedtest-bne.cdn.on.net
+host = speedtest-bne.cdn.on.net
+++++AARNetBrisbane
+menu = AARNet Brisbane
+title = AARNet Brisbane - qld-gdpt-speedtest.aarnet.net.au
+host = qld-gdpt-speedtest.aarnet.net.au
+
++++Perth
+menu = Perth
+title = Perth
+++++TelstraPerth
+menu = Telstra Perth
+title = Telstra Perth - per1.speedtest.telstra.net
+host = per1.speedtest.telstra.net
+++++OptusPerth
+menu = Optus Perth
+title = Optus Perth - speedtest.per.optusnet.com.au
+host = speedtest.per.optusnet.com.au
+++++VodafoneAUPerth
+menu = Vodafone AU Perth
+title = Vodafone AU Perth - ph.speedtest.vodafone.com.au
+host = ph.speedtest.vodafone.com.au
+++++VocusAUPerth
+menu = Vocus AU Perth
+title = Vocus AU Perth - speedtest-pth.vocus.net
+host = speedtest-pth.vocus.net
+++++InternodePerth
+menu = Internode Perth
+title = Internode Perth - speedtest-per.cdn.on.net
+host = speedtest-per.cdn.on.net
+++++AARNetPerth
+menu = AARNet Perth
+title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
+host = wa-knsg-speedtest.aarnet.net.au
+
++++Adelaide
+menu = Adelaide
+title = Adelaide
+++++TelstraAdelaide
+menu = Telstra Adelaide
+title = Telstra Adelaide - ade1.speedtest.telstra.net
+host = ade1.speedtest.telstra.net
+++++OptusAdelaide
+menu = Optus Adelaide
+title = Optus Adelaide - speedtest.adl.optusnet.com.au
+host = speedtest.adl.optusnet.com.au
+++++VodafoneAUAdelaide
+menu = Vodafone AU Adelaide
+title = Vodafone AU Adelaide - ae.speedtest.vodafone.com.au
+host = ae.speedtest.vodafone.com.au
+++++VocusAUAdelaide
+menu = Vocus AU Adelaide
+title = Vocus AU Adelaide - speedtest-ade.vocus.net
+host = speedtest-ade.vocus.net
+++++InternodeAdelaide
+menu = Internode Adelaide
+title = Internode Adelaide - speedtest-adl.cdn.on.net
+host = speedtest-adl.cdn.on.net
+++++AARNetAdelaide
+menu = AARNet Adelaide
+title = AARNet Adelaide - sa-prka-speedtest2.aarnet.net.au
+host = sa-prka-speedtest2.aarnet.net.au
+
++++Hobart
+menu = Hobart
+title = Hobart
+++++TelstraHobart
+menu = Telstra Hobart
+title = Telstra Hobart - hob1.speedtest.telstra.net
+host = hob1.speedtest.telstra.net
+++++OptusHobart
+menu = Optus Hobart
+title = Optus Hobart - speedtest.tas.optusnet.com.au
+host = speedtest.tas.optusnet.com.au
+++++LauntelHobart
+menu = Launtel Hobart
+title = Launtel Hobart - speedtest.launtel.net.au
+host = speedtest.launtel.net.au
+++++TasmaNetAUHobart
+menu = TasmaNet AU Hobart
+title = TasmaNet AU Hobart - speedtest.tasmanet.com.au
+host = speedtest.tasmanet.com.au
+++++AARNetHobart
+menu = AARNet Hobart
+title = AARNet Hobart - tas-dwpk-speedtest.aarnet.net.au
+host = tas-dwpk-speedtest.aarnet.net.au
+
++++Darwin
+menu = Darwin
+title = Darwin
+++++TelstraDarwin
+menu = Telstra Darwin
+title = Telstra Darwin - drw1.speedtest.telstra.net
+host = drw1.speedtest.telstra.net
+++++OptusDarwin
+menu = Optus Darwin
+title = Optus Darwin - darwin.nt.speedtest.optusnet.com.au
+host = darwin.nt.speedtest.optusnet.com.au
+++++InternodeDarwin
+menu = Internode Darwin
+title = Internode Darwin - speedtest-drw.cdn.on.net
+host = speedtest-drw.cdn.on.net
+++++AARNetDarwin
+menu = AARNet Darwin
+title = AARNet Darwin - nt-drwn-speedtest.aarnet.net.au
+host = nt-drwn-speedtest.aarnet.net.au
+
+
+++Bermuda
+menu = Bermuda
+title = Bermuda
++++OneCommunicationHamilton
+menu = One Communication Hamilton
+title = One Communication Hamilton - speedtest.onecomm.bm
+host = speedtest.onecomm.bm
++++DigicelBMHamilton
+menu = Digicel BM Hamilton
+title = Digicel BM Hamilton - speedtest.digicel.bm
+host = speedtest.digicel.bm
+
+
+++Brazil
+menu = Brazil
+title = Brazil
+
++++Brasilia
+menu = Brasilia
+title = Brasilia
+++++ClaroBRBrasilia
+menu = Claro BR Brasilia
+title = Claro BR Brasilia - spd32.claro.com.br
+host = spd32.claro.com.br
+++++TIMBRBrasilia
+menu = TIM BR Brasilia
+title = TIM BR Brasilia - spetstbsa01.timbrasil.com.br
+host = spetstbsa01.timbrasil.com.br
+
++++SaoPaulo
+menu = Sao Paulo
+title = Sao Paulo
+++++ClaroBRSaoPaulo
+menu = Claro BR Sao Paulo
+title = Claro BR Sao Paulo - spd5.claro.com.br
+host = spd5.claro.com.br
+++++TIMBRSaoPaulo
+menu = TIM BR Sao Paulo
+title = TIM BR Sao Paulo - svstsne0101.timbrasil.com.br
+host = svstsne0101.timbrasil.com.br
+++++AlgarTelecomBRSaoPaulo
+menu = Algar Telecom BR Sao Paulo
+title = Algar Telecom BR Sao Paulo - velocidade-spo.algartelecom.com.br
+host = velocidade-spo.algartelecom.com.br
+++++LumenBRSaoPaulo
+menu = Lumen Sao Paulo
+title = Lumen Sao Paulo - brasaospeedtest01.level3.net
+host = brasaospeedtest01.level3.net
+
++++RiodeJaneiro
+menu = Rio de Janeiro
+title = Rio de Janeiro
+++++ClaroBRRiodeJaneiro
+menu = Claro BR Rio de Janeiro
+title = Claro BR Rio de Janeiro - spd2.claro.com.br
+host = spd2.claro.com.br
+++++TIMBRRiodeJaneiro
+menu = TIM BR Rio de Janeiro
+title = TIM BR Rio de Janeiro - svstrjo0101.timbrasil.com.br
+host = svstrjo0101.timbrasil.com.br
+++++LumenBRRiodeJaneiro
+menu = Lumen Rio de Janeiro
+title = Lumen Rio de Janeiro - brariospeedtest01.level3.net
+host = brariospeedtest01.level3.net
+
++++Salvador
+menu = Salvador
+title = Salvador
+++++ClaroBRSalvador
+menu = Claro BR Salvador
+title = Claro BR Salvador - spd9.claro.com.br
+host = spd9.claro.com.br
+++++TIMBRSalvador
+menu = TIM BR Salvador
+title = TIM BR Salvador - spetstsdr01.timbrasil.com.br
+host = spetstsdr01.timbrasil.com.br
+++++AlgarTelecomBRSalvador
+menu = Algar Telecom BR Salvador
+title = Algar Telecom BR Salvador - velocidade-sdr.algartelecom.com.br
+host = velocidade-sdr.algartelecom.com.br
+
++++Fortaleza
+menu = Fortaleza
+title = Fortaleza
+++++ClaroBRFortaleza
+menu = Claro BR Fortaleza
+title = Claro BR Fortaleza - spd1.claro.com.br
+host = spd1.claro.com.br
+++++AlgarTelecomBRFortaleza
+menu = Algar Telecom BR Fortaleza
+title = Algar Telecom BR Fortaleza - velocidade-fla.algartelecom.com.br
+host = velocidade-fla.algartelecom.com.br
+
++++BeloHorizonte
+menu = Belo Horizonte
+title = Belo Horizonte
+++++ClaroBRBeloHorizonte
+menu = Claro BR Belo Horizonte
+title = Claro BR Belo Horizonte - spd8.claro.com.br
+host = spd8.claro.com.br
+++++TIMBRBeloHorizonte
+menu = TIM BR Belo Horizonte
+title = TIM BR Belo Horizonte - spetstbhe01.timbrasil.com.br
+host = spetstbhe01.timbrasil.com.br
+
++++Manaus
+menu = Manaus
+title = Manaus
+    ++++ClaroBRManaus
+menu = Claro BR Manaus
+title = Claro BR Manaus - spd7.claro.com.br
+host = spd7.claro.com.br
+++++TIMBRManaus
+menu = TIM BR Manaus
+title = TIM BR Manaus - spetstmns01.timbrasil.com.br
+host = spetstmns01.timbrasil.com.br
+
++++Curitiba
+menu = Curitiba
+title = Curitiba
+++++ClaroBRCuritiba
+menu = Claro BR Curitiba
+title = Claro BR Curitiba - spd11.claro.com.br
+host = spd11.claro.com.br
+++++TIMBRCuritiba
+menu = TIM BR Curitiba
+title = TIM BR Curitiba - spetstcta01.timbrasil.com.br
+host = spetstcta01.timbrasil.com.br
+
++++Recife
+menu = Recife
+title = Recife
+++++ClaroBRRecife
+menu = Claro BR Recife
+title = Claro BR Recife - spd22.claro.com.br
+host = spd22.claro.com.br
+++++TIMBRRecife
+menu = TIM BR Recife
+title = TIM BR Recife - spetstrce01.timbrasil.com.br
+host = spetstrce01.timbrasil.com.br
+
++++Goiania
+menu = Goiania
+title = Goiania
+++++ClaroBRGoiania
+menu = Claro BR Goiania
+title = Claro BR Goiania - spd38.claro.com.br
+host = spd38.claro.com.br
+++++TIMBRGoiania
+menu = TIM BR Goiania
+title = TIM BR Goiania - spetstgna01.timbrasil.com.br
+host = spetstgna01.timbrasil.com.br
+
++++Belem
+menu = Belem
+title = Belem
+++++ClaroBRBelem
+menu = Claro BR Belem
+title = Claro BR Belem - spd10.claro.com.br
+host = spd10.claro.com.br
+++++TIMBRBelem
+menu = TIM BR Belem
+title = TIM BR Belem - spetstblm01.timbrasil.com.br
+host = spetstblm01.timbrasil.com.br
+
++++PortoAlegre
+menu = Porto Alegre
+title = Porto Alegre
+++++ClaroBRPortoAlegre
+menu = Claro BR Porto Alegre
+title = Claro BR Porto Alegre - spd12.claro.com.br
+host = spd12.claro.com.br
+
++++SaoLuis
+menu = Sao Luis
+title = Sao Luis
+++++ClaroBRSaoLuis
+menu = Claro BR Sao Luis
+title = Claro BR Sao Luis - spd27.claro.com.br
+host = spd27.claro.com.br
+
++++CampoGrande
+menu = Campo Grande
+title = Campo Grande
+++++ClaroBRCampoGrande
+menu = Claro BR Campo Grande
+title = Claro BR Campo Grande - spd16.claro.com.br
+host = spd16.claro.com.br
+
++++PortoVelho
+menu = Porto Velho
+title = Porto Velho
+++++ClaroBRPortoVelho
+menu = Claro BR Porto Velho
+title = Claro BR Porto Velho - spd18.claro.com.br
+host = spd18.claro.com.br
+
+
+++BritishVirginIslands
+menu = British Virgin Islands
+title = British Virgin Islands
++++FlowVGRoadTown
+menu = Flow VG Road Town
+title = Flow VG Road Town - speedtestbvi.discoverflow.co
+host = speedtestbvi.discoverflow.co
++++CCTRoadTown
+menu = CCT Road Town
+title = CCT Road Town - speedtest.cctwireless.com
+host = speedtest.cctwireless.com
+
+
+++Canada
+menu = Canada
+title = Canada
+
+
++++Ottawa
+menu = Ottawa
+title = Ottawa
+++++RogersOttawa
+menu = Rogers Ottawa
+title = Rogers Ottawa - speedtestslnt.rogers.com
+host = speedtestslnt.rogers.com
+++++BellCAOttawa
+menu = Bell CA Ottawa
+title = Bell CA Ottawa - otw23spd01.srvr.bell.ca
+host = otw23spd01.srvr.bell.ca
+
++++Toronto
+menu = Toronto
+title = Toronto
+++++RogersToronto
+menu = Rogers Toronto
+title = Rogers Toronto - speedtestgta.rogers.com
+host = speedtestgta.rogers.com
+++++BellCAToronto
+menu = Bell CA Toronto
+title = Bell CA Toronto - tor47spd01.srvr.bell.ca
+host = tor47spd01.srvr.bell.ca
+++++TELUSToronto
+menu = TELUS Toronto
+title = TELUS Toronto - toronto.speedtest.telus.com
+host = toronto.speedtest.telus.com
+
++++Montreal
+menu = Montreal
+title = Montreal
+++++RogersMontreal
+menu = Rogers Montreal
+title = Rogers Montreal - speedtestqcmtl.rogers.com
+host = speedtestqcmtl.rogers.com
+++++BellCAMontreal
+menu = Bell CA Montreal
+title = Bell CA Montreal - mtldjspeedtest01.srvr.bell.ca
+host = mtldjspeedtest01.srvr.bell.ca
+++++TELUSMontreal
+menu = TELUS Montreal
+title = TELUS Montreal - montreal.speedtest.telus.com
+host = montreal.speedtest.telus.com
+
++++Vancouver
+menu = Vancouver
+title = Vancouver
+++++RogersVancouver
+menu = Rogers Vancouver
+title = Rogers Vancouver - speedtestbcvan.rogers.com
+host = speedtestbcvan.rogers.com
+++++BellCAVancouver
+menu = Bell CA Vancouver
+title = Bell CA Vancouver - vancnspd01.srvr.bell.ca
+host = vancnspd01.srvr.bell.ca
+++++TELUSVancouver
+menu = TELUS Vancouver
+title = TELUS Vancouver - vancouver.speedtest.telus.com
+host = vancouver.speedtest.telus.com
+
++++Calgary
+menu = Calgary
+title = Calgary
+++++RogersCalgary
+menu = Rogers Calgary
+title = Rogers Calgary - speedtestcalgary.rogers.com
+host = speedtestcalgary.rogers.com
+++++BellCACalgary
+menu = Bell CA Calgary
+title = Bell CA Calgary - clgqaspd01.srvr.bell.ca
+host = clgqaspd01.srvr.bell.ca
+++++TELUSCalgary
+menu = TELUS Calgary
+title = TELUS Calgary - calgary.speedtest.telus.com
+host = calgary.speedtest.telus.com
+
++++Winnipeg
+menu = Winnipeg
+title = Winnipeg
+++++BellCAWinnipeg
+menu = Bell CA Winnipeg
+title = Bell CA Winnipeg - wnpcfspd02.srvr.bell.ca
+host = wnpcfspd02.srvr.bell.ca
+++++TELUSWinnipeg
+menu = TELUS Winnipeg
+title = TELUS Winnipeg - winnipeg.speedtest.telus.com
+host = winnipeg.speedtest.telus.com
+++++ShawWinnipeg
+menu = Shaw Winnipeg
+title = Shaw Winnipeg - speedtest.wp.shawcable.net
+host = speedtest.wp.shawcable.net
+
+
+++CaymanIslands
+menu = Cayman Islands
+title = Cayman Islands
++++FlowKYGeorgeTown
+menu = Flow KY George Town
+title = Flow KY George Town - speedtest.candw.ky
+host = speedtest.candw.ky
++++LogicGeorgeTown
+menu = Logic George Town
+title = Logic George Town - speedtest.candw.ky
+host = speedtest.candw.ky
++++C3GeorgeTown
+menu = C3 George Town
+title = C3 George Town - speedtest.c3.ky
+host = speedtest.c3.ky
+
+
+++China
+menu = China
+title = China
+
++++Beijing
+menu = Beijing
+title = Beijing
+++++ChinaTelecomBeijing
+menu = China Telecom Beijing
+title = China Telecom Beijing - speedtest25.jillbanging.com
+host = speedtest25.jillbanging.com
+++++ChinaUnicomBeijing
+menu = China Unicom Beijing
+title = China Unicom Beijing - bj3.unicomtest.com
+host = bj3.unicomtest.com
+++++ChinaMobileBeijing
+menu = China Mobile Beijing
+title = China Mobile Beijing - speedtest.bmcc.com.cn
+host = speedtest.bmcc.com.cn
+
++++Shanghai
+menu = Shanghai
+title = Shanghai
+++++ChinaTelecomShanghai
+menu = China Telecom Shanghai
+title = China Telecom Shanghai - speedtest1.online.sh.cn
+host = speedtest1.online.sh.cn
+++++ChinaUnicomShanghai
+menu = China Unicom Shanghai
+title = China Unicom Shanghai - 5g.shunicomtest.com
+host = 5g.shunicomtest.com
+
++++Shenzhen
+menu = Shenzhen
+title = Shenzhen
+++++ChinaUnicomShenzhen
+menu = China Unicom Shenzhen
+title = China Unicom Shenzhen - speedtest.75510010.com
+host = speedtest.75510010.com
+
++++Wuhan
+menu = Wuhan
+title = Wuhan
+++++ChinaUnicomWuhan
+menu = China Unicom Wuhan
+title = China Unicom Wuhan - 113.57.249.2
+host = 113.57.249.2
+
++++Chongqing
+menu = Chongqing
+title = Chongqing
+++++ChinaTelecomChongqing
+menu = China Telecom Chongqing
+title = China Telecom Chongqing - speed.cqtelecom.com.cn
+host = speed.cqtelecom.com.cn
+++++ChinaUnicomChongqing
+menu = China Unicom Chongqing
+title = China Unicom Chongqing - speedtest.cqwin.com
+host = speedtest.cqwin.com
+++++ChinaMobileChongqing
+menu = China Mobile Chongqing
+title = China Mobile Chongqing - speedtest2.cq.chinamobile.com
+host = speedtest2.cq.chinamobile.com
+
++++Chengdu
+menu = Chengdu
+title = Chengdu
+++++ChinaTelecomChengdu
+menu = China Telecom Chengdu
+title = China Telecom Chengdu - speedtest1.sc.189.cn
+host = speedtest1.sc.189.cn
+++++ChinaUnicomChengdu
+menu = China Unicom Chengdu
+title = China Unicom Chengdu - speedtest1.wangjia.net
+host = speedtest1.wangjia.net
+++++ChinaMobileChengdu
+menu = China Mobile Chengdu
+title = China Mobile Chengdu - speedtest2.sc.chinamobile.com
+host = speedtest2.sc.chinamobile.com
+
++++Nanjing
+menu = Nanjing
+title = Nanjing
+++++ChinaUnicomNanjing
+menu = China Unicom Nanjing
+title = China Unicom Nanjing - speedtest02.js165.com
+host = speedtest02.js165.com
+++++ChinaMobileNanjing
+menu = China Mobile Nanjing
+title = China Mobile Nanjing - owa.eastcom-sw.com
+host = owa.eastcom-sw.com
+
++++Xian
+menu = Xi'an
+title = Xi'an
+++++ChinaUnicomXian
+menu = China Unicom Xi'an
+title = China Unicom Xi'an - xatest.wo-xa.com
+host = xatest.wo-xa.com
+
++++Shenyang
+menu = Shenyang
+title = Shenyang
+++++ChinaMobileShenyang
+menu = China Mobile Shenyang
+title = China Mobile Shenyang - speedtest1.ln.chinamobile.com
+host = speedtest1.ln.chinamobile.com
+
++++Harbin
+menu = Harbin
+title = Harbin
+++++ChinaMobileHarbin
+menu = China Mobile Harbin
+title = China Mobile Harbin - 5gtest.hl.chinamobile.com
+host = 5gtest.hl.chinamobile.com
+
++++Urumqi
+menu = Urumqi
+title = Urumqi
+++++ChinaTelecomUrumqi
+menu = China Telecom Urumqi
+title = China Telecom Urumqi - speedtest.open189.net
+host = speedtest.open189.net
+++++ChinaMobileUrumqi
+menu = China Mobile Urumqi
+title = China Mobile Urumqi - speedtest6.xj.chinamobile.com
+host = speedtest6.xj.chinamobile.com
+
++++Lanzhou
+menu = Lanzhou
+title = Lanzhou
+++++ChinaTelecomLanzhou
+menu = China Telecom Lanzhou
+title = China Telecom Lanzhou - speedtest.bajianjun.com
+host = speedtest.bajianjun.com
+++++ChinaUnicomLanzhou
+menu = China Unicom Lanzhou
+title = China Unicom Lanzhou - lanzhouunicom.com
+host = lanzhouunicom.com
+++++ChinaMobileLanzhou
+menu = China Mobile Lanzhou
+title = China Mobile Lanzhou - speedtest1.gs.chinamobile.com
+host = speedtest1.gs.chinamobile.com
+
++++Lhasa
+menu = Lhasa
+title = Lhasa
+++++ChinaMobileLhasa
+menu = China Mobile Lhasa
+title = China Mobile Lhasa - speedtest1.xz.chinamobile.com
+host = speedtest1.xz.chinamobile.com
+
++++HongKong
+menu = Hong Kong
+title = Hong Kong
+++++GTTHongKong
+menu = GTT Hong Kong
+title = GTT Hong Kong - hon.speedtest.gtt.net
+host = hon.speedtest.gtt.net
+++++HutchisonHongKong
+menu = Hutchison Hong Kong
+title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
+host = ookla-speedtest.hgconair.hgc.com.hk
+
+
+
+++India
+menu = India
+title = India
+
++++NewDelhi
+menu = New Delhi
+title = New Delhi
+++++AirtelNewDelhi
+menu = Airtel New Delhi
+title = Airtel New Delhi - speedtestggn1.airtel.in
+host = speedtestggn1.airtel.in
+++++AirtelBroadbandNewDelhi
+menu = Airtel Broadband New Delhi
+title = Airtel Broadband New Delhi - speedtestdel.airtelbroadband.in
+host = speedtestdel.airtelbroadband.in
+++++VodafoneINNewDelhi
+menu = Vodafone IN New Delhi
+title = Vodafone IN New Delhi - speedtestdel.vodafone.ind.in
+host = speedtestdel.vodafone.ind.in
+++++JioNewDelhi
+menu = Jio New Delhi
+title = Jio New Delhi - speeddlh1.jioconnect.com
+host = speeddlh1.jioconnect.com
+++++TATASkyBroadbandNewDelhi
+menu = TATASky Broadband New Delhi
+title = TATASky Broadband New Delhi - speedtestdel.tataskybroadband.com
+host = speedtestdel.tataskybroadband.com
+++++ACTNewDelhi
+menu = ACT New Delhi
+title = ACT New Delhi - speedtestdelhi.actcorp.in
+host = speedtestdelhi.actcorp.in
+++++RailTelNewDelhi
+menu = RailTel New Delhi
+title = RailTel New Delhi - speedtest.ggn.rcil.gov.in
+host = speedtest.ggn.rcil.gov.in
+
++++Mumbai
+menu = Mumbai
+title = Mumbai
+++++AirtelBroadbandMumbai
+menu = Airtel Broadband Mumbai
+title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
+host = speedtestmh.airtelbroadband.in
+++++VodafoneINMumbai
+menu = Vodafone IN Mumbai
+title = Vodafone IN Mumbai - speedtestmum.vodafone.ind.in
+host = speedtestmum.vodafone.ind.in
+++++IdeaCellularMumbai
+menu = Idea Cellular Mumbai
+title = Idea Cellular Mumbai - sp3.ideaisp.net
+host = sp3.ideaisp.net
+++++JioMumbai
+menu = Jio Mumbai
+title = Jio Mumbai - speedmum2.jioconnect.com
+host = speedmum2.jioconnect.com
+++++YOUBroadbandMumbai
+menu = YOU Broadband Mumbai
+title = YOU Broadband Mumbai - sp1-mum.youbroadband.in
+host = sp1-mum.youbroadband.in
+++++TATASkyBroadbandMumbai
+menu = TATASky Broadband Mumbai
+title = TATASky Broadband Mumbai - speedtestmum.tataskybroadband.com
+host = speedtestmum.tataskybroadband.com
+++++RailTelMumbai
+menu = RailTel Mumbai
+title = RailTel Mumbai - mum.speedtest.rcil.gov.in
+host = mum.speedtest.rcil.gov.in
+
++++Kolkata
+menu = Kolkata
+title = Kolkata
+++++AirtelKolkata
+menu = Airtel Kolkata
+title = Airtel Kolkata - speedtestkol1.airtel.in
+host = speedtestkol1.airtel.in
+++++VodafoneINKolkata
+menu = Vodafone IN Kolkata
+title = Vodafone IN Kolkata - speedtestkol.vodafone.ind.in
+host = speedtestkol.vodafone.ind.in
+++++JioKolkata
+menu = Jio Kolkata
+title = Jio Kolkata - speedkol1.jioconnect.com
+host = speedkol1.jioconnect.com
+++++RailTelKolkata
+menu = RailTel Kolkata
+title = RailTel Kolkata - kol.speedtest.rcil.gov.in
+host = kol.speedtest.rcil.gov.in
+
++++Chennai
+menu = Chennai
+title = Chennai
+++++AirtelChennai
+menu = Airtel Chennai
+title = Airtel Chennai - speedtestchn1.airtel.in
+host = speedtestchn1.airtel.in
+++++AirtelBroadbandChennai
+menu = Airtel Broadband Chennai
+title = Airtel Broadband Chennai - speedtestchn.airtelbroadband.in
+host = speedtestchn.airtelbroadband.in
+++++VodafoneINChennai
+menu = Vodafone IN Chennai
+title = Vodafone IN Chennai - speedtestchen.vodafone.ind.in
+host = speedtestchen.vodafone.ind.in
+++++JioChennai
+menu = Jio Chennai
+title = Jio Chennai - speedchn1.jioconnect.com
+host = speedchn1.jioconnect.com
+++++YOUBroadbandChennai
+menu = YOU Broadband Chennai
+title = YOU Broadband Chennai - sp1-chn.youbroadband.in
+host = sp1-chn.youbroadband.in
+++++ACTChennai
+menu = ACT Chennai
+title = ACT Chennai - speedtestchn.actcorp.in
+host = speedtestchn.actcorp.in
+++++RailTelChennai
+menu = RailTel Chennai
+title = RailTel Chennai - chn.speedtest.rcil.gov.in
+host = chn.speedtest.rcil.gov.in
+
++++Bangalore
+menu = Bangalore
+title = Bangalore
+++++AirtelBangalore
+menu = Airtel Bangalore
+title = Airtel Bangalore - speedtestkk1.airtel.in
+host = speedtestkk1.airtel.in
+++++AirtelBroadbandBangalore
+menu = Airtel Broadband Bangalore
+title = Airtel Broadband Bangalore - speedtestblr.airtelbroadband.in
+host = speedtestblr.airtelbroadband.in
+++++VodafoneINBangalore
+menu = Vodafone IN Bangalore
+title = Vodafone IN Bangalore - ooklatestbenguluru.live.vodafone.in
+host = ooklatestbenguluru.live.vodafone.in
+++++JioBangalore
+menu = Jio Bangalore
+title = Jio Bangalore - speedbgl1.jioconnect.com
+host = speedbgl1.jioconnect.com
+++++YOUBroadbandBangalore
+menu = YOU Broadband Bangalore
+title = YOU Broadband Bangalore - sp1-blr.youbroadband.in
+host = sp1-blr.youbroadband.in
+++++ACTBangalore
+menu = ACT Bangalore
+title = ACT Bangalore - speedtestblr.actcorp.in
+host = speedtestblr.actcorp.in
+++++RailTelBangalore
+menu = RailTel Bangalore
+title = RailTel Bangalore - sbc.speedtest.rcil.gov.in
+host = sbc.speedtest.rcil.gov.in
+
++++Hyderabad
+menu = Hyderabad
+title = Hyderabad
+++++AirtelHyderabad
+menu = Airtel Hyderabad
+title = Airtel Hyderabad - speedtestap1.airtel.in
+host = speedtestap1.airtel.in
+++++AirtelBroadbandHyderabad
+menu = Airtel Broadband Hyderabad
+title = Airtel Broadband Hyderabad - speedtesthyd.airtelbroadband.in
+host = speedtesthyd.airtelbroadband.in
+++++JioHyderabad
+menu = Jio Hyderabad
+title = Jio Hyderabad - speedhyd1.jioconnect.com
+host = speedhyd1.jioconnect.com
+++++YOUBroadbandHyderabad
+menu = YOU Broadband Hyderabad
+title = YOU Broadband Hyderabad - sp1-hyd.youbroadband.in
+host = sp1-hyd.youbroadband.in
+++++ACTHyderabad
+menu = ACT Hyderabad
+title = ACT Hyderabad - speedtest.actcorp.in
+host = speedtest.actcorp.in
+++++RailTelHyderabad
+menu = RailTel Hyderabad
+title = RailTel Hyderabad - speedtest.sec.rcil.gov.in
+host = speedtest.sec.rcil.gov.in
+
++++Ahmedabad
+menu = Ahmedabad
+title = Ahmedabad
+++++AirtelAhmedabad
+menu = Airtel Ahmedabad
+title = Airtel Ahmedabad - speedtestguj1.airtel.in
+host = speedtestguj1.airtel.in
+++++VodafoneINAhmedabad
+menu = Vodafone IN Ahmedabad
+title = Vodafone IN Ahmedabad - speedtestahm.vodafone.ind.in
+host = speedtestahm.vodafone.ind.in
+++++JioAhmedabad
+menu = Jio Ahmedabad
+title = Jio Ahmedabad - speedahm1.jioconnect.com
+host = speedahm1.jioconnect.com
+++++YOUBroadbandAhmedabad
+menu = YOU Broadband Ahmedabad
+title = YOU Broadband Ahmedabad - sp1-ahm.youbroadband.in
+host = sp1-ahm.youbroadband.in
+
++++Lucknow
+menu = Lucknow
+title = Lucknow
+++++VodafoneINLucknow
+menu = Vodafone IN Lucknow
+title = Vodafone IN Lucknow - speedtestluc.vodafone.ind.in
+host = speedtestluc.vodafone.ind.in
+
++++Patna
+menu = Patna
+title = Patna
+++++AirtelPatna
+menu = Airtel Patna
+title = Airtel Patna - speedtestbhr1.airtel.in
+host = speedtestbhr1.airtel.in
+++++VodafoneINPatna
+menu = Vodafone IN Patna
+title = Vodafone IN Patna - ooklatestpatna.live.vodafone.in
+host = ooklatestpatna.live.vodafone.in
+
++++Visakhapatnam
+menu = Visakhapatnam
+title = Visakhapatnam
+++++YOUBroadbandVisakhapatnam
+menu = YOU Broadband Visakhapatnam
+title = YOU Broadband Visakhapatnam - sp1-viz.youbroadband.in
+host = sp1-viz.youbroadband.in
+++++ACTVisakhapatnam
+menu = ACT Visakhapatnam
+title = ACT Visakhapatnam - vizspeedtest.acttv.in
+host = vizspeedtest.acttv.in
+
++++Guwahati
+menu = Guwahati
+title = Guwahati
+++++JioGuwahati
+menu = Jio Guwahati
+title = Jio Guwahati - speedgwh1.jioconnect.com
+host = speedgwh1.jioconnect.com
+
+
+++Ireland
+menu = Ireland
+title = Ireland
+
++++Dublin
+menu = Dublin
+title = Dublin
+++++eirDublin
+menu = eir Dublin
+title = eir  Dublin - ngaweb00.eircom.net
+host = ngaweb00.eircom.net
+++++VodafoneIEDublin
+menu = Vodafone IE Dublin
+title = Vodafone IE Dublin - speedtest.vodafone.ie
+host = speedtest.vodafone.ie
+++++ThreeIEDublin 
+menu = Three IE Dublin
+title = Three IE Dublin - speedtest.three.ie
+host = speedtest.three.ie
+++++BTIEDublin
+menu = BT IE Dublin
+title = BT IE Dublin - roadrunner.cwt.btireland.net
+host = roadrunner.cwt.btireland.net
+
+
+++Malaysia
+menu = Malaysia
+title = Malaysia
+
++++KualaLumpur
+menu = Kuala Lumpur
+title = Kuala Lumpur
+++++TelekomMalaysiaKualaLumpur
+menu = Telekom Malaysia Kuala Lumpur
+title = Telekom Malaysia Kuala Lumpur - speedtest.tm.com.my
+host = speedtest.tm.com.my
+++++TIMEdotcomKualaLumpur
+menu = TIME dotcom Kuala Lumpur
+title = TIME dotcom Kuala Lumpur - speed.time.com.my
+host = speed.time.com.my
+++++MaxisKualaLumpur
+menu = Maxis Kuala Lumpur
+title = Maxis Kuala Lumpur - speedtest.maxis.com.my
+host = speedtest.maxis.com.my
+++++CelcomAxiataKualaLumpur
+menu = Celcom Axiata Kuala Lumpur
+title = Celcom Axiata Kuala Lumpur - speedosht1.celcom.net.my
+host = speedosht1.celcom.net.my
+++++DigiKualaLumpur
+menu = Digi Kuala Lumpur
+title = Digi Kuala Lumpur - speedtest.digi.com.my
+host = speedtest.digi.com.my
+++++UMobileKualaLumpur
+menu = U Mobile Kuala Lumpur
+title = U Mobile Kuala Lumpur - speedtest.u.com.my
+host = speedtest.u.com.my
+++++MYRENKualaLumpur
+menu = MYREN Kuala Lumpur
+title = MYREN Kuala Lumpur - speedtest1.myren.net.my
+host = speedtest1.myren.net.my
+
+
+++Mauritius
+menu = Mauritius
+title = Mauritius
+
++++PortLouis
+menu = Port Louis
+title = Port Louis
+++++MauritiusTelecomPortLouis
+menu = Mauritius Telecom Port Louis
+title = Mauritius Telecom Port Louis - speedtest.telecom.mu
+host = speedtest.telecom.mu
+++++EmtelPortLouis
+menu = Emtel Port Louis
+title = Emtel Port Louis - speedtest6-10g.emtelnet.com
+host = speedtest6-10g.emtelnet.com
+
+
+++Mexico
+menu = Mexico
+title = Mexico
+
++++MexicoCity
+menu = Mexico City
+title = Mexico City
+++++izziMexicoCity
+menu = izzi Mexico City
+title = izzi Mexico City - speedtest.sevilla.izzi.mx
+host = speedtest.sevilla.izzi.mx
+++++ATTMXMexicoCity
+menu = AT&T MX Mexico City
+title = AT&T MX Mexico City - speed1.stafemex.attmex.mx
+host = speed1.stafemex.attmex.mx
+
++++Guadalajara
+menu = Guadalajara
+title = Guadalajara
+++++ATTMXGuadalajara
+menu = AT&T MX Guadalajara
+title = AT&T MX Guadalajara - speed1.gdl.attmex.mx
+host = speed1.gdl.attmex.mx
+
++++CiudadJuarez
+menu = Ciudad Juarez
+title = Ciudad Juarez
+++++izziCiudadJuarez
+menu = izzi Ciudad Juarez
+title = izzi Ciudad Juarez - speedtest.juarez.izzi.mx
+host = speedtest.juarez.izzi.mx
+
++++Tijuana
+menu = Tijuana
+title = Tijuana
+++++MovistarMXTijuana
+menu = Movistar MX Tijuana
+title = Movistar MX Tijuana - internet4b.movistar.com.mx
+host = internet4b.movistar.com.mx
+++++ATTMXTijuana
+menu = AT&T MX Tijuana
+title = AT&T MX Tijuana - speed1.mty.attmex.mx
+host = speed1.mty.attmex.mx
+
+
+++Morocco
+menu = Morocco
+title = Morocco
+
++++Rabat
+menu = Rabat
+title = Rabat
+++++MorocTelecomRabat
+menu = Moroc Telecom Rabat
+title = Moroc Telecom Rabat - speedtest.iam.ma
+host = speedtest.iam.ma
+++++OrangeMARabat
+menu = Orange MA Rabat
+title = Orange MA Rabat - speedtestrabat1.meditel.net.ma
+host = speedtestrabat1.meditel.net.ma
+
++++Casablanca
+menu = Casablanca
+title = Casablanca
+++++MorocTelecomCasablanca
+menu = Moroc Telecom Casablanca
+title = Moroc Telecom Casablanca - casablancast.iam.ma
+host = casablancast.iam.ma
+++++OrangeMACasablanca
+menu = Orange MA Casablanca
+title = Orange MA Casablanca - speedtestcasa1.meditel.net.ma
+host = speedtestcasa1.meditel.net.ma
+
+
+++NewZealand
+menu = New Zealand
+title = New Zealand
+
++++Wellington
+menu = Wellington
+title = Wellington
+++++SparkNZWellington
+menu = Spark NZ Wellington
+title = Spark NZ Wellington - speedtest-wellington.spark.co.nz
+host = speedtest-wellington.spark.co.nz
+++++VodafoneNZWellington
+menu = Vodafone NZ Wellington
+title = Vodafone NZ Wellington - wellington.speedtest.vodafone.co.nz
+host = wellington.speedtest.vodafone.co.nz
+
++++Auckland
+menu = Auckland
+title = Auckland
+++++SparkNZAuckland
+menu = Spark NZ Auckland
+title = Spark NZ Auckland - speedtest-auckland.spark.co.nz
+host = speedtest-auckland.spark.co.nz
+++++VodafoneNZAuckland
+menu = Vodafone NZ Auckland
+title = Vodafone NZ Auckland - auckland.speedtest.vodafone.co.nz
+host = auckland.speedtest.vodafone.co.nz
+++++2degreesAuckland
+menu = 2degrees Auckland
+title = 2degrees Auckland - speed2.snap.net.nz
+host = speed2.snap.net.nz
+++++VocusNZAuckland
+menu = Vocus NZ Auckland
+title = Vocus NZ Auckland - akl1.linetest.nz
+host = akl1.linetest.nz
+++++MyRepublicNZAuckland
+menu = MyRepublic NZ Auckland
+title = MyRepublic NZ Auckland - speedtest.myrepublic.co.nz
+host = speedtest.myrepublic.co.nz
+
++++Christchurch
+menu = Christchurch
+title = Christchurch
+++++SparkNZChristchurch
+menu = Spark NZ Christchurch
+title = Spark NZ Christchurch - speedtest-christchurch.spark.co.nz
+host = speedtest-christchurch.spark.co.nz
+++++VodafoneNZChristchurch
+menu = Vodafone NZ Christchurch
+title = Vodafone NZ Christchurch - christchurch.speedtest.vodafone.co.nz
+host = christchurch.speedtest.vodafone.co.nz
+++++2degreesChristchurch
+menu = 2degrees Christchurch
+title = 2degrees Christchurch - speed.snap.net.nz
+host = speed.snap.net.nz
+++++VocusNZChristchurch
+menu = Vocus NZ Christchurch
+title = Vocus NZ Christchurch - chch1.linetest.nz
+host = chch1.linetest.nz
+
+
+++Qatar
+menu = Qatar
+title = Qatar
++++VodafoneQADoha
+menu = Vodafone QA Doha
+title = Vodafone QA Doha - speedtest01.vodafone.com.qa
+host = speedtest01.vodafone.com.qa
+
+
+++Oman
+menu = Oman
+title = Oman
++++OmanTelecomMuscat
+menu = Oman Telecom Muscat
+title = Oman Telecom Muscat - speedtest.omantel.om
+host = speedtest.omantel.om
++++OoredooMuscat
+menu = Ooredoo Muscat
+title = Ooredoo Muscat - speedtest.ooredoo.om
+host = speedtest.ooredoo.om
++++OmanTelecomSeeb
+menu = Oman Telecom Seeb
+title = Oman Telecom Seeb - speedtest2.omantel.om
+host = speedtest2.omantel.om
++++OoredooSeeb
+menu = Ooredoo Seeb
+title = Ooredoo Seeb - speedtest2.ooredoo.om
+host = speedtest2.ooredoo.om
+
+
+++Russia
+menu = Russia
+title = Russia
+
++++Moscow
+menu = Moscow
+title = Moscow
+++++RostelecomMoscow
+menu = Rostelecom Moscow
+title = Rostelecom Moscow - moscow.speedtest.rt.ru
+host = moscow.speedtest.rt.ru
+++++ERTelecomMoscow
+menu = ER-Telecom Moscow
+title = ER-Telecom Moscow - speedtest.msk.ertelecom.ru
+host = speedtest.msk.ertelecom.ru
+++++RASCOMMowcow
+menu = RASCOM Moscow
+title = RASCOM Moscow - msk.speedtest.rascom.ru
+host = msk.speedtest.rascom.ru
+++++OrangeBusinessServicesMoscow
+menu = Orange Business Services Moscow
+title = Orange Business Services Moscow - speedtest.rosprint.net
+host = speedtest.rosprint.net
+++++MTSMoscow
+menu = MTS Moscow
+title = MTS Moscow - librarian.comstar.ru
+host = librarian.comstar.ru
+++++MegafonMoscow
+menu = Megafon Moscow
+title = Megafon Moscow - speedtest-stf.megafon.ru
+host = speedtest-stf.megafon.ru
+++++Tele2Moscow
+menu = Tele2 Moscow
+title = Tele2 Moscow - msk1.companion.tele2.ru
+host = msk1.companion.tele2.ru
+
++++SaintPetersburg
+menu = Saint Petersburg
+title = Saint Petersburg
+++++RostelecomSaintPetersburg
+menu = Rostelecom Saint Petersburg
+title = Rostelecom Saint Petersburg - sankt-peterburg2.speedtest.rt.ru
+host = sankt-peterburg2.speedtest.rt.ru
+++++ERTelecomSaintPetersburg
+menu = ER-Telecom Saint Petersburg
+title = ER-Telecom Saint Petersburg - speedtest.spb.ertelecom.ru
+host = speedtest.spb.ertelecom.ru
+++++RASCOMSaintPetersburg
+menu = RASCOM Saint Petersburg
+title = RASCOM Saint Petersburg - stpetersburg1.speedtest.rascom.ru
+host = stpetersburg1.speedtest.rascom.ru
+++++RETNSaintPetersburg
+menu = RETN Saint Petersburg
+title = RETN Saint Petersburg - speedtest-spb.retn.net
+host = speedtest-spb.retn.net
+++++GlobalNetSaintPetersburg
+menu = GlobalNet Saint Petersburg
+title = GlobalNet Saint Petersburg - speedtest.gblnet.ru
+host = speedtest.gblnet.ru
+++++VimpelcomSaintPetersburg
+menu = Vimpelcom Saint Petersburg
+title = Vimpelcom Saint Petersburg - speedtest.spb.gldn.net
+host = speedtest.spb.gldn.net
+++++MTSSaintPetersburg
+menu = MTS Saint Petersburg
+title = MTS Saint Petersburg - speedtest-it.spb.mts.ru
+host = speedtest-it.spb.mts.ru
+++++MegafonSaintPetersburg
+menu = Megafon Saint Petersburg
+title = Megafon Saint Petersburg - speedtest-szf.megafon.ru
+host = speedtest-szf.megafon.ru
+++++Tele2SaintPetersburg
+menu = Tele2 Saint Petersburg
+title = Tele2 Saint Petersburg - spb1.companion.tele2.ru
+host = spb1.companion.tele2.ru
+
++++Novosibirsk
+menu = Novosibirsk
+title = Novosibirsk
+++++RostelecomNovosibirsk
+menu = Rostelecom Novosibirsk
+title = Rostelecom Novosibirsk - novosibirsk1.speedtest.rt.ru
+host = novosibirsk1.speedtest.rt.ru
+++++ERTelecomNovosibirsk
+menu = ER-Telecom Novosibirsk
+title = ER-Telecom Novosibirsk - st.nsk.ertelecom.ru
+host = st.nsk.ertelecom.ru
+++++MTSNovosibirsk
+menu = MTS Novosibirsk
+title = MTS Novosibirsk - speedtest1.sib.mts.ru
+host = speedtest1.sib.mts.ru
+++++MegafonNovosibirsk
+menu = Megafon Novosibirsk
+title = Megafon Novosibirsk - speedtest-sib.megafon.ru
+host = speedtest-sib.megafon.ru
+++++BeelineNovosibirsk
+menu = Beeline Novosibirsk
+title = Beeline Novosibirsk - speedcheck1.nsk.beeline.ru
+host = speedcheck1.nsk.beeline.ru
+++++Tele2Novosibirsk
+menu = Tele2 Novosibirsk
+title = Tele2 Novosibirsk - novosibirsk1.companion.tele2.ru
+host = novosibirsk1.companion.tele2.ru
+
++++Yekaterinburg
+menu = Yekaterinburg
+title = Yekaterinburg
+++++TranstelecomYekaterinburg
+menu = Transtelecom Yekaterinburg
+title = Transtelecom Yekaterinburg - speedtest.uralttk.ru
+host = speedtest.uralttk.ru
+++++ERTelecomYekaterinburg
+menu = ER-Telecom Yekaterinburg
+title = ER-Telecom Yekaterinburg - ookla.ekat.ertelecom.ru
+host = ookla.ekat.ertelecom.ru
+++++MTSYekaterinburg
+menu = MTS Yekaterinburg
+title = MTS Yekaterinburg - speedtest.ural.mts.ru
+host = speedtest.ural.mts.ru
+++++BeelineYekaterinburg
+menu = Beeline Yekaterinburg
+title = Beeline Yekaterinburg - ekat1.speedtest.corbina.net
+host = ekat1.speedtest.corbina.net
+++++Tele2Yekaterinburg
+menu = Tele2 Yekaterinburg
+title = Tele2 Yekaterinburg - ekt1.companion.tele2.ru
+host = ekt1.companion.tele2.ru
+
++++Irkutsk
+menu = Irkutsk
+title = Irkutsk
+++++RostelecomIrkutsk
+menu = Rostelecom Irkutsk
+title = Rostelecom Irkutsk - irkutsk.speedtest.rt.ru
+host = irkutsk.speedtest.rt.ru
+++++TranstelecomIrkutsk
+menu = Transtelecom Irkutsk
+title = Transtelecom Irkutsk - 5.254.224.9
+host = 5.254.224.9
+++++ERTelecomIrkutsk
+menu = ER-Telecom Irkutsk
+title = ER-Telecom Irkutsk - speedtest.irkutsk.ertelecom.ru
+host = speedtest.irkutsk.ertelecom.ru
+++++MTSIrkutsk
+menu = MTS Irkutsk
+title = MTS Irkutsk - speedtest-irk.mtsdv.ru
+host = speedtest-irk.mtsdv.ru
+++++BeelineIrkutsk
+menu = Beeline Irkutsk
+title = Beeline Irkutsk - 194.186.138.14
+host = 194.186.138.14
+
++++Khabarovsk
+menu = Khabarovsk
+title = Khabarovsk
+++++RostelecomKhabarovsk
+menu = Rostelecom Khabarovsk
+title = Rostelecom Khabarovsk - khabarovsk1.speedtest.rt.ru
+host = khabarovsk1.speedtest.rt.ru
+++++TranstelecomKhabarovsk
+menu = Transtelecom Khabarovsk
+title = Transtelecom Khabarovsk - server.ttk2701.cloudns.cc
+host = server.ttk2701.cloudns.cc
+++++ERTelecomKhabarovsk
+menu = ERTelecom Khabarovsk
+title = ERTelecom Khabarovsk - speedtest.khb.ertelecom.ru
+host = speedtest.khb.ertelecom.ru
+++++MegafonKhabarovsk
+menu = Megafon Khabarovsk
+title = Megafon Khabarovsk - khb.speedtest-dvf.megafon.ru
+host = khb.speedtest-dvf.megafon.ru
+
++++Vladivostok
+menu = Vladivostok
+title = Vladivostok
+++++ERTelecomVladivostok
+menu = ER-Telecom Vladivostok
+title = ER-Telecom Vladivostok - speedtest.vladivostok.ertelecom.ru
+host = speedtest.vladivostok.ertelecom.ru
+
++++Kaliningrad
+menu = Kaliningrad
+title =	Kaliningrad
+++++RostelecomKaliningrad
+menu = Rostelecom Kaliningrad
+title = Rostelecom Kaliningrad - kaliningrad.speedtest.rt.ru
+host = kaliningrad.speedtest.rt.ru
+++++TranstelecomKaliningrad
+menu = Transtelecom Kaliningrad
+title = Transtelecom Kaliningrad - speedtest7.ttksever.ru
+host = speedtest7.ttksever.ru
+
+
+++SaudiArabia
+menu = Saudi Arabia
+title = Saudi Arabia
+
++++Riyadh
+menu = Riyadh
+title = Riyadh
+++++SaudiTelecomCompanyRiyadh
+menu = Saudi Telecom Company Riyadh
+title = Saudi Telecom Company Riyadh - speedtest.saudi.net.sa
+host = speedtest.saudi.net.sa
+++++MobilyRiyadh
+menu = Mobily Riyadh
+title = Mobily Riyadh - ryd.myspeed.net.sa
+host = ryd.myspeed.net.sa
+++++ZainKSARiyadh
+menu = Zain KSA Riyadh
+title = Zain KSA Riyadh - speedtest-riyadhnew.sa.zain.com
+host = speedtest-riyadhnew.sa.zain.com
+
++++Jeddah
+menu = Jeddah
+title = Jeddah
+++++SaudiTelecomCompanyJeddah
+menu = Saudi Telecom Company Jeddah
+title = Saudi Telecom Company Jeddah - jed-speedtest.saudi.net.sa
+host = jed-speedtest.saudi.net.sa
+++++MobilyJeddah
+menu = Mobily Jeddah
+title = Mobily Jeddah - jed.myspeed.net.sa
+host = jed.myspeed.net.sa
+++++ZainKSAJeddah
+menu = Zain KSA Jeddah
+title = Zain KSA Jeddah - speedtest-jeddahnew.sa.zain.com
+host = speedtest-jeddahnew.sa.zain.com
+++++IntegratedTelecomCompanyJeddah
+menu = Integrated Telecom Company Jeddah
+title = Integrated Telecom Company Jeddah - 87.101.144.21
+host = 87.101.144.21
+
++++Mecca
+menu = Mecca
+title = Mecca
+++++SaudiTelecomCompanyMecca
+menu = Saudi Telecom Company Mecca
+title = Saudi Telecom Company Mecca - makkah-speedtest.saudi.net.sa
+host = makkah-speedtest.saudi.net.sa
+++++MobilyMecca
+menu = Mobily Mecca
+title = Mobily Mecca - mkh.myspeed.net.sa
+host = mkh.myspeed.net.sa
+
++++Medina
+menu = Medina
+title = Medina
+++++SaudiTelecomCompanyMedina
+menu = Saudi Telecom Company Medina
+title = Saudi Telecom Company Medina - ab-speedtest.saudi.net.sa
+host = ab-speedtest.saudi.net.sa
+++++MobilyMedina
+menu = Mobily Medina
+title = Mobily Medina - mdn.myspeed.net.sa
+host = mdn.myspeed.net.sa
+
++++Dammam
+menu = Dammam
+title = Dammam
+++++SaudiTelecomCompanyDammam
+menu = Saudi Telecom Company Dammam
+title = Saudi Telecom Company Dammam - dam-speedtest.saudi.net.sa
+host = dam-speedtest.saudi.net.sa
+++++MobilyDammam
+menu = Mobily Dammam
+title = Mobily Dammam - dam.myspeed.net.sa
+host = dam.myspeed.net.sa
+++++ZainKSADammam
+menu = Zain KSA Dammam
+title = Zain KSA Dammam - speedtest-dammamnew.sa.zain.com
+host = speedtest-dammamnew.sa.zain.com
+
++++Tabuk
+menu = Tabuk
+title = Tabuk
+++++SaudiTelecomCompanyTabuk
+menu = Saudi Telecom Company Tabuk
+title = Saudi Telecom Company Tabuk - tabuk-speedtest.saudi.net.sa
+host = tabuk-speedtest.saudi.net.sa
+++++MobilyTabuk
+menu = Mobily Tabuk
+title = Mobily Tabuk - tbk.myspeed.net.sa
+host = tbk.myspeed.net.sa
+
++++HafarAlBatin
+menu = Hafar Al Batin
+title = Hafar Al Batin
+++++MobilyHafarAlBatin
+menu = Mobily Hafar Al Batin
+title = Mobily Hafar Al Batin - hfr.myspeed.net.sa
+host = hfr.myspeed.net.sa
+
++++Abha
+menu = Abha
+title = Abha
+++++SaudiTelecomCompanyAbha
+menu = Saudi Telecom Company Abha
+title = Saudi Telecom Company Abha - abha-speedtest.saudi.net.sa
+host = abha-speedtest.saudi.net.sa
+
+
+++Singapore
+menu = Singapore
+title = Singapore
++++SingTelSingapore
+menu = SingTel
+title = SingTel - speedtest.singnet.com.sg
+host = speedtest.singnet.com.sg
++++StarHub
+menu = StarHub 
+title = StarHub - broadbandspeedtestuat.starhub.com
+host = broadbandspeedtestuat.starhub.com
++++M1
+menu = M1
+title = M1 - m1speedtest1.m1net.com.sg
+host = m1speedtest1.m1net.com.sg
++++Viewquest
+menu = Viewquest
+title = Viewquest - speedtest10.vqbn.com
+host = speedtest10.vqbn.com
++++MyRepublicSG
+menu = MyRepublic SG
+title = MyRepublic SG - speedtest.myrepublic.com.sg
+host = speedtest.myrepublic.com.sg
+
+
+++Switzerland
+menu = Switzerland
+title = Switzerland
+
++++Zurich
+menu = Zurich
+title = Zurich
+++++SwisscomZurich
+menu = Swisscom Zurich
+title = Swisscom Zurich - speedtest.wingo.ch
+host = speedtest.wingo.ch
+++++iWayZurich
+menu = iWay Zurich
+title = iWay Zurich - speedtest.iway.ch
+host = speedtest.iway.ch
+++++SunriseZurich
+menu = Sunrise Zurich
+title = Sunrise Zurich - pzur01speedtst02.sunrise.ch
+host = pzur01speedtst02.sunrise.ch
+++++GTTZurich
+menu = GTT Zurich
+title = GTT Zurich - zrh.speedtest.gtt.net
+host = zrh.speedtest.gtt.net
+
++++Geneva
+menu = Geneva
+title = Geneva
+++++GTTGeneva
+menu = GTT Geneva
+title = GTT Geneva - gva.speedtest.gtt.net
+host = gva.speedtest.gtt.net
+
+
+++UnitedKingdom
+menu = United Kingdom
+title = United Kindgom
+
++++London
+menu = London
+title = London
+++++FibreNestLondon
+menu = FibreNest London
+title = FibreNest London - st-1.fibrenest.net
+host = st-1.fibrenest.net
+++++GlideLondon
+menu = Glide London
+title = Glide London - speedtest.warwicknet.com
+host = speedtest.warwicknet.com
+++++GTTLondon
+menu = GTT London
+title = GTT London - lon.speedtest.gtt.net
+host = lon.speedtest.gtt.net
+++++LightningFibreLondon
+menu = Lightning Fibre London
+title = Lightning Fibre London - speedtest2.lightningfibre.net.uk
+host = speedtest2.lightningfibre.net.uk
+++++RETNGBLondon
+menu = RETN GB London
+title = RETN GB London - speedtest-lon.retn.net
+host = speedtest-lon.retn.net
+
+
+++Thailand
+menu = Thailand
+title = Thailand
+
++++Bangkok
+menu = Bangkok
+title = Bangkok
+++++AISBangkok
+menu = AIS Bangkok
+title = AIS Bangkok - speedtest1.ais-idc.net
+host = speedtest1.ais-idc.net
+++++DTACBangkok
+menu = DTAC Bangkok
+title = DTAC Bangkok - speedtest5.dtacnetwork.co.th
+host = speedtest5.dtacnetwork.co.th
+++++3BBBangkok
+menu = 3BB Bangkok
+title = 3BB Bangkok - speedtest-sp1.3bb.co.th
+host = speedtest-sp1.3bb.co.th
+++++TOTBangkok
+menu = TOT Bangkok
+title = TOT Bangkok - totspeedtest.totbroadband.com
+host = totspeedtest.totbroadband.com
+
++++HatYai
+menu = Hat Yai
+title = Hat Yai
+++++CATTelecomHatYai
+menu = CAT Telecom Hat Yai
+title = CAT Telecom Hat Yai - hatyai.catspeedtest.net
+host = hatyai.catspeedtest.net
+++++AISHatYai
+menu = AIS Hat Yai
+title = AIS Hat Yai - speedtest-hyi1.ais-idc.net
+host = speedtest-hyi1.ais-idc.net
+++++3BBHatYai
+menu = 3BB Hat Yai
+title = 3BB Hat Yai - speedtest-hyi1.3bb.co.th
+host = speedtest-hyi1.3bb.co.th
+++++TOTHatYai
+menu = TOT Hat Yai
+title = TOT Hat Yai - hyispeedtestnet.totbroadband.com
+host = hyispeedtestnet.totbroadband.com
+
++++SuratThani
+menu = Surat Thani
+title = Surat Thani
+++++AISSuratThani
+menu = AIS Surat Thani
+title = AIS Surat Thani - speedtest-sni1.ais-idc.net
+host = speedtest-sni1.ais-idc.net
+++++DTACSuratThani
+menu = DTAC Surat Thani
+title = DTAC Surat Thani - speedtest14.dtacnetwork.co.th
+host = speedtest14.dtacnetwork.co.th
+++++3BBSuratThani
+menu = 3BB Surat Thani
+title = 3BB Surat Thani - speedtest-sni1.3bb.co.th
+host = speedtest-sni1.3bb.co.th
+++++TOTSuratThani
+menu = TOT Surat Thani
+title = TOT Surat Thani - ppnspeedtestnet.totbroadband.com
+host = ppnspeedtestnet.totbroadband.com
+
++++ChiangMai
+menu = Chiang Mai
+title = Chiang Mai
+++++AISChiangMai
+menu = AIS Chiang Mai
+title = AIS Chiang Mai - speedtest-cmi1.ais-idc.net
+host = speedtest-cmi1.ais-idc.net
+++++3BBChiangMai
+menu = 3BB Chiang Mai
+title = 3BB Chiang Mai - speedtest-cmi2.3bb.co.th
+host = speedtest-cmi2.3bb.co.th
+++++TOTChiangMai
+menu = TOT Chiang Mai
+title = TOT Chiang Mai - cmispeedtestnet.totbroadband.com
+host = cmispeedtestnet.totbroadband.com
+
++++NakhonRatchasima
+menu = Nakhon Ratchasima
+title = Nakhon Ratchasima
+++++AISNakhonRatchasima
+menu = AIS Nakhon Ratchasima
+title = AIS Nakhon Ratchasima - speedtest-nma1.ais-idc.net
+host = speedtest-nma1.ais-idc.net
+++++3BBNakhonRatchasima
+menu = 3BB Nakhon Ratchasima
+title = 3BB Nakhon Ratchasima - speedtest-nma1.3bb.co.th
+host = speedtest-nma1.3bb.co.th
+++++TOTNakhonRatchasima
+menu = TOT Nakhon Ratchasima
+title = TOT Nakhon Ratchasima - nmaspeedtestnet.totbroadband.com
+host = nmaspeedtestnet.totbroadband.com
+
++++KhonKaen
+menu = Khon Kaen
+title = Khon Kaen
+++++AISKhonKaen
+menu = AIS Khon Kaen
+title = AIS Khon Kaen - speedtest-kkn1.ais-idc.net
+host = speedtest-kkn1.ais-idc.net
+++++DTACKhonKaen
+menu = DTAC Khon Kaen
+title = DTAC Khon Kaen - speedtest13.dtacnetwork.co.th
+host = speedtest13.dtacnetwork.co.th
+++++3BBKhonKaen
+menu = 3BB Khon Kaen
+title = 3BB Khon Kaen - speedtest-kkn1.3bb.co.th
+host = speedtest-kkn1.3bb.co.th
+++++TOTKhonKaen
+menu = TOT Khon Kaen
+title = TOT Khon Kaen - kknspeedtestnet.totbroadband.com
+host = kknspeedtestnet.totbroadband.com
+
++++Phitsanulok
+menu = Phitsanulok
+title = Phitsanulok
+++++AISPhitsanulok
+menu = AIS Phitsanulok
+title = AIS Phitsanulok - speedtest-plk1.ais-idc.net
+host = speedtest-plk1.ais-idc.net
+++++DTACPhitsanulok
+menu = DTAC Phitsanulok
+title = DTAC Phitsanulok - speedtest12.dtacnetwork.co.th
+host = speedtest12.dtacnetwork.co.th
+++++3BBPhitsanulok
+menu = 3BB Phitsanulok
+title = 3BB Phitsanulok - speedtest-plk1.3bb.co.th
+host = speedtest-plk1.3bb.co.th
+++++TOTPhitsanulok
+menu = TOT Phitsanulok
+title = TOT Phitsanulok - plkspeedtestnet.totbroadband.com
+host = plkspeedtestnet.totbroadband.com
+
+
+++UnitedStates
+menu = United States
+title = United States
+
++++NewYork
+menu = New York
+title = New York
+++++GTTNewYork
+menu = GTT New York
+title = GTT New York - nyc.speedtest.gtt.net
+host = nyc.speedtest.gtt.net
+++++ATTNewYork
+menu = AT&T New York
+title = AT&T New York - nyc.speedtest.sbcglobal.net
+host = nyc.speedtest.sbcglobal.net
+++++VerizonNewYork
+menu = Verizon New York
+title = Verizon New York - nyykp1.speed.vzwnet.com
+host = nyykp1.speed.vzwnet.com
+++++SprintNewYork
+menu = Sprint New York
+title = Sprint New York - ookla1.nycmny.sprintadp.net
+host = ookla1.nycmny.sprintadp.net
+
++++Chicago
+menu = Chicago
+title = Chicago
+++++VerizonChicago
+menu = Verizon Chicago
+title = Verizon Chicago - ilhhp1.speed.vzwnet.com
+host = ilhhp1.speed.vzwnet.com
+++++SprintChicago
+menu = Sprint Chicago
+title = Sprint Chicago - ookla1.chcgil.sprintadp.net
+host = ookla1.chcgil.sprintadp.net
+++++CenturyLinkChicago
+menu = CenturyLink Chicago
+title = CenturyLink Chicago - chicago.speedtest.centurylink.net
+host = chicago.speedtest.centurylink.net
+++++FrontierChicago
+menu = Frontier Chicago
+title = Frontier Chicago - chicago.il.speedtest.frontier.com
+host = chicago.il.speedtest.frontier.com
+
++++LosAngeles
+menu = Los Angeles
+title = Los Angeles
+++++ATTLosAngeles
+menu = AT&T Los Angeles
+title = AT&T Los Angeles - lax.speedtest.sbcglobal.net
+host = lax.speedtest.sbcglobal.net
+++++VerizonLosAngeles
+menu = Verizon Los Angeles
+title = Verizon Los Angeles - caazp1.speed.vzwnet.com
+host = caazp1.speed.vzwnet.com
+++++SpectrumLosAngeles
+menu = Spectrum Los Angeles
+title = Spectrum Los Angeles - speedtest.west.rr.com
+host = speedtest.west.rr.com
+++++FrontierLosAngeles
+menu = Frontier Los Angeles
+title = Frontier Los Angeles - losangeles.ca.speedtest.frontier.com
+host = losangeles.ca.speedtest.frontier.com
+++++WindstreamLosAngeles
+menu = Windstream Los Angeles
+title = Windstream Los Angeles - la02.speedtest.windstream.net
+host = la02.speedtest.windstream.net
+++++2degreesLosAngeles
+menu = 2degrees Los Angeles
+title = 2degrees Los Angeles - speed5.snap.net.nz
+host = speed5.snap.net.nz
+
++++SanFrancisco
+menu = San Francisco
+title = San Francisco
+++++ATTSanFrancisco
+menu = AT&T San Francisco
+title = AT&T San Francisco - sfo.speedtest.sbcglobal.net
+host = sfo.speedtest.sbcglobal.net
+++++VerizonSanFrancisco
+menu = Verizon San Francisco
+title = Verizon San Francisco - casvp1.speed.vzwnet.com
+host = casvp1.speed.vzwnet.com
+++++TMobileSanFrancisco
+menu = T-Mobile San Francisco
+title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
+host = ssf.speedtest.t-mobile.com
+
+
+++Yemen
+menu = Yemen
+title = Yemen
++++YemenNetSanaa
+menu = Yemen Net Sana'a
+title = Yemen Net Sana'a - speedtest.yemen.net.ye
+host = speedtest.yemen.net.ye
+
+
+
++ChinaWebsites
+menu = China Websites
+title = Top Chinese Websites
+++Baidu
+menu = Baidu
+title = Baidu - www.baidu.com
+host = www.baidu.com
+++QQ
+menu = QQ
+title = QQ - www.qq.com
+host = www.qq.com
+++bilibili
+menu = bilibili
+title = bilibili - www.bilibili.com
+host = www.bilibili.com
+++TMALL
+menu = TMALL
+title = TMALL - www.tmall.com
+host = www.tmall.com
+++Taobao
+menu = Taobao
+title = Taobao - world.taobao.com
+host = world.taobao.com
+++ZhiHu
+menu = ZhiHu
+title = ZhiHu - www.zhihu.com
+host = www.zhihu.com
+++Sohu
+menu = Sohu
+title = Sohu - www.sohu.com
+host = www.sohu.com
+++JD
+menu = JD
+title = JD - global.jd.com
+host = global.jd.com
+++Sogou
+menu = Sogou
+title = Sogou - www.sogou.com
+host = www.sogou.com
+++Weibo
+menu = Weibo
+title = Weibo - www.weibo.com
+host = www.weibo.com
+++163
+menu = 163
+title = 163 - www.163.com
+host = www.163.com
+++douban
+menu = douban
+title = douban - www.douban.com
+host = www.douban.com
+++Youku
+menu = Youku
+title = Youku - www.youku.com
+host = www.youku.com
+
+
+
++Server
+menu = Server
+title = My Servers
+
+
+++UbiquitiUniFiController
+menu = Ubiquiti UniFi Controller
+title = Ubiquiti UniFi Controller
+
++++UbiquitiUniFiControllerLON
+menu = UniFi Controller LON
+title = UniFi Controller LON - inform.unifi.thetooorg.net
+host = inform.unifi.thetooorg.net
+
+
+++OpenVPNServer
+menu = OpenVPN Server
+title = OpenVPN Server
+
++++OpenVPNServerAWSLONGB
+menu = OpenVPN Server AWS-LON.GB
+title = OpenVPN Server AWS-LON.GB - vpn.aws-lon.gb.thetooorg.net
+host = vpn.aws-lon.gb.thetooorg.net
+
++++OpenVPNServerAWSSINSG
+menu = OpenVPN Server AWS-SIN.SG
+title = OpenVPN Server AWS-SIN.SG - vpn.aws-sin.sg.thetooorg.net
+host = vpn.aws-sin.sg.thetooorg.net
+
++++OpenVPNServerAWSSYDAU
+menu = OpenVPN Server AWS-SYD.AU
+title = OpenVPN Server AWS-SYD.AU - vpn.aws-syd.au.thetooorg.net
+host = vpn.aws-syd.au.thetooorg.net
+
++++OpenVPNServerTYOJP
+menu = OpenVPN Server AWS-TYO.JP
+title = OpenVPN Server AWS-TYO.JP - vpn.aws-tyo.jp.thetooorg.net
+host = vpn.aws-tyo.jp.thetooorg.net
+
+
+
++Games
+menu = Games
+title = Games
+
+
+++Dota2
+menu = Dota 2
+title = Dota 2
+
++++EuropeEast
+menu = Europe East
+title = Europe East - vie.valve.net
+host = vie.valve.net
+
++++EuropeWest
+menu = Europe West
+title = Europe West - lux.valve.net
+host = lux.valve.net
+
++++Russia
+menu = Russia
+title = Russia - sto.valve.net
+host = sto.valve.net
+
++++SoutheastAsia1
+menu = SE Asia 1
+title = SE Asia 1 - sgp-1.valve.net
+host = sgp-1.valve.net
+
++++SoutheastAsia2
+menu = SE Asia 2
+title = SE Asia 2 - sgp-2.valve.net
+host = sgp-2.valve.net
+
++++USEast
+menu = US East
+title = US East - iad.valve.net
+host = iad.valve.net
+
++++USWest
+menu = US West
+title = US West - eat.valve.net
+host = eat.valve.net
+
+
+++LeagueofLegends
+menu = League of Legends
+title = League of Legends
+
++++BR
+menu = BR
+title = BR - 104.160.152.3
+host = 104.160.152.3
+
++++EUNE
+menu = EUNE
+title = EUNE - 104.160.142.3
+host = 104.160.142.3
+
++++LAN
+menu = LAN
+title = LAN - 104.160.136.3
+host = 104.160.136.3
+
+
+++StarCraft2
+menu = StarCraft 2
+title = StarCraft 2
+
++++USWest
+menu = US West
+title = US West - 24.105.30.129
+host = 24.105.30.129
+
++++Europe
+menu = Europe
+title = Europe - 185.60.112.157
+host = 185.60.112.157
+
++++Australia
+menu = Australia
+title = Australia - 103.4.114.233
+host = 103.4.114.233
