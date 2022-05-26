@@ -427,6 +427,18 @@ title = Universities
 menu = Australia
 title = Australia
 
++++AustralianNationalUniversity
+menu = Australian National University
+title = Australian National University
+++++AustralianNationalUniversityVPN
+menu = Australian National University VPN
+title = Australian National University VPN - student-access.anu.edu.au
+host = student-access.anu.edu.au
+++++AustralianNationalUniversityEduroam
+menu = Australian National University Eduroam
+title = Australian National University Eduroam - eduroam.anu.edu.au
+host = eduroam.anu.edu.au
+
 +++UniversityofSydney
 menu = University of Sydney
 title = University of Sydney
@@ -438,10 +450,22 @@ host = vpn.sydney.edu.au
 +++UniversityofMelbourne
 menu = University of Melbourne
 title = University of Melbourne
+++++UniversityofMelbourneVPN
+menu = University of Melbourne VPN
+title = University of Melbourne VPN - remote.unimelb.edu.au
+host = remote.unimelb.edu.au
 ++++UniversityofMelbourneEduroam
 menu = University of Melbourne Eduroam
 title = University of Melbourne Eduroam - wireless.unimelb.edu.au
 host = wireless.unimelb.edu.au
+
++++UniversityofQueensland
+menu = University of Queensland
+title = University of Queensland
+++++UniversityofQueenslandVPN
+menu = University of Queensland VPN
+title = University of Queensland VPN - vpn.uq.edu.au
+host = vpn.uq.edu.au
 
 +++UniversityofNewSouthWales
 menu = University of New South Wales
@@ -462,6 +486,14 @@ host = vpn.monash.edu
 menu = Monash University Eduroam
 title = Monash University Eduroam - eduroam.monash.edu
 host = eduroam.monash.edu
+
++++UniversityofAdelaide
+menu = University of Adelaide
+title = University of Adelaide
+++++UniversityofAdelaideVPN
+menu = University of Adelaide VPN
+title = University of Adelaide VPN - remote.adelaide.edu.au
+host = remote.adelaide.edu.au
 
 
 ++Canada
@@ -516,6 +548,19 @@ title = Victoria University of Wellington
 menu = Victoria University of Wellington VPN
 title = Victoria University of Wellington VPN - vpn.vuw.ac.nz
 host = vpn.vuw.ac.nz
+
+
+++Singapore
+menu = Singapore
+title = Singapore
+
++++NationalUniversityofSingapore
+menu = National University of Singapore
+title = National University of Singapore
+++++NationalUniversityofSingaporeVPN
+menu = National University of Singapore VPN
+title = National University of Singapore VPN - webvpn.nus.edu.sg
+host = webvpn.nus.edu.sg
 
 
 ++UnitedKingdom
