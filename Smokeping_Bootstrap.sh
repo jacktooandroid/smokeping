@@ -8,8 +8,8 @@ sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Conf
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Probes.txt -o /etc/smokeping/config.d/Probes
 sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -O /etc/smokeping/config.d/Presentation
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -o /etc/smokeping/config.d/Presentation
-sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -O /etc/smokeping/config.d/Targets
-sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -o /etc/smokeping/config.d/Targets
+#sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -O /etc/smokeping/config.d/Targets
+#sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -o /etc/smokeping/config.d/Targets
 sudo service smokeping restart
 
 sudo cp /var/www/html/index.html /var/www/html/index.html1
