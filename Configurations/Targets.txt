@@ -1376,10 +1376,6 @@ host = sp1-blr.youbroadband.in
 menu = ACT Bangalore
 title = ACT Bangalore - speedtestblr.actcorp.in
 host = speedtestblr.actcorp.in
-++++TataPlayFiberBangalore
-menu = Tata Play Fiber Bangalore
-title = Tata Play Fiber Bangalore - speedtest.tataplayfiber.co.in
-host = speedtest.tataplayfiber.co.in
 ++++RailTelBangalore
 menu = RailTel Bangalore
 title = RailTel Bangalore - sbc.speedtest.rcil.gov.in
@@ -1601,10 +1597,6 @@ title = Rabat
 menu = Moroc Telecom Rabat
 title = Moroc Telecom Rabat - speedtest.iam.ma
 host = speedtest.iam.ma
-++++OrangeMARabat
-menu = Orange MA Rabat
-title = Orange MA Rabat - speedtestrabat3.meditel.net.ma
-host = speedtestrabat3.meditel.net.ma
 
 +++Casablanca
 menu = Casablanca
