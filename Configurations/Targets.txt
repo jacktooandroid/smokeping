@@ -1273,6 +1273,64 @@ title = TDC Aarhus - linespeed3.nms.tele.dk
 host = linespeed3.nms.tele.dk
 
 
+++France
+menu = France
+title = France
+
++++Paris
+menu = Paris
+title = Paris
+++++SFRParis
+menu = SFR Paris
+title = SFR Paris - speedtest.mire.sfr.net
+host = speedtest.mire.sfr.net
+
+
+++Germany
+menu = Germany
+title = Germany
+
++++Berlin
+menu = Berlin
+title = Berlin
+++++DeutscheTelekomBerlin
+menu = Deutsche Telekom Berlin
+title = Deutsche Telekom Berlin - ber.wsqm.telekom-dienste.de
+host = ber.wsqm.telekom-dienste.de
+
++++Frankfurt
+menu = Frankfurt
+title = Frankfurt
+++++DeutscheTelekomFrankfurt
+menu = Deutsche Telekom Frankfurt
+title = Deutsche Telekom Frankfurt - ffm.wsqm.telekom-dienste.de
+host = ffm.wsqm.telekom-dienste.de
+
++++Munich
+menu = Munich
+title = Munich
+++++DeutscheTelekomMunich
+menu = Deutsche Telekom Munich
+title = Deutsche Telekom Munich - mue.wsqm.telekom-dienste.de
+host = mue.wsqm.telekom-dienste.de
+
++++Hamburg
+menu = Hamburg
+title = Hamburg
+++++DeutscheTelekomHamburg
+menu = Deutsche Telekom Hamburg
+title = Deutsche Telekom Hamburg - ham.wsqm.telekom-dienste.de
+host = ham.wsqm.telekom-dienste.de
+
++++Dusseldorf
+menu = Dusseldorf
+title = Dusseldorf
+++++DeutscheTelekomDusseldorf
+menu = Deutsche Telekom Dusseldorf
+title = Deutsche Telekom Dusseldorf - dus.wsqm.telekom-dienste.de
+host = dus.wsqm.telekom-dienste.de
+
+
 ++India
 menu = India
 title = India
@@ -2140,88 +2198,6 @@ title = Salt Lausanne - ookla-cr.salt.ch
 host = ookla-cr.salt.ch
 
 
-++Turkey
-menu = Turkey
-title = Turkey
-
-+++Ankara
-menu = Ankara
-title = Ankara
-++++TurkcellAnkara
-menu = Turkcell Ankara
-title = Turkcell Ankara - sgtz04.hizinitestet.com
-host = sgtz04.hizinitestet.com
-++++VodafoneTRAnkara
-menu = Vodafone TR Ankara
-title = Vodafone TR Ankara - speedtest.vodafone.com.tr
-host = speedtest.vodafone.com.tr
-
-+++Istanbul
-menu = Istanbul
-title = Istanbul
-++++TurkcellIstanbul
-menu = Turkcell Istanbul
-title = Turkcell Istanbul - mbey01.hizinitestet.com
-host = mbey01.hizinitestet.com
-++++VodafoneTRIstanbul
-menu = Vodafone TR Istanbul
-title = Vodafone TR Istanbul - speedtest4.vodafone.com.tr
-host = speedtest4.vodafone.com.tr
-++++TurkTelekomTRIstanbul
-menu = Turk Telekom Istanbul
-title = Turk Telekom Istanbul - umr1speedtest.turktelekom.com.tr
-host = umr1speedtest.turktelekom.com.tr
-
-+++Izmir
-menu = Izmir
-title = Izmir
-++++TurkcellIzmir
-menu = Turkcell Izmir
-title = Turkcell Izmir - brnv01.hizinitestet.com
-host = brnv01.hizinitestet.com
-
-+++Antalya
-menu = Antalya
-title = Antalya
-++++TurkcellAntalya
-menu = Turkcell Antalya
-title = Turkcell Antalya - antl03.hizinitestet.com
-host = antl03.hizinitestet.com
-++++VodafoneTRAntalya
-menu = Vodafone TR Antalya
-title = Vodafone TR Antalya - speedtest6.vodafone.com.tr
-host = speedtest6.vodafone.com.tr
-++++TurkTelekomTRAntalya
-menu = Turk Telekom Antalya
-title = Turk Telekom Antalya - ant1speedtest.turktelekom.com.tr
-host = ant1speedtest.turktelekom.com.tr
-
-
-++UnitedKingdom
-menu = United Kingdom
-title = United Kindgom
-
-+++London
-menu = London
-title = London
-++++ZenInternetLondon
-menu = Zen Internet London
-title = Zen Internet London - speedtest02a.web.zen.net.uk
-host = speedtest02a.web.zen.net.uk
-++++FibreNestLondon
-menu = FibreNest London
-title = FibreNest London - st-1.fibrenest.net
-host = st-1.fibrenest.net
-++++LightningFibreLondon
-menu = Lightning Fibre London
-title = Lightning Fibre London - speedtest2.lightningfibre.net.uk
-host = speedtest2.lightningfibre.net.uk
-++++RETNGBLondon
-menu = RETN GB London
-title = RETN GB London - speedtest-lon.retn.net
-host = speedtest-lon.retn.net
-
-
 ++Thailand
 menu = Thailand
 title = Thailand
@@ -2357,6 +2333,117 @@ host = speedtest-plk1.3bb.co.th
 menu = TOT Phitsanulok
 title = TOT Phitsanulok - plkspeedtestnet.totbroadband.com
 host = plkspeedtestnet.totbroadband.com
+
+
+++Turkey
+menu = Turkey
+title = Turkey
+
++++Ankara
+menu = Ankara
+title = Ankara
+++++TurkcellAnkara
+menu = Turkcell Ankara
+title = Turkcell Ankara - sgtz04.hizinitestet.com
+host = sgtz04.hizinitestet.com
+++++VodafoneTRAnkara
+menu = Vodafone TR Ankara
+title = Vodafone TR Ankara - speedtest.vodafone.com.tr
+host = speedtest.vodafone.com.tr
+
++++Istanbul
+menu = Istanbul
+title = Istanbul
+++++TurkcellIstanbul
+menu = Turkcell Istanbul
+title = Turkcell Istanbul - mbey01.hizinitestet.com
+host = mbey01.hizinitestet.com
+++++VodafoneTRIstanbul
+menu = Vodafone TR Istanbul
+title = Vodafone TR Istanbul - speedtest4.vodafone.com.tr
+host = speedtest4.vodafone.com.tr
+++++TurkTelekomTRIstanbul
+menu = Turk Telekom Istanbul
+title = Turk Telekom Istanbul - umr1speedtest.turktelekom.com.tr
+host = umr1speedtest.turktelekom.com.tr
+
++++Izmir
+menu = Izmir
+title = Izmir
+++++TurkcellIzmir
+menu = Turkcell Izmir
+title = Turkcell Izmir - brnv01.hizinitestet.com
+host = brnv01.hizinitestet.com
+
++++Antalya
+menu = Antalya
+title = Antalya
+++++TurkcellAntalya
+menu = Turkcell Antalya
+title = Turkcell Antalya - antl03.hizinitestet.com
+host = antl03.hizinitestet.com
+++++VodafoneTRAntalya
+menu = Vodafone TR Antalya
+title = Vodafone TR Antalya - speedtest6.vodafone.com.tr
+host = speedtest6.vodafone.com.tr
+++++TurkTelekomTRAntalya
+menu = Turk Telekom Antalya
+title = Turk Telekom Antalya - ant1speedtest.turktelekom.com.tr
+host = ant1speedtest.turktelekom.com.tr
+
+
+++Ukraine
+menu = Ukraine
+title = Ukraine
+
++++Kyiv
+menu = Kyiv
+title = Kyiv
+++++KyivstarKyiv
+menu = Kyivstar Kyiv
+title = Kyivstar Kyiv - srv01-okl-kv.kyivstar.ua
+host = srv01-okl-kv.kyivstar.ua
+++++LifecellKyiv
+menu = Lifecell Kyiv
+title = Lifecell Kyiv - speedtest01.life.com.ua
+host = speedtest01.life.com.ua
+
++++Lviv
+menu = Lviv
+title = Lviv
+++++KyivstarLviv
+menu = Kyivstar Lviv
+title = Kyivstar Lviv - srv01-okl-lvv.kyivstar.ua
+host = srv01-okl-lvv.kyivstar.ua
+++++LifecellLviv
+menu = Lifecell Lviv
+title = Lifecell Lviv - speedtest01.life.com.ua
+host = speedtest01.life.com.ua
+
+
+++UnitedKingdom
+menu = United Kingdom
+title = United Kindgom
+
++++London
+menu = London
+title = London
+++++ZenInternetLondon
+menu = Zen Internet London
+title = Zen Internet London - speedtest02a.web.zen.net.uk
+host = speedtest02a.web.zen.net.uk
+++++FibreNestLondon
+menu = FibreNest London
+title = FibreNest London - st-1.fibrenest.net
+host = st-1.fibrenest.net
+++++LightningFibreLondon
+menu = Lightning Fibre London
+title = Lightning Fibre London - speedtest2.lightningfibre.net.uk
+host = speedtest2.lightningfibre.net.uk
+++++RETNGBLondon
+menu = RETN GB London
+title = RETN GB London - speedtest-lon.retn.net
+host = speedtest-lon.retn.net
 
 
 ++UnitedStates
