@@ -852,11 +852,15 @@ host = nt-drwn-speedtest.aarnet.net.au
 ++Bermuda
 menu = Bermuda
 title = Bermuda
-+++OneCommunicationHamilton
+
++++Hamilton
+menu = Hamilton
+title = Hamilton
+++++OneCommunicationHamilton
 menu = One Communication Hamilton
 title = One Communication Hamilton - speedtest.onecomm.bm
 host = speedtest.onecomm.bm
-+++DigicelBMHamilton
+++++DigicelBMHamilton
 menu = Digicel BM Hamilton
 title = Digicel BM Hamilton - speedtest.digicel.bm
 host = speedtest.digicel.bm
@@ -1239,6 +1243,34 @@ menu = Hutchison Hong Kong
 title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
 host = ookla-speedtest.hgconair.hgc.com.hk
 
+
+++Denmark
+menu = Denmark
+title = Denmark
+
++++Copenhagen
+menu = Copenhagen
+title = Copenhagen
+++++TDCCopenhagen
+menu = TDC Copenhagen
+title = TDC Copenhagen - linespeed1.nms.tele.dk
+host = linespeed1.nms.tele.dk
+++++TelenorDKCopenhagen
+menu = Telenor DK Copenhagen
+title = Telenor DK Copenhagen - hyperspeed.telenor.dk
+host = hyperspeed.telenor.dk
+++++TeliaDKCopenhagen
+menu = Telia DK Copenhagen
+title = Telia DK Copenhagen - speedtest.telia.dk
+host = speedtest.telia.dk
+
++++Aarhus
+menu = Aarhus
+title = Aarhus
+++++TDCAarhus
+menu = TDC Aarhus
+title = TDC Aarhus - linespeed3.nms.tele.dk
+host = linespeed3.nms.tele.dk
 
 
 ++India
@@ -1668,34 +1700,96 @@ title = Vocus NZ Christchurch - chch1.linetest.nz
 host = chch1.linetest.nz
 
 
-++Qatar
-menu = Qatar
-title = Qatar
-+++VodafoneQADoha
-menu = Vodafone QA Doha
-title = Vodafone QA Doha - speedtest01.vodafone.com.qa
-host = speedtest01.vodafone.com.qa
+++Norway
+menu = Norway
+title = Norway
+
++++Oslo
+menu = Oslo
+title = Oslo
+++++TelenorNOOslo
+menu = Telenor NO Oslo
+title = Telenor NO Oslo - test.telenor.net
+host = test.telenor.net
+++++TeliaNOOslo
+menu = Telia NO Oslo
+title = Telia NO Oslo - speedtest.get.no
+host = speedtest.get.no
 
 
 ++Oman
 menu = Oman
 title = Oman
-+++OmanTelecomMuscat
+
++++Muscat
+menu = Muscat
+title = Muscat
+++++OmanTelecomMuscat
 menu = Oman Telecom Muscat
 title = Oman Telecom Muscat - speedtest.omantel.om
 host = speedtest.omantel.om
-+++OoredooMuscat
+++++OoredooMuscat
 menu = Ooredoo Muscat
 title = Ooredoo Muscat - speedtest.ooredoo.om
 host = speedtest.ooredoo.om
-+++OmanTelecomSeeb
+
++++Seeb
+menu = Seeb
+title = Seeb
+++++OmanTelecomSeeb
 menu = Oman Telecom Seeb
 title = Oman Telecom Seeb - speedtest2.omantel.om
 host = speedtest2.omantel.om
-+++OoredooSeeb
+++++OoredooSeeb
 menu = Ooredoo Seeb
 title = Ooredoo Seeb - speedtest2.ooredoo.om
 host = speedtest2.ooredoo.om
+
+
+++Qatar
+menu = Qatar
+title = Qatar
+
++++Doha
+menu = Doha
+title = Doha
+++++VodafoneQADoha
+menu = Vodafone QA Doha
+title = Vodafone QA Doha - speedtest01.vodafone.com.qa
+host = speedtest01.vodafone.com.qa
+
+
+++Sweden
+menu = Sweden
+title = Sweden
+
++++Stockholm
+menu = Stockholm
+title = Stockholm
+++++TeliaSEStockholm
+menu = Telia SE Stockholm
+title = Telia SE Stockholm - se-speedt02.hy.nis.telia.net
+host = se-speedt02.hy.nis.telia.net
+++++TelenorSEStockholm
+menu = Telenor SE Stockholm
+title = Telenor SE Stockholm - speedtest.telenor.se
+host = speedtest.telenor.se
+
++++Gothenburg
+menu = Gothenburg
+title = Gothenburg
+++++Tele2SEGothenburg
+menu = Tele2 SE Gothenburg
+title = Tele2 SE Gothenburg - bck-speedtest-1.tele2.net
+host = bck-speedtest-1.tele2.net
+
++++Malmo
+menu = Malmo
+title = Malmo
+++++TelenorSEMalmo
+menu = Telenor SE Malmo
+title = Telenor SE Malmo - speedtest.mlm.telenor.se
+host = speedtest.mlm.telenor.se
 
 
 ++Russia
@@ -2024,14 +2118,83 @@ title = Zurich
 menu = Swisscom Zurich
 title = Swisscom Zurich - speedtest.wingo.ch
 host = speedtest.wingo.ch
-++++iWayZurich
-menu = iWay Zurich
-title = iWay Zurich - speedtest.iway.ch
-host = speedtest.iway.ch
 ++++SunriseZurich
 menu = Sunrise Zurich
 title = Sunrise Zurich - pzur01speedtst02.sunrise.ch
 host = pzur01speedtst02.sunrise.ch
+++++SaltZurich
+menu = Salt Zurich
+title = Salt Zurich - ookla-in.salt.ch
+host = ookla-in.salt.ch
+++++iWayZurich
+menu = iWay Zurich
+title = iWay Zurich - speedtest.iway.ch
+host = speedtest.iway.ch
+
++++Lausanne
+menu = Lausanne
+title = Lausanne
+++++SaltLausanne
+menu = Salt Lausanne
+title = Salt Lausanne - ookla-cr.salt.ch
+host = ookla-cr.salt.ch
+
+
+++Turkey
+menu = Turkey
+title = Turkey
+
++++Ankara
+menu = Ankara
+title = Ankara
+++++TurkcellAnkara
+menu = Turkcell Ankara
+title = Turkcell Ankara - sgtz04.hizinitestet.com
+host = sgtz04.hizinitestet.com
+++++VodafoneTRAnkara
+menu = Vodafone TR Ankara
+title = Vodafone TR Ankara - speedtest.vodafone.com.tr
+host = speedtest.vodafone.com.tr
+
++++Istanbul
+menu = Istanbul
+title = Istanbul
+++++TurkcellIstanbul
+menu = Turkcell Istanbul
+title = Turkcell Istanbul - mbey01.hizinitestet.com
+host = mbey01.hizinitestet.com
+++++VodafoneTRIstanbul
+menu = Vodafone TR Istanbul
+title = Vodafone TR Istanbul - speedtest4.vodafone.com.tr
+host = speedtest4.vodafone.com.tr
+++++TurkTelekomTRIstanbul
+menu = Turk Telekom Istanbul
+title = Turk Telekom Istanbul - umr1speedtest.turktelekom.com.tr
+host = umr1speedtest.turktelekom.com.tr
+
++++Izmir
+menu = Izmir
+title = Izmir
+++++TurkcellIzmir
+menu = Turkcell Izmir
+title = Turkcell Izmir - brnv01.hizinitestet.com
+host = brnv01.hizinitestet.com
+
++++Antalya
+menu = Antalya
+title = Antalya
+++++TurkcellAntalya
+menu = Turkcell Antalya
+title = Turkcell Antalya - antl03.hizinitestet.com
+host = antl03.hizinitestet.com
+++++VodafoneTRAntalya
+menu = Vodafone TR Antalya
+title = Vodafone TR Antalya - speedtest6.vodafone.com.tr
+host = speedtest6.vodafone.com.tr
+++++TurkTelekomTRAntalya
+menu = Turk Telekom Antalya
+title = Turk Telekom Antalya - ant1speedtest.turktelekom.com.tr
+host = ant1speedtest.turktelekom.com.tr
 
 
 ++UnitedKingdom
@@ -2219,8 +2382,6 @@ host = speedtest.nyc.rr.com
 menu = Windstream New York
 title = Windstream New York - newyork02.speedtest.windstream.net
 host = newyork02.speedtest.windstream.net
-
-
 
 +++Chicago
 menu = Chicago
