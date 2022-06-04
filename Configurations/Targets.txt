@@ -411,6 +411,18 @@ title = Universities
 menu = Australia
 title = Australia
 
++++AARNet
+menu = AARNet
+title = AARNet
+++++AARNetEduroam1
+menu = AARNet Eduroam 1
+title = AARNet Eduroam 1 - eduroam-au-1.anycast.aarnet.net.au
+host = eduroam-au-1.anycast.aarnet.net.au
+++++AARNetEduroam2
+menu = AARNet Eduroam 2
+title = AARNet Eduroam 2 - eduroam-au-2.anycast.aarnet.net.au
+host = eduroam-au-2.anycast.aarnet.net.au
+
 +++AustralianNationalUniversity
 menu = Australian National University
 title = Australian National University
@@ -571,6 +583,22 @@ host = webvpn.nus.edu.sg
 ++UnitedKingdom
 menu = United Kingdom
 title = United Kingdom
+
++++JiscJanetNetwork
+menu = Jisc Janet Network
+title = Jisc Janet Network
+++++JiscJanetNetworkEduroam1
+menu = Jisc Janet Network Eduroam 1
+title = Jisc Janet Network Eduroam 1 - roaming0.ja.net
+host = roaming0.ja.net
+++++JiscJanetNetworkEduroam2
+menu = Jisc Janet Network Eduroam 2
+title = Jisc Janet Network Eduroam 2 - roaming1.ja.net
+host = roaming1.ja.net
+++++JiscJanetNetworkEduroam3
+menu = Jisc Janet Network Eduroam 3
+title = Jisc Janet Network Eduroam 3 - roaming2.ja.net
+host = roaming2.ja.net
 
 +++UniversityofOxford
 menu = University of Oxford
