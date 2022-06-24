@@ -12,7 +12,7 @@ sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Conf
 #sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -o /etc/smokeping/config.d/Targets
 sudo service smokeping restart
 
-sudo cp /var/www/html/index.html /var/www/html/index.html1
+sudo cp /var/www/html/index.html /var/www/html/index.html.bak
 sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Redirection%20to%20SmokePing.html -O /var/www/html/index.html
 sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Redirection%20to%20SmokePing.html -o /var/www/html/index.html
 sudo service apache2 restart
