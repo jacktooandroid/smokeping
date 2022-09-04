@@ -438,6 +438,10 @@ title = University of Sydney
 menu = University of Sydney VPN
 title = University of Sydney VPN - vpn.sydney.edu.au
 host = vpn.sydney.edu.au
+++++UniversityofSydneyEduroam
+menu = University of Sydney Eduroam
+title = University of Sydney Eduroam - auth.wireless.sydney.edu.au
+host = auth.wireless.sydney.edu.au
 
 +++UniversityofMelbourne
 menu = University of Melbourne
