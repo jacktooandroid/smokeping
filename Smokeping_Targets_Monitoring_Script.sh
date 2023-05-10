@@ -13,8 +13,10 @@ Local_Targets=$(cat /tmp/smokeping/Local_Targets)
 
 if [ "$GitHub_Targets" = "$Local_Targets" ]
     then
+        echo "No changes detected. Exiting."
         exit
     else
+        echo "Changes detected. Replacing with newer version now."
         sudo cp /tmp/smokeping/Targets /etc/smokeping/config.d/Targets
         sudo service smokeping restart
         exit
