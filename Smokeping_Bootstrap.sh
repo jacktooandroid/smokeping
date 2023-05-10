@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo cp /etc/systemd/system.conf /etc/systemd/system.conf.bak
 echo "DefaultTimeoutStartSec=1800s" | sudo tee -a /etc/systemd/system.conf
 sudo systemctl daemon-reload
 
