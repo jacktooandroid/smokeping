@@ -2670,19 +2670,19 @@ title = Vietnam
 +++Hanoi
 menu = Hanoi
 title = Hanoi
-+++VNPTVNHanoi
+++++VNPTVNHanoi
 menu = VNPT VN Hanoi
 title = VNPT VN Hanoi - speedtest2.vtn.com.vn
 host = speedtest2.vtn.com.vn
-+++FPTTelecomVNHanoi
+++++FPTTelecomVNHanoi
 menu = FPT Telecom VN Hanoi
 title = FPT Telecom VN Hanoi - speedtesthn.fpt.vn
 host = speedtesthn.fpt.vn
-+++ViettelVNHanoi
+++++ViettelVNHanoi
 menu = Viettel VN Hanoi
 title = Viettel VN Hanoi - speedtestkv1a.viettel.vn
 host = speedtestkv1a.viettel.vn
-+++MobiFoneVNHanoi
+++++MobiFoneVNHanoi
 menu = MobiFone VN Hanoi
 title = MobiFone VN Hanoi - hn1.mobifone.vn
 host = hn1.mobifone.vn
@@ -2690,38 +2690,58 @@ host = hn1.mobifone.vn
 +++Saigon
 menu = Saigon
 title = Saigon
-+++VNPTVNSaigon
+++++VNPTVNSaigon
 menu = VNPT VN Saigon
 title = VNPT VN Saigon - speedtest3.vtn.com.vn
 host = speedtest3.vtn.com.vn
-+++FPTTelecomVNSaigon
+++++FPTTelecomVNSaigon
 menu = FPT Telecom VN Saigon
 title = FPT Telecom VN Saigon - speedtest.fpt.vn
 host = speedtest.fpt.vn
-+++ViettelVNSaigon
+++++ViettelVNSaigon
 menu = Viettel VN Saigon
 title = Viettel VN Saigon - speedtestkv3b.viettel.vn
 host = speedtestkv3b.viettel.vn
-+++MobiFoneVNSaigon
+++++MobiFoneVNSaigon
 menu = MobiFone VN Saigon
 title = MobiFone VN Saigon - sg1.mobifone.vn
 host = sg1.mobifone.vn
 
-+++Haiphong
+++++Haiphong
 menu = Haiphong
 title = Haiphong
-+++VNPTVNHaiphong
+++++VNPTVNHaiphong
 menu = VNPT VN Haiphong
 title = VNPT VN Haiphong - speedtest7.vtn.com.vn
 host = speedtest7.vtn.com.vn
-+++ViettelVNHaiphong
+++++ViettelVNHaiphong
 menu = Viettel VN Haiphong
 title = Viettel VN Haiphong - speedtesthni2.viettel.vn
 host = speedtesthni2.viettel.vn
-+++MobiFoneVNHaiphong
+++++MobiFoneVNHaiphong
 menu = MobiFone VN Haiphong
 title = MobiFone VN Haiphong - hp2.mobifone.vn
 host = hp2.mobifone.vn
+
++++DaNang
+menu = Da Nang
+title = Da Nang
+++++VNPTVNDaNang
+menu = VNPT VN Da Nang
+title = VNPT VN Da Nang - speedtest5.vtn.com
+host = speedtest5.vtn.com
+++++FPTTelecomVNDaNang
+menu = FPT Telecom VN Da Nang
+title = FPT Telecom VN Da Nang - speedtestdng.fpt.vn
+host = speedtestdng.fpt.vn
+++++ViettelVNDaNang
+menu = Viettel VN Da Nang
+title = Viettel VN Da Nang - speedtestkv2a.viettel.vn
+host = speedtestkv2a.viettel.vn
+++++MobiFoneVNDaNang
+menu = MobiFone VN Da Nang
+title = MobiFone VN Da Nang - dn1.mobifone.vn
+host = dn1.mobifone.vn
 
 
 ++Yemen
