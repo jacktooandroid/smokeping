@@ -433,6 +433,10 @@ title = University of Sydney
 menu = University of Sydney VPN
 title = University of Sydney VPN - vpn.sydney.edu.au
 host = vpn.sydney.edu.au
+++++UniversityofSydneyEduroam
+menu = University of Sydney Eduroam
+title = University of Sydney Eduroam - auth.wireless.sydney.edu.au
+host = auth.wireless.sydney.edu.au
 
 +++UniversityofMelbourne
 menu = University of Melbourne
@@ -1233,10 +1237,14 @@ host = speedtest1.gs.chinamobile.com
 +++HongKong
 menu = Hong Kong
 title = Hong Kong
+++++ChinaMobileCNHongKong
+menu = China Mobile CN Hong Kong
+title = China Mobile CN Hong Kong - speedtestbb.hk.chinamobile.com
+host = speedtestbb.hk.chinamobile.com
 ++++HutchisonHongKong
 menu = Hutchison Hong Kong
-title = Hutchison Hong Kong - ookla-speedtest.hgconair.hgc.com.hk
-host = ookla-speedtest.hgconair.hgc.com.hk
+title = Hutchison Hong Kong - ookla-speedtest-central.hgconair.hgc.com.hk
+host = ookla-speedtest-central.hgconair.hgc.com.hk
 
 
 ++Denmark
@@ -1554,10 +1562,75 @@ title = Indonesia
 +++Jakarta
 menu = Jakarta
 title = Jakarta
+++++TelkomIndonesiaIDJakarta
+menu = Telkom Indonesia ID Jakarta
+title = Telkom Indonesia ID Jakarta - jakarta2.speedtest.telkom.net.id
+host = jakarta2.speedtest.telkom.net.id
 ++++IndosatIDJakarta
 menu = Indosat ID Jakarta
 title = Indosat ID Jakarta - speedtest.indosat.com
 host = speedtest.indosat.com
+
++++Surabaya
+menu = Surabaya
+title = Surabaya
+++++TelkomIndonesiaIDSurabaya
+menu = Telkom Indonesia ID Surabaya
+title = Telkom Indonesia ID Surabaya - surabaya.speedtest.telkom.net.id
+host = surabaya.speedtest.telkom.net.id
+++++BiznetIDSurabaya
+menu = Biznet ID Surabaya
+title = Biznet ID Surabaya - speedtest-sby.biznetnetworks.com
+host = speedtest-sby.biznetnetworks.com
+++++IndosatIDSurabaya
+menu = Indosat ID Surabaya
+title = Indosat ID Surabaya - speedtest3.indosatooredoo.com
+host = speedtest3.indosatooredoo.com
+
++++Medan
+menu = Medan
+title = Medan
+++++TelkomIndonesiaIDMedan
+menu = Telkom Indonesia ID Medan
+title = Telkom Indonesia ID Medan - medan.speedtest.telkom.net.id
+host = medan.speedtest.telkom.net.id
+++++BiznetIDMedan
+menu = Biznet ID Medan
+title = Biznet ID Medan - speedtest-mdn.biznetnetworks.com
+host = speedtest-mdn.biznetnetworks.com
+
++++Makassar
+menu = Makassar
+title = Makassar
+++++TelkomIndonesiaIDMakassar
+menu = Telkom Indonesia ID Makassar
+title = Telkom Indonesia ID Makassar - makasar.speedtest.telkom.net.id
+host = makasar.speedtest.telkom.net.id
+
++++Samarinda
+menu = Samarinda
+title = Samarinda
+++++globalxtremeIDSamarinda
+menu = globalxtreme ID Samarinda
+title = globalxtreme ID Samarinda - speedtest.samarinda.globalxtreme.net
+host = speedtest.samarinda.globalxtreme.net
+
++++Denpasar
+menu = Denpasar
+title = Denpasar
+++++MTMIDDenpasar
+menu = MTM ID Denpasar
+title = MTM ID Denpasar - speedtestdps.mtmbali.com
+host = speedtestdps.mtmbali.com
+
++++Jayapura
+menu = Jayapura
+title = Jayapura
+++++TelkomIndonesiaIDJayapura
+menu = Telkom Indonesia ID Jayapura
+title = Telkom Indonesia ID Jayapura - jayapura.speedtest.telkom.net.id
+host = jayapura.speedtest.telkom.net.id
+
 
 ++Ireland
 menu = Ireland
