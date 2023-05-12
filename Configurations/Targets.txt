@@ -234,11 +234,6 @@ menu = Pepperstone Live
 title = Pepperstone Live - 170.75.202.219
 host = 170.75.202.219
 
-+++TradestoLive
-menu = Tradesto Live
-title = Tradesto Live - 139.99.115.117
-host = 139.99.115.117
-
 
 
 +CloudProviders
@@ -438,10 +433,6 @@ title = University of Sydney
 menu = University of Sydney VPN
 title = University of Sydney VPN - vpn.sydney.edu.au
 host = vpn.sydney.edu.au
-++++UniversityofSydneyEduroam
-menu = University of Sydney Eduroam
-title = University of Sydney Eduroam - auth.wireless.sydney.edu.au
-host = auth.wireless.sydney.edu.au
 
 +++UniversityofMelbourne
 menu = University of Melbourne
@@ -546,8 +537,8 @@ menu = Fudan University
 title = Fudan University
 ++++FudanUniversityVPN
 menu = Fudan University VPN
-title = Fudan University VPN - te.sslvpn.fudan.edu.cn
-host = te.sslvpn.fudan.edu.cn
+title = Fudan University VPN - stuvpn.fudan.edu.cn
+host = stuvpn.fudan.edu.cn
 
 
 ++NewZealand
@@ -656,14 +647,6 @@ menu = University of Edinburgh Eduroam
 title = University of Edinburgh Eduroam - archer.ucs.ed.ac.uk
 host = archer.ucs.ed.ac.uk
 
-+++CardiffUniversity
-menu = Cardiff University
-title = Cardiff University
-++++CardiffUniversityVPN
-menu = Cardiff University VPN
-title = Cardiff University VPN - pavpn.cf.ac.uk
-host = pavpn.cf.ac.uk
-
 
 
 +Telecoms
@@ -747,6 +730,10 @@ host = nsw-brwy-speedtest.aarnet.net.au
 menu = 2degrees Sydney
 title = 2degrees Sydney - speed4.snap.net.nz
 host = speed4.snap.net.nz
++++VerizonAUSydney
+menu = Verizon AU Sydney
+title = Verizon AU Sydney - aus-nperf.verizon.net
+host = aus-nperf.verizon.net
 
 +++Melbourne
 menu = Melbourne
@@ -767,10 +754,6 @@ host = speedtest-mel.vocus.net
 menu = Internode Melbourne
 title = Internode Melbourne - speedtest-mel.cdn.on.net
 host = speedtest-mel.cdn.on.net
-++++AARNetMelbourne
-menu = AARNet Melbourne
-title = AARNet Melbourne - vic-crlt-speedtest.aarnet.net.au
-host = vic-crlt-speedtest.aarnet.net.au
 
 +++Brisbane
 menu = Brisbane
@@ -1122,8 +1105,8 @@ title = Rogers Toronto - sttoronto.rogers.com
 host = sttoronto.rogers.com
 ++++BellCAToronto
 menu = Bell CA Toronto
-title = Bell CA Toronto - tor47spd01.srvr.bell.ca
-host = tor47spd01.srvr.bell.ca
+title = Bell CA Toronto - tor11speedtest01.srvr.bell.ca
+host = tor11speedtest01.srvr.bell.ca
 ++++TELUSToronto
 menu = TELUS Toronto
 title = TELUS Toronto - toronto.speedtest.telus.com
@@ -1239,26 +1222,6 @@ menu = China Mobile Chengdu
 title = China Mobile Chengdu - speedtest2.sc.chinamobile.com
 host = speedtest2.sc.chinamobile.com
 
-+++Nanjing
-menu = Nanjing
-title = Nanjing
-++++ChinaUnicomNanjing
-menu = China Unicom Nanjing
-title = China Unicom Nanjing - speedtest02.js165.com
-host = speedtest02.js165.com
-++++ChinaMobileNanjing
-menu = China Mobile Nanjing
-title = China Mobile Nanjing - owa.eastcom-sw.com
-host = owa.eastcom-sw.com
-
-+++Harbin
-menu = Harbin
-title = Harbin
-++++ChinaMobileHarbin
-menu = China Mobile Harbin
-title = China Mobile Harbin - 5gtest.hl.chinamobile.com
-host = 5gtest.hl.chinamobile.com
-
 +++Lanzhou
 menu = Lanzhou
 title = Lanzhou
@@ -1337,6 +1300,10 @@ title = Frankfurt
 menu = Deutsche Telekom Frankfurt
 title = Deutsche Telekom Frankfurt - ffm.wsqm.telekom-dienste.de
 host = ffm.wsqm.telekom-dienste.de
++++VerizonDEFrankfurt
+menu = Verizon DE Frankfurt
+title = Verizon DE Frankfurt - ipl3pt.fft.ops.eu.uu.net
+host = ipl3pt.fft.ops.eu.uu.net
 
 +++Munich
 menu = Munich
@@ -1534,10 +1501,6 @@ host = speedtest.sec.rcil.gov.in
 +++Ahmedabad
 menu = Ahmedabad
 title = Ahmedabad
-++++VodafoneINAhmedabad
-menu = Vodafone IN Ahmedabad
-title = Vodafone IN Ahmedabad - speedtestahm.vodafone.ind.in
-host = speedtestahm.vodafone.ind.in
 ++++JioAhmedabad
 menu = Jio Ahmedabad
 title = Jio Ahmedabad - speedahm1.jioconnect.com
@@ -1583,6 +1546,18 @@ menu = Jio Guwahati
 title = Jio Guwahati - speedgwh1.jioconnect.com
 host = speedgwh1.jioconnect.com
 
+
+++Indonesia
+menu = Indonesia
+title = Indonesia
+
++++Jakarta
+menu = Jakarta
+title = Jakarta
+++++IndosatIDJakarta
+menu = Indosat ID Jakarta
+title = Indosat ID Jakarta - speedtest.indosat.com
+host = speedtest.indosat.com
 
 ++Ireland
 menu = Ireland
@@ -1702,10 +1677,6 @@ title = Tijuana
 menu = Movistar MX Tijuana
 title = Movistar MX Tijuana - internet4b.movistar.com.mx
 host = internet4b.movistar.com.mx
-++++ATTMXTijuana
-menu = AT&T MX Tijuana
-title = AT&T MX Tijuana - speed1.mty.attmex.mx
-host = speed1.mty.attmex.mx
 
 
 ++Morocco
@@ -1845,8 +1816,8 @@ menu = Doha
 title = Doha
 ++++VodafoneQADoha
 menu = Vodafone QA Doha
-title = Vodafone QA Doha - speedtest01.vodafone.com.qa
-host = speedtest01.vodafone.com.qa
+title = Vodafone QA Doha - speedtest03.vodafone.com.qa
+host = speedtest03.vodafone.com.qa
 
 
 ++Sweden
@@ -2195,6 +2166,22 @@ host = speedtest10.vqbn.com
 menu = MyRepublic SG
 title = MyRepublic SG - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
++++VerizonSG
+menu = Verizon SG
+title = Verizon SG - sgn-nperf.verizon.net
+host = sgn-nperf.verizon.net
++++TELINSG
+menu = TELIN SG
+title = TELIN SG - speedtest2.telin.sg
+host = speedtest2.telin.sg
++++IndosatSG
+menu = Indosat SG
+title = Indosat SG - speedtest1.indosat.com
+host = speedtest1.indosat.com
++++XLAxiataSG
+menu = XL Axiata SG
+title = XL Axiata SG - speedtest-intl.xl.co.id
+host = speedtest-intl.xl.co.idp
 
 
 ++Switzerland
@@ -2321,10 +2308,6 @@ host = speedtest-nma1.ais-idc.net
 menu = 3BB Nakhon Ratchasima
 title = 3BB Nakhon Ratchasima - speedtest-nma1.3bb.co.th
 host = speedtest-nma1.3bb.co.th
-++++TOTNakhonRatchasima
-menu = TOT Nakhon Ratchasima
-title = TOT Nakhon Ratchasima - nmaspeedtestnet.totbroadband.com
-host = nmaspeedtestnet.totbroadband.com
 
 +++KhonKaen
 menu = Khon Kaen
@@ -2392,8 +2375,8 @@ title = Turkcell Istanbul - mbey01.hizinitestet.com
 host = mbey01.hizinitestet.com
 ++++VodafoneTRIstanbul
 menu = Vodafone TR Istanbul
-title = Vodafone TR Istanbul - speedtest4.vodafone.com.tr
-host = speedtest4.vodafone.com.tr
+title = Vodafone TR Istanbul - speedtest2.vodafone.com.tr
+host = speedtest2.vodafone.com.tr
 ++++TurkTelekomTRIstanbul
 menu = Turk Telekom Istanbul
 title = Turk Telekom Istanbul - umr1speedtest.turktelekom.com.tr
@@ -2435,10 +2418,6 @@ title = Kyiv
 menu = Kyivstar Kyiv
 title = Kyivstar Kyiv - srv01-okl-kv.kyivstar.ua
 host = srv01-okl-kv.kyivstar.ua
-++++LifecellKyiv
-menu = Lifecell Kyiv
-title = Lifecell Kyiv - speedtest01.life.com.ua
-host = speedtest01.life.com.ua
 
 +++Lviv
 menu = Lviv
@@ -2447,10 +2426,6 @@ title = Lviv
 menu = Kyivstar Lviv
 title = Kyivstar Lviv - srv01-okl-lvv.kyivstar.ua
 host = srv01-okl-lvv.kyivstar.ua
-++++LifecellLviv
-menu = Lifecell Lviv
-title = Lifecell Lviv - speedtest01.life.com.ua
-host = speedtest01.life.com.ua
 
 
 ++UnitedKingdom
