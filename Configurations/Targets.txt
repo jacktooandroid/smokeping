@@ -734,7 +734,7 @@ host = nsw-brwy-speedtest.aarnet.net.au
 menu = 2degrees Sydney
 title = 2degrees Sydney - speed4.snap.net.nz
 host = speed4.snap.net.nz
-+++VerizonAUSydney
+++++VerizonAUSydney
 menu = Verizon AU Sydney
 title = Verizon AU Sydney - aus-nperf.verizon.net
 host = aus-nperf.verizon.net
@@ -834,10 +834,6 @@ host = hob1.speedtest.telstra.net
 menu = Optus Hobart
 title = Optus Hobart - speedtest.tas.optusnet.com.au
 host = speedtest.tas.optusnet.com.au
-++++LauntelHobart
-menu = Launtel Hobart
-title = Launtel Hobart - speedtest.launtel.net.au
-host = speedtest.launtel.net.au
 ++++TasmaNetAUHobart
 menu = TasmaNet AU Hobart
 title = TasmaNet AU Hobart - speedtest.tasmanet.com.au
@@ -2318,7 +2314,7 @@ host = speedtest1.indosat.com
 +++XLAxiataSG
 menu = XL Axiata SG
 title = XL Axiata SG - speedtest-intl.xl.co.id
-host = speedtest-intl.xl.co.idp
+host = speedtest-intl.xl.co.id
 
 
 ++Switzerland
@@ -2625,10 +2621,6 @@ host = ilhhp1.speed.vzwnet.com
 menu = Sprint Chicago
 title = Sprint Chicago - ookla1.chcgil.sprintadp.net
 host = ookla1.chcgil.sprintadp.net
-++++CenturyLinkChicago
-menu = CenturyLink Chicago
-title = CenturyLink Chicago - chicago.speedtest.centurylink.net
-host = chicago.speedtest.centurylink.net
 ++++FrontierChicago
 menu = Frontier Chicago
 title = Frontier Chicago - chicago.il.speedtest.frontier.com
@@ -2669,6 +2661,67 @@ host = casvp1.speed.vzwnet.com
 menu = T-Mobile San Francisco
 title = T-Mobile San Francisco - ssf.speedtest.t-mobile.com
 host = ssf.speedtest.t-mobile.com
+
+
+++Vietnam
+menu = Vietnam
+title = Vietnam
+
++++Hanoi
+menu = Hanoi
+title = Hanoi
++++VNPTVNHanoi
+menu = VNPT VN Hanoi
+title = VNPT VN Hanoi - speedtest2.vtn.com.vn
+host = speedtest2.vtn.com.vn
++++FPTTelecomVNHanoi
+menu = FPT Telecom VN Hanoi
+title = FPT Telecom VN Hanoi - speedtesthn.fpt.vn
+host = speedtesthn.fpt.vn
++++ViettelVNHanoi
+menu = Viettel VN Hanoi
+title = Viettel VN Hanoi - speedtestkv1a.viettel.vn
+host = speedtestkv1a.viettel.vn
++++MobiFoneVNHanoi
+menu = MobiFone VN Hanoi
+title = MobiFone VN Hanoi - hn1.mobifone.vn
+host = hn1.mobifone.vn
+
++++Saigon
+menu = Saigon
+title = Saigon
++++VNPTVNSaigon
+menu = VNPT VN Saigon
+title = VNPT VN Saigon - speedtest3.vtn.com.vn
+host = speedtest3.vtn.com.vn
++++FPTTelecomVNSaigon
+menu = FPT Telecom VN Saigon
+title = FPT Telecom VN Saigon - speedtest.fpt.vn
+host = speedtest.fpt.vn
++++ViettelVNSaigon
+menu = Viettel VN Saigon
+title = Viettel VN Saigon - speedtestkv3b.viettel.vn
+host = speedtestkv3b.viettel.vn
++++MobiFoneVNSaigon
+menu = MobiFone VN Saigon
+title = MobiFone VN Saigon - sg1.mobifone.vn
+host = sg1.mobifone.vn
+
++++Haiphong
+menu = Haiphong
+title = Haiphong
++++VNPTVNHaiphong
+menu = VNPT VN Haiphong
+title = VNPT VN Haiphong - speedtest7.vtn.com.vn
+host = speedtest7.vtn.com.vn
++++ViettelVNHaiphong
+menu = Viettel VN Haiphong
+title = Viettel VN Haiphong - speedtesthni2.viettel.vn
+host = speedtesthni2.viettel.vn
++++MobiFoneVNHaiphong
+menu = MobiFone VN Haiphong
+title = MobiFone VN Haiphong - hp2.mobifone.vn
+host = hp2.mobifone.vn
 
 
 ++Yemen
