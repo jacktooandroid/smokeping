@@ -1682,8 +1682,8 @@ title = Celcom Axiata Kuala Lumpur - speedosht1.celcom.net.my
 host = speedosht1.celcom.net.my
 ++++DigiKualaLumpur
 menu = Digi Kuala Lumpur
-title = Digi Kuala Lumpur - st.digi.com.my
-host = st.digi.com.my
+title = Digi Kuala Lumpur - digi-ookla02.digi.com.my
+host = digi-ookla02.digi.com.my
 ++++UMobileKualaLumpur
 menu = U Mobile Kuala Lumpur
 title = U Mobile Kuala Lumpur - speedtest.u.com.my
@@ -1692,6 +1692,70 @@ host = speedtest.u.com.my
 menu = MYREN Kuala Lumpur
 title = MYREN Kuala Lumpur - speedtest1.myren.net.my
 host = speedtest1.myren.net.my
+
++++Penang
+menu = Penang
+title = Penang
+++++TIMEdotcomPenang
+menu = TIME dotcom Penang
+title = TIME dotcom Penang - speedpg.time.com.my
+host = speedpg.time.com.my
+++++CelcomAxiataPenang
+menu = Celcom Axiata Penang
+title = Celcom Axiata Penang - speedomhspenang.celcom.net.my
+host = speedomhspenang.celcom.net.my
+++++DigiPenang
+menu = Digi Penang
+title = Digi Penang - digi-ookla03.digi.com.my
+host = digi-ookla03.digi.com.my
+
++++JohorBahru
+menu = Johor Bahru
+title = Johor Bahru
+++++CelcomAxiataJohorBahru
+menu = Celcom Axiata Johor Bahru
+title = Celcom Axiata Johor Bahru - speedomhsjohorbharu.celcom.net.my
+host = speedomhsjohorbharu.celcom.net.my
+++++DigiJohorBahru
+menu = Digi Johor Bahru
+title = Digi Johor Bahru - digi-ookla06.digi.com.my
+host = digi-ookla06.digi.com.my
+
++++KotaBharu
+menu = Kota Bharu
+title = Kota Bharu
+++++CelcomAxiataKotaBharu
+menu = Celcom Axiata Kota Bharu
+title = Celcom Axiata Kota Bharu - speedomhskotabharu.celcom.net.my
+host = speedomhskotabharu.celcom.net.my
+
++++Kuching
+menu = Kuching
+title = Kuching
+++++TelekomMalaysiaKuching
+menu = Telekom Malaysia Kuching
+title = Telekom Malaysia Kuching - speedtest-sarawak.tm.com.my
+host = speedtest-sarawak.tm.com.my
+++++MaxisKuching
+menu = Maxis Kuching
+title = Maxis Kuching - dingookla01.maxis.com.my
+host = dingookla01.maxis.com.my
+++++CelcomAxiataKuching
+menu = Celcom Axiata Kuching
+title = Celcom Axiata Kuching - speedopdg1.celcom.net.my
+host = speedopdg1.celcom.net.my
+
++++KotaKinabalu
+menu = Kota Kinabalu
+title = Kota Kinabalu
+++++MaxisKotaKinabalu
+menu = Maxis Kota Kinabalu
+title = Maxis Kota Kinabalu - kkookla01.maxis.com.my
+host = kkookla01.maxis.com.my
+++++CelcomAxiataKotaKinabalu
+menu = Celcom Axiata Kota Kinabalu
+title = Celcom Axiata Kota Kinabalu - speedokrt1.celcom.net.my
+host = speedokrt1.celcom.net.my
 
 
 ++Mauritius
