@@ -2707,7 +2707,7 @@ menu = MobiFone VN Saigon
 title = MobiFone VN Saigon - sg1.mobifone.vn
 host = sg1.mobifone.vn
 
-++++Haiphong
++++Haiphong
 menu = Haiphong
 title = Haiphong
 ++++VNPTVNHaiphong
