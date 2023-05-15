@@ -1193,10 +1193,6 @@ host = 5g.shunicomtest.com
 +++Chongqing
 menu = Chongqing
 title = Chongqing
-++++ChinaMobileChongqing
-menu = China Mobile Chongqing
-title = China Mobile Chongqing - speedtest2.cq.chinamobile.com
-host = speedtest2.cq.chinamobile.com
 
 +++Chengdu
 menu = Chengdu
@@ -1209,10 +1205,6 @@ host = speedtest1.sc.189.cn
 menu = China Unicom Chengdu
 title = China Unicom Chengdu - speedtest1.wangjia.net
 host = speedtest1.wangjia.net
-++++ChinaMobileChengdu
-menu = China Mobile Chengdu
-title = China Mobile Chengdu - speedtest2.sc.chinamobile.com
-host = speedtest2.sc.chinamobile.com
 
 +++Lanzhou
 menu = Lanzhou
@@ -2085,10 +2077,6 @@ host = speedtest.uralttk.ru
 menu = ER-Telecom Yekaterinburg
 title = ER-Telecom Yekaterinburg - ookla.ekat.ertelecom.ru
 host = ookla.ekat.ertelecom.ru
-++++MTSYekaterinburg
-menu = MTS Yekaterinburg
-title = MTS Yekaterinburg - speedtest.ural.mts.ru
-host = speedtest.ural.mts.ru
 ++++BeelineYekaterinburg
 menu = Beeline Yekaterinburg
 title = Beeline Yekaterinburg - ekat1.speedtest.corbina.net
