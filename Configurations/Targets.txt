@@ -700,8 +700,8 @@ title = Internode Canberra - speedtest-cbr.cdn.on.net
 host = speedtest-cbr.cdn.on.net
 ++++AARNetCanberra
 menu = AARNet Canberra
-title = AARNet Canberra - act-actn-speedtest.aarnet.net.au
-host = act-actn-speedtest.aarnet.net.au
+title = AARNet Canberra - act-dksn-speedtest.aarnet.net.au
+host = act-dksn-speedtest.aarnet.net.au
 
 +++Sydney
 menu = Sydney
@@ -774,10 +774,6 @@ host = speedtest.bri.optusnet.com.au
 menu = Vocus AU Brisbane
 title = Vocus AU Brisbane - speedtest-bne.vocus.net
 host = speedtest-bne.vocus.net
-++++InternodeBrisbane
-menu = Internode Brisbane
-title = Internode Brisbane - speedtest-bne.cdn.on.net
-host = speedtest-bne.cdn.on.net
 
 +++Perth
 menu = Perth
@@ -794,10 +790,6 @@ host = speedtest.per.optusnet.com.au
 menu = Vocus AU Perth
 title = Vocus AU Perth - speedtest-pth.vocus.net
 host = speedtest-pth.vocus.net
-++++InternodePerth
-menu = Internode Perth
-title = Internode Perth - speedtest-per.cdn.on.net
-host = speedtest-per.cdn.on.net
 ++++AARNetPerth
 menu = AARNet Perth
 title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
@@ -1373,10 +1365,6 @@ title = Mumbai
 menu = Airtel Broadband Mumbai
 title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
 host = speedtestmh.airtelbroadband.in
-++++IdeaCellularMumbai
-menu = Idea Cellular Mumbai
-title = Idea Cellular Mumbai - sp3.ideaisp.net
-host = sp3.ideaisp.net
 ++++JioINMumbai
 menu = Jio IN Mumbai
 title = Jio IN Mumbai - speedmum2.jioconnect.com
@@ -1770,6 +1758,10 @@ title = Mexico
 +++MexicoCity
 menu = Mexico City
 title = Mexico City
+++++TelmexMXMexicoCity
+menu = Telmex MX Mexico City
+title = Telmex MX Mexico City - smvel-mex-roma-1.uninet.net.mx
+host = smvel-mex-roma-1.uninet.net.mx
 ++++izziMexicoCity
 menu = izzi Mexico City
 title = izzi Mexico City - speedtest.sevilla.izzi.mx
@@ -1782,10 +1774,10 @@ host = speed1.stafemex.attmex.mx
 +++Guadalajara
 menu = Guadalajara
 title = Guadalajara
-++++ATTMXGuadalajara
-menu = AT&T MX Guadalajara
-title = AT&T MX Guadalajara - speed1.gdl.attmex.mx
-host = speed1.gdl.attmex.mx
+++++TelmexMXGuadalajara
+menu = Telmex MX Guadalajara
+title = Telmex MX Guadalajara - smvel-jal-bandera-1.uninet.net.mx
+host = smvel-jal-bandera-1.uninet.net.mx
 
 +++CiudadJuarez
 menu = Ciudad Juarez
@@ -1798,6 +1790,10 @@ host = speedtest.juarez.izzi.mx
 +++Tijuana
 menu = Tijuana
 title = Tijuana
+++++TelmexMXTijuana
+menu = Telmex MX Tijuana
+title = Telmex MX Tijuana - medidor-tij-telnor-1.uninet.net.mx
+host = medidor-tij-telnor-1.uninet.net.mx
 ++++MovistarMXTijuana
 menu = Movistar MX Tijuana
 title = Movistar MX Tijuana - internet4b.movistar.com.mx
