@@ -1349,9 +1349,9 @@ host = speedtestggn1.airtel.in
 menu = Airtel Broadband New Delhi
 title = Airtel Broadband New Delhi - speedtestdel.airtelbroadband.in
 host = speedtestdel.airtelbroadband.in
-++++JioNewDelhi
-menu = Jio New Delhi
-title = Jio New Delhi - speeddlh1.jioconnect.com
+++++JioINNewDelhi
+menu = Jio IN New Delhi
+title = Jio IN New Delhi - speeddlh1.jioconnect.com
 host = speeddlh1.jioconnect.com
 ++++TataPlayFiberNewDelhi
 menu = Tata Play Fiber New Delhi
@@ -1377,9 +1377,9 @@ host = speedtestmh.airtelbroadband.in
 menu = Idea Cellular Mumbai
 title = Idea Cellular Mumbai - sp3.ideaisp.net
 host = sp3.ideaisp.net
-++++JioMumbai
-menu = Jio Mumbai
-title = Jio Mumbai - speedmum2.jioconnect.com
+++++JioINMumbai
+menu = Jio IN Mumbai
+title = Jio IN Mumbai - speedmum2.jioconnect.com
 host = speedmum2.jioconnect.com
 ++++YOUBroadbandMumbai
 menu = YOU Broadband Mumbai
@@ -1401,13 +1401,9 @@ title = Kolkata
 menu = Airtel Kolkata
 title = Airtel Kolkata - speedtestkol1.airtel.in
 host = speedtestkol1.airtel.in
-++++VodafoneINKolkata
-menu = Vodafone IN Kolkata
-title = Vodafone IN Kolkata - speedtestkol.vodafone.ind.in
-host = speedtestkol.vodafone.ind.in
-++++JioKolkata
-menu = Jio Kolkata
-title = Jio Kolkata - speedkol1.jioconnect.com
+++++JioINKolkata
+menu = Jio IN Kolkata
+title = Jio IN Kolkata - speedkol1.jioconnect.com
 host = speedkol1.jioconnect.com
 ++++TataPlayFiberKolkata
 menu = Tata Play Fiber Kolkata
@@ -1425,9 +1421,9 @@ title = Chennai
 menu = Airtel Broadband Chennai
 title = Airtel Broadband Chennai - speedtestchn.airtelbroadband.in
 host = speedtestchn.airtelbroadband.in
-++++JioChennai
-menu = Jio Chennai
-title = Jio Chennai - speedchn1.jioconnect.com
+++++JioINChennai
+menu = Jio IN Chennai
+title = Jio IN Chennai - speedchn1.jioconnect.com
 host = speedchn1.jioconnect.com
 ++++YOUBroadbandChennai
 menu = YOU Broadband Chennai
@@ -1453,13 +1449,9 @@ title = Bangalore
 menu = Airtel Broadband Bangalore
 title = Airtel Broadband Bangalore - speedtestblr.airtelbroadband.in
 host = speedtestblr.airtelbroadband.in
-++++VodafoneINBangalore
-menu = Vodafone IN Bangalore
-title = Vodafone IN Bangalore - ooklatestbenguluru.live.vodafone.in
-host = ooklatestbenguluru.live.vodafone.in
-++++JioBangalore
-menu = Jio Bangalore
-title = Jio Bangalore - speedbgl1.jioconnect.com
+++++JioINBangalore
+menu = Jio IN Bangalore
+title = Jio IN Bangalore - speedbgl1.jioconnect.com
 host = speedbgl1.jioconnect.com
 ++++YOUBroadbandBangalore
 menu = YOU Broadband Bangalore
@@ -1485,9 +1477,9 @@ host = speedtestap1.airtel.in
 menu = Airtel Broadband Hyderabad
 title = Airtel Broadband Hyderabad - speedtesthyd.airtelbroadband.in
 host = speedtesthyd.airtelbroadband.in
-++++JioHyderabad
-menu = Jio Hyderabad
-title = Jio Hyderabad - speedhyd1.jioconnect.com
+++++JioINHyderabad
+menu = Jio IN Hyderabad
+title = Jio IN Hyderabad - speedhyd1.jioconnect.com
 host = speedhyd1.jioconnect.com
 ++++YOUBroadbandHyderabad
 menu = YOU Broadband Hyderabad
@@ -1505,9 +1497,9 @@ host = speedtest.sec.rcil.gov.in
 +++Ahmedabad
 menu = Ahmedabad
 title = Ahmedabad
-++++JioAhmedabad
-menu = Jio Ahmedabad
-title = Jio Ahmedabad - speedahm1.jioconnect.com
+++++JioINAhmedabad
+menu = Jio IN Ahmedabad
+title = Jio IN Ahmedabad - speedahm1.jioconnect.com
 host = speedahm1.jioconnect.com
 ++++YOUBroadbandAhmedabad
 menu = YOU Broadband Ahmedabad
@@ -1517,10 +1509,10 @@ host = sp1-ahm.youbroadband.in
 +++Lucknow
 menu = Lucknow
 title = Lucknow
-++++VodafoneINLucknow
-menu = Vodafone IN Lucknow
-title = Vodafone IN Lucknow - speedtestluc.vodafone.ind.in
-host = speedtestluc.vodafone.ind.in
+++++JioINLucknow
+menu = Jio IN Lucknow
+title = Jio IN Lucknow - speedlkn1.jioconnect.com
+host = speedlkn1.jioconnect.com
 
 +++Patna
 menu = Patna
@@ -1545,9 +1537,9 @@ host = speedtestviz.actcorp.in
 +++Guwahati
 menu = Guwahati
 title = Guwahati
-++++JioGuwahati
-menu = Jio Guwahati
-title = Jio Guwahati - speedgwh1.jioconnect.com
+++++JioINGuwahati
+menu = Jio IN Guwahati
+title = Jio IN Guwahati - speedgwh1.jioconnect.com
 host = speedgwh1.jioconnect.com
 
 
