@@ -204,35 +204,6 @@ host = 64.209.89.1
 menu = FactSet AC4
 title = FaceSet AC4 - 64.209.89.2
 host = 64.209.89.2
-+++FactSetAC5
-
-
-++TradingPlatforms
-menu = Trading Platforms
-title = Trading Platforms
-
-+++FusionMarketsLive
-menu = Fusion Markets Live
-title = Fusion Markets Live - 170.75.197.152
-host = 170.75.197.152
-
-+++FXCMLive
-menu = FXCM Live
-title = FXCM Live - mt4r01.fxcorporate.com
-host = mt4r01.fxcorporate.com
-
-+++ICMarketsLive
-menu = IC Markets Live
-title = IC Markets Live - 170.75.200.10
-host = 170.75.200.10
-
-+++Pepperstone
-menu = Pepperstone
-title = Pepperstone
-++++PepperstoneLive
-menu = Pepperstone Live
-title = Pepperstone Live - 170.75.202.219
-host = 170.75.202.219
 
 
 
@@ -329,71 +300,6 @@ host = 3.6.0.0
 menu = ap-east-1 (Hong Kong)
 title = ap-south-1 (Hong Kong) - 18.162.80.8
 host = 18.162.80.8
-
-
-++DigitalOcean
-menu = DigitalOcean
-title = DigitalOcean
-
-+++NewYorkCity1
-menu = NYC1
-title = New York City 1 - speedtest-nyc1.digitalocean.com
-host = speedtest-nyc1.digitalocean.com
-+++NewYorkCity2
-menu = NYC2
-title = New York City 2 - speedtest-nyc2.digitalocean.com
-host = speedtest-nyc2.digitalocean.com
-+++NewYorkCity3
-menu = NYC3
-title = New York City 3 - speedtest-nyc3.digitalocean.com
-host = speedtest-nyc3.digitalocean.com
-
-+++SanFrancisco1
-menu = SFO1
-title = San Francisco 1 - speedtest-sfo1.digitalocean.com
-host = speedtest-sfo1.digitalocean.com
-+++SanFrancisco2
-menu = SFO2
-title = San Francisco 2 - speedtest-sfo2.digitalocean.com
-host = speedtest-sfo2.digitalocean.com
-+++SanFrancisco3
-menu = SFO3
-title = San Francisco 3 - speedtest-sfo3.digitalocean.com
-host = speedtest-sfo3.digitalocean.com
-
-+++Toronto1
-menu = TOR1
-title = Toronto 1 - speedtest-tor1.digitalocean.com
-host = speedtest-tor1.digitalocean.com
-
-+++London1
-menu = LON1
-title = London 1 - speedtest-lon1.digitalocean.com
-host = speedtest-lon1.digitalocean.com
-
-+++Amsterdam2
-menu = AMS2
-title = Amsterdam 2 - speedtest-ams2.digitalocean.com
-host = speedtest-ams2.digitalocean.com
-+++Amsterdam3
-menu = AMS3
-title = Amsterdam 3 - speedtest-ams3.digitalocean.com
-host = speedtest-ams3.digitalocean.com
-
-+++Frankfurt1
-menu = FRA1
-title = Frankfurt 1 - speedtest-fra1.digitalocean.com
-host = speedtest-fra1.digitalocean.com
-
-+++Singapore1
-menu = SGP1
-title = Singapore 1 - speedtest-sgp1.digitalocean.com
-host = speedtest-sgp1.digitalocean.com
-
-+++Bangalore1
-menu = BLR1
-title = Bangalore 1 - speedtest-blr1.digitalocean.com
-host = speedtest-blr1.digitalocean.com
 
 
 
@@ -700,8 +606,8 @@ title = Internode Canberra - speedtest-cbr.cdn.on.net
 host = speedtest-cbr.cdn.on.net
 ++++AARNetCanberra
 menu = AARNet Canberra
-title = AARNet Canberra - act-dksn-speedtest.aarnet.net.au
-host = act-dksn-speedtest.aarnet.net.au
+title = AARNet Canberra - act-dksn-st1.speedtest.aarnet.net.au
+host = act-dksn-st1.speedtest.aarnet.net.au
 
 +++Sydney
 menu = Sydney
@@ -726,10 +632,6 @@ host = speedtest-syd.cdn.on.net
 menu = Launtel Sydney
 title = Launtel Sydney - speedtest-syd.launtel.net.au
 host = speedtest-syd.launtel.net.au
-++++AARNetSydney
-menu = AARNet Sydney
-title = AARNet Sydney - nsw-brwy-speedtest.aarnet.net.au
-host = nsw-brwy-speedtest.aarnet.net.au
 ++++2degreesSydney
 menu = 2degrees Sydney
 title = 2degrees Sydney - speed4.snap.net.nz
@@ -758,6 +660,11 @@ host = speedtest-mel.vocus.net
 menu = Internode Melbourne
 title = Internode Melbourne - speedtest-mel.cdn.on.net
 host = speedtest-mel.cdn.on.net
+++++AARNetMelbourne
+menu = AARNet Melbourne
+title = AARNet Mrlbourne - vic-pmla-st1.speedtest.aarnet.net.au
+host = vic-pmla-st1.speedtest.aarnet.net.au
+
 
 +++Brisbane
 menu = Brisbane
@@ -792,8 +699,8 @@ title = Vocus AU Perth - speedtest-pth.vocus.net
 host = speedtest-pth.vocus.net
 ++++AARNetPerth
 menu = AARNet Perth
-title = AARNet Perth - wa-knsg-speedtest.aarnet.net.au
-host = wa-knsg-speedtest.aarnet.net.au
+title = AARNet Perth - wa-knsg-st1.speedtest.aarnet.net.au
+host = wa-knsg-st1.speedtest.aarnet.net.au
 
 +++Adelaide
 menu = Adelaide
@@ -822,18 +729,14 @@ title = Hobart
 menu = Telstra Hobart
 title = Telstra Hobart - hob1.speedtest.telstra.net
 host = hob1.speedtest.telstra.net
-++++OptusHobart
-menu = Optus Hobart
-title = Optus Hobart - speedtest.tas.optusnet.com.au
-host = speedtest.tas.optusnet.com.au
 ++++TasmaNetAUHobart
 menu = TasmaNet AU Hobart
 title = TasmaNet AU Hobart - speedtest.tasmanet.com.au
 host = speedtest.tasmanet.com.au
 ++++AARNetHobart
 menu = AARNet Hobart
-title = AARNet Hobart - tas-dwpk-speedtest.aarnet.net.au
-host = tas-dwpk-speedtest.aarnet.net.au
+title = AARNet Hobart - tas-dwpk-st1.speedtest.aarnet.net.au
+host = tas-dwpk-st1.speedtest.aarnet.net.au
 
 +++Darwin
 menu = Darwin
@@ -852,8 +755,8 @@ title = Internode Darwin - speedtest-drw.cdn.on.net
 host = speedtest-drw.cdn.on.net
 ++++AARNetDarwin
 menu = AARNet Darwin
-title = AARNet Darwin - nt-drwn-speedtest.aarnet.net.au
-host = nt-drwn-speedtest.aarnet.net.au
+title = AARNet Darwin - nt-drwn-st1.speedtest.aarnet.net.au
+host = nt-drwn-st1.speedtest.aarnet.net.au
 
 
 ++Bermuda
@@ -1206,14 +1109,6 @@ menu = China Unicom Chengdu
 title = China Unicom Chengdu - speedtest1.wangjia.net
 host = speedtest1.wangjia.net
 
-+++Lanzhou
-menu = Lanzhou
-title = Lanzhou
-++++ChinaMobileLanzhou
-menu = China Mobile Lanzhou
-title = China Mobile Lanzhou - speedtest1.gs.chinamobile.com
-host = speedtest1.gs.chinamobile.com
-
 +++HongKong
 menu = Hong Kong
 title = Hong Kong
@@ -1225,6 +1120,10 @@ host = speedtestbb.hk.chinamobile.com
 menu = Hutchison Hong Kong
 title = Hutchison Hong Kong - ookla-speedtest-central.hgconair.hgc.com.hk
 host = ookla-speedtest-central.hgconair.hgc.com.hk
+++++TelstraHongKong
+menu = Telstra Hong Kong
+title = Telstra Hong Kong - hkthspeedtest02.telstraglobal.net
+host = hkthspeedtest02.telstraglobal.net
 
 
 ++Denmark
@@ -1357,6 +1256,10 @@ title = Mumbai
 menu = Airtel Broadband Mumbai
 title = Airtel Broadband Mumbai - speedtestmh.airtelbroadband.in
 host = speedtestmh.airtelbroadband.in
+++++VIMumbai
+menu = VI Mumbai
+title = VI Mumbai - ooklatestshslab01.live.vodafone.in
+host = ooklatestshslab01.live.vodafone.in
 ++++JioINMumbai
 menu = Jio IN Mumbai
 title = Jio IN Mumbai - speedmum2.jioconnect.com
@@ -1499,8 +1402,12 @@ menu = Patna
 title = Patna
 ++++AirtelPatna
 menu = Airtel Patna
-title = Airtel Patna - speedtestbhr1.airtel.in
-host = speedtestbhr1.airtel.in
+title = Airtel Patna - speedtestptn1.airtel.in
+host = speedtestptn1.airtel.in
+++++VIPatna
+menu = VI Patna
+title = VI Patna - ooklatestpatna.live.vodafone.in
+host = ooklatestpatna.live.vodafone.in
 
 +++Visakhapatnam
 menu = Visakhapatnam
@@ -1535,24 +1442,24 @@ menu = Telkom Indonesia ID Jakarta
 title = Telkom Indonesia ID Jakarta - jakarta2.speedtest.telkom.net.id
 host = jakarta2.speedtest.telkom.net.id
 ++++IndosatIDJakarta
-menu = Indosat ID Jakarta
-title = Indosat ID Jakarta - speedtest.indosat.com
-host = speedtest.indosat.com
+menu = Indosat ID Jakarta (13039)
+title = Indosat ID Jakarta (13039) - speedtest.indosatooredoo.com
+host = speedtest.indosatooredoo.com
 
 +++Surabaya
 menu = Surabaya
 title = Surabaya
 ++++TelkomIndonesiaIDSurabaya
-menu = Telkom Indonesia ID Surabaya
-title = Telkom Indonesia ID Surabaya - surabaya.speedtest.telkom.net.id
-host = surabaya.speedtest.telkom.net.id
+menu = Telkom Indonesia ID Surabaya (56633)
+title = Telkom Indonesia ID Surabaya (56633) - surabaya2.speedtest.telkom.net.id
+host = surabaya2.speedtest.telkom.net.id
 ++++BiznetIDSurabaya
 menu = Biznet ID Surabaya
 title = Biznet ID Surabaya - speedtest-sby.biznetnetworks.com
 host = speedtest-sby.biznetnetworks.com
 ++++IndosatIDSurabaya
-menu = Indosat ID Surabaya
-title = Indosat ID Surabaya - speedtest3.indosatooredoo.com
+menu = Indosat ID Surabaya (36700)
+title = Indosat ID Surabaya (36700) - speedtest3.indosatooredoo.com
 host = speedtest3.indosatooredoo.com
 
 +++Medan
@@ -1712,6 +1619,10 @@ host = dingookla01.maxis.com.my
 menu = Celcom Axiata Kuching
 title = Celcom Axiata Kuching - speedopdg1.celcom.net.my
 host = speedopdg1.celcom.net.my
+++++UMobileKuching
+menu = U Mobile Kuching
+title = U Mobile Kuching - speedtestkch.u.net.my
+host = speedtestkch.u.net.my
 
 +++KotaKinabalu
 menu = Kota Kinabalu
@@ -1784,8 +1695,8 @@ menu = Tijuana
 title = Tijuana
 ++++TelmexMXTijuana
 menu = Telmex MX Tijuana
-title = Telmex MX Tijuana - medidor-tij-telnor-1.uninet.net.mx
-host = medidor-tij-telnor-1.uninet.net.mx
+title = Telmex MX Tijuana - smvel-bcn-piopico-2.uninet.net.mx
+host = smvel-bcn-piopico-2.uninet.net.mx
 ++++MovistarMXTijuana
 menu = Movistar MX Tijuana
 title = Movistar MX Tijuana - internet4b.movistar.com.mx
@@ -2005,10 +1916,6 @@ host = msk1.companion.tele2.ru
 +++SaintPetersburg
 menu = Saint Petersburg
 title = Saint Petersburg
-++++RostelecomSaintPetersburg
-menu = Rostelecom Saint Petersburg
-title = Rostelecom Saint Petersburg - sankt-peterburg2.speedtest.rt.ru
-host = sankt-peterburg2.speedtest.rt.ru
 ++++ERTelecomSaintPetersburg
 menu = ER-Telecom Saint Petersburg
 title = ER-Telecom Saint Petersburg - speedtest.spb.ertelecom.ru
@@ -2021,14 +1928,14 @@ host = stpetersburg1.speedtest.rascom.ru
 menu = RETN Saint Petersburg
 title = RETN Saint Petersburg - speedtest-spb.retn.net
 host = speedtest-spb.retn.net
-++++VimpelcomSaintPetersburg
-menu = Vimpelcom Saint Petersburg
-title = Vimpelcom Saint Petersburg - speedtest.spb.gldn.net
-host = speedtest.spb.gldn.net
+++++BeelineSaintPetersburg
+menu = Beeline Saint Petersburg
+title = Beeline Saint Petersburg - speedtest-spb.corbina.net
+host = speedtest-spb.corbina.net
 ++++MTSSaintPetersburg
 menu = MTS Saint Petersburg
-title = MTS Saint Petersburg - speedtest-it.spb.mts.ru
-host = speedtest-it.spb.mts.ru
+title = MTS Saint Petersburg - spbst.st.mtsws.net
+host = spbst.st.mtsws.net
 ++++MegafonSaintPetersburg
 menu = Megafon Saint Petersburg
 title = Megafon Saint Petersburg - speedtest-szf.megafon.ru
@@ -2259,38 +2166,38 @@ host = abha-speedtest.saudi.net.sa
 ++Singapore
 menu = Singapore
 title = Singapore
++++Singtel
+menu = Singtel (13623)
+title = Singtel (13623) - speedtest.singnet.com.sg
+host = speedtest.singnet.com.sg
 +++StarHub
-menu = StarHub 
-title = StarHub - broadbandspeedtestuat.starhub.com
-host = broadbandspeedtestuat.starhub.com
+menu = StarHub (4235)
+title = StarHub (4235) - co2dsvr03.speedtest.starhub.com
+host = co2dsvr03.speedtest.starhub.com
 +++M1
-menu = M1
-title = M1 - m1speedtest1.m1net.com.sg
+menu = M1 (7311)
+title = M1 (7311) - m1speedtest1.m1net.com.sg
 host = m1speedtest1.m1net.com.sg
 +++Viewquest
-menu = Viewquest
-title = Viewquest - speedtest10.vqbn.com
+menu = Viewquest (2054)
+title = Viewquest (2054) - speedtest10.vqbn.com
 host = speedtest10.vqbn.com
 +++MyRepublicSG
-menu = MyRepublic SG
-title = MyRepublic SG - speedtest.myrepublic.com.sg
+menu = MyRepublic SG (5935)
+title = MyRepublic SG (5935) - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 +++VerizonSG
-menu = Verizon SG
-title = Verizon SG - sgn-nperf.verizon.net
+menu = Verizon SG (50406)
+title = Verizon SG (50406) - sgn-nperf.verizon.net
 host = sgn-nperf.verizon.net
 +++TELINSG
-menu = TELIN SG
-title = TELIN SG - speedtest2.telin.sg
+menu = TELIN SG (37744)
+title = TELIN SG (37744) - speedtest2.telin.sg
 host = speedtest2.telin.sg
 +++IndosatSG
-menu = Indosat SG
-title = Indosat SG - speedtest1.indosat.com
-host = speedtest1.indosat.com
-+++XLAxiataSG
-menu = XL Axiata SG
-title = XL Axiata SG - speedtest-intl.xl.co.id
-host = speedtest-intl.xl.co.id
+menu = Indosat SG (13058)
+title = Indosat SG (13058) - speedtest1.indosatooredoo.com
+host = speedtest1.indosatooredoo.com
 
 
 ++Switzerland
@@ -2573,10 +2480,6 @@ title = New York
 menu = Verizon New York
 title = Verizon New York - nyykp1.speed.vzwnet.com
 host = nyykp1.speed.vzwnet.com
-++++SprintNewYork
-menu = Sprint New York
-title = Sprint New York - ookla1.nycmny.sprintadp.net
-host = ookla1.nycmny.sprintadp.net
 ++++SpectrumNewYork
 menu = Spectrum New York
 title = Spectrum New York - speedtest.nyc.rr.com
