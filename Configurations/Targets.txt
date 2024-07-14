@@ -472,9 +472,9 @@ title = Victoria University of Wellington VPN - vpn.vuw.ac.nz
 host = vpn.vuw.ac.nz
 
 
-++Singapore
-menu = Singapore
-title = Singapore
+++APACSingapore
+menu = APAC - Singapore
+title = APAC - Singapore
 
 +++NationalUniversityofSingapore
 menu = National University of Singapore
@@ -1092,6 +1092,10 @@ host = speedtest1.online.sh.cn
 menu = China Unicom Shanghai
 title = China Unicom Shanghai - 5g.shunicomtest.com
 host = 5g.shunicomtest.com
+++++ChinaMobileShanghai
+menu = China Mobile Shanghai (54312)
+title = China Mobile Shanghai (54312) - speedtest.139play.com
+host = speedtest.139play.com
 
 +++Chongqing
 menu = Chongqing
@@ -1105,25 +1109,57 @@ menu = China Telecom Chengdu
 title = China Telecom Chengdu - speedtest1.sc.189.cn
 host = speedtest1.sc.189.cn
 ++++ChinaUnicomChengdu
-menu = China Unicom Chengdu
-title = China Unicom Chengdu - speedtest1.wangjia.net
-host = speedtest1.wangjia.net
+menu = China Unicom Chengdu (64314)
+title = China Unicom Chengdu (64314) - cuscspeed.169ol.com
+host = cuscspeed.169ol.com
 
 +++HongKong
 menu = Hong Kong
 title = Hong Kong
-++++ChinaMobileCNHongKong
-menu = China Mobile CN Hong Kong
-title = China Mobile CN Hong Kong - speedtestbb.hk.chinamobile.com
-host = speedtestbb.hk.chinamobile.com
-++++HutchisonHongKong
-menu = Hutchison Hong Kong
-title = Hutchison Hong Kong - ookla-speedtest-central.hgconair.hgc.com.hk
-host = ookla-speedtest-central.hgconair.hgc.com.hk
+++++CMHKHongKong
+menu = CMHK Hong Kong (32155)
+title = CMHK Hong Kong (32155) - speedtest.hk.chinamobile.com
+host = speedtest.hk.chinamobile.com
+++++HKBNHongKong
+menu = HKBN Hong Kong (59303)
+title = HKBN Hong Kong (59303) - speedtest12.hkbn.net
+host = speedtest12.hkbn.net
 ++++TelstraHongKong
-menu = Telstra Hong Kong
-title = Telstra Hong Kong - hkthspeedtest02.telstraglobal.net
+menu = Telstra Hong Kong (44340)
+title = Telstra Hong Kong (44340) - hkthspeedtest02.telstraglobal.net
 host = hkthspeedtest02.telstraglobal.net
+
++++Taiwan
+menu = Taiwan
+title = Taiwan
+++++ChunghwaTelecomTaipei
+menu = Chunghwa Telecom Taipei (18445)
+title = Chunghwa Telecom Taipei (18445) - tp1.chtm.hinet.net
+host = tp1.chtm.hinet.net
+++++TaiwanMobileTaipei
+menu = Taiwan Mobile Taipei (11703)
+title = Taiwan Mobile Taipei (11703) - spttp1.taiwanmobile.com
+host = spttp1.taiwanmobile.com
+++++ChunghwaTelecomKaohsiung
+menu = Chunghwa Telecom Kaohsiung (18458)
+title = Chunghwa Telecom Kaohsiung (18458) - kh1.chtm.hinet.net
+host = kh1.chtm.hinet.net
+++++TaiwanMobileKaohsiung
+menu = Taiwan Mobile Kaohsiung (11713)
+title = Taiwan Mobile Kaohsiung (11713) - sptkh2.taiwanmobile.com
+host = sptkh2.taiwanmobile.com
+++++ChunghwaTelecomTaichung
+menu = Chunghwa Telecom Taichung (18456)
+title = Chunghwa Telecom Taichung (18456) - tc1.chtm.hinet.net
+host = tc1.chtm.hinet.net
+++++TaiwanMobileTaichung
+menu = Taiwan Mobile Taichung (11707)
+title = Taiwan Mobile Taichung (11707) - spttc2.taiwanmobile.com
+host = spttc2.taiwanmobile.com
+++++TaiwanMobileHualien
+menu = Taiwan Mobile Hualien (11708)
+title = Taiwan Mobile Hualien (11708) - spthl1.taiwanmobile.com
+host = spthl1.taiwanmobile.com
 
 
 ++Denmark
@@ -1532,9 +1568,9 @@ title = BT IE Dublin - roadrunner.cwt.btireland.net
 host = roadrunner.cwt.btireland.net
 
 
-++Malaysia
-menu = Malaysia
-title = Malaysia
+++APACMalaysia
+menu = APAC - Malaysia
+title = APAC - Malaysia
 
 +++KualaLumpur
 menu = Kuala Lumpur
@@ -1833,6 +1869,24 @@ host = speedtest2.omantel.om
 menu = Ooredoo Seeb
 title = Ooredoo Seeb - speedtest2.ooredoo.om
 host = speedtest2.ooredoo.om
+
+
+
+++Palestine
+menu = Palestine
+title = Palestine
+
++++Ramallah
+menu = Ramallah
+title = Ramallah
+++++PaltelRamallah
+menu = Paltel Ramallah (55839)
+title = Paltel Ramallah (55839) - speedtest-rm.jawwal.ps
+host = speedtest-rm.jawwal.ps
+++++OoredooPSRamallah
+menu = Ooredoo PS Ramallah (53193)
+title = Ooredoo PS Ramallah (53193) - speedtest.ooredoo.ps
+host = speedtest.ooredoo.ps
 
 
 ++Qatar
@@ -2427,30 +2481,38 @@ title = Turk Telekom Antalya - ant1speedtest.turktelekom.com.tr
 host = ant1speedtest.turktelekom.com.tr
 
 
-++Ukraine
-menu = Ukraine
-title = Ukraine
+++EMEAUkraine
+menu = EMEA - Ukraine
+title = EMEA - Ukraine
 
 +++Kyiv
 menu = Kyiv
 title = Kyiv
 ++++KyivstarKyiv
-menu = Kyivstar Kyiv
-title = Kyivstar Kyiv - srv01-okl-kv.kyivstar.ua
+menu = Kyivstar Kyiv (30813)
+title = Kyivstar Kyiv (30813) - srv01-okl-kv.kyivstar.ua
 host = srv01-okl-kv.kyivstar.ua
+++++VodafoneUAKyiv
+menu = Vodafone UA Kyiv (16747)
+title = Vodafone UA Kyiv (16747) - speedtest.vodafone.ua
+host = speedtest.vodafone.ua
+++++LifecellKyiv
+menu = Lifecell Kyiv (25946)
+title = Lifecell Kyiv (25946) - speedtest01.lifecell.com.ua
+host = speedtest01.lifecell.com.ua
 
 +++Lviv
 menu = Lviv
 title = Lviv
 ++++KyivstarLviv
-menu = Kyivstar Lviv
-title = Kyivstar Lviv - srv01-okl-lvv.kyivstar.ua
+menu = Kyivstar Lviv (29259)
+title = Kyivstar Lviv (29259) - srv01-okl-lvv.kyivstar.ua
 host = srv01-okl-lvv.kyivstar.ua
 
 
-++UnitedKingdom
-menu = United Kingdom
-title = United Kindgom
+++EMEAUnitedKingdom
+menu = EMEA - United Kingdom
+title = EMEA - United Kindgom
 
 +++London
 menu = London
