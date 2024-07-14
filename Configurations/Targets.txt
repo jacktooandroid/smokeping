@@ -1540,48 +1540,48 @@ title = Malaysia
 menu = Kuala Lumpur
 title = Kuala Lumpur
 ++++TelekomMalaysiaKualaLumpur
-menu = Telekom Malaysia Kuala Lumpur
-title = Telekom Malaysia Kuala Lumpur - speedtest.tm.com.my
-host = speedtest.tm.com.my
+menu = Telekom Malaysia Kuala Lumpur (19302)
+title = Telekom Malaysia Kuala Lumpur (19302) - speedtest-bat.tm.com.my
+host = speedtest-bat.tm.com.my
 ++++TIMEdotcomKualaLumpur
-menu = TIME dotcom Kuala Lumpur
-title = TIME dotcom Kuala Lumpur - speed.time.com.my
-host = speed.time.com.my
+menu = TIME dotcom Kuala Lumpur (50737)
+title = TIME dotcom Kuala Lumpur (50737) - speedkl.time.com.my
+host = speedkl.time.com.my
 ++++MaxisKualaLumpur
-menu = Maxis Kuala Lumpur
-title = Maxis Kuala Lumpur - speedtest.maxis.com.my
-host = speedtest.maxis.com.my
+menu = Maxis Kuala Lumpur (49683)
+title = Maxis Kuala Lumpur (49683) - sgbookla02.maxis.com.my
+host = sgbookla02.maxis.com.my
 ++++CelcomAxiataKualaLumpur
-menu = Celcom Axiata Kuala Lumpur
-title = Celcom Axiata Kuala Lumpur - speedosht1.celcom.net.my
+menu = Celcom Axiata Kuala Lumpur (4956)
+title = Celcom Axiata Kuala Lumpur (4956) - speedosht1.celcom.net.my
 host = speedosht1.celcom.net.my
 ++++DigiKualaLumpur
-menu = Digi Kuala Lumpur
-title = Digi Kuala Lumpur - digi-ookla02.digi.com.my
+menu = Digi Kuala Lumpur (52884)
+title = Digi Kuala Lumpur (52884) - digi-ookla02.digi.com.my
 host = digi-ookla02.digi.com.my
 ++++UMobileKualaLumpur
-menu = U Mobile Kuala Lumpur
-title = U Mobile Kuala Lumpur - speedtest.u.com.my
-host = speedtest.u.com.my
-++++MYRENKualaLumpur
-menu = MYREN Kuala Lumpur
-title = MYREN Kuala Lumpur - speedtest1.myren.net.my
-host = speedtest1.myren.net.my
+menu = U Mobile Kuala Lumpur (45610)
+title = U Mobile Kuala Lumpur (45610) - speedtestkul.u.net.my
+host = speedtestkul.u.net.my
+++++yesKualaLumpur
+menu = yes Kuala Lumpur (1701)
+title = yes Kuala Lumpur (1701) - speedtest.ytlcomms.my
+host = speedtest.ytlcomms.my
 
 +++Penang
 menu = Penang
 title = Penang
 ++++TIMEdotcomPenang
-menu = TIME dotcom Penang
-title = TIME dotcom Penang - speedpg.time.com.my
+menu = TIME dotcom Penang (53188)
+title = TIME dotcom Penang (53188) - speedpg.time.com.my
 host = speedpg.time.com.my
 ++++CelcomAxiataPenang
-menu = Celcom Axiata Penang
-title = Celcom Axiata Penang - speedomhspenang.celcom.net.my
+menu = Celcom Axiata Penang (57660)
+title = Celcom Axiata Penang (57660) - speedomhspenang.celcom.net.my
 host = speedomhspenang.celcom.net.my
 ++++DigiPenang
-menu = Digi Penang
-title = Digi Penang - digi-ookla03.digi.com.my
+menu = Digi Penang (52885)
+title = Digi Penang (52885) - digi-ookla03.digi.com.my
 host = digi-ookla03.digi.com.my
 
 +++JohorBahru
@@ -1595,45 +1595,49 @@ host = speedomhsjohorbharu.celcom.net.my
 menu = Digi Johor Bahru
 title = Digi Johor Bahru - digi-ookla06.digi.com.my
 host = digi-ookla06.digi.com.my
+++++UMobileJohorBahru
+menu = U Mobile Johor Bahru (56684)
+title = U Mobile Johor Bahru (56684) - speedtestjhr.u.net.my
+host = speedtestjhr.u.net.my
 
 +++KotaBharu
 menu = Kota Bharu
 title = Kota Bharu
 ++++CelcomAxiataKotaBharu
-menu = Celcom Axiata Kota Bharu
-title = Celcom Axiata Kota Bharu - speedomhskotabharu.celcom.net.my
+menu = Celcom Axiata Kota Bharu (57661)
+title = Celcom Axiata Kota Bharu (57661) - speedomhskotabharu.celcom.net.my
 host = speedomhskotabharu.celcom.net.my
 
 +++Kuching
 menu = Kuching
 title = Kuching
 ++++TelekomMalaysiaKuching
-menu = Telekom Malaysia Kuching
-title = Telekom Malaysia Kuching - speedtest-sarawak.tm.com.my
+menu = Telekom Malaysia Kuching (46246)
+title = Telekom Malaysia Kuching (46246) - speedtest-sarawak.tm.com.my
 host = speedtest-sarawak.tm.com.my
 ++++MaxisKuching
-menu = Maxis Kuching
-title = Maxis Kuching - dingookla01.maxis.com.my
+menu = Maxis Kuching (54521)
+title = Maxis Kuching (54521) - dingookla01.maxis.com.my
 host = dingookla01.maxis.com.my
 ++++CelcomAxiataKuching
-menu = Celcom Axiata Kuching
-title = Celcom Axiata Kuching - speedopdg1.celcom.net.my
+menu = Celcom Axiata Kuching (5527)
+title = Celcom Axiata Kuching (5527) - speedopdg1.celcom.net.my
 host = speedopdg1.celcom.net.my
 ++++UMobileKuching
-menu = U Mobile Kuching
-title = U Mobile Kuching - speedtestkch.u.net.my
+menu = U Mobile Kuching (58879)
+title = U Mobile Kuching (58879) - speedtestkch.u.net.my
 host = speedtestkch.u.net.my
 
 +++KotaKinabalu
 menu = Kota Kinabalu
 title = Kota Kinabalu
 ++++MaxisKotaKinabalu
-menu = Maxis Kota Kinabalu
-title = Maxis Kota Kinabalu - kkookla01.maxis.com.my
+menu = Maxis Kota Kinabalu (54520)
+title = Maxis Kota Kinabalu (54520) - kkookla01.maxis.com.my
 host = kkookla01.maxis.com.my
 ++++CelcomAxiataKotaKinabalu
-menu = Celcom Axiata Kota Kinabalu
-title = Celcom Axiata Kota Kinabalu - speedokrt1.celcom.net.my
+menu = Celcom Axiata Kota Kinabalu (5532)
+title = Celcom Axiata Kota Kinabalu (5532) - speedokrt1.celcom.net.my
 host = speedokrt1.celcom.net.my
 
 
