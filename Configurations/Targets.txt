@@ -1223,7 +1223,7 @@ title = Frankfurt
 menu = Deutsche Telekom Frankfurt
 title = Deutsche Telekom Frankfurt - ffm.wsqm.telekom-dienste.de
 host = ffm.wsqm.telekom-dienste.de
-+++VerizonDEFrankfurt
+++++VerizonDEFrankfurt
 menu = Verizon DE Frankfurt
 title = Verizon DE Frankfurt - ipl3pt.fft.ops.eu.uu.net
 host = ipl3pt.fft.ops.eu.uu.net
