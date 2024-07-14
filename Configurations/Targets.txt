@@ -207,9 +207,9 @@ host = 64.209.89.2
 
 
 
-+CloudProviders
-menu = Cloud Providers
-title = Cloud Providers
++CloudProvider
+menu = Cloud Provider
+title = Cloud Provider
 
 
 ++AmazonAWS
@@ -303,9 +303,9 @@ host = 18.162.80.8
 
 
 
-+Universities
-menu = Universities
-title = Universities
++University
+menu = University
+title = University
 
 
 ++Australia
@@ -422,9 +422,9 @@ title = University of British Columbia VPN - myvpn.ubc.ca
 host = myvpn.ubc.ca
 
 
-++China
-menu = China
-title = China
+++APACChina
+menu = APAC - China
+title = APAC - China
 
 +++TsinghuaUniversity
 menu = Tsinghua University
@@ -472,9 +472,9 @@ title = Victoria University of Wellington VPN - vpn.vuw.ac.nz
 host = vpn.vuw.ac.nz
 
 
-++APACSingapore
-menu = APAC - Singapore
-title = APAC - Singapore
+++Singapore
+menu = Singapore
+title = Singapore
 
 +++NationalUniversityofSingapore
 menu = National University of Singapore
@@ -559,9 +559,9 @@ host = archer.ucs.ed.ac.uk
 
 
 
-+Telecoms
-menu = Telecoms
-title = Telecom Speedtest Servers
++Telecom
+menu = Telecom
+title = Telecom Speedtest Server
 
 
 ++Argentina
@@ -2221,9 +2221,9 @@ title = Saudi Telecom Company Abha - abha-speedtest.saudi.net.sa
 host = abha-speedtest.saudi.net.sa
 
 
-++Singapore
-menu = Singapore
-title = Singapore
+++APACSingapore
+menu = APAC - Singapore
+title = APAC - Singapore
 +++Singtel
 menu = Singtel (13623)
 title = Singtel (13623) - speedtest.singnet.com.sg
@@ -2535,9 +2535,9 @@ title = RETN GB London - speedtest-lon.retn.net
 host = speedtest-lon.retn.net
 
 
-++UnitedStates
-menu = United States
-title = United States
+++AMERUnitedStates
+menu = AMER - United States
+title = AMER - United States
 
 +++NewYork
 menu = New York
@@ -2699,9 +2699,9 @@ host = speedtest.yemen.net.ye
 
 
 
-+ChinaWebsites
-menu = China Websites
-title = Top Chinese Websites
++ChinaWebsite
+menu = China Website
+title = Top Chinese Website
 ++Baidu
 menu = Baidu
 title = Baidu - www.baidu.com
