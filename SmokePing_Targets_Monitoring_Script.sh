@@ -3,7 +3,7 @@ set -euo pipefail
 
 URL="https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt"
 TMP_DIR="/tmp/smokeping"
-GITHUB_TARGETS="$TMP_DIR/Targets"
+GITHUB_TARGETS="$TMP_DIR/GitHub_Targets"
 LOCAL_TARGETS="/etc/smokeping/config.d/Targets"
 BACKUP_TARGETS="/etc/smokeping/config.d/Targets.bak.$(date +%Y%m%d%H%M%S)"
 
