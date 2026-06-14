@@ -5,7 +5,7 @@ probe = FPing
 
 menu = Top
 title = Network Latency Grapher
-remark = Welcome to the SmokePing website of MicroFox Telecom Network. \
+remark = Welcome to the SmokePing website of xxx Company. \
 Here you will learn all about the latency of our network.
 
 
@@ -607,10 +607,6 @@ host = losangeles.ca.speedtest.frontier.com
 menu = Windstream Los Angeles (18401)
 title = Windstream Los Angeles (18401) - la02.speedtest.windstream.net
 host = la02.speedtest.windstream.net
-++++2degreesLosAngeles
-menu = 2degrees Los Angeles
-title = 2degrees Los Angeles - speed5.snap.net.nz
-host = speed5.snap.net.nz
 
 +++SanFrancisco
 menu = San Francisco
@@ -1578,7 +1574,7 @@ host = spetstbhe01.timbrasil.com.br
 +++Manaus
 menu = Manaus
 title = Manaus
-    ++++ClaroBRManaus
+++++ClaroBRManaus
 menu = Claro BR Manaus
 title = Claro BR Manaus - spd7.claro.com.br
 host = spd7.claro.com.br
@@ -2726,11 +2722,7 @@ title = My Servers
 
 ++UbiquitiUniFiController
 menu = Ubiquiti UniFi Controller
-title = Ubiquiti UniFi Controller
-
-+++UbiquitiUniFiControllerLON
-menu = UniFi Controller LON
-title = UniFi Controller LON - inform.unifi.thetooorg.net
+title = Ubiquiti UniFi Controller - inform.unifi.thetooorg.net
 host = inform.unifi.thetooorg.net
 
 

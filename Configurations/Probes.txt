@@ -2,6 +2,10 @@
 
 + FPing
 
-binary          = /usr/bin/fping
-packetsize      = 56
-pings           = 20
+binary      = /usr/bin/fping
+protocol    = 4
+
++ FPing6
+
+binary      = /usr/bin/fping6
+protocol    = 6
