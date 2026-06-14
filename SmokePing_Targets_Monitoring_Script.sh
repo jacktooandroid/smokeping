@@ -9,7 +9,7 @@ BACKUP_TARGETS="/etc/smokeping/config.d/Targets.bak.$(date +%Y%m%d%H%M%S)"
 
 mkdir -p "$TMP_DIR"
 
-#Download from GitHub
+# Download from GitHub
 echo "Downloading latest Targets file..."
 if curl -fsSL "$URL" -o "$GITHUB_TARGETS"; then
     echo "Downloaded latest Targets file using curl."
@@ -24,7 +24,7 @@ else
     fi
 fi
 
-#Test target files
+# Test target files
 if [ ! -s "$GITHUB_TARGETS" ]; then
     echo "Downloaded Targets file is missing or empty. Exiting."
     exit 1
@@ -35,7 +35,7 @@ if [ ! -s "$LOCAL_TARGETS" ]; then
     exit 1
 fi
 
-#Compare SHA256 hashes
+# Compare SHA256 hashes
 GitHub_Targets=$(sha256sum "$GITHUB_TARGETS" | awk '{print $1}')
 Local_Targets=$(sha256sum "$LOCAL_TARGETS" | awk '{print $1}')
 
@@ -44,21 +44,29 @@ if [ "$GitHub_Targets" = "$Local_Targets" ]; then
     exit 0
 fi
 
-#Implement replacement if SHA256 hashes do not match
-echo "Changes detected. Replacing with newer version now."
+# Implement replacement if SHA256 hashes do not match
+echo "Changes detected. Applying and validating new SmokePing config."
 sudo cp "$LOCAL_TARGETS" "$BACKUP_TARGETS"
 sudo cp "$GITHUB_TARGETS" "$LOCAL_TARGETS"
 
-if sudo systemctl restart smokeping; then
-    echo "SmokePing Targets updated and restarted successfully."
+if ! sudo smokeping --check; then
+    echo "New SmokePing config failed validation. Restoring previous Targets file."
+    sudo cp "$BACKUP_TARGETS" "$LOCAL_TARGETS"
+    exit 1
+fi
+
+echo "New SmokePing config validated. Restarting services."
+
+if sudo systemctl restart smokeping && sudo systemctl restart apache2; then
+    echo "SmokePing Targets updated. SmokePing and Apache restarted successfully."
     exit 0
 else
-    echo "SmokePing failed to restart. Restoring previous Targets file."
+    echo "SmokePing or Apache failed to restart. Restoring previous Targets file."
     sudo cp "$BACKUP_TARGETS" "$LOCAL_TARGETS"
-    if sudo systemctl restart smokeping; then
-        echo "Previous Targets file restored and SmokePing restarted successfully."
+    if sudo systemctl restart smokeping && sudo systemctl restart apache2; then
+        echo "Previous Targets file restored. SmokePing and Apache restarted successfully."
     else
-        echo "Previous Targets file restored, but SmokePing still failed to restart. Manual investigation required."
+        echo "Previous Targets file restored, but SmokePing or Apache still failed to restart. Manual investigation required."
     fi
     exit 1
 fi
