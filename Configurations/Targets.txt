@@ -1,4 +1,4 @@
-#Updated 2026-06-11
+#Updated 2026-06-12
 *** Targets ***
 
 probe = FPing
@@ -82,15 +82,10 @@ menu = Bilibili
 title = China Websites>Bilibili - www.bilibili.com
 host = www.bilibili.com
 
-++Douban
-menu = Douban
-title = China Websites>Douban - www.douban.com
-host = www.douban.com
-
 ++JD
 menu = JD
-title = China Websites>JD - global.jd.com
-host = global.jd.com
+title = China Websites>JD - www.jd.com
+host = www.jd.com
 
 ++QQ
 menu = QQ
@@ -142,102 +137,182 @@ title = Cloud Providers
 menu = Amazon Web Services
 title = Cloud Providers>Amazon Web Services
 
-+++apeast1
++++AWSafsouth1
+menu = af-south-1 (Cape Town)
+title = Cloud Providers>Amazon Web Services>af-south-1 (Cape Town) - 13.245.0.253
+host = 13.245.0.253
+
++++AWSafsouth1los1
+menu = af-south-1-los-1 (Lagos)
+title = Cloud Providers>Amazon Web Services>af-south-1-los-1 (Lagos) - 96.0.40.228
+host = 96.0.40.228
+
++++AWSapeast1
 menu = ap-east-1 (Hong Kong)
 title = Cloud Providers>Amazon Web Services>ap-east-1 (Hong Kong) - 18.162.80.8
 host = 18.162.80.8
 
-+++apnortheast1
++++AWSapeast2
+menu = ap-east-2 (Taipei)
+title = Cloud Providers>Amazon Web Services>ap-east-1 (Taipei) - 43.213.3.242
+host = 43.213.3.242
+
++++AWSapnortheast1
 menu = ap-northeast-1 (Tokyo)
 title = Cloud Providers>Amazon Web Services>ap-northeast-1 (Tokyo) - 3.112.0.0
 host = 3.112.0.0
 
-+++apnortheast2
++++AWSapnortheast2
 menu = ap-northeast-2 (Seoul)
 title = Cloud Providers>Amazon Web Services>ap-northeast-2 (Seoul) - 3.34.0.0
 host = 3.34.0.0
 
-+++apnortheast3
++++AWSapnortheast3
 menu = ap-northeast-3 (Osaka)
 title = Cloud Providers>Amazon Web Services>ap-northeast-3 (Osaka) - 13.208.32.253
 host = 13.208.32.253
 
-+++apsouth1
++++AWSapsouth1
 menu = ap-south-1 (Mumbai)
 title = Cloud Providers>Amazon Web Services>ap-south-1 (Mumbai) - 3.6.0.0
 host = 3.6.0.0
 
-+++apsoutheast1
++++AWSapsouth2
+menu = ap-south-2 (Hyderabad)
+title = Cloud Providers>Amazon Web Services>ap-south-1 (Hyderabad) - 16.112.0.0
+host = 16.112.0.0
+
++++AWSapsoutheast1
 menu = ap-southeast-1 (Singapore)
 title = Cloud Providers>Amazon Web Services>ap-southeast-1 (Singapore) - 3.0.0.9
 host = 3.0.0.9
 
-+++apsoutheast2
++++AWSapsoutheast2
 menu = ap-southeast-2 (Sydney)
 title = Cloud Providers>Amazon Web Services>ap-southeast-2 (Sydney) - 3.24.0.0
 host = 3.24.0.0
 
-+++cacentral1
++++AWSapsoutheast3
+menu = ap-southeast-3 (Jakarta)
+title = Cloud Providers>Amazon Web Services>ap-southeast-2 (Jakarta) - 15.232.0.0
+host = 15.232.0.0
+
++++AWSapsoutheast4
+menu = ap-southeast-4 (Melbourne)
+title = Cloud Providers>Amazon Web Services>ap-southeast-2 (Melbourne) - 16.26.0.0
+host = 16.26.0.0
+
++++AWSapsoutheast5
+menu = ap-southeast-5 (Malaysia)
+title = Cloud Providers>Amazon Web Services>ap-southeast-2 (Malaysia) - 43.216.149.220
+host = 43.216.149.220
+
++++AWSapsoutheast6
+menu = ap-southeast-6 (New Zealand)
+title = Cloud Providers>Amazon Web Services>ap-southeast-2 (New Zealand) - 3.102.141.118
+host = 3.102.141.118
+
++++AWSapsoutheast7
+menu = ap-southeast-7 (Thailand)
+title = Cloud Providers>Amazon Web Services>ap-southeast-2 (Thailand) - 43.208.90.158
+host = 43.208.90.158
+
++++AWScacentral1
 menu = ca-central-1 (Central Canada)
 title = Cloud Providers>Amazon Web Services>ca-central-1 (Central Canada) - 15.222.0.0
 host = 15.222.0.0
 
-+++eucentral1
++++AWScawest1
+menu = ca-west-1 (Calgary)
+title = Cloud Providers>Amazon Web Services>ca-west-1 (Calgary) - 40.176.100.29
+host = 40.176.100.29
+
++++AWScnnorth1
+menu = cn-north-1 (Beijing)
+title = Cloud Providers>Amazon Web Services>cn-north-1 (Beijing) - 43.196.0.253
+host = 43.196.0.253
+
++++AWScnnorthwest1
+menu = cn-northwest-1 (Ningxia)
+title = Cloud Providers>Amazon Web Services>cn-northwest-1 (Ningxia) - 43.192.0.113
+host = 43.192.0.113
+
++++AWSeucentral1
 menu = eu-central-1 (Frankfurt)
 title = Cloud Providers>Amazon Web Services>eu-central-1 (Frankfurt) - 3.120.0.0
 host = 3.120.0.0
 
-+++eunorth1
++++AWSeucentral2
+menu = eu-central-2 (Zurich)
+title = Cloud Providers>Amazon Web Services>eu-central-2 (Zurich) - 16.62.132.214
+host = 16.62.132.214
+
++++AWSeunorth1
 menu = eu-north-1 (Stockholm)
 title = Cloud Providers>Amazon Web Services>eu-north-1 (Stockholm) - 13.48.0.0
 host = 13.48.0.0
 
-+++euwest1
++++AWSeuwest1
 menu = eu-west-1 (Ireland)
 title = Cloud Providers>Amazon Web Services>eu-west-1 (Ireland) - 3.248.0.0
 host = 3.248.0.0
 
-+++euwest2
++++AWSeuwest2
 menu = eu-west-2 (London)
 title = Cloud Providers>Amazon Web Services>eu-west-2 (London) - 3.8.0.0
 host = 3.8.0.0
 
-+++euwest3
++++AWSeuwest3
 menu = eu-west-3 (Paris)
 title = Cloud Providers>Amazon Web Services>eu-west-3 (Paris) - 15.188.0.0
 host = 15.188.0.0
 
-+++mesouth1
++++AWSilcentral1
+menu = il-central-1 (Israel)
+title = Cloud Providers>Amazon Web Services>il-central-1 (Israel) - 51.16.235.176
+host = 51.16.235.176
+
++++AWSmecentral1
+menu = me-central-1 (UAE)
+title = Cloud Providers>Amazon Web Services>me-central-1 (UAE) - 3.28.180.35
+host = 3.28.180.35
+
++++AWSmesouth1
 menu = me-south-1 (Bahrain)
 title = Cloud Providers>Amazon Web Services>me-south-1 (Bahrain) - 15.185.32.254
 host = 15.185.32.254
 
-+++saeast1
++++AWSmesouth1mct1
+menu = me-south-1-mct-1 (Muscat)
+title = Cloud Providers>Amazon Web Services>me-south-1-mct-1 (Muscat) - 15.220.161.219
+host = 15.220.161.219
+
++++AWSsaeast1
 menu = sa-east-1 (Sao Paulo)
 title = Cloud Providers>Amazon Web Services>sa-east-1 (Sao Paulo) - 18.228.0.0
 host = 18.228.0.0
 
-+++useast1
++++AWSuseast1
 menu = us-east-1 (Northern Virginia)
 title = Cloud Providers>Amazon Web Services>us-east-1 (Northern Virginia) - 3.80.0.0
 host = 3.80.0.0
 
-+++useast2
++++AWSuseast2
 menu = us-east-2 (Ohio)
 title = Cloud Providers>Amazon Web Services>us-east-2 (Ohio) - 3.12.0.0
 host = 3.12.0.0
 
-+++uswest1
++++AWSuswest1
 menu = us-west-1 (Northern California)
 title = Cloud Providers>Amazon Web Services>us-west-1 (Northern California) - 13.52.0.0
 host = 13.52.0.0
 
-+++uswest2
++++AWSuswest2
 menu = us-west-2 (Oregon)
 title = Cloud Providers>Amazon Web Services>us-west-2 (Oregon) - 18.236.0.0
 host = 18.236.0.0
 
-+++uswest2lax1
++++AWSuswest2lax1
 menu = us-west-2-lax-1 (Los Angeles)
 title = Cloud Providers>Amazon Web Services>us-west-2-lax-1 (Los Angeles) - 70.224.224.253
 host = 70.224.224.253
@@ -824,11 +899,11 @@ title = Telecom>APAC - Australia>Adelaide>Internode - speedtest-adl.cdn.on.net
 host = speedtest-adl.cdn.on.net
 ++++OptusAUAdelaide
 menu = Optus
-title = Telecom>APAC - Australia>Adelaide>Optus - speedtest.adl.optusnet.com.au
-host = speedtest.adl.optusnet.com.au
+title = Telecom>APAC - Australia>Adelaide>Optus (30936) - speedtest-adelaide.optusnet.com.au
+host = speedtest-adelaide.optusnet.com.au
 ++++TelstraAUAdelaide
 menu = Telstra
-title = Telecom>APAC - Australia>Adelaide>Telstra - ade1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Adelaide>Telstra (12495) - ade1.speedtest.telstra.net
 host = ade1.speedtest.telstra.net
 ++++VocusAUAdelaide
 menu = Vocus
@@ -838,9 +913,13 @@ host = speedtest-ade.vocus.net
 +++Brisbane
 menu = Brisbane
 title = Telecom>APAC - Australia>Brisbane
+++++OptusAUBrisbane
+menu = Optus
+title = Telecom>APAC - Australia>Brisbane>Optus (1594) - speedtest-brisbane.optusnet.com.au
+host = speedtest-brisbane.optusnet.com.au
 ++++TelstraAUBrisbane
 menu = Telstra
-title = Telecom>APAC - Australia>Brisbane>Telstra - brs1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Brisbane>Telstra (12493) - brs1.speedtest.telstra.net
 host = brs1.speedtest.telstra.net
 ++++VocusAUBrisbane
 menu = Vocus
@@ -860,7 +939,7 @@ title = Telecom>APAC - Australia>Canberra>Internode - speedtest-cbr.cdn.on.net
 host = speedtest-cbr.cdn.on.net
 ++++TelstraAUCanberra
 menu = Telstra
-title = Telecom>APAC - Australia>Canberra>Telstra - cbr1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Canberra>Telstra (18711) - cbr1.speedtest.telstra.net
 host = cbr1.speedtest.telstra.net
 
 +++Darwin
@@ -876,11 +955,11 @@ title = Telecom>APAC - Australia>Darwin>Internode - speedtest-drw.cdn.on.net
 host = speedtest-drw.cdn.on.net
 ++++OptusAUDarwin
 menu = Optus
-title = Telecom>APAC - Australia>Darwin>Optus - darwin.nt.speedtest.optusnet.com.au
-host = darwin.nt.speedtest.optusnet.com.au
+title = Telecom>APAC - Australia>Darwin>Optus (10438) - speedtest-darwin.optusnet.com.au
+host = speedtest-darwin.optusnet.com.au
 ++++TelstraAUDarwin
 menu = Telstra
-title = Telecom>APAC - Australia>Darwin>Telstra - drw1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Darwin>Telstra (22036) - drw1.speedtest.telstra.net
 host = drw1.speedtest.telstra.net
 
 +++Hobart
@@ -890,13 +969,17 @@ title = Telecom>APAC - Australia>Hobart
 menu = AARNet
 title = Telecom>APAC - Australia>Hobart>AARNet - tas-dwpk-st1.speedtest.aarnet.net.au
 host = tas-dwpk-st1.speedtest.aarnet.net.au
+++++OptusAUHobart
+menu = Optus
+title = Telecom>APAC - Australia>Hobart>Optus (8976) - speedtest-hobart.optusnet.com.au
+host = speedtest-hobart.optusnet.com.au
 ++++TasmaNetAUHobart
 menu = TasmaNet
 title = Telecom>APAC - Australia>Hobart>TasmaNet - speedtest.tasmanet.com.au
 host = speedtest.tasmanet.com.au
 ++++TelstraAUHobart
 menu = Telstra
-title = Telecom>APAC - Australia>Hobart>Telstra - hob1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Hobart>Telstra (18712) - hob1.speedtest.telstra.net
 host = hob1.speedtest.telstra.net
 
 +++Melbourne
@@ -910,9 +993,13 @@ host = vic-pmla-st1.speedtest.aarnet.net.au
 menu = Internode
 title = Telecom>APAC - Australia>Melbourne>Internode - speedtest-mel.cdn.on.net
 host = speedtest-mel.cdn.on.net
+++++OptusAUMelbourne
+menu = Optus
+title = Telecom>APAC - Australia>Melbourne>Optus (8976) - speedtest-melbourne.optusnet.com.au
+host = speedtest-melbourne.optusnet.com.au
 ++++TelstraAUMelbourne
 menu = Telstra
-title = Telecom>APAC - Australia>Melbourne>Telstra - mel1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Melbourne>Telstra (12491) - mel1.speedtest.telstra.net
 host = mel1.speedtest.telstra.net
 ++++VocusAUMelbourne
 menu = Vocus
@@ -926,9 +1013,13 @@ title = Telecom>APAC - Australia>Perth
 menu = AARNet
 title = Telecom>APAC - Australia>Perth>AARNet - wa-knsg-st1.speedtest.aarnet.net.au
 host = wa-knsg-st1.speedtest.aarnet.net.au
+++++OptusAUPerth
+menu = Optus
+title = Telecom>APAC - Australia>Perth>Optus (30879) - speedtest-perth.optusnet.com.au
+host = speedtest-perth.optusnet.com.au
 ++++TelstraAUPerth
 menu = Telstra
-title = Telecom>APAC - Australia>Perth>Telstra - per1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Perth>Telstra (12494) - per1.speedtest.telstra.net
 host = per1.speedtest.telstra.net
 ++++VocusAUPerth
 menu = Vocus
@@ -942,9 +1033,13 @@ title = Telecom>APAC - Australia>Sydney
 menu = Internode
 title = Telecom>APAC - Australia>Sydney>Internode - speedtest-syd.cdn.on.net
 host = speedtest-syd.cdn.on.net
+++++OptusAUSydney
+menu = Optus
+title = Telecom>APAC - Australia>Sydney>Optus (1267) - speedtest-sydney.optusnet.com.au
+host = speedtest-sydney.optusnet.com.au
 ++++TelstraAUSydney
 menu = Telstra
-title = Telecom>APAC - Australia>Sydney>Telstra - syd1.speedtest.telstra.net
+title = Telecom>APAC - Australia>Sydney>Telstra (12492) - syd1.speedtest.telstra.net
 host = syd1.speedtest.telstra.net
 ++++TwoDegreesAUSydney
 menu = 2degrees
@@ -964,22 +1059,6 @@ host = speedtest-syd.vocus.net
 menu = APAC - China
 title = Telecom>APAC - China
 
-+++Chengdu
-menu = Chengdu
-title = Telecom>APAC - China>Chengdu
-++++ChinaTelecomCNChengdu
-menu = China Telecom
-title = Telecom>APAC - China>Chengdu>China Telecom - speedtest1.sc.189.cn
-host = speedtest1.sc.189.cn
-++++ChinaUnicomCNChengdu
-menu = China Unicom
-title = Telecom>APAC - China>Chengdu>China Unicom - cuscspeed.169ol.com
-host = cuscspeed.169ol.com
-
-+++Chongqing
-menu = Chongqing
-title = Telecom>APAC - China>Chongqing
-
 +++HongKong
 menu = Hong Kong
 title = Telecom>APAC - China>Hong Kong
@@ -993,16 +1072,16 @@ title = Telecom>APAC - China>Hong Kong>HKBN - speedtest12.hkbn.net
 host = speedtest12.hkbn.net
 ++++TelstraCNHongKong
 menu = Telstra
-title = Telecom>APAC - China>Hong Kong>Telstra - hkthspeedtest02.telstraglobal.net
+title = Telecom>APAC - China>Hong Kong>Telstra (44340) - hkthspeedtest02.telstraglobal.net
 host = hkthspeedtest02.telstraglobal.net
 
 +++Shanghai
 menu = Shanghai
 title = Telecom>APAC - China>Shanghai
-++++ChinaTelecomCNShanghai
-menu = China Telecom
-title = Telecom>APAC - China>Shanghai>China Telecom - speedtest1.online.sh.cn
-host = speedtest1.online.sh.cn
+++++ChinaUnicomCNShanghai
+menu = China Unicom
+title = Telecom>APAC - China>Shanghai>China Unicom (24447) - mobile.shunicomtest.com
+host = mobile.shunicomtest.com
 
 +++Taiwan
 menu = Taiwan
@@ -1072,10 +1151,6 @@ host = speedtestblr.airtelbroadband.in
 menu = Jio
 title = Telecom>APAC - India>Bangalore>Jio - speedbgl1.jioconnect.com
 host = speedbgl1.jioconnect.com
-++++RailTelINBangalore
-menu = RailTel
-title = Telecom>APAC - India>Bangalore>RailTel - sbc.speedtest.rcil.gov.in
-host = sbc.speedtest.rcil.gov.in
 ++++YOUBroadbandINBangalore
 menu = YOU Broadband
 title = Telecom>APAC - India>Bangalore>YOU Broadband - sp1-blr.youbroadband.in
@@ -1092,14 +1167,14 @@ host = speedtestchn.actcorp.in
 menu = Jio
 title = Telecom>APAC - India>Chennai>Jio - speedchn1.jioconnect.com
 host = speedchn1.jioconnect.com
-++++RailTelINChennai
-menu = RailTel
-title = Telecom>APAC - India>Chennai>RailTel - chn.speedtest.rcil.gov.in
-host = chn.speedtest.rcil.gov.in
 ++++TataPlayFiberINChennai
 menu = Tata Play Fiber
 title = Telecom>APAC - India>Chennai>Tata Play Fiber - speedtestchennai.tataplayfiber.co.in
 host = speedtestchennai.tataplayfiber.co.in
+++++ViINChennai
+menu = Vi
+title = Telecom>APAC - India>Chennai>Vi (71705) - speedtest.tnc.vodafoneidea.com
+host = speedtest.tnc.vodafoneidea.com
 ++++YOUBroadbandINChennai
 menu = YOU Broadband
 title = Telecom>APAC - India>Chennai>YOU Broadband - sp1-chn.youbroadband.in
@@ -1146,16 +1221,12 @@ menu = Kolkata
 title = Telecom>APAC - India>Kolkata
 ++++AirtelINKolkata
 menu = Airtel
-title = Telecom>APAC - India>Kolkata>Airtel - speedtestkol1.airtel.in
-host = speedtestkol1.airtel.in
+title = Telecom>APAC - India>Kolkata>Airtel (64428) - speedtestinf.airtel.in
+host = speedtestinf.airtel.in
 ++++JioINKolkata
 menu = Jio
 title = Telecom>APAC - India>Kolkata>Jio - speedkol1.jioconnect.com
 host = speedkol1.jioconnect.com
-++++RailTelINKolkata
-menu = RailTel
-title = Telecom>APAC - India>Kolkata>RailTel - kol.speedtest.rcil.gov.in
-host = kol.speedtest.rcil.gov.in
 ++++TataPlayFiberINKolkata
 menu = Tata Play Fiber
 title = Telecom>APAC - India>Kolkata>Tata Play Fiber - speedtestkolkata.tataplayfiber.co.in
@@ -1184,10 +1255,10 @@ host = speedmum2.jioconnect.com
 menu = Tata Play Fiber
 title = Telecom>APAC - India>Mumbai>Tata Play Fiber - speedtestmum.tataplayfiber.co.in
 host = speedtestmum.tataplayfiber.co.in
-++++VIINMumbai
-menu = VI
-title = Telecom>APAC - India>Mumbai>VI - ooklatestshslab01.live.vodafone.in
-host = ooklatestshslab01.live.vodafone.in
+++++ViINMumbai
+menu = Vi
+title = Telecom>APAC - India>Mumbai>Vi (69596) - speedtest.mum.vodafoneidea.com
+host = speedtest.mum.vodafoneidea.com
 ++++YOUBroadbandINMumbai
 menu = YOU Broadband
 title = Telecom>APAC - India>Mumbai>YOU Broadband - sp1-mum.youbroadband.in
@@ -1200,10 +1271,6 @@ title = Telecom>APAC - India>New Delhi
 menu = ACT
 title = Telecom>APAC - India>New Delhi>ACT - speedtestdelhi.actcorp.in
 host = speedtestdelhi.actcorp.in
-++++AirtelBroadbandINNewDelhi
-menu = Airtel Broadband
-title = Telecom>APAC - India>New Delhi>Airtel Broadband - speedtestdel.airtelbroadband.in
-host = speedtestdel.airtelbroadband.in
 ++++AirtelINNewDelhi
 menu = Airtel
 title = Telecom>APAC - India>New Delhi>Airtel - speedtestggn1.airtel.in
@@ -1224,9 +1291,9 @@ title = Telecom>APAC - India>Patna
 menu = Airtel
 title = Telecom>APAC - India>Patna>Airtel - speedtestptn1.airtel.in
 host = speedtestptn1.airtel.in
-++++VIINPatna
-menu = VI
-title = Telecom>APAC - India>Patna>VI - ooklatestpatna.live.vodafone.in
+++++ViINPatna
+menu = Vi
+title = Telecom>APAC - India>Patna>Vi - ooklatestpatna.live.vodafone.in
 host = ooklatestpatna.live.vodafone.in
 
 +++Visakhapatnam
@@ -1305,10 +1372,6 @@ host = speedtest.samarinda.globalxtreme.net
 +++Surabaya
 menu = Surabaya
 title = Telecom>APAC - Indonesia>Surabaya
-++++BiznetIDSurabaya
-menu = Biznet
-title = Telecom>APAC - Indonesia>Surabaya>Biznet - speedtest-sby.biznetnetworks.com
-host = speedtest-sby.biznetnetworks.com
 ++++IndosatIDSurabaya
 menu = Indosat
 title = Telecom>APAC - Indonesia>Surabaya>Indosat - speedtest3.indosatooredoo.com
@@ -1326,102 +1389,102 @@ title = Telecom>APAC - Malaysia
 +++JohorBahru
 menu = Johor Bahru
 title = Telecom>APAC - Malaysia>Johor Bahru
-++++CelcomAxiataMYJohorBahru
-menu = Celcom Axiata
-title = Telecom>APAC - Malaysia>Johor Bahru>Celcom Axiata - speedomhsjohorbharu.celcom.net.my
-host = speedomhsjohorbharu.celcom.net.my
-++++DigiMYJohorBahru
-menu = Digi
-title = Telecom>APAC - Malaysia>Johor Bahru>Digi - digi-ookla06.digi.com.my
-host = digi-ookla06.digi.com.my
+++++CelcomDigiMYJohorBahru
+menu = CelcomDigi
+title = Telecom>APAC - Malaysia>Johor Bahru>CelcomDigi (70828) - kpg-ookla03.celcomdigi.com
+host = kpg-ookla03.celcomdigi.com
+++++TelekomMalaysiaMYJohorBahru
+menu = Telekom Malaysia
+title = Telecom>APAC - Malaysia>Johor Bahru>Telekom Malaysia (18031) - speedtest-jb.tm.com.my
+host = speedtest-jb.tm.com.my
 ++++UMobileMYJohorBahru
 menu = U Mobile
-title = Telecom>APAC - Malaysia>Johor Bahru>U Mobile - speedtestjhr.u.net.my
+title = Telecom>APAC - Malaysia>Johor Bahru>U Mobile (56684) - speedtestjhr.u.net.my
 host = speedtestjhr.u.net.my
-
-+++KotaBharu
-menu = Kota Bharu
-title = Telecom>APAC - Malaysia>Kota Bharu
-++++CelcomAxiataMYKotaBharu
-menu = Celcom Axiata
-title = Telecom>APAC - Malaysia>Kota Bharu>Celcom Axiata - sht-ookla01.celcomdigi.com
-host = sht-ookla01.celcomdigi.com
 
 +++KotaKinabalu
 menu = Kota Kinabalu
 title = Telecom>APAC - Malaysia>Kota Kinabalu
-++++CelcomAxiataMYKotaKinabalu
-menu = Celcom Axiata
-title = Telecom>APAC - Malaysia>Kota Kinabalu>Celcom Axiata - speedokrt1.celcom.net.my
-host = speedokrt1.celcom.net.my
+++++CelcomDigiMYKotaKinabalu
+menu = CelcomDigi
+title = Telecom>APAC - Malaysia>Kota Kinabalu>CelcomDigi (70832) - kkb-ookla01.celcomdigi.com
+host = kkb-ookla01.celcomdigi.com
 ++++MaxisMYKotaKinabalu
 menu = Maxis
-title = Telecom>APAC - Malaysia>Kota Kinabalu>Maxis - kkookla01.maxis.com.my
+title = Telecom>APAC - Malaysia>Kota Kinabalu>Maxis (54520) - kkookla01.maxis.com.my
 host = kkookla01.maxis.com.my
+++++YesMYKotaKinabalu
+menu = Yes
+title = Telecom>APAC - Malaysia>Kota Kinabalu>Yes (11527) - speedtest4.ytlcomms.my
+host = speedtest4.ytlcomms.my
 
 +++KualaLumpur
 menu = Kuala Lumpur
 title = Telecom>APAC - Malaysia>Kuala Lumpur
-++++DigiMYKualaLumpur
-menu = Digi
-title = Telecom>APAC - Malaysia>Kuala Lumpur>Digi - digi-ookla02.digi.com.my
-host = digi-ookla02.digi.com.my
 ++++MaxisMYKualaLumpur
 menu = Maxis
-title = Telecom>APAC - Malaysia>Kuala Lumpur>Maxis - sgbookla02.maxis.com.my
+title = Telecom>APAC - Malaysia>Kuala Lumpur>Maxis (49683) - sgbookla02.maxis.com.my
 host = sgbookla02.maxis.com.my
 ++++TelekomMalaysiaMYKualaLumpur
 menu = Telekom Malaysia
-title = Telecom>APAC - Malaysia>Kuala Lumpur>Telekom Malaysia - speedtest-bat.tm.com.my
-host = speedtest-bat.tm.com.my
+title = Telecom>APAC - Malaysia>Kuala Lumpur>Telekom Malaysia (64137) - speedtest-brf.tm.com.my
+host = speedtest-brf.tm.com.my
 ++++TIMEdotcomMYKualaLumpur
 menu = TIME dotCom
-title = Telecom>APAC - Malaysia>Kuala Lumpur>TIME dotCom - speedkl.time.com.my
+title = Telecom>APAC - Malaysia>Kuala Lumpur>TIME dotCom (50737) - speedkl.time.com.my
 host = speedkl.time.com.my
 ++++UMobileMYKualaLumpur
 menu = U Mobile
-title = Telecom>APAC - Malaysia>Kuala Lumpur>U Mobile - speedtestkul.u.net.my
+title = Telecom>APAC - Malaysia>Kuala Lumpur>U Mobile (45610) - speedtestkul.u.net.my
 host = speedtestkul.u.net.my
 ++++YesMYKualaLumpur
 menu = Yes
-title = Telecom>APAC - Malaysia>Kuala Lumpur>Yes - speedtest.ytlcomms.my
+title = Telecom>APAC - Malaysia>Kuala Lumpur>Yes (1701) - speedtest.ytlcomms.my
 host = speedtest.ytlcomms.my
+
++++Kuantan
+menu = Kuantan
+title = Telecom>APAC - Malaysia>Kuantan
+++++TelekomMalaysiaMYKuantan
+menu = Telekom Malaysia
+title = Telecom>APAC - Malaysia>Kuantan>Telekom Malaysia (57147) - ktnspeedtest.tm.com.my
+host = ktnspeedtest.tm.com.my
 
 +++Kuching
 menu = Kuching
 title = Telecom>APAC - Malaysia>Kuching
-++++CelcomAxiataMYKuching
-menu = Celcom Axiata
-title = Telecom>APAC - Malaysia>Kuching>Celcom Axiata - speedopdg1.celcom.net.my
-host = speedopdg1.celcom.net.my
+++++CelcomDigiMYKuching
+menu = CelcomDigi
+title = Telecom>APAC - Malaysia>Kuching>CelcomDigi (70829) - kch-ookla01.celcomdigi.com
+host = kch-ookla01.celcomdigi.com
 ++++MaxisMYKuching
 menu = Maxis
-title = Telecom>APAC - Malaysia>Kuching>Maxis - dingookla01.maxis.com.my
+title = Telecom>APAC - Malaysia>Kuching>Maxis (17961) - dingookla01.maxis.com.my
 host = dingookla01.maxis.com.my
 ++++TelekomMalaysiaMYKuching
 menu = Telekom Malaysia
-title = Telecom>APAC - Malaysia>Kuching>Telekom Malaysia - speedtest-sarawak.tm.com.my
+title = Telecom>APAC - Malaysia>Kuching>Telekom Malaysia (46246) - speedtest-sarawak.tm.com.my
 host = speedtest-sarawak.tm.com.my
 ++++UMobileMYKuching
 menu = U Mobile
-title = Telecom>APAC - Malaysia>Kuching>U Mobile - speedtestkch.u.net.my
+title = Telecom>APAC - Malaysia>Kuching>U Mobile (58879) - speedtestkch.u.net.my
 host = speedtestkch.u.net.my
 
 +++Penang
 menu = Penang
 title = Telecom>APAC - Malaysia>Penang
-++++CelcomAxiataMYPenang
-menu = Celcom Axiata
-title = Telecom>APAC - Malaysia>Penang>Celcom Axiata - speedomhspenang.celcom.net.my
-host = speedomhspenang.celcom.net.my
-++++DigiMYPenang
-menu = Digi
-title = Telecom>APAC - Malaysia>Penang>Digi - digi-ookla03.digi.com.my
-host = digi-ookla03.digi.com.my
+++++CelcomDigiMYPenang
+menu = CelcomDigi
+title = Telecom>APAC - Malaysia>Penang>CelcomDigi (52882) - sht-ookla03.celcomdigi.com
+host = sht-ookla03.celcomdigi.com
 ++++TIMEdotcomMYPenang
 menu = TIME dotCom
-title = Telecom>APAC - Malaysia>Penang>TIME dotCom - speedpg.time.com.my
+title = Telecom>APAC - Malaysia>Penang>TIME dotCom (53188) - speedpg.time.com.my
 host = speedpg.time.com.my
+++++UMobileMYPenang
+menu = U Mobile
+title = Telecom>APAC - Malaysia>Penang>U Mobile (56172) - speedtestpng.u.net.my
+host = speedtestpng.u.net.my
 
 
 ++APACNewZealand
@@ -1472,38 +1535,30 @@ title = Telecom>APAC - Singapore
 +++Singapore
 menu = Singapore
 title = Telecom>APAC - Singapore>Singapore
-++++IndosatSGSingapore
-menu = Indosat
-title = Telecom>APAC - Singapore>Singapore>Indosat - speedtest1.indosatooredoo.com
-host = speedtest1.indosatooredoo.com
 ++++M1SGSingapore
 menu = M1
-title = Telecom>APAC - Singapore>Singapore>M1 - m1speedtest1.m1net.com.sg
+title = Telecom>APAC - Singapore>Singapore>M1 (7311) - m1speedtest1.m1net.com.sg
 host = m1speedtest1.m1net.com.sg
 ++++MyRepublicSGSingapore
 menu = MyRepublic
-title = Telecom>APAC - Singapore>Singapore>MyRepublic - speedtest.myrepublic.com.sg
+title = Telecom>APAC - Singapore>Singapore>MyRepublic (5935) - speedtest.myrepublic.com.sg
 host = speedtest.myrepublic.com.sg
 ++++SingtelSGSingapore
 menu = Singtel
 title = Telecom>APAC - Singapore>Singapore>Singtel - speedtest.singnet.com.sg
 host = speedtest.singnet.com.sg
-++++StarHubSGSingapore
-menu = StarHub
-title = Telecom>APAC - Singapore>Singapore>StarHub - co2dsvr03.speedtest.starhub.com
-host = co2dsvr03.speedtest.starhub.com
+++++TATASGSingapore
+menu = TATA
+title = Telecom>APAC - Singapore>Singapore>TATA (73627) - ookla.svw.as6453.net
+host = ookla.svw.as6453.net
 ++++TELINSGSingapore
 menu = TELIN
-title = Telecom>APAC - Singapore>Singapore>TELIN - speedtest2.telin.sg
+title = Telecom>APAC - Singapore>Singapore>TELIN (37744) - speedtest2.telin.sg
 host = speedtest2.telin.sg
 ++++VerizonSGSingapore
 menu = Verizon
-title = Telecom>APAC - Singapore>Singapore>Verizon - sgn-nperf.verizon.net
+title = Telecom>APAC - Singapore>Singapore>Verizon (50406) - sgn-nperf.verizon.net
 host = sgn-nperf.verizon.net
-++++ViewQwestSGSingapore
-menu = ViewQwest
-title = Telecom>APAC - Singapore>Singapore>ViewQwest - speedtest10.vqbn.com
-host = speedtest10.vqbn.com
 
 
 ++APACThailand
@@ -1515,80 +1570,92 @@ menu = Bangkok
 title = Telecom>APAC - Thailand>Bangkok
 ++++AISTHBangkok
 menu = AIS
-title = Telecom>APAC - Thailand>Bangkok>AIS - tlssp1.myaisfibre.com
+title = Telecom>APAC - Thailand>Bangkok>AIS (36978) - tlssp1.myaisfibre.com
 host = tlssp1.myaisfibre.com
-++++DTACTHBangkok
-menu = DTAC
-title = Telecom>APAC - Thailand>Bangkok>DTAC - speedtest5.dtacnetwork.co.th
-host = speedtest5.dtacnetwork.co.th
-++++ThreeBBTHBangkok
-menu = 3BB
-title = Telecom>APAC - Thailand>Bangkok>3BB - speedtest-sp1.3bb.co.th
-host = speedtest-sp1.3bb.co.th
+++++NTTHBangkok
+menu = NT
+title = Telecom>APAC - Thailand>Bangkok>NT (47115) - brkntspeedtest.duckdns.org
+host = brkntspeedtest.duckdns.org
+++++TrueMoveHTHBangkok
+menu = TrueMove H
+title = Telecom>APAC - Thailand>Bangkok>TrueMove H (1219) - spd-bkk.trueinternet.co.th
+host = spd-bkk.trueinternet.co.th
 
 +++ChiangMai
 menu = Chiang Mai
 title = Telecom>APAC - Thailand>Chiang Mai
-++++NTTHChiangMai
-menu = NT
-title = Telecom>APAC - Thailand>Chiang Mai>NT - prod.cmi.ntspeedtest.net
-host = prod.cmi.ntspeedtest.net
 ++++ThreeBBTHChiangMai
 menu = 3BB
 title = Telecom>APAC - Thailand>Chiang Mai>3BB - speedtest-cmi2.3bb.co.th
 host = speedtest-cmi2.3bb.co.th
+++++NTTHChiangMai
+menu = NT
+title = Telecom>APAC - Thailand>Chiang Mai>NT (47116) - cmintspeedtest.duckdns.org
+host = cmintspeedtest.duckdns.org
+++++TrueMoveHTHChiangMai
+menu = TrueMove H
+title = Telecom>APAC - Thailand>Chiang Mai>TrueMove H (16396) - truemoveookla-cmi.trueinternet.co.th
+host = truemoveookla-cmi.trueinternet.co.th
 
 +++KhonKaen
 menu = Khon Kaen
 title = Telecom>APAC - Thailand>Khon Kaen
+++++ThreeBBTHKhonKaen
+menu = 3BB
+title = Telecom>APAC - Thailand>Khon Kaen>3B (23519) - speedtest-kkn1.3bb.co.th
+host = speedtest-kkn1.3bb.co.th
 ++++AISTHKhonKaen
 menu = AIS
-title = Telecom>APAC - Thailand>Khon Kaen>AIS - speedtest-kkn1.ais-idc.net
+title = Telecom>APAC - Thailand>Khon Kaen>AIS (79233) - speedtest-kkn1.ais-idc.net
 host = speedtest-kkn1.ais-idc.net
 ++++NTTHKhonKaen
 menu = NT
-title = Telecom>APAC - Thailand>Khon Kaen>NT - prod.kkn.ntspeedtest.net
-host = prod.kkn.ntspeedtest.net
-++++ThreeBBTHKhonKaen
-menu = 3BB
-title = Telecom>APAC - Thailand>Khon Kaen>3BB - speedtest-kkn1.3bb.co.th
-host = speedtest-kkn1.3bb.co.th
+title = Telecom>APAC - Thailand>Khon Kaen>NT (47118) - knntspeedtest.duckdns.org
+host = knntspeedtest.duckdns.org
+++++TrueMoveHTHKhonKaen
+menu = TrueMove H
+title = Telecom>APAC - Thailand>Khon Kaen>TrueMove H (16508) - truemoveookla-kkn.trueinternet.co.th
+host = truemoveookla-kkn.trueinternet.co.th
 
 +++NakhonRatchasima
 menu = Nakhon Ratchasima
 title = Telecom>APAC - Thailand>Nakhon Ratchasima
-++++AISTHNakhonRatchasima
-menu = AIS
-title = Telecom>APAC - Thailand>Nakhon Ratchasima>AIS - speedtest-nma1.ais-idc.net
-host = speedtest-nma1.ais-idc.net
 ++++ThreeBBTHNakhonRatchasima
 menu = 3BB
 title = Telecom>APAC - Thailand>Nakhon Ratchasima>3BB - speedtest-nma1.3bb.co.th
 host = speedtest-nma1.3bb.co.th
+++++AISTHNakhonRatchasima
+menu = AIS
+title = Telecom>APAC - Thailand>Nakhon Ratchasima>AIS - speedtest-nma1.ais-idc.net
+host = speedtest-nma1.ais-idc.net
 
 +++Phitsanulok
 menu = Phitsanulok
 title = Telecom>APAC - Thailand>Phitsanulok
-++++AISTHPhitsanulok
-menu = AIS
-title = Telecom>APAC - Thailand>Phitsanulok>AIS - speedtest-plk1.ais-idc.net
-host = speedtest-plk1.ais-idc.net
 ++++ThreeBBTHPhitsanulok
 menu = 3BB
 title = Telecom>APAC - Thailand>Phitsanulok>3BB - speedtest-plk1.3bb.co.th
 host = speedtest-plk1.3bb.co.th
+++++AISTHPhitsanulok
+menu = AIS
+title = Telecom>APAC - Thailand>Phitsanulok>AIS - speedtest-plk1.ais-idc.net
+host = speedtest-plk1.ais-idc.net
+++++TrueMoveHTHPhitsanulok
+menu = TrueMove H
+title = Telecom>APAC - Thailand>Phitsanulok>TrueMove H (16507) - truemoveookla-psn.trueinternet.co.th
+host = truemoveookla-psn.trueinternet.co.th
 
 +++SuratThani
 menu = Surat Thani
 title = Telecom>APAC - Thailand>Surat Thani
-++++AISTHSuratThani
-menu = AIS
-title = Telecom>APAC - Thailand>Surat Thani>AIS - speedtest-sni1.ais-idc.net
-host = speedtest-sni1.ais-idc.net
 ++++ThreeBBTHSuratThani
 menu = 3BB
 title = Telecom>APAC - Thailand>Surat Thani>3BB - speedtest-sni1.3bb.co.th
 host = speedtest-sni1.3bb.co.th
+++++AISTHSuratThani
+menu = AIS
+title = Telecom>APAC - Thailand>Surat Thani>AIS - speedtest-sni1.ais-idc.net
+host = speedtest-sni1.ais-idc.net
 ++++TrueMoveHTHSuratThani
 menu = TrueMove H
 title = Telecom>APAC - Thailand>Surat Thani>TrueMove H - spd-srt.trueinternet.co.th
@@ -1604,67 +1671,63 @@ menu = Da Nang
 title = Telecom>APAC - Vietnam>Da Nang
 ++++FPTTelecomVNDaNang
 menu = FPT Telecom
-title = Telecom>APAC - Vietnam>Da Nang>FPT Telecom - speedtestdng.fpt.vn
+title = Telecom>APAC - Vietnam>Da Nang>FPT Telecom (44677) - speedtestdng.fpt.vn
 host = speedtestdng.fpt.vn
 ++++MobiFoneVNDaNang
 menu = MobiFone
-title = Telecom>APAC - Vietnam>Da Nang>MobiFone - dn1.mobifone.vn
+title = Telecom>APAC - Vietnam>Da Nang>MobiFone (55435) - dn1.mobifone.vn
 host = dn1.mobifone.vn
 ++++ViettelVNDaNang
 menu = Viettel
-title = Telecom>APAC - Vietnam>Da Nang>Viettel - speedtestkv2a.viettel.vn
+title = Telecom>APAC - Vietnam>Da Nang>Viette (10040) - speedtestkv2a.viettel.vn
 host = speedtestkv2a.viettel.vn
 ++++VNPTVNDaNang
 menu = VNPT
-title = Telecom>APAC - Vietnam>Da Nang>VNPT - speedtest5.vtn.com
+title = Telecom>APAC - Vietnam>Da Nang>VNPT (17756) - speedtest5.vtn.com
 host = speedtest5.vtn.com
-
-+++Haiphong
-menu = Haiphong
-title = Telecom>APAC - Vietnam>Haiphong
-++++MobiFoneVNHaiphong
-menu = MobiFone
-title = Telecom>APAC - Vietnam>Haiphong>MobiFone - hp2.mobifone.vn
-host = hp2.mobifone.vn
-++++VNPTVNHaiphong
-menu = VNPT
-title = Telecom>APAC - Vietnam>Haiphong>VNPT - speedtest7.vtn.com.vn
-host = speedtest7.vtn.com.vn
 
 +++Hanoi
 menu = Hanoi
 title = Telecom>APAC - Vietnam>Hanoi
-++++FPTTelecomVNHanoi
-menu = FPT Telecom
-title = Telecom>APAC - Vietnam>Hanoi>FPT Telecom - speedtesthn.fpt.vn
-host = speedtesthn.fpt.vn
+++++CMCTelecomVNHanoi
+menu = CMC Telecom
+title = Telecom>APAC - Vietnam>Hanoi>CMC Telecom (6342) - hnispeedtest.cmctelecom.vn
+host = hnispeedtest.cmctelecom.vn
 ++++MobiFoneVNHanoi
 menu = MobiFone
-title = Telecom>APAC - Vietnam>Hanoi>MobiFone - hn1.mobifone.vn
+title = Telecom>APAC - Vietnam>Hanoi>MobiFone (55434) - hn1.mobifone.vn
 host = hn1.mobifone.vn
 ++++ViettelVNHanoi
 menu = Viettel
-title = Telecom>APAC - Vietnam>Hanoi>Viettel - speedtestkv1a.viettel.vn
+title = Telecom>APAC - Vietnam>Hanoi>Viettel (9903) - speedtestkv1a.viettel.vn
 host = speedtestkv1a.viettel.vn
-++++VNPTVNHanoi
-menu = VNPT
-title = Telecom>APAC - Vietnam>Hanoi>VNPT - speedtest2.vtn.com.vn
-host = speedtest2.vtn.com.vn
 
 +++Saigon
 menu = Saigon
 title = Telecom>APAC - Vietnam>Saigon
+++++CMCTelecomVNSaigon
+menu = CMC Telecom
+title = Telecom>APAC - Vietnam>Saigon>CMC Telecom (18250) - hcmspeedtest.cmctelecom.vn
+host = hcmspeedtest.cmctelecom.vn
+++++FPTVNSaigon
+menu = FPT
+title = Telecom>APAC - Vietnam>Saigon>FPT (74354) - speedtesthcm.fpt.vn
+host = speedtesthcm.fpt.vn
 ++++MobiFoneVNSaigon
 menu = MobiFone
-title = Telecom>APAC - Vietnam>Saigon>MobiFone - sg1.mobifone.vn
+title = Telecom>APAC - Vietnam>Saigon>MobiFone (55436) - sg1.mobifone.vn
 host = sg1.mobifone.vn
 ++++ViettelVNSaigon
 menu = Viettel
-title = Telecom>APAC - Vietnam>Saigon>Viettel - speedtestkv3b.viettel.vn
-host = speedtestkv3b.viettel.vn
+title = Telecom>APAC - Vietnam>Saigon>Viettel (59917) - bdg-speedtest.viettelidc.com.vn
+host = bdg-speedtest.viettelidc.com.vn
+++++VietnamobileVNSaigon
+menu = Vietnamobile
+title = Telecom>APAC - Vietnam>Saigon>Vietnamobile (16749) - vnmhcmspt1.vietnamobile.com.vn
+host = vnmhcmspt1.vietnamobile.com.vn
 ++++VNPTVNSaigon
 menu = VNPT
-title = Telecom>APAC - Vietnam>Saigon>VNPT - speedtest3.vtn.com.vn
+title = Telecom>APAC - Vietnam>Saigon>VNPT (17758) - speedtest3.vtn.com.vn
 host = speedtest3.vtn.com.vn
 
 
@@ -1696,10 +1759,10 @@ title = Telecom>EMEA - France
 +++Paris
 menu = Paris
 title = Telecom>EMEA - France>Paris
-++++SFRFRParis
-menu = SFR
-title = Telecom>EMEA - France>Paris>SFR - speedtest.mire.sfr.net
-host = speedtest.mire.sfr.net
+++++OrangeFRParis
+menu = Orange
+title = Telecom>EMEA - France>Paris>Orange - montsouris3.d2m.c2d.liveservices.fr
+host = montsouris3.d2m.c2d.liveservices.fr
 
 
 ++EMEAGermany
@@ -1929,10 +1992,6 @@ title = Telecom>EMEA - Russia>Khabarovsk
 menu = ER-Telecom
 title = Telecom>EMEA - Russia>Khabarovsk>ER-Telecom - speedtest.khb.ertelecom.ru
 host = speedtest.khb.ertelecom.ru
-++++MegafonRUKhabarovsk
-menu = Megafon
-title = Telecom>EMEA - Russia>Khabarovsk>Megafon - khb.speedtest-dvf.megafon.ru
-host = khb.speedtest-dvf.megafon.ru
 ++++RostelecomRUKhabarovsk
 menu = Rostelecom
 title = Telecom>EMEA - Russia>Khabarovsk>Rostelecom - khabarovsk1.speedtest.rt.ru
@@ -1973,10 +2032,6 @@ title = Telecom>EMEA - Russia>Novosibirsk
 menu = ER-Telecom
 title = Telecom>EMEA - Russia>Novosibirsk>ER-Telecom - st.nsk.ertelecom.ru
 host = st.nsk.ertelecom.ru
-++++MTSRUNovosibirsk
-menu = MTS
-title = Telecom>EMEA - Russia>Novosibirsk>MTS - speedtest1.sib.mts.ru
-host = speedtest1.sib.mts.ru
 ++++RostelecomRUNovosibirsk
 menu = Rostelecom
 title = Telecom>EMEA - Russia>Novosibirsk>Rostelecom - novosibirsk1.speedtest.rt.ru
@@ -2025,10 +2080,6 @@ host = ekat1.speedtest.corbina.net
 menu = ER-Telecom
 title = Telecom>EMEA - Russia>Yekaterinburg>ER-Telecom - ookla.ekat.ertelecom.ru
 host = ookla.ekat.ertelecom.ru
-++++TranstelecomRUYekaterinburg
-menu = Transtelecom
-title = Telecom>EMEA - Russia>Yekaterinburg>Transtelecom - speedtest.uralttk.ru
-host = speedtest.uralttk.ru
 
 
 ++EMEASaudiArabia
@@ -2322,7 +2373,7 @@ menu = Sanaa
 title = Telecom>EMEA - Yemen>Sanaa
 ++++YemenNetYESanaa
 menu = YemenNet
-title = Telecom>EMEA - Yemen>Sanaa>YemenNet - speedtest.yemen.net.ye
+title = Telecom>EMEA - Yemen>Sanaa>YemenNet (15570) - speedtest.yemen.net.ye
 host = speedtest.yemen.net.ye
 
 
@@ -2365,8 +2416,8 @@ title = University>Australia>Monash University>Eduroam - eduroam.monash.edu
 host = eduroam.monash.edu
 ++++MonashUniversityVPN
 menu = VPN
-title = University>Australia>Monash University>VPN - vpn.monash.edu
-host = vpn.monash.edu
+title = University>Australia>Monash University>VPN - vpn.gp.monash.edu
+host = vpn.gp.monash.edu
 
 +++UniversityofAdelaide
 menu = University of Adelaide
@@ -2429,14 +2480,6 @@ host = general.vpn.utoronto.ca
 ++China
 menu = China
 title = University>China
-
-+++FudanUniversity
-menu = Fudan University
-title = University>China>Fudan University
-++++FudanUniversityVPN
-menu = VPN
-title = University>China>Fudan University>VPN - stuvpn.fudan.edu.cn
-host = stuvpn.fudan.edu.cn
 
 
 ++NewZealand
