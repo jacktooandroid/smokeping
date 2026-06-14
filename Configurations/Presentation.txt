@@ -34,7 +34,7 @@ title = Top Median Roundtrip Time
 menu = by Median
 format = Median RTT %f seconds
 
-+ overview 
++ overview
 
 width = 600
 height = 50
