@@ -1814,6 +1814,19 @@ title = Telecom>EMEA - Germany>Munich>Deutsche Telekom - mue.wsqm.telekom-dienst
 host = mue.wsqm.telekom-dienste.de
 
 
+++EMEAIran
+menu = EMEA - Iran
+title = Telecom>EMEA - Iran
+
++++Tehran
+menu = Tehran
+title = Telecom>EMEA - Iran>Tehran
+++++IrancellIRTehran
+menu = Irancell
+title = Telecom>EMEA - Iran>Tehran>Irancell (4317) - speedtest1.irancell.ir
+host = speedtest1.irancell.ir
+
+
 ++EMEAIreland
 menu = EMEA - Ireland
 title = Telecom>EMEA - Ireland
@@ -1821,7 +1834,7 @@ title = Telecom>EMEA - Ireland
 +++Dublin
 menu = Dublin
 title = Telecom>EMEA - Ireland>Dublin
-++++BTIEIEDublin
+++++BTIEDublin
 menu = BT
 title = Telecom>EMEA - Ireland>Dublin>BT - roadrunner.cwt.btireland.net
 host = roadrunner.cwt.btireland.net
@@ -1829,7 +1842,7 @@ host = roadrunner.cwt.btireland.net
 menu = eir
 title = Telecom>EMEA - Ireland>Dublin>eir - ngaweb00.eircom.net
 host = ngaweb00.eircom.net
-++++ThreeIEIEDublin
+++++ThreeIEDublin
 menu = Three
 title = Telecom>EMEA - Ireland>Dublin>Three - speedtest.three.ie
 host = speedtest.three.ie
@@ -1903,11 +1916,11 @@ menu = Muscat
 title = Telecom>EMEA - Oman>Muscat
 ++++OmanTelecomOMMuscat
 menu = Oman Telecom
-title = Telecom>EMEA - Oman>Muscat>Oman Telecom - speedtest.omantel.om
+title = Telecom>EMEA - Oman>Muscat>Oman Telecom (1717) - speedtest.omantel.om
 host = speedtest.omantel.om
 ++++OoredooOMMuscat
 menu = Ooredoo
-title = Telecom>EMEA - Oman>Muscat>Ooredoo - speedtest.ooredoo.om
+title = Telecom>EMEA - Oman>Muscat>Ooredoo (15156) - speedtest.ooredoo.om
 host = speedtest.ooredoo.om
 
 +++Seeb
@@ -1915,11 +1928,11 @@ menu = Seeb
 title = Telecom>EMEA - Oman>Seeb
 ++++OmanTelecomOMSeeb
 menu = Oman Telecom
-title = Telecom>EMEA - Oman>Seeb>Oman Telecom - speedtest2.omantel.om
+title = Telecom>EMEA - Oman>Seeb>Oman Telecom (4570) - speedtest2.omantel.om
 host = speedtest2.omantel.om
 ++++OoredooOMSeeb
 menu = Ooredoo
-title = Telecom>EMEA - Oman>Seeb>Ooredoo - speedtest2.ooredoo.om
+title = Telecom>EMEA - Oman>Seeb>Ooredoo (11271) - speedtest2.ooredoo.om
 host = speedtest2.ooredoo.om
 
 
@@ -1949,7 +1962,7 @@ menu = Doha
 title = Telecom>EMEA - Qatar>Doha
 ++++VodafoneQADoha
 menu = Vodafone
-title = Telecom>EMEA - Qatar>Doha>Vodafone - speedtest03.vodafone.com.qa
+title = Telecom>EMEA - Qatar>Doha>Vodafone (51669) - speedtest03.vodafone.com.qa
 host = speedtest03.vodafone.com.qa
 
 
