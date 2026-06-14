@@ -1608,10 +1608,6 @@ host = speedtest-kkn1.3bb.co.th
 menu = AIS
 title = Telecom>APAC - Thailand>Khon Kaen>AIS (79233) - speedtest-kkn1.ais-idc.net
 host = speedtest-kkn1.ais-idc.net
-++++NTTHKhonKaen
-menu = NT
-title = Telecom>APAC - Thailand>Khon Kaen>NT (47118) - knntspeedtest.duckdns.org
-host = knntspeedtest.duckdns.org
 ++++TrueMoveHTHKhonKaen
 menu = TrueMove H
 title = Telecom>APAC - Thailand>Khon Kaen>TrueMove H (16508) - truemoveookla-kkn.trueinternet.co.th
