@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
+
 sudo apt update && sudo apt install -y smokeping miniupnpc libapache2-mod-fcgid dnsutils cron glances
 
 sudo mkdir -p /etc/systemd/system/smokeping.service.d
@@ -11,6 +13,13 @@ After=network-online.target
 TimeoutStartSec=1800
 EOF
 sudo systemctl daemon-reload
+
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Probes.txt -O /etc/smokeping/config.d/Probes
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Probes.txt -o /etc/smokeping/config.d/Probes
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -O /etc/smokeping/config.d/Presentation
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -o /etc/smokeping/config.d/Presentation
+sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -O /etc/smokeping/config.d/Targets
+sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -o /etc/smokeping/config.d/Targets
 
 sudo a2enmod fcgid
 sudo a2enconf smokeping
@@ -34,17 +43,12 @@ sudo tee /etc/apache2/conf-available/fcgid-smokeping.conf > /dev/null <<'EOF'
 </IfModule>
 EOF
 sudo a2enconf fcgid-smokeping
+
+sudo smokeping --check
 sudo apache2ctl configtest
 
-sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Probes.txt -O /etc/smokeping/config.d/Probes
-sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Probes.txt -o /etc/smokeping/config.d/Probes
-sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -O /etc/smokeping/config.d/Presentation
-sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Presentation.txt -o /etc/smokeping/config.d/Presentation
-sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -O /etc/smokeping/config.d/Targets
-sudo curl https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt -o /etc/smokeping/config.d/Targets
-
-sudo systemctl restart apache2
 sudo systemctl restart smokeping
+sudo systemctl restart apache2
 
 sudo cp /var/www/html/index.html /var/www/html/index.html.bak.$(date +%Y%m%d%H%M%S)
 # sudo wget https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Redirection%20to%20SmokePing.html -O /var/www/html/index.html

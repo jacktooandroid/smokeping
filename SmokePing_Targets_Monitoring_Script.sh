@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 URL="https://raw.githubusercontent.com/jacktooandroid/smokeping/master/Configurations/Targets.txt"
@@ -52,6 +52,11 @@ sudo cp "$GITHUB_TARGETS" "$LOCAL_TARGETS"
 if ! sudo smokeping --check; then
     echo "New SmokePing config failed validation. Restoring previous Targets file."
     sudo cp "$BACKUP_TARGETS" "$LOCAL_TARGETS"
+    if ! sudo smokeping --check; then
+        echo "Previous Targets file restored, but SmokePing validation still failed. Manual investigation required."
+        exit 1
+    fi
+    echo "New SmokePing config failed validation. Restored previous Targets file."
     exit 1
 fi
 
@@ -63,6 +68,10 @@ if sudo systemctl restart smokeping && sudo systemctl restart apache2; then
 else
     echo "SmokePing or Apache failed to restart. Restoring previous Targets file."
     sudo cp "$BACKUP_TARGETS" "$LOCAL_TARGETS"
+    if ! sudo smokeping --check; then
+        echo "Previous Targets file restored, but SmokePing validation still failed. Manual investigation required."
+        exit 1
+    fi
     if sudo systemctl restart smokeping && sudo systemctl restart apache2; then
         echo "Previous Targets file restored. SmokePing and Apache restarted successfully."
     else
